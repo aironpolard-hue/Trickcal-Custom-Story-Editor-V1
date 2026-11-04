@@ -1,0 +1,32 @@
+{
+  "name": "trickcal-story-engine",
+  "version": "0.1.0",
+  "description": "Trickcal fan story production engine (desktop)",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "test": "node test/compiler.test.js && node test/spine-assets.test.js && node test/expressions.test.js && node test/preset-parameters.test.js && node test/audio-player.test.js && node test/check-service.test.js && node test/scene-graph.test.js && node test/scene-state.test.js && node test/stage-timeline.test.js && node test/story-machine.test.js && node test/story-navigation.test.js && node test/ui-commands.test.js && node test/ui-diagnostics.test.js && node test/android-id.test.js && node test/electron-exit.test.js && node --check runtime/app.js && node --check main.js && node --check editor/app.js && node --check compiler/trickcal.js",
+    "test:runtime": "electron test/ui-runtime.electron.js",
+    "test:editor": "electron test/editor.electron.js",
+    "test:manual": "electron test/manual.electron.js",
+    "test:electron-exit": "node test/electron-exit.test.js",
+    "test:check-ipc": "node test/check-ipc.test.js",
+    "test:build": "node test/build-web.test.js",
+    "test:android": "node test/build-android.test.js",
+    "test:windows": "node test/build-windows.test.js",
+    "test:native-core": "node test/godot-core.test.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "electron": "^41.0.0",
+    "monaco-editor": "^0.55.0",
+    "ws": "^8.22.1"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0"
+  }
+}

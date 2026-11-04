@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Generated builds and previews
+dist/
+build/
+.preview/
+.tmp/
+
+# Android and Godot caches
+.gradle/
+.godot/
+.idea/
+.cxx/
+.externalNativeBuild/
+local.properties
+
+# Local credentials and signing files
+.env
+.env.*
+!.env.example
+!.env.sample
+.npmrc
+.netrc
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*.pem
+id_rsa
+id_ed25519
+
+# Logs and desktop metadata
+*.log
+Thumbs.db
+.DS_Store

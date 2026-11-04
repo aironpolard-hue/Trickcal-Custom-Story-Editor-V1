@@ -1,0 +1,185 @@
+# 《雨夜的末班车》最小演示剧情
+# 说明：这是引擎新建项目时附带的可运行示例，不是旧 demo 的复刻。
+
+define erpin = Spine("assets/spine/standing/erpin", name="艾尔芬")
+define ner = Spine("assets/spine/standing/ner", name="内尔")
+define emoticon = Spine("assets/spine/emoticon")
+image elf_city_night = "assets/bg/elf_city_night.png"
+image elf_arthall_night = "assets/bg/elf_arthall_night.png"
+define audio.bgm_rain = "assets/audio/silent.wav"
+
+# 章节数、停留时长、电影边框、开场背景都在这里改
+opening 1 "雨夜的末班车" hold 3.6 cinema on bg elf_city_night
+
+audio play bgm_rain loop fadeIn 1s
+
+scene bg elf_city_night
+# 地点展示的停留时长也由剧本决定
+location "王都 · 中央车站" hold 2.6
+
+narration "暴雨把站台的灯打得忽明忽暗。末班车的时刻表，已经停了很久。"
+
+show erpin at right face 1 pose Idle_1
+show ner at left face -1 pose Idle_1
+# 动作和皮肤是两条独立调用；动作切换默认 0.25s 混合
+skin erpin Normal
+anim erpin Happy_1 fade 0.25
+
+ui show bubble arrival_frame preset "独立漫画气泡" at 0,0
+ui bind arrival_frame to erpin offset -250,-650
+ui show text arrival_words at 0,0 size 580,200 font 52
+ui bind arrival_words to arrival_frame offset 0,0
+ui write arrival_words "喂——！等等我！"
+parallel:
+  ui present
+  move erpin x 1050 -> 1342 in 1s ease OutCubic
+  move erpin y 1100 -> 1040 in 0.5s
+  after 0.2s:
+    move erpin y by -24 in 0.8s ease InOutSine
+ui remove arrival_frame
+preset 紫色内心气泡
+ner think "……又迟到了。"
+erpin normal "不好意思，路上积水太深了。" emote sweat at 1450,620
+ner normal "广播说末班车停运了。"
+cloud "（今晚大概回不去了……）"
+news anchor "紧急通知：受暴雨影响，开往王都的末班车暂停运行。"
+news summary "请各位旅客留在候车厅，等待进一步通知。"
+
+preset 紫色内心独白框
+erpin clear "那我们只能在这里等一晚上了？"
+ner clearRe "至少候车厅还有热水。"
+
+show erpin at right face 1
+show ner at left face -1
+
+camera zoom 1.08
+camera follow erpin offset 0,300
+
+erpin anime "等等……站台尽头是不是有盏灯？"
+ner blast "别过去。那种地方不会有什么好事。"
+erpin normal "可是，灯在闪。像是在<color=#ffcc00>叫人</color>。"
+
+camera reset
+oneshot spine emoticon anim Idea at 960,600 scale 1.0
+
+erpin manga "那盏灯，从刚才开始就一直在闪。" purple
+
+choice "要去看那盏灯吗？"
+  "去站台看看" -> platform
+  "留在候车厅" -> hall
+  "引擎特性演示" -> showcase
+
+label platform:
+  narration "两人沿着湿滑的站台走到尽头。"
+  show erpin at center face 1
+  show ner at right face 1
+  erpin manga "看，是一盏旧信号灯。" purple
+  ner think "……它还在工作。"
+  erpin clear "也许，下一班车真的会来。"
+  jump converge
+
+label hall:
+  narration "候车厅里只剩下暖气和雨声。"
+  show erpin at left face -1
+  show ner at center face 1
+  ner normal "广播不会再响了。"
+  erpin cloud "（可是，我总觉得那盏灯在等我们。）"
+  erpin normal "我去看看。你在这里等我。" emote idea at 1050,560
+  jump converge
+
+label showcase:
+  narration "引擎演示：生成第二个内尔实例，并让它绑定在艾尔芬身上。"
+  spawn ner as ner_2 at left face -1 pose Idle_1
+  bind ner_2 to erpin offset 160,0
+  ui show bubble demo_frame at 960,420 size 760,320 style manga
+  ui show text demo_words at 0,0 size 580,200 font 48
+  ui bind demo_words to demo_frame offset 0,0
+  ui write demo_words "看，第二个实例会跟着我移动。"
+  parallel:
+    ui present
+    move erpin x by -120 in 0.8s ease InOutSine
+  ui remove demo_frame
+  unbind ner_2
+  narration "绑定期间第二个实例跟随父级移动；下面是亮度、饱和度与 Shader 演示。"
+  effect brightness 1.12
+  effect saturation 0.7
+  shader heat 0.35
+  narration "亮度、饱和度与热浪 Shader 同时生效。"
+  effect reset
+  shader reset
+  hide ner_2
+  narration "特效已恢复。接下来展示可以分开创建的气泡和打字机。"
+  ui show bubble mind_frame preset "独立紫色内心气泡" at 0,0 grow mind_words maxheight 600
+  ui bind mind_frame to ner offset -300,-650
+  ui show text mind_words preset "独立打字机" at 0,0 size 560,200 font 48 color "white" overflow grow maxheight 480
+  ui bind mind_words to mind_frame offset 0,0
+  ui write mind_words "气泡和文字是两个对象，这段文字会在范围内自动换行。"
+  ui show bubble reply_frame at 1420,430 size 640,300 style manga tail br
+  ui show text reply_words at 0,0 size 460,180 font 44
+  ui bind reply_words to reply_frame offset 0,0
+  ui write reply_words "另一个气泡也可以同时存在。"
+  ui present
+  ui write reply_words "我移动了，绑定的文字也跟着移动。"
+  parallel:
+    ui present
+    ui move reply_frame x 1420 -> 1380 in 0.8s ease InOutSine
+    ui move reply_frame y 430 -> 320 in 0.8s ease InOutSine
+  ui remove reply_frame
+  ui remove mind_frame
+  narration "下面逐一展示独立框体。文字是独立对象，可以在不重新创建框体的情况下更新。"
+  ui show box frame_gallery at 960,420 size 1100,300 style normal
+  ui show text gallery_words at 0,0 size 880,180 font 48
+  ui bind gallery_words to frame_gallery offset 0,0
+  ui write gallery_words "普通对话框。"
+  ui present
+  ui set frame_gallery style purple
+  ui set gallery_words color "white"
+  ui write gallery_words "紫色内心对话框。"
+  ui present
+  ui set frame_gallery style cloud
+  ui set gallery_words color "black"
+  ui write gallery_words "云朵内心框。"
+  ui present
+  ui set frame_gallery style blast
+  ui write gallery_words "爆炸框！"
+  ui present
+  ui set frame_gallery style monologue
+  ui write gallery_words "独白框。"
+  ui present
+  ui set frame_gallery style monologueThought
+  ui set gallery_words color "white"
+  ui write gallery_words "紫色内心独白框。"
+  ui present
+  ui set frame_gallery style narration
+  ui write gallery_words "旁白框。"
+  ui present
+  ui remove frame_gallery
+  ui show box sfx_frame preset "独立拟声框" at 960,380
+  ui show text sfx_words at 0,0 size 560,180 font 58
+  ui bind sfx_words to sfx_frame offset 0,0
+  ui write sfx_words "哐当——！"
+  ui present
+  ui remove sfx_frame
+  spawn image elf_arthall_night as poster at 1650,230 scale 0.15
+  ui show bubble poster_bubble preset "独立漫画气泡" at 0,0 size 500,240 tail br scale 6.6667
+  ui bind poster_bubble to poster offset -1000,850
+  ui show text poster_words at 0,0 size 350,140 font 36
+  ui bind poster_words to poster_bubble offset 0,0
+  ui write poster_words "气泡也能绑定到图片。"
+  ui present
+  ui unbind poster_bubble at 1050,350
+  hide poster
+  ui write poster_words "解绑后可独立放置。"
+  ui present
+  ui remove poster_bubble
+  narration "演示结束，回到主线。"
+  jump converge
+
+label converge:
+  camera reset
+  narration "雨声渐渐变小。远处传来一声很轻的汽笛。"
+  sfx "汽笛——"
+  erpin anime "你看，我说过吧。"
+  ner normal "……只是末班车晚点了而已。"
+  fullscreen "那一夜，末班车终于来了。"
+  end

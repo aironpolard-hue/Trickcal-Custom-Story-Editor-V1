@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trickcal 剧情制作引擎</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <div class="brand">
+      <div class="mark"><span></span><span></span><span></span></div>
+      <div>
+        <div class="kicker">TRICKCAL STORY ENGINE</div>
+        <h1>Trickcal 剧情制作引擎</h1>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="helpBtn" class="ghost" type="button">使用手册</button>
+      <div class="version" id="version">v0.1.0</div>
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="panel start-panel">
+      <div class="panel-head"><span>项目</span><span class="panel-note">PROJECT</span></div>
+      <div class="big-actions">
+        <button id="newProject" class="primary" type="button">新建项目</button>
+        <button id="openProject" class="secondary" type="button">打开项目</button>
+      </div>
+      <div class="quick-actions">
+        <button id="previewProject" class="ghost" type="button">预览项目</button>
+        <button id="buildProject" class="ghost" type="button">构建项目</button>
+      </div>
+      <div class="tip">新建项目会复制最小演示工程《雨夜的末班车》，并打开编辑器。</div>
+    </section>
+
+    <section class="panel recent-panel">
+      <div class="panel-head">
+        <span>最近项目</span>
+        <button id="refreshRecent" class="small ghost" type="button">刷新</button>
+      </div>
+      <div id="recentList" class="recent-list"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>Trickcal Story Engine · 非官方同人制作工具</span>
+    <span>素材授权请自行确认</span>
+  </footer>
+</div>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-card">
+    <div class="modal-head">
+      <div><span class="kicker">NEW PROJECT</span><h2>新建剧情项目</h2></div>
+      <button id="modalClose" class="icon-btn" type="button">×</button>
+    </div>
+    <form id="newForm">
+      <label>作品标题<input id="projectTitle" type="text" value="雨夜的末班车" maxlength="40" required></label>
+      <label>章节数<input id="projectChapter" type="number" min="1" max="999" value="1" required></label>
+      <label>文件夹名称<input id="projectFolder" type="text" value="雨夜的末班车" maxlength="60" required></label>
+      <label>项目位置
+        <div class="path-row">
+          <input id="projectParent" type="text" readonly>
+          <button id="chooseParent" class="small secondary" type="button">选择…</button>
+        </div>
+      </label>
+      <div class="modal-note">模板只包含实际使用的素材；创建后自动打开编辑器。</div>
+      <div id="newError" class="error hidden"></div>
+      <div class="modal-actions">
+        <button id="cancelNew" class="ghost" type="button">取消</button>
+        <button id="confirmNew" class="primary" type="submit">创建并打开</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

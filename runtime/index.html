@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trickcal Revive · 第1话 对话动画复刻</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="engine-runtime">
+<div id="app">
+  <div id="stage">
+    <canvas id="view" width="1920" height="1080"></canvas>
+    <canvas id="fxView" width="1920" height="1080"></canvas>
+    <div id="runtimeError" class="runtime-error" role="alert" hidden></div>
+
+    <div id="hud">
+      <div class="hud-top">
+        <div class="brand">
+          <div class="brand-kicker">TRICKCAL REVIVE · DIALOGUE RE</div>
+          <div class="brand-title">第 1 话 <span>火焰中的钟楼</span></div>
+          <div class="brand-sub">真实 Prefab / 曲线 / Spine 角色 / StoryProduction 转场</div>
+        </div>
+        <div class="chips" id="chips"><button id="boxLabChip" class="chip test" type="button">对话框图鉴</button><button id="emoteLabChip" class="chip test" type="button">表情动画</button></div>
+      </div>
+
+      <div class="hud-bottom">
+        <div class="hint">
+          <span id="lineNo">01 / 12</span>
+          <span class="sep">·</span>
+          <span id="modeName">章节开场</span>
+          <span class="sep">·</span>
+          <span id="speakerName">—</span>
+        </div>
+        <div class="hint right">
+          <span id="hintText">点击 / 空格 继续</span>
+          <span class="sep">·</span>
+          <span id="autoState">自动播放：关</span>
+          <span class="sep">·</span>
+          <span>D 技术面板 · T 测试台 · B 对话框图鉴 · E 表情动画</span>
+        </div>
+      </div>
+
+      <aside id="tech" class="tech hidden">
+        <div class="tech-head">
+          <div>TECH · ANIMATOR TRACE</div>
+          <button id="techClose" class="mini">×</button>
+        </div>
+        <div id="techBody" class="tech-body"></div>
+      </aside>
+
+      <button id="dockOpen" class="dock-open hidden" type="button">展开测试台</button>
+      <aside id="dock" class="dock hidden">
+        <div class="dock-head">
+          <div class="dock-title"><span id="dockModeName">测试台</span><span class="dock-sub">当前界面可调项</span></div>
+          <button id="dockToggle" class="dock-toggle" type="button">收起</button>
+        </div>
+        <div id="dockBody" class="dock-body"></div>
+      </aside>
+
+      <div id="emoteLab" class="emote-lab hidden">
+        <div class="emote-lab-head">
+          <div class="emote-lab-title">表情动画 <span>游戏原始 prefab 图层 · AnimationClip Scale / Rotation 关键帧</span></div>
+          <div class="emote-lab-actions">
+            <button id="emoteReplayAll" type="button">播放全部</button>
+            <button id="emoteClose" type="button">关闭</button>
+          </div>
+        </div>
+        <div id="emoteLabGrid" class="emote-lab-grid"></div>
+        <div class="emote-lab-foot">点击卡片播放一次真实片段；静态停留是测试台展示方式。来源：prefab/prefabdialogueresources/emoticon_* + animation/emoticon。每个卡片按原 prefab 图层尺寸渲染，动画片段：Emoticon_Angry / Sweat / Idea / Question / Sparkle / Surprised。</div>
+      </div>
+      <div id="boxLab" class="emote-lab hidden">
+        <div class="emote-lab-head">
+          <div class="emote-lab-title">对话框图鉴 <span>Dialogue SpriteAtlas · 真实 Sprite / 九宫格边距 / prefab 用途</span></div>
+          <div class="emote-lab-actions">
+            <button id="boxLabClose" type="button">关闭</button>
+          </div>
+        </div>
+        <div id="boxLabGrid" class="box-lab-grid"></div>
+        <div class="emote-lab-foot">常驻对话框/气泡来自 Packages/atlases/dialogue（SpriteAtlas “Dialogue”）与 prefab/window/windowdialogue 的 RuntimeSpriteLoader；2.5/3 周年活动气泡底板与 WindowDialogue 背景图案来自 Packages/rawsprites/dialogue。没有手绘替代，九宫格边距取自各 Sprite 的 m_Border。</div>
+      </div>
+      <div id="start" class="start">
+        <div class="start-inner">
+          <div class="start-kicker">DEEP REVERSE ENGINEERING DEMO</div>
+          <h1>火焰中的钟楼</h1>
+          <div class="start-sub">Trickcal Revive · 第 1 话 · 对话 UI 动画复刻</div>
+          <p>气泡弹出、云朵思考框、爆炸框、新闻框、旁白框、独白框、章节开场动画，均由游戏原包 <b>AnimationClip</b> 的三次贝塞尔关键帧驱动。</p>
+          <div class="start-actions">
+            <button id="startBtn">开始演示</button>
+            <button id="startBoxes" class="ghost">对话框图鉴</button>
+            <button id="startEmotes" class="ghost">表情动画</button>
+            <button id="startCustom" class="ghost">自定义标题</button>
+            <button id="startTech" class="ghost">先看技术信息</button>
+          </div>
+          <div class="start-foot">点击 / 空格推进 · A 自动播放 · D 技术面板 · T 测试台 · B 对话框图鉴 · E 表情动画</div>
+        </div>
+      </div>
+
+      <div id="endcard" class="endcard hidden">
+        <div class="end-inner">
+          <div class="end-kicker">CHAPTER 01 · END</div>
+          <div class="end-title">第 1 话 完</div>
+          <div class="end-next">下一话 · 钟声之下</div>
+          <button id="replayBtn" class="ghost">重新播放</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/vendor/spine-webgl.min.js"></script>
+<script src="data/ui_data.js"></script>
+<script src="data/anim_data.js"></script>
+<script src="data/branch_data.js"></script>
+<script src="scene-graph.js"></script>
+<script src="scene-state.js"></script>
+<script src="story-navigation.js"></script>
+<script src="camera-timeline.js"></script>
+<script src="stage-timeline.js"></script>
+<script src="move-presets.js"></script>
+<script src="expressions.js"></script>
+<script src="audio-player.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

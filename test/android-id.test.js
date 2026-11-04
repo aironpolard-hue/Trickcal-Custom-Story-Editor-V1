@@ -1,0 +1,11 @@
+'use strict';
+const assert = require('assert');
+const { androidApplicationId } = require('../packaging/android-id');
+const a = androidApplicationId({ id: 'rainy-last-train' }, 'C:/project/a');
+assert.match(a, /^com\.trickcal\.story\.p_rainy_last_train_[0-9a-f]{10}$/);
+assert.strictEqual(a, androidApplicationId({ id: 'rainy-last-train' }, 'D:/moved'));
+assert.notStrictEqual(a, androidApplicationId({ id: 'other-story' }, 'C:/project/a'));
+assert.strictEqual(androidApplicationId({ android: { applicationId: 'com.example.story' } }), 'com.example.story');
+assert.throws(() => androidApplicationId({ android: { applicationId: 'Invalid identifier' } }), /applicationId/);
+assert.throws(() => androidApplicationId({}, ''), /缺少 ID/);
+console.log('android-id.test.js: ok');

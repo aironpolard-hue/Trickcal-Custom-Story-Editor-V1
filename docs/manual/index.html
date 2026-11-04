@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Trickcal 剧情制作引擎中文使用手册：从新建项目、编写台词到动画、分支与导出。">
+  <title>使用手册 · Trickcal 剧情制作引擎</title>
+  <link rel="icon" href="assets/erpin.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/lucide.min.js" defer></script>
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#article">跳到正文</a>
+  <aside class="sidebar" id="sidebar" aria-label="手册目录">
+    <a class="brand" href="#start">
+      <img src="assets/erpin.png" width="42" height="42" alt="">
+      <span><strong>Trickcal</strong><small>剧情制作引擎 · 使用手册</small></span>
+    </a>
+    <div class="search-wrap">
+      <i data-lucide="search" aria-hidden="true"></i>
+      <input id="search" type="search" placeholder="搜索功能、命令、问题…" aria-label="搜索全部文档" autocomplete="off">
+    </div>
+    <div class="search-status" id="searchStatus" role="status" aria-live="polite" hidden></div>
+    <nav id="navigation" aria-label="文档章节"></nav>
+    <div class="sidebar-foot">
+      <span class="status-dot"></span>
+      <span>源码版 0.1.0</span>
+      <span class="updated">2026.11.04</span>
+    </div>
+  </aside>
+  <button class="scrim" id="scrim" type="button" aria-label="关闭目录" hidden></button>
+  <div class="workspace">
+    <header class="topbar">
+      <button id="menuButton" class="icon-button mobile-menu" type="button" title="打开目录" aria-label="打开目录" aria-controls="sidebar" aria-expanded="false"><i data-lucide="menu"></i></button>
+      <div class="breadcrumb"><span>使用手册</span><i data-lucide="chevron-right" aria-hidden="true"></i><span id="breadcrumb">入门</span></div>
+      <div class="topbar-actions">
+        <span class="local-label">离线文档</span>
+        <button id="themeButton" class="icon-button" type="button" title="切换深浅主题" aria-label="切换深浅主题"><i data-lucide="moon"></i></button>
+        <button id="printButton" class="icon-button" type="button" title="打印当前章节" aria-label="打印当前章节"><i data-lucide="printer"></i></button>
+      </div>
+    </header>
+    <div class="reading-layout">
+      <main id="main">
+        <article id="article" tabindex="-1"></article>
+        <nav class="page-pagination" id="pagination" aria-label="上一章和下一章"></nav>
+        <footer class="document-footer">Trickcal 剧情制作引擎 <span>非官方同人制作工具</span></footer>
+      </main>
+      <aside class="page-outline" aria-label="本页目录"><div>本页内容</div><nav id="outline"></nav><a href="#article" class="back-top" id="backTop"><i data-lucide="arrow-up"></i>回到顶部</a></aside>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="imageDialog" aria-label="编辑器截图">
+    <button id="closeImage" class="icon-button" type="button" aria-label="关闭大图" title="关闭大图"><i data-lucide="x"></i></button>
+    <img src="assets/editor-overview.png" alt="Trickcal 编辑器完整界面">
+  </dialog>
+  <noscript>请在浏览器中启用 JavaScript 以查看使用手册。文字版位于 docs/新手使用手册.md。</noscript>
+</body>
+</html>
