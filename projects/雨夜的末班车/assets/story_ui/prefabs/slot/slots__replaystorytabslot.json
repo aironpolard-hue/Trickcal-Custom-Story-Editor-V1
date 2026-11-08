@@ -1,0 +1,780 @@
+{
+  "id": "slots/replaystorytabslot",
+  "sourceBundle": "prefab/slots/replaystorytabslot",
+  "hierarchy": {
+    "name": "ReplayStoryTabSlot",
+    "path": "ReplayStoryTabSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 464.0,
+        "y": 145.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ReplayStoryTabSlot"
+      }
+    ],
+    "children": [
+      {
+        "name": "Dim",
+        "path": "ReplayStoryTabSlot/Dim",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 464.0,
+            "y": 145.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Base",
+            "path": "ReplayStoryTabSlot/Dim/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 464.0,
+                "y": 145.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextGlow",
+            "path": "ReplayStoryTabSlot/Dim/TextGlow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 270.0,
+                "y": 58.599998474121094
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text",
+            "path": "ReplayStoryTabSlot/Dim/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 270.0,
+                "y": 58.599998474121094
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Icon_01",
+            "path": "ReplayStoryTabSlot/Dim/Icon_01",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -161.5,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 77.0,
+                "y": 77.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Select",
+        "path": "ReplayStoryTabSlot/Select",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 464.0,
+            "y": 145.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Base",
+            "path": "ReplayStoryTabSlot/Select/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 464.0,
+                "y": 145.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextGlow",
+            "path": "ReplayStoryTabSlot/Select/TextGlow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 270.0,
+                "y": 58.599998474121094
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text",
+            "path": "ReplayStoryTabSlot/Select/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 270.0,
+                "y": 58.599998474121094
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Icon",
+            "path": "ReplayStoryTabSlot/Select/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -161.5,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 77.0,
+                "y": 77.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "New",
+        "path": "ReplayStoryTabSlot/New",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -37.0,
+            "y": -5.0
+          },
+          "m_SizeDelta": {
+            "x": 124.0,
+            "y": 60.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonElastic"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Base",
+      "nodePath": "ReplayStoryTabSlot/Dim/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-5613798625362631234",
+      "bundle": "CAB-5aef1291a455d3fada0feed07aad1c04",
+      "assetType": "Sprite",
+      "assetName": "StoryTab_BtnBase2",
+      "demoPath": "assets/story_ui/chapter-menu/StoryTab_BtnBase2.png",
+      "projectPath": "assets/story_ui/chapter-menu/StoryTab_BtnBase2.png"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "ReplayStoryTabSlot/Dim/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "ReplayStoryTabSlot/Dim/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-4674990699674562199",
+      "bundle": "CAB-c670ac853cfb420e1200c8842abae99a",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick_Glow"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "ReplayStoryTabSlot/Dim/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "ReplayStoryTabSlot/Dim/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Icon_01",
+      "nodePath": "ReplayStoryTabSlot/Dim/Icon_01",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6716767623348965752",
+      "bundle": "CAB-de5908e9e66210f6c30b4c28d000368c",
+      "assetType": "Sprite",
+      "assetName": "StoryTab_BtnIcon",
+      "demoPath": "assets/story_ui/chapter-menu/StoryTab_BtnIcon.png",
+      "projectPath": "assets/story_ui/chapter-menu/StoryTab_BtnIcon.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "ReplayStoryTabSlot/Select/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "5587692391315029471",
+      "bundle": "CAB-2c1ec0520e2b9f123c38cd0f0ae64e52",
+      "assetType": "Sprite",
+      "assetName": "StoryTab_BtnBase1",
+      "demoPath": "assets/story_ui/chapter-menu/StoryTab_BtnBase1.png",
+      "projectPath": "assets/story_ui/chapter-menu/StoryTab_BtnBase1.png"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "ReplayStoryTabSlot/Select/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "ReplayStoryTabSlot/Select/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-4674990699674562199",
+      "bundle": "CAB-c670ac853cfb420e1200c8842abae99a",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick_Glow"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "ReplayStoryTabSlot/Select/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "ReplayStoryTabSlot/Select/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "ReplayStoryTabSlot/Select/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6716767623348965752",
+      "bundle": "CAB-de5908e9e66210f6c30b4c28d000368c",
+      "assetType": "Sprite",
+      "assetName": "StoryTab_BtnIcon",
+      "demoPath": "assets/story_ui/chapter-menu/StoryTab_BtnIcon.png",
+      "projectPath": "assets/story_ui/chapter-menu/StoryTab_BtnIcon.png"
+    },
+    {
+      "gameObject": "New",
+      "nodePath": "ReplayStoryTabSlot/New",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "8791054138832441540",
+      "bundle": "CAB-551ba164792d61dfc3c6a49d6f4939eb",
+      "assetType": "Sprite",
+      "assetName": "Common_New_2_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png"
+    }
+  ],
+  "animators": []
+}

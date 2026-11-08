@@ -78,6 +78,12 @@ function unquote(text, diagnostics, lineNo) {
     .replace(/\\\\/g, '\\');
 }
 
+function readOptionValue(token) {
+  if (token == null) return null;
+  if (!token.startsWith('"')) return token;
+  try { return JSON.parse(token); } catch { return null; }
+}
+
 function parseKeyValueTokens(rest) {
   // Supports: emote heart at 960,560; hold 2.4; purple; tail bl; bubble 1100,520
   const out = {};
@@ -88,9 +94,13 @@ function parseKeyValueTokens(rest) {
     if (t === 'noName' || t === 'noname') { out.noName = true; continue; }
     if (t === 'emote' || t === 'emoticon') { out.emoticon = tokens[++i]; continue; }
     if (t === 'skin') { out.skin = tokens[++i]; continue; }
-    if (['uiX','uiY','uiScale','uiRot','uiOpacity','bubbleWidth','bubbleMinHeight','bubbleMaxHeight','bubblePaddingY','textWidth','textOffsetX','textOffsetY','typeSpeed','rot','alpha','sx','sy'].includes(t)) { out[t] = Number(tokens[++i]); continue; }
-    if (t === 'enter') { out.enter = tokens[++i]; continue; }
-    if (t === 'exit') { out.exit = tokens[++i]; continue; }
+    if (['uiX','uiY','uiScale','uiRot','uiOpacity','bubbleWidth','bubbleMinHeight','bubbleMaxHeight','bubblePaddingY','textWidth','textOffsetX','textOffsetY','typeSpeed','fontSize','speed','punctuationPause','shadowX','shadowY','shadowAlpha','entryDuration','rot','alpha','sx','sy'].includes(t)) { out[t] = Number(tokens[++i]); continue; }
+    if (['textColor','shadowColor','dialogueVariant','overflow'].includes(t)) {
+      out[t] = readOptionValue(tokens[++i]);
+      continue;
+    }
+    if (t === 'enter') { out.enter = readOptionValue(tokens[++i]); continue; }
+    if (t === 'exit') { out.exit = readOptionValue(tokens[++i]); continue; }
     if (t === 'fade') { out.fade = Number(tokens[++i]); continue; }
     if (t === 'at') {
       const m = /^(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)$/.exec(tokens[++i] || '');
@@ -98,13 +108,9 @@ function parseKeyValueTokens(rest) {
       continue;
     }
     if (t === 'hold') { out.hold = Number(tokens[++i]); continue; }
-    if (t === 'tail') { out.tail = tokens[++i]; continue; }
+    if (t === 'tail') { out.tail = readOptionValue(tokens[++i]); continue; }
     if (t === 'name' || t === 'avatar' || t === 'avatarBg') {
-      const value = tokens[++i];
-      if (value == null) { out[t] = null; continue; }
-      if (value.startsWith('"')) {
-        try { out[t] = JSON.parse(value); } catch { out[t] = null; }
-      } else out[t] = value;
+      out[t] = readOptionValue(tokens[++i]);
       continue;
     }
     if (t === 'bubble') {
@@ -269,7 +275,7 @@ function compile(source, options = {}) {
   let pendingAudio = [];
   let titleText = options.openingTitle || options.title || '未命名剧情';
   let chapterNo = Number(options.chapterNo || 1);
-  let camera = { zoom: 1, x: 0, y: 0, rot: 0, follow: null, offsetX: 0, offsetY: 0 };
+  let camera = { zoom: 1, x: 0, y: 0, targetX: 960, targetY: 540, rot: 0, follow: null, offsetX: 0, offsetY: 0 };
   let fx = { brightness: 1, contrast: 1, saturation: 1, blur: 0, tint: null, tintAlpha: 0 };
   let shader = null;
   let nextPresetFields = null;
@@ -370,6 +376,12 @@ function compile(source, options = {}) {
     for (const k of ['uiX','uiY','uiScale','uiRot','uiOpacity','bubbleWidth','bubbleMinHeight','bubbleMaxHeight','bubblePaddingY','textWidth','textOffsetX','textOffsetY','typeSpeed']) {
       if (mods[k] !== undefined && Number.isFinite(mods[k])) line[k] = mods[k];
     }
+    for (const k of ['fontSize', 'speed', 'punctuationPause', 'shadowX', 'shadowY', 'shadowAlpha']) {
+      if (mods[k] !== undefined && Number.isFinite(mods[k])) line[k] = mods[k];
+    }
+    for (const k of ['textColor', 'shadowColor', 'dialogueVariant']) {
+      if (mods[k] != null) line[k] = mods[k];
+    }
     line.text = text;
     line.speaker = speakerInfo ? speaker : null;
     if (speakerInfo) line.speakerName = speakerInfo.name;
@@ -394,6 +406,11 @@ function compile(source, options = {}) {
       line.head = { x: ax, y: 690 };
       line.mode = mode;
       if (mods.purple) line.purple = true;
+      if (mods.overflow != null) {
+        if (!['grow', 'shrink', 'scroll', 'clip'].includes(mods.overflow)) {
+          diagnostics.push({ line: lineNo, column: 1, severity: 'error', message: '气泡 overflow 需要 grow、shrink、scroll 或 clip。' });
+        } else line.overflow = mods.overflow;
+      }
       if (mods.tail) {
         const tails = { 左下: 'bl', 右下: 'br', 左上: 'tl', 右上: 'tr' };
         line.tail = tails[mods.tail] || mods.tail;
@@ -401,16 +418,16 @@ function compile(source, options = {}) {
       }
     } else if (mode === 'normal') {
       if (mods.purple) line.purple = true;
-      line.dialogueVariant = mods.noName ? 'normalNoName' : (presetFields?.dialogueVariant || 'normal');
+      line.dialogueVariant = mods.noName ? 'normalNoName' : (mods.dialogueVariant || presetFields?.dialogueVariant || 'normal');
       if (speaker && !speakerInfo) line.speaker = speaker;
     } else if (mode === 'cloud') {
       line.mode = 'cloud';
-      line.dialogueVariant = presetFields?.dialogueVariant || 'cloud';
+      line.dialogueVariant = mods.dialogueVariant || presetFields?.dialogueVariant || 'cloud';
       line.mind = true;
       if (!speaker) line.speaker = null;
       if (mods.noName) line.dialogueVariant = 'cloud';
     } else if (mode === 'blast') {
-      line.dialogueVariant = mods.noName ? 'blastNoName' : (presetFields?.dialogueVariant || 'blast');
+      line.dialogueVariant = mods.noName ? 'blastNoName' : (mods.dialogueVariant || presetFields?.dialogueVariant || 'blast');
     } else if (mode === 'clear') {
       line.mode = 'clear';
       if (mods.purple) line.purple = true;
@@ -443,7 +460,7 @@ function compile(source, options = {}) {
     return line;
   };
 
-  const makeSpecialText = (mode, text, lineNo, expectedType, emitLine = true) => {
+  const makeSpecialText = (mode, text, lineNo, expectedType, emitLine = true, rest = '') => {
     const presetFields = nextPresetFields;
     nextPresetFields = null;
     if (presetFields && ![expectedType, 'typewriter'].includes(presetFields._presetType)) {
@@ -454,6 +471,16 @@ function compile(source, options = {}) {
       const { _presetType, mode: _presetMode, ...fields } = presetFields;
       Object.assign(line, fields);
     }
+    const mods = parseKeyValueTokens(rest);
+    for (const key of ['uiX', 'uiY', 'uiScale', 'uiRot', 'uiOpacity', 'textOffsetX', 'textOffsetY',
+      'fontSize', 'typeSpeed', 'speed', 'punctuationPause', 'shadowX', 'shadowY', 'shadowAlpha', 'entryDuration']) {
+      if (mods[key] !== undefined && Number.isFinite(mods[key])) line[key] = mods[key];
+    }
+    if (mods.enter) line.enter = mods.enter;
+    if (mods.exit) line.exit = mods.exit;
+    for (const key of ['textColor', 'shadowColor']) {
+      if (mods[key] != null) line[key] = mods[key];
+    }
     line.text = text;
     line.hold = 3;
     if (mode === 'newsTalk') line.speakerName = '新闻主播';
@@ -461,7 +488,7 @@ function compile(source, options = {}) {
   };
 
 
-  const ACTION_PROPS = { x: 'x', y: 'y', sx: 'sx', sy: 'sy', scaleX: 'sx', scaleY: 'sy', rot: 'rot', rotate: 'rot', zoom: 'zoom', alpha: 'alpha', brightness: 'brightness', contrast: 'contrast', saturation: 'saturation', blur: 'blur', tintAlpha: 'tintAlpha' };
+  const ACTION_PROPS = { x: 'x', y: 'y', targetX: 'targetX', targetY: 'targetY', targetx: 'targetX', targety: 'targetY', sx: 'sx', sy: 'sy', scaleX: 'sx', scaleY: 'sy', scalex: 'sx', scaley: 'sy', rot: 'rot', rotate: 'rot', zoom: 'zoom', alpha: 'alpha', brightness: 'brightness', contrast: 'contrast', saturation: 'saturation', blur: 'blur', tintAlpha: 'tintAlpha' };
   const EASES = new Set(eases);
   const parseTime = (text, unitRequired = false) => {
     const match = /^((?:\d+(?:\.\d+)?|\.\d+))\s*(ms|s)?$/i.exec(text);
@@ -606,11 +633,13 @@ function compile(source, options = {}) {
     if (conf.alpha < 0 || conf.alpha > 1) diagnostics.push({ line: lineNo, column: 1, severity: 'error', message: '图片 alpha 必须在 0 到 1 之间。' });
     return conf;
   };
-  const cameraDefault = () => ({ zoom: 1, x: 0, y: 0, rot: 0, follow: null, offsetX: 0, offsetY: 0 });
+  const cameraDefault = () => ({ zoom: 1, x: 0, y: 0, targetX: 960, targetY: 540, rot: 0, follow: null, offsetX: 0, offsetY: 0 });
   const parseCamera = text => {
     const rest = text.slice(7).trim();
     if (rest === 'reset') return cameraDefault();
-    const scalar = /^(zoom|rotate|x|y)\s+(-?(?:\d+(?:\.\d+)?|\.\d+))$/.exec(rest);
+    const target = /^(?:target|at)\s+(-?(?:\d+(?:\.\d+)?|\.\d+)),(-?(?:\d+(?:\.\d+)?|\.\d+))$/.exec(rest);
+    if (target) return { targetX: Number(target[1]), targetY: Number(target[2]) };
+    const scalar = /^(zoom|rotate|x|y|targetX|targetY)\s+(-?(?:\d+(?:\.\d+)?|\.\d+))$/.exec(rest);
     if (scalar) {
       const value = Number(scalar[2]);
       if (!Number.isFinite(value) || (scalar[1] === 'zoom' && value <= 0)) return null;
@@ -652,10 +681,10 @@ function compile(source, options = {}) {
     return { actor: match[1], patch: isAnim ? { anim: match[2], fade } : { skin: match[2] } };
   };
   const parseMoveAction = (text, baseDelay = 0) => {
-    const m = String(text).match(/^move\s+([A-Za-z_][\w.-]*)\s+(x|y|sx|sy|scaleX|scaleY|rot|rotate|zoom|alpha|brightness|contrast|saturation|blur|tintAlpha)\s+(.+?)\s+in\s+((?:\d+(?:\.\d+)?|\.\d+)\s*(?:ms|s)?)(?:\s+(.*))?$/i);
+    const m = String(text).match(/^move\s+([A-Za-z_][\w.-]*)\s+(targetX|targetY|scaleX|scaleY|x|y|sx|sy|rot|rotate|zoom|alpha|brightness|contrast|saturation|blur|tintAlpha)\s+(.+?)\s+in\s+((?:\d+(?:\.\d+)?|\.\d+)\s*(?:ms|s)?)(?:\s+(.*))?$/i);
     if (!m) return null;
     const actor = m[1];
-    const property = ACTION_PROPS[m[2]];
+    const property = ACTION_PROPS[m[2]] || ACTION_PROPS[m[2].toLowerCase()];
     const expr = m[3].trim();
     const duration = parseTime(m[4]);
     const flags = m[5] || '';
@@ -956,8 +985,12 @@ function compile(source, options = {}) {
       line.chapter = `第 ${chapterNo} 话`;
       line.title = titleText;
       line.cinema = cinemaM ? !/off|false/i.test(cinemaM[1]) : (line.cinema ?? true);
-      line.camera = { zoom: 1, x: 0, y: 0, rot: 0, follow: null, offsetX: 0, offsetY: 0 };
+      line.camera = cameraDefault();
       line.hold = Number(holdM[1]);
+      const mods = parseKeyValueTokens(flags);
+      for (const key of ['uiX', 'uiY', 'uiScale', 'uiRot', 'uiOpacity']) {
+        if (mods[key] !== undefined && Number.isFinite(mods[key])) line[key] = mods[key];
+      }
       if (bgM) {
         if (bgM[1] === 'black') {
           line.bg = null;
@@ -1039,7 +1072,7 @@ function compile(source, options = {}) {
         Object.assign(camera, patch);
         pendingCameraOps.push({ ...patch });
       }
-      else diagnostics.push({ line: lineNo, column: 1, severity: 'error', message: 'camera 语法：camera zoom 1.2 / camera follow ner offset 0,-40 / camera reset' });
+      else diagnostics.push({ line: lineNo, column: 1, severity: 'error', message: 'camera 语法：camera target 960,540 / camera zoom 1.2 / camera follow ner offset 0,-40 / camera reset' });
       continue;
     }
     if (trimmed.startsWith('scene ') || trimmed.startsWith('bg ')) {
@@ -1160,20 +1193,32 @@ function compile(source, options = {}) {
       let waitEnd = 0;
       let hasWait = false;
       const stack = [{ indent: baseIndent, delay: 0 }];
+      const popAfterBlock = () => {
+        const block = stack.pop();
+        if (!block.hasBody) {
+          diagnostics.push({
+            line: block.sourceLine,
+            column: 1,
+            severity: 'error',
+            message: 'after 延时块不能为空；内部语句需要比 after 行多缩进一级。',
+          });
+        }
+      };
       while (j < lines.length) {
         const rawJ = stripComment(lines[j]).replace(/\s+$/, '');
         if (!rawJ.trim()) { j++; continue; }
         const t = rawJ.trim();
         const ind = rawJ.length - rawJ.trimStart().length;
         if (ind <= baseIndent) break;
-        while (stack.length > 1 && ind <= stack[stack.length - 1].indent) stack.pop();
+        while (stack.length > 1 && ind <= stack[stack.length - 1].indent) popAfterBlock();
+        if (ind > stack[stack.length - 1].indent) stack[stack.length - 1].hasBody = true;
         const delayBase = stack[stack.length - 1].delay;
         const afterM = t.match(/^after\s+(.+?)\s*:$/);
         if (afterM) {
           const interval = parseTime(afterM[1], true);
           const delay = delayBase + interval;
           if (interval === null || !Number.isFinite(delay)) diagnostics.push({ line: j + 1, column: 1, severity: 'error', message: 'after 语法：after 0.5s: 或 after 500ms:，时间必须是有限的非负数。' });
-          else stack.push({ indent: ind, delay });
+          else stack.push({ indent: ind, delay, sourceLine: j + 1, hasBody: false });
           j++;
           continue;
         }
@@ -1352,14 +1397,14 @@ function compile(source, options = {}) {
         if (t.startsWith('camera ')) {
           if (/\s+in\s+/.test(t)) {
             const track = parseMoveAction(t.replace(/^camera\s+/, 'move camera '), delayBase);
-            if (!track || !['x', 'y', 'rot', 'zoom'].includes(track.property) ||
+            if (!track || !['x', 'y', 'targetX', 'targetY', 'rot', 'zoom'].includes(track.property) ||
                 (track.property === 'zoom' && (track.relative || track.from <= 0 || track.to <= 0))) {
-              diagnostics.push({ line: j + 1, column: 1, severity: 'error', message: '镜头补间语法：camera zoom 1 -> 1.5 in 1s ease Linear；x、y、rotate 也支持 by 偏移。' });
+              diagnostics.push({ line: j + 1, column: 1, severity: 'error', message: '镜头补间语法：camera targetX 960 -> 1180 in 1s；targetY、x、y、zoom、rotate 也支持补间。' });
             } else cameraTracks.push({ ...track, sourceLine: j + 1 });
           } else {
             const patch = parseCamera(t);
             if (patch) events.push({ type: 'camera', delay: delayBase, patch, sourceLine: j + 1 });
-            else diagnostics.push({ line: j + 1, column: 1, severity: 'error', message: 'camera 语法：camera zoom 1.2 / camera follow ner offset 0,-40 / camera reset' });
+            else diagnostics.push({ line: j + 1, column: 1, severity: 'error', message: 'camera 语法：camera target 960,540 / camera zoom 1.2 / camera follow ner offset 0,-40 / camera reset' });
           }
           j++;
           continue;
@@ -1403,6 +1448,7 @@ function compile(source, options = {}) {
         diagnostics.push({ line: j + 1, column: 1, severity: 'error', message: `parallel 暂不支持该语句：${t}。` });
         j++;
       }
+      while (stack.length > 1) popAfterBlock();
       const stageTimeline = [
         ...events.filter(event => ['stage', 'actor', 'bind'].includes(event.type)).map(event => ({ kind: 'event', ...event })),
         ...pendingMoves.map(action => ({ kind: 'move', ...action })),
@@ -1502,7 +1548,7 @@ function compile(source, options = {}) {
       if (!m) { diagnostics.push({ line: lineNo, column: 1, severity: 'error', message: 'news 语法：news anchor "..." / news summary "..."' }); continue; }
       const kind = m[1];
       const mode = (kind === 'summary' || kind === '简报') ? 'newsSummary' : 'newsTalk';
-      makeSpecialText(mode, unquote(`"${m[2]}"`, diagnostics, lineNo), lineNo, 'news');
+      makeSpecialText(mode, unquote(`"${m[2]}"`, diagnostics, lineNo), lineNo, 'news', true, m[3] || '');
       continue;
     }
     if (trimmed.startsWith('location ')) {
@@ -1522,6 +1568,10 @@ function compile(source, options = {}) {
       }
       line.text = lm[1].replace(/\n/g, '\n');
       line.hold = Number(holdM[1]);
+      const mods = parseKeyValueTokens(flags);
+      for (const key of ['uiX', 'uiY', 'uiScale', 'uiRot', 'uiOpacity']) {
+        if (mods[key] !== undefined && Number.isFinite(mods[key])) line[key] = mods[key];
+      }
       emit(line, lineNo);
       continue;
     }
@@ -1541,8 +1591,13 @@ function compile(source, options = {}) {
       continue;
     }
     if (trimmed.startsWith('fullscreen ')) {
-      const text = unquote(trimmed.slice(11), diagnostics, lineNo);
-      makeSpecialText('fullscreen', text, lineNo, 'fullscreen');
+      const match = trimmed.match(/^fullscreen\s+"([\s\S]*)"(?:\s+(.*))?$/);
+      if (!match) {
+        diagnostics.push({ line: lineNo, column: 1, severity: 'error', message: 'fullscreen 语法：fullscreen "全屏文字" [fontSize 56 textColor "#ffffff"]' });
+        continue;
+      }
+      const text = unquote(`"${match[1]}"`, diagnostics, lineNo);
+      makeSpecialText('fullscreen', text, lineNo, 'fullscreen', true, match?.[2] || '');
       continue;
     }
     if (trimmed.startsWith('audio ')) {

@@ -1,0 +1,682 @@
+{
+  "id": "slots/breadcrumbdateslot",
+  "sourceBundle": "prefab/slots/breadcrumbdateslot",
+  "hierarchy": {
+    "name": "BreadCrumbDateSlot",
+    "path": "BreadCrumbDateSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 218.0,
+        "y": 180.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "BreadCrumbDateSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "BtnDate",
+        "path": "BreadCrumbDateSlot/BtnDate",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 218.0,
+            "y": 180.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonExtend"
+          },
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "BtnBase",
+            "path": "BreadCrumbDateSlot/BtnDate/BtnBase",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 71.00028991699219
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 142.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Select",
+            "path": "BreadCrumbDateSlot/BtnDate/Select",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 71.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 142.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Icon",
+            "path": "BreadCrumbDateSlot/BtnDate/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 37.0
+              },
+              "m_SizeDelta": {
+                "x": 172.0,
+                "y": 140.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Alarm_FameLv",
+            "path": "BreadCrumbDateSlot/BtnDate/Alarm_FameLv",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -84.0
+              },
+              "m_SizeDelta": {
+                "x": 271.0,
+                "y": 83.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": []
+          },
+          {
+            "name": "RedDot",
+            "path": "BreadCrumbDateSlot/BtnDate/RedDot",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -35.0,
+                "y": 48.0
+              },
+              "m_SizeDelta": {
+                "x": 50.0,
+                "y": 50.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 0.699999988079071,
+                "y": 0.699999988079071,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "RedDotObject"
+              },
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Image",
+                "path": "BreadCrumbDateSlot/BtnDate/RedDot/Image",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 75.0,
+                    "y": 75.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Text",
+            "path": "BreadCrumbDateSlot/BtnDate/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -40.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 50.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProEffect"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Count",
+            "path": "BreadCrumbDateSlot/BtnDate/Count",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -18.0
+              },
+              "m_SizeDelta": {
+                "x": 104.0,
+                "y": 40.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "BreadCrumbDateSlot/BtnDate/Count/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 2.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -20.0,
+                    "y": 32.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "BtnBase",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/BtnBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "-7861954285612342761",
+      "bundle": "CAB-117b6e4c1165bdc8fa990e7297794ba3",
+      "assetType": "Sprite",
+      "assetName": "MyHomeMain_Btn_Nomal",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHomeMain_Btn_Nomal.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHomeMain_Btn_Nomal.png"
+    },
+    {
+      "gameObject": "Select",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/Select",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-1601843888987873195",
+      "bundle": "CAB-267e13ae261db6a70660f4520abc530e",
+      "assetType": "Sprite",
+      "assetName": "MainLobby_BtnBg",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MainLobby_BtnBg.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MainLobby_BtnBg.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "1171993775802183636",
+      "bundle": "CAB-05fff2d882650209458434dd267e0a6b",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumb_Button_Date",
+      "atlasBundle": "atlases/breadcrumb",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumb_Button_Date.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumb_Button_Date.png"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/RedDot/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Count",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/Count",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "5951702243564900806",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_2020_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_2020_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_2020_1.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/Count/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbDateSlot/BtnDate/Count/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": []
+}

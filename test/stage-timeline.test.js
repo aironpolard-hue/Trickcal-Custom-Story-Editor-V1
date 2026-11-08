@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('assert');
+const path = require('path');
 const { sample } = require('../runtime/stage-timeline');
 const { compile } = require('../compiler/trickcal');
 
@@ -62,4 +63,21 @@ const first = compiled.story.lines[0], next = compiled.story.lines[1];
 assert.deepStrictEqual([...sample(first.stage, first.events, first.actions, first.timelineEnd).values()], next.stage);
 assert.strictEqual(sample(first.stage, first.events, first.actions, 0.5).get('ner').x, 125);
 assert.ok(!sample(first.stage, first.events, first.actions, 0.5).has('erpin'));
+const axisScaling = compile([
+  'define ner = Spine("assets/spine/standing/ner")',
+  'image sign = "assets/bg/elf_city_night.png"',
+  'show ner at 960,540 scale 1',
+  'show image sign as poster at 960,540 scale 1',
+  'parallel:',
+  '  move ner scaleX 1 -> 1.5 in 1s ease Linear',
+  '  move ner scaleY 1 -> 0.75 in 1s ease Linear',
+  '  move poster scaleX 1 -> 2 in 1s ease Linear',
+  '  move poster scaleY 1 -> 0.5 in 1s ease Linear',
+  '  wait 1s',
+].join('\n'), { projectRoot: path.resolve(__dirname, '../templates/minimal-demo') });
+assert.deepStrictEqual(axisScaling.diagnostics, []);
+const scaledStage = sample(axisScaling.story.lines[0].stage, axisScaling.story.lines[0].events,
+  axisScaling.story.lines[0].actions, 0.5);
+assert.deepStrictEqual([scaledStage.get('ner').sx, scaledStage.get('ner').sy,
+  scaledStage.get('poster').sx, scaledStage.get('poster').sy], [1.25, 0.875, 1.5, 0.75]);
 console.log('stage-timeline.test.js: ok');

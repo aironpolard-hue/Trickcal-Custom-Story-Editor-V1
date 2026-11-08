@@ -1,0 +1,2576 @@
+{
+  "id": "slots/anniversarydayslot",
+  "sourceBundle": "prefab/slots/anniversarydayslot",
+  "hierarchy": {
+    "name": "AnniversaryDaySlot",
+    "path": "AnniversaryDaySlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchoredPosition": {
+        "x": 135.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 270.0,
+        "y": 330.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "AnniversaryDaySlot"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 6,
+          "pathId": "-3913626021705931041",
+          "bundle": "CAB-322cef492ced9d21edbf231aedc41314"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Normal Dimmed",
+        "path": "AnniversaryDaySlot/Normal Dimmed",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 255.0,
+            "y": 279.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Btn_Swing_Dimmed",
+            "path": "AnniversaryDaySlot/Normal Dimmed/Btn_Swing_Dimmed",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -12.0,
+                "y": -86.0
+              },
+              "m_SizeDelta": {
+                "x": 75.0,
+                "y": 92.0
+              },
+              "m_Pivot": {
+                "x": 0.21344326436519623,
+                "y": 0.8811447024345398
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BaseDimmed",
+            "path": "AnniversaryDaySlot/Normal Dimmed/BaseDimmed",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 255.0,
+                "y": 279.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LockBlur",
+            "path": "AnniversaryDaySlot/Normal Dimmed/LockBlur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -14.0,
+                "y": 26.0
+              },
+              "m_SizeDelta": {
+                "x": 278.0,
+                "y": 248.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.30000001192092896,
+                "y": 0.30000001192092896,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LockIcon",
+            "path": "AnniversaryDaySlot/Normal Dimmed/LockIcon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -14.0,
+                "y": 31.0
+              },
+              "m_SizeDelta": {
+                "x": 116.0,
+                "y": 156.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.30000001192092896,
+                "y": 0.30000001192092896,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextDimmedBlur",
+            "path": "AnniversaryDaySlot/Normal Dimmed/TextDimmedBlur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -15.0,
+                "y": -10.0
+              },
+              "m_SizeDelta": {
+                "x": 900.0,
+                "y": 400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.30000001192092896,
+                "y": 0.30000001192092896,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "DimmedText",
+            "path": "AnniversaryDaySlot/Normal Dimmed/DimmedText",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -14.800004959106445,
+                "y": -11.0
+              },
+              "m_SizeDelta": {
+                "x": -82.60000610351562,
+                "y": 68.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "DimmedText (1)",
+            "path": "AnniversaryDaySlot/Normal Dimmed/DimmedText (1)",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -14.800004959106445,
+                "y": -11.0
+              },
+              "m_SizeDelta": {
+                "x": -82.60000610351562,
+                "y": 68.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Normal_Off",
+        "path": "AnniversaryDaySlot/Normal_Off",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 255.0,
+            "y": 279.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Btn_Swing_Dimmed",
+            "path": "AnniversaryDaySlot/Normal_Off/Btn_Swing_Dimmed",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -12.0,
+                "y": -86.0
+              },
+              "m_SizeDelta": {
+                "x": 75.0,
+                "y": 92.0
+              },
+              "m_Pivot": {
+                "x": 0.21344326436519623,
+                "y": 0.8811447024345398
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BaseDimmed",
+            "path": "AnniversaryDaySlot/Normal_Off/BaseDimmed",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 255.0,
+                "y": 279.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextDimmedBlur",
+            "path": "AnniversaryDaySlot/Normal_Off/TextDimmedBlur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -15.0,
+                "y": -10.0
+              },
+              "m_SizeDelta": {
+                "x": 900.0,
+                "y": 400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.30000001192092896,
+                "y": 0.30000001192092896,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "NormalText",
+            "path": "AnniversaryDaySlot/Normal_Off/NormalText",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -14.600000381469727,
+                "y": -11.0
+              },
+              "m_SizeDelta": {
+                "x": -83.00001525878906,
+                "y": 68.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Normal_On",
+        "path": "AnniversaryDaySlot/Normal_On",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -24.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 255.0,
+            "y": 279.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Blur",
+            "path": "AnniversaryDaySlot/Normal_On/Blur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.30000001192092896,
+                "y": -72.69999694824219
+              },
+              "m_SizeDelta": {
+                "x": 156.81809997558594,
+                "y": 156.81809997558594
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.05233589559793472,
+                "w": 0.9986295104026794
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Btn_Swing_Dimmed",
+            "path": "AnniversaryDaySlot/Normal_On/Btn_Swing_Dimmed",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -12.0,
+                "y": -86.0
+              },
+              "m_SizeDelta": {
+                "x": 75.0,
+                "y": 92.0
+              },
+              "m_Pivot": {
+                "x": 0.21344326436519623,
+                "y": 0.8811447024345398
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BaseOn",
+            "path": "AnniversaryDaySlot/Normal_On/BaseOn",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 255.0,
+                "y": 279.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextDimmedBlur",
+            "path": "AnniversaryDaySlot/Normal_On/TextDimmedBlur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 8.0,
+                "y": -10.0
+              },
+              "m_SizeDelta": {
+                "x": 900.0,
+                "y": 400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.29999998211860657,
+                "y": 0.29999998211860657,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "NormalText",
+            "path": "AnniversaryDaySlot/Normal_On/NormalText",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 9.4000244140625,
+                "y": -11.0
+              },
+              "m_SizeDelta": {
+                "x": -83.00001525878906,
+                "y": 68.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "DaySwingBlur",
+            "path": "AnniversaryDaySlot/Normal_On/DaySwingBlur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -3.0,
+                "y": -113.0
+              },
+              "m_SizeDelta": {
+                "x": 118.0,
+                "y": 29.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "DaySwingBlur1",
+                "path": "AnniversaryDaySlot/Normal_On/DaySwingBlur/DaySwingBlur1",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -45.0,
+                    "y": -0.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 28.0,
+                    "y": 28.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "DaySwingBlur2",
+                "path": "AnniversaryDaySlot/Normal_On/DaySwingBlur/DaySwingBlur2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 52.0,
+                    "y": 7.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 28.0,
+                    "y": 28.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "DaySwingBlur3",
+                "path": "AnniversaryDaySlot/Normal_On/DaySwingBlur/DaySwingBlur3",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 54.400001525878906,
+                    "y": -9.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 28.0,
+                    "y": 28.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.30000001192092896,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Day_Off",
+        "path": "AnniversaryDaySlot/Day_Off",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 255.0,
+            "y": 279.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Btn_Swing_Dimmed",
+            "path": "AnniversaryDaySlot/Day_Off/Btn_Swing_Dimmed",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -12.0,
+                "y": -86.0
+              },
+              "m_SizeDelta": {
+                "x": 75.0,
+                "y": 92.0
+              },
+              "m_Pivot": {
+                "x": 0.21344326436519623,
+                "y": 0.8811447024345398
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BaseDimmed",
+            "path": "AnniversaryDaySlot/Day_Off/BaseDimmed",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 255.0,
+                "y": 279.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextDimmedBlur",
+            "path": "AnniversaryDaySlot/Day_Off/TextDimmedBlur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -15.0,
+                "y": -10.0
+              },
+              "m_SizeDelta": {
+                "x": 900.0,
+                "y": 400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.30000001192092896,
+                "y": 0.30000001192092896,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "NormalText",
+            "path": "AnniversaryDaySlot/Day_Off/NormalText",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -14.5999755859375,
+                "y": -11.0
+              },
+              "m_SizeDelta": {
+                "x": -83.00003051757812,
+                "y": 68.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Day_On",
+        "path": "AnniversaryDaySlot/Day_On",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -24.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 255.0,
+            "y": 279.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Blur",
+            "path": "AnniversaryDaySlot/Day_On/Blur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.300048828125,
+                "y": -72.699951171875
+              },
+              "m_SizeDelta": {
+                "x": 156.81809997558594,
+                "y": 156.81809997558594
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.7999999523162842,
+                "y": 0.800000011920929,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.05233589559793472,
+                "w": 0.9986295104026794
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Btn_Swing_Dimmed",
+            "path": "AnniversaryDaySlot/Day_On/Btn_Swing_Dimmed",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -12.0,
+                "y": -86.0
+              },
+              "m_SizeDelta": {
+                "x": 75.0,
+                "y": 92.0
+              },
+              "m_Pivot": {
+                "x": 0.21344326436519623,
+                "y": 0.8811447024345398
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BaseOn",
+            "path": "AnniversaryDaySlot/Day_On/BaseOn",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 255.0,
+                "y": 279.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextDimmedBlur",
+            "path": "AnniversaryDaySlot/Day_On/TextDimmedBlur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 8.0,
+                "y": -10.0
+              },
+              "m_SizeDelta": {
+                "x": 900.0,
+                "y": 400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.29999998211860657,
+                "y": 0.29999998211860657,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "DaySwingBlur",
+            "path": "AnniversaryDaySlot/Day_On/DaySwingBlur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -3.0,
+                "y": -113.0
+              },
+              "m_SizeDelta": {
+                "x": 118.0,
+                "y": 29.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "DaySwingBlur1",
+                "path": "AnniversaryDaySlot/Day_On/DaySwingBlur/DaySwingBlur1",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -45.0,
+                    "y": -0.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 28.0,
+                    "y": 28.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "DaySwingBlur2",
+                "path": "AnniversaryDaySlot/Day_On/DaySwingBlur/DaySwingBlur2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 52.0,
+                    "y": 7.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 28.0,
+                    "y": 28.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "DaySwingBlur3",
+                "path": "AnniversaryDaySlot/Day_On/DaySwingBlur/DaySwingBlur3",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 54.400001525878906,
+                    "y": -9.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 28.0,
+                    "y": 28.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.30000001192092896,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "NormalText",
+            "path": "AnniversaryDaySlot/Day_On/NormalText",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 9.4000244140625,
+                "y": -11.0
+              },
+              "m_SizeDelta": {
+                "x": -83.00001525878906,
+                "y": 68.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "StatusIcon",
+        "path": "AnniversaryDaySlot/StatusIcon",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 77.0,
+            "y": 96.0
+          },
+          "m_SizeDelta": {
+            "x": 55.0,
+            "y": 56.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "IconComplete",
+            "path": "AnniversaryDaySlot/StatusIcon/IconComplete",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.5,
+                "y": -1.0
+              },
+              "m_SizeDelta": {
+                "x": 54.0,
+                "y": 54.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "RedDot",
+            "path": "AnniversaryDaySlot/StatusIcon/RedDot",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -29.0,
+                "y": -26.0
+              },
+              "m_SizeDelta": {
+                "x": 52.0,
+                "y": 52.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "AnniversaryDaySlot",
+      "nodePath": "AnniversaryDaySlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 6,
+      "pathId": "-3913626021705931041",
+      "bundle": "CAB-322cef492ced9d21edbf231aedc41314",
+      "assetType": "AnimatorController",
+      "assetName": "AnniversaryDaySlot_Controller"
+    },
+    {
+      "gameObject": "Btn_Swing_Dimmed",
+      "nodePath": "AnniversaryDaySlot/Normal Dimmed/Btn_Swing_Dimmed",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-4794569851916501657",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_Btn_Swing",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Swing.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Swing.png"
+    },
+    {
+      "gameObject": "BaseDimmed",
+      "nodePath": "AnniversaryDaySlot/Normal Dimmed/BaseDimmed",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "297579980811640465",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_DaySlot_Dimmed",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DaySlot_Dimmed.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DaySlot_Dimmed.png"
+    },
+    {
+      "gameObject": "LockBlur",
+      "nodePath": "AnniversaryDaySlot/Normal Dimmed/LockBlur",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7583831162855317799",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png"
+    },
+    {
+      "gameObject": "LockIcon",
+      "nodePath": "AnniversaryDaySlot/Normal Dimmed/LockIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8434355811110632874",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonIcon_Lock_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Lock_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Lock_2.png"
+    },
+    {
+      "gameObject": "TextDimmedBlur",
+      "nodePath": "AnniversaryDaySlot/Normal Dimmed/TextDimmedBlur",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "DimmedText",
+      "nodePath": "AnniversaryDaySlot/Normal Dimmed/DimmedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "DimmedText",
+      "nodePath": "AnniversaryDaySlot/Normal Dimmed/DimmedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "DimmedText (1)",
+      "nodePath": "AnniversaryDaySlot/Normal Dimmed/DimmedText (1)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "DimmedText (1)",
+      "nodePath": "AnniversaryDaySlot/Normal Dimmed/DimmedText (1)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Btn_Swing_Dimmed",
+      "nodePath": "AnniversaryDaySlot/Normal_Off/Btn_Swing_Dimmed",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3667143630909923346",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_Btn_Normal_Swing",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Normal_Swing.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Normal_Swing.png"
+    },
+    {
+      "gameObject": "BaseDimmed",
+      "nodePath": "AnniversaryDaySlot/Normal_Off/BaseDimmed",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2034196560686540258",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_DaySlot_Off",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DaySlot_Off.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DaySlot_Off.png"
+    },
+    {
+      "gameObject": "TextDimmedBlur",
+      "nodePath": "AnniversaryDaySlot/Normal_Off/TextDimmedBlur",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "NormalText",
+      "nodePath": "AnniversaryDaySlot/Normal_Off/NormalText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NormalText",
+      "nodePath": "AnniversaryDaySlot/Normal_Off/NormalText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "6017936709334614933",
+      "bundle": "CAB-6527711815eedf2aecd7fa65688f7814",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_SlimWhite"
+    },
+    {
+      "gameObject": "Blur",
+      "nodePath": "AnniversaryDaySlot/Normal_On/Blur",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "6594447383212585428",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBlur_Fill",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png"
+    },
+    {
+      "gameObject": "Btn_Swing_Dimmed",
+      "nodePath": "AnniversaryDaySlot/Normal_On/Btn_Swing_Dimmed",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3667143630909923346",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_Btn_Normal_Swing",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Normal_Swing.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Normal_Swing.png"
+    },
+    {
+      "gameObject": "BaseOn",
+      "nodePath": "AnniversaryDaySlot/Normal_On/BaseOn",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6778722751651608918",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_DaySlot_On",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DaySlot_On.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DaySlot_On.png"
+    },
+    {
+      "gameObject": "TextDimmedBlur",
+      "nodePath": "AnniversaryDaySlot/Normal_On/TextDimmedBlur",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "NormalText",
+      "nodePath": "AnniversaryDaySlot/Normal_On/NormalText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NormalText",
+      "nodePath": "AnniversaryDaySlot/Normal_On/NormalText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "6017936709334614933",
+      "bundle": "CAB-6527711815eedf2aecd7fa65688f7814",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_SlimWhite"
+    },
+    {
+      "gameObject": "DaySwingBlur1",
+      "nodePath": "AnniversaryDaySlot/Normal_On/DaySwingBlur/DaySwingBlur1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "DaySwingBlur2",
+      "nodePath": "AnniversaryDaySlot/Normal_On/DaySwingBlur/DaySwingBlur2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "DaySwingBlur3",
+      "nodePath": "AnniversaryDaySlot/Normal_On/DaySwingBlur/DaySwingBlur3",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "Btn_Swing_Dimmed",
+      "nodePath": "AnniversaryDaySlot/Day_Off/Btn_Swing_Dimmed",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5172206459262695711",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_Btn_Day_Swing",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Day_Swing.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Day_Swing.png"
+    },
+    {
+      "gameObject": "BaseDimmed",
+      "nodePath": "AnniversaryDaySlot/Day_Off/BaseDimmed",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6051203378214333239",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_DayDaySlot_Off",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DayDaySlot_Off.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DayDaySlot_Off.png"
+    },
+    {
+      "gameObject": "TextDimmedBlur",
+      "nodePath": "AnniversaryDaySlot/Day_Off/TextDimmedBlur",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "NormalText",
+      "nodePath": "AnniversaryDaySlot/Day_Off/NormalText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NormalText",
+      "nodePath": "AnniversaryDaySlot/Day_Off/NormalText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "6017936709334614933",
+      "bundle": "CAB-6527711815eedf2aecd7fa65688f7814",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_SlimWhite"
+    },
+    {
+      "gameObject": "Blur",
+      "nodePath": "AnniversaryDaySlot/Day_On/Blur",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "6594447383212585428",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBlur_Fill",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png"
+    },
+    {
+      "gameObject": "Btn_Swing_Dimmed",
+      "nodePath": "AnniversaryDaySlot/Day_On/Btn_Swing_Dimmed",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5172206459262695711",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_Btn_Day_Swing",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Day_Swing.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_Btn_Day_Swing.png"
+    },
+    {
+      "gameObject": "BaseOn",
+      "nodePath": "AnniversaryDaySlot/Day_On/BaseOn",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2285861840720651327",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Btn_DayDaySlot_On",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DayDaySlot_On.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Btn_DayDaySlot_On.png"
+    },
+    {
+      "gameObject": "TextDimmedBlur",
+      "nodePath": "AnniversaryDaySlot/Day_On/TextDimmedBlur",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "DaySwingBlur1",
+      "nodePath": "AnniversaryDaySlot/Day_On/DaySwingBlur/DaySwingBlur1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "DaySwingBlur2",
+      "nodePath": "AnniversaryDaySlot/Day_On/DaySwingBlur/DaySwingBlur2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "DaySwingBlur3",
+      "nodePath": "AnniversaryDaySlot/Day_On/DaySwingBlur/DaySwingBlur3",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6650484683312156640",
+      "bundle": "CAB-568f8905edbed7d47a0c3f2a38dbe1d3",
+      "assetType": "Sprite",
+      "assetName": "2ndWishtreeStore_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/2ndWishtreeStore_Blur.png"
+    },
+    {
+      "gameObject": "NormalText",
+      "nodePath": "AnniversaryDaySlot/Day_On/NormalText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NormalText",
+      "nodePath": "AnniversaryDaySlot/Day_On/NormalText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "6017936709334614933",
+      "bundle": "CAB-6527711815eedf2aecd7fa65688f7814",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_SlimWhite"
+    },
+    {
+      "gameObject": "IconComplete",
+      "nodePath": "AnniversaryDaySlot/StatusIcon/IconComplete",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "6747811671344517576",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_Icon_Complete_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_Icon_Complete_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_Icon_Complete_1.png"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "AnniversaryDaySlot/StatusIcon/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "AnniversaryDaySlot",
+      "controllerBundle": "CAB-322cef492ced9d21edbf231aedc41314",
+      "controllerPathId": "-3913626021705931041",
+      "controllerType": "AnimatorController",
+      "controllerName": "AnniversaryDaySlot_Controller",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Idle.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Idle.AnniversaryDaySlot_NormalOn",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Idle.AnniversaryDaySlot_DayOn",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "IdleLoop.AnniversaryDaySlot_Idle",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "AnniversaryDaySlot_Controller"
+    }
+  ]
+}

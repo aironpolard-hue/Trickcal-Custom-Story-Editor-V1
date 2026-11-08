@@ -1,0 +1,495 @@
+{
+  "id": "slots/photoheroslot",
+  "sourceBundle": "prefab/slots/photoheroslot",
+  "hierarchy": {
+    "name": "PhotoHeroSlot",
+    "path": "PhotoHeroSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 219.0,
+        "y": 256.0
+      },
+      "m_Pivot": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "PhotoHeroSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Mask",
+        "path": "PhotoHeroSlot/Mask",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Mask"
+          }
+        ],
+        "children": [
+          {
+            "name": "Hero",
+            "path": "PhotoHeroSlot/Mask/Hero",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 256.0,
+                "y": 256.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Left",
+        "path": "PhotoHeroSlot/Left",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 6.0,
+            "y": 256.0
+          },
+          "m_Pivot": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Right",
+        "path": "PhotoHeroSlot/Right",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 6.0,
+            "y": 256.0
+          },
+          "m_Pivot": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Level",
+        "path": "PhotoHeroSlot/Level",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 1.0,
+            "y": 12.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 20.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "HorizontalLayoutGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ContentSizeFitter"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "LayoutElement"
+          }
+        ],
+        "children": [
+          {
+            "name": "HeartIcon",
+            "path": "PhotoHeroSlot/Level/HeartIcon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 36.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "LayoutElement"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Value",
+            "path": "PhotoHeroSlot/Level/Value",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 40.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Mask",
+      "nodePath": "PhotoHeroSlot/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Hero",
+      "nodePath": "PhotoHeroSlot/Mask/Hero",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "2070957154603379367",
+      "bundle": "CAB-a7c3b26c694e5643517ec3f69248e92a",
+      "assetType": "Sprite",
+      "assetName": "Icon_GraduateSkill_Ner",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_Ner.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_Ner.png"
+    },
+    {
+      "gameObject": "Left",
+      "nodePath": "PhotoHeroSlot/Left",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Right",
+      "nodePath": "PhotoHeroSlot/Right",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "PhotoHeroSlot/Level/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "PhotoHeroSlot/Level/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    }
+  ],
+  "animators": []
+}

@@ -1,0 +1,214 @@
+{
+  "id": "slots/heroemotionslot",
+  "sourceBundle": "prefab/slots/heroemotionslot",
+  "hierarchy": {
+    "name": "HeroEmotionSlot",
+    "path": "HeroEmotionSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 320.0,
+        "y": 320.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "HeroEmotionSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Icon",
+        "path": "HeroEmotionSlot/Icon",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 320.0,
+            "y": 320.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.13052615523338318,
+            "w": 0.9914448857307434
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Text",
+            "path": "HeroEmotionSlot/Icon/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -76.0
+              },
+              "m_SizeDelta": {
+                "x": 260.0,
+                "y": 60.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Deco",
+        "path": "HeroEmotionSlot/Deco",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 110.0,
+            "y": 60.0
+          },
+          "m_SizeDelta": {
+            "x": 70.0,
+            "y": 62.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.399999976158142,
+            "y": 1.399999976158142,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Text",
+      "nodePath": "HeroEmotionSlot/Icon/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    }
+  ],
+  "animators": []
+}

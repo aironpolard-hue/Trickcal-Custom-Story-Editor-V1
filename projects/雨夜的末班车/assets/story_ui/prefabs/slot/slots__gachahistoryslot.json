@@ -1,0 +1,761 @@
+{
+  "id": "slots/gachahistoryslot",
+  "sourceBundle": "prefab/slots/gachahistoryslot",
+  "hierarchy": {
+    "name": "GachaHistorySlot",
+    "path": "GachaHistorySlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 1935.0,
+        "y": 290.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "GachaHistorySlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "base",
+        "path": "GachaHistorySlot/base",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Mask"
+          }
+        ],
+        "children": [
+          {
+            "name": "pattern",
+            "path": "GachaHistorySlot/base/pattern",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -22.3700008392334
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 44.7400016784668
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Line",
+            "path": "GachaHistorySlot/base/Line",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Title",
+        "path": "GachaHistorySlot/Title",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 45.0,
+            "y": -45.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 40.0
+          },
+          "m_Pivot": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "HorizontalLayoutGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ContentSizeFitter"
+          }
+        ],
+        "children": [
+          {
+            "name": "Icon",
+            "path": "GachaHistorySlot/Title/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 6.0,
+                "y": -4.0
+              },
+              "m_SizeDelta": {
+                "x": 61.0,
+                "y": 52.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "LayoutElement"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text",
+            "path": "GachaHistorySlot/Title/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "TimeReceived",
+        "path": "GachaHistorySlot/TimeReceived",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 733.2333374023438,
+            "y": 89.9089584350586
+          },
+          "m_SizeDelta": {
+            "x": -1532.559326171875,
+            "y": -245.38189697265625
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "TimeReceivedLine",
+            "path": "GachaHistorySlot/TimeReceived/TimeReceivedLine",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 243.72000122070312,
+                "y": -22.8699951171875
+              },
+              "m_SizeDelta": {
+                "x": 2.0,
+                "y": 30.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextDate",
+            "path": "GachaHistorySlot/TimeReceived/TextDate",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -75.46998596191406,
+                "y": -0.0001049041748046875
+              },
+              "m_SizeDelta": {
+                "x": -170.13998413085938,
+                "y": 1.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextTime",
+            "path": "GachaHistorySlot/TimeReceived/TextTime",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 121.2300033569336,
+                "y": -0.1850699931383133
+              },
+              "m_SizeDelta": {
+                "x": 157.5399932861328,
+                "y": 45.369998931884766
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "SlotGrid",
+        "path": "GachaHistorySlot/SlotGrid",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -38.0
+          },
+          "m_SizeDelta": {
+            "x": 2800.0,
+            "y": 120.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 0.6299999952316284,
+            "y": 0.6299999952316284,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MonoBehaviour",
+            "script": "GridLayoutGroup"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "base",
+      "nodePath": "GachaHistorySlot/base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "pattern",
+      "nodePath": "GachaHistorySlot/base/pattern",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6081444387941357468",
+      "bundle": "CAB-d59fc63141e78ad771cc708eec75414d",
+      "assetType": "Sprite",
+      "assetName": "Gacha_Characterpattern",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Gacha_Characterpattern.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Gacha_Characterpattern.png"
+    },
+    {
+      "gameObject": "Line",
+      "nodePath": "GachaHistorySlot/base/Line",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "809471951461115752",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png"
+    },
+    {
+      "gameObject": "Title",
+      "nodePath": "GachaHistorySlot/Title",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "441584363957378766",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2020",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "GachaHistorySlot/Title/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "9106663977688830752",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Gacha_CharacterIcon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Gacha_CharacterIcon.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Gacha_CharacterIcon.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "GachaHistorySlot/Title/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "GachaHistorySlot/Title/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "TimeReceived",
+      "nodePath": "GachaHistorySlot/TimeReceived",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-6361831585834629570",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1515",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png"
+    },
+    {
+      "gameObject": "TextDate",
+      "nodePath": "GachaHistorySlot/TimeReceived/TextDate",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TextDate",
+      "nodePath": "GachaHistorySlot/TimeReceived/TextDate",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "TextTime",
+      "nodePath": "GachaHistorySlot/TimeReceived/TextTime",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TextTime",
+      "nodePath": "GachaHistorySlot/TimeReceived/TextTime",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": []
+}

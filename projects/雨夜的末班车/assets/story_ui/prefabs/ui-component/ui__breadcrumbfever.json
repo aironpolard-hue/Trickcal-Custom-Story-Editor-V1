@@ -1,0 +1,1511 @@
+{
+  "id": "ui/breadcrumbfever",
+  "sourceBundle": "prefab/ui/breadcrumbfever",
+  "hierarchy": {
+    "name": "BreadCrumbFever",
+    "path": "BreadCrumbFever",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 200.0,
+        "y": 212.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 3,
+          "pathId": "-2794555605368357410",
+          "bundle": "CAB-01153cec9108acf6e8ecc3be308965ad"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "BreadCrumbFeverSHD"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Light_1",
+        "path": "BreadCrumbFever/Light_1",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 250.0,
+            "y": 250.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Light_2",
+        "path": "BreadCrumbFever/Light_2",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 200.0,
+            "y": 200.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Base",
+        "path": "BreadCrumbFever/Base",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 220.0,
+            "y": 220.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Icon",
+        "path": "BreadCrumbFever/Icon",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 130.0,
+            "y": 130.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "DelayGroup",
+        "path": "BreadCrumbFever/DelayGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 130.0,
+            "y": 130.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Mask"
+          }
+        ],
+        "children": [
+          {
+            "name": "Water_Axis",
+            "path": "BreadCrumbFever/DelayGroup/Water_Axis",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 206.0,
+                "y": 102.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 2.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Water",
+                "path": "BreadCrumbFever/DelayGroup/Water_Axis/Water",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -12.0,
+                    "y": -17.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 412.0,
+                    "y": 102.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Delay_Text",
+            "path": "BreadCrumbFever/DelayGroup/Delay_Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 107.0,
+                "y": 102.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Border",
+        "path": "BreadCrumbFever/Border",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 182.0,
+            "y": 182.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Count",
+        "path": "BreadCrumbFever/Count",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 104.0,
+            "y": -50.0
+          },
+          "m_SizeDelta": {
+            "x": 90.0,
+            "y": 72.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Text",
+            "path": "BreadCrumbFever/Count/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 112.0,
+                "y": 65.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "InfoButton",
+        "path": "BreadCrumbFever/InfoButton",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -22.0,
+            "y": -40.0
+          },
+          "m_SizeDelta": {
+            "x": 38.0,
+            "y": 38.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonExtend"
+          }
+        ],
+        "children": [
+          {
+            "name": "Icon",
+            "path": "BreadCrumbFever/InfoButton/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 22.0,
+                "y": 22.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "EffectFrontPos",
+        "path": "BreadCrumbFever/EffectFrontPos",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 200.0,
+            "y": 212.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.399999976158142,
+            "y": 1.399999976158142,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "FX_UI_BreadCrumbFever_1",
+            "path": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Root",
+                "path": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "ParticleSystem"
+                  },
+                  {
+                    "type": "ParticleSystemRenderer"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Root_Scale",
+                    "path": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 35.0,
+                        "y": 35.0,
+                        "z": 35.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "[Atlas_add]_Glow",
+                        "path": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]_Glow",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "[Atlas_add]GLow_2",
+                        "path": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]GLow_2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "[Atlas_add]_Glow3",
+                        "path": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]_Glow3",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "[SG]BB",
+                        "path": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[SG]BB",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "[SG]BB2",
+                        "path": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[SG]BB2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "[Atlas_add]particle",
+                        "path": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]particle",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "BreadCrumbFever",
+      "nodePath": "BreadCrumbFever",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 3,
+      "pathId": "-2794555605368357410",
+      "bundle": "CAB-01153cec9108acf6e8ecc3be308965ad",
+      "assetType": "AnimatorController",
+      "assetName": "BreadCrumbFever"
+    },
+    {
+      "gameObject": "Light_1",
+      "nodePath": "BreadCrumbFever/Light_1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4105992931447451217",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "InGame_Box_5555",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/InGame_Box_5555.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/InGame_Box_5555.png"
+    },
+    {
+      "gameObject": "Light_2",
+      "nodePath": "BreadCrumbFever/Light_2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4105992931447451217",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "InGame_Box_5555",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/InGame_Box_5555.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/InGame_Box_5555.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "BreadCrumbFever/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-901347808680067741",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumInGame_FeverDeco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumInGame_FeverDeco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumInGame_FeverDeco.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "BreadCrumbFever/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2656364686076498390",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumInGame_FeverIcon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumInGame_FeverIcon.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumInGame_FeverIcon.png"
+    },
+    {
+      "gameObject": "DelayGroup",
+      "nodePath": "BreadCrumbFever/DelayGroup",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "281247350890492310",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4545",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png"
+    },
+    {
+      "gameObject": "Delay_Text",
+      "nodePath": "BreadCrumbFever/DelayGroup/Delay_Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Delay_Text",
+      "nodePath": "BreadCrumbFever/DelayGroup/Delay_Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "6264380543285231457",
+      "bundle": "CAB-5fc0f3bff06af3470aa8595dfec3cc78",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_Black"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "BreadCrumbFever/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2880554096317633238",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumInGame_FeverCase",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumInGame_FeverCase.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumInGame_FeverCase.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbFever/Count/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbFever/Count/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "InfoButton",
+      "nodePath": "BreadCrumbFever/InfoButton",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4105992931447451217",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "InGame_Box_5555",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/InGame_Box_5555.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/InGame_Box_5555.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "BreadCrumbFever/InfoButton/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-1632651943722531611",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "Ingame_Icon_Search",
+      "atlasBundle": "atlases/ingameui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Ingame_Icon_Search.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Ingame_Icon_Search.png"
+    },
+    {
+      "gameObject": "Root",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "3664509523192179066",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Root_Scale",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "3664509523192179066",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]_Glow",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3169375830382072108",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_Impact_wave_new",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_Impact_wave_new.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_Impact_wave_new.png"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]_Glow",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_add]GLow_2",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]GLow_2",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-2776433178892007635",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Ring_01"
+    },
+    {
+      "gameObject": "[Atlas_add]GLow_2",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]GLow_2",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow3",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]_Glow3",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-2776433178892007635",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Ring_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow3",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]_Glow3",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[SG]BB",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[SG]BB",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "5069576729105453123",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Aragnia_Bubble_Barrier_1 2"
+    },
+    {
+      "gameObject": "[SG]BB2",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[SG]BB2",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "5069576729105453123",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Aragnia_Bubble_Barrier_1 2"
+    },
+    {
+      "gameObject": "[Atlas_add]particle",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]particle",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-3864246357011306409",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow_Nut_01"
+    },
+    {
+      "gameObject": "[Atlas_add]particle",
+      "nodePath": "BreadCrumbFever/EffectFrontPos/FX_UI_BreadCrumbFever_1/Root/Root_Scale/[Atlas_add]particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    }
+  ],
+  "animators": [
+    {
+      "path": "BreadCrumbFever",
+      "controllerBundle": "CAB-01153cec9108acf6e8ecc3be308965ad",
+      "controllerPathId": "-2794555605368357410",
+      "controllerType": "AnimatorController",
+      "controllerName": "BreadCrumbFever",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.BreadCrumbFever_Inactive",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.BreadCrumbFever_Active",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Loop.BreadCrumbFever_Loop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "BreadCrumbFever"
+    }
+  ]
+}

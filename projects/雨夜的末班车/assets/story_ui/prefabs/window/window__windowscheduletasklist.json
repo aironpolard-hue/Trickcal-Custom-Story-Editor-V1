@@ -1,0 +1,5228 @@
+{
+  "id": "window/windowscheduletasklist",
+  "sourceBundle": "prefab/window/windowscheduletasklist",
+  "hierarchy": {
+    "name": "WindowScheduleTaskList",
+    "path": "WindowScheduleTaskList",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "WindowScheduleTaskList"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Image",
+        "path": "WindowScheduleTaskList/Image",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 99999.0,
+            "y": 99999.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Background",
+        "path": "WindowScheduleTaskList/Background",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Desk",
+            "path": "WindowScheduleTaskList/Background/Desk",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 4500.0,
+                "y": 2048.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Left",
+            "path": "WindowScheduleTaskList/Background/Left",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -1037.800048828125,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 692.0,
+                "y": 2048.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "01",
+                "path": "WindowScheduleTaskList/Background/Left/01",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 692.0,
+                    "y": 2048.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "02",
+                "path": "WindowScheduleTaskList/Background/Left/02",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 692.0,
+                    "y": 2048.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Img_Bg_1",
+            "path": "WindowScheduleTaskList/Background/Img_Bg_1",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -2056.0,
+                "y": 59.0
+              },
+              "m_SizeDelta": {
+                "x": 800.0,
+                "y": 1000.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.087155781686306,
+                "w": 0.9961947202682495
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Img_Pattern",
+                "path": "WindowScheduleTaskList/Background/Img_Bg_1/Img_Pattern",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 800.0,
+                    "y": 800.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.7071068286895752,
+                    "w": 0.7071068286895752
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Img_Bg_2",
+            "path": "WindowScheduleTaskList/Background/Img_Bg_2",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 1744.0001220703125,
+                "y": 560.0000610351562
+              },
+              "m_SizeDelta": {
+                "x": 600.0,
+                "y": 1000.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.9993597865104675,
+                "y": 0.9993597865104675,
+                "z": 0.9993599653244019
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.087155781686306,
+                "w": 0.9961947202682495
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Img_Pattern",
+                "path": "WindowScheduleTaskList/Background/Img_Bg_2/Img_Pattern",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 800.0,
+                    "y": 600.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.7071068286895752,
+                    "w": 0.7071068286895752
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Right",
+            "path": "WindowScheduleTaskList/Background/Right",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 1037.800048828125,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 692.0,
+                "y": 2048.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "01",
+                "path": "WindowScheduleTaskList/Background/Right/01",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 692.0,
+                    "y": 2048.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "02",
+                "path": "WindowScheduleTaskList/Background/Right/02",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 692.0,
+                    "y": 2048.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TaskScroll",
+        "path": "WindowScheduleTaskList/TaskScroll",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -0.000244140625,
+            "y": 106.12000274658203
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 927.8800048828125
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ScrollRect"
+          }
+        ],
+        "children": [
+          {
+            "name": "Viewport",
+            "path": "WindowScheduleTaskList/TaskScroll/Viewport",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              }
+            ],
+            "children": [
+              {
+                "name": "Content",
+                "path": "WindowScheduleTaskList/TaskScroll/Viewport/Content",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 0.8999999761581421,
+                    "y": 0.8999999761581421,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "GridLayoutGroup"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ContentSizeFitter"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bottom",
+        "path": "WindowScheduleTaskList/Bottom",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -570.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": -1140.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Bg_Base",
+            "path": "WindowScheduleTaskList/Bottom/Bg_Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 137.3800048828125
+              },
+              "m_SizeDelta": {
+                "x": 4500.0,
+                "y": 273.8500061035156
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Bg_Pattern",
+            "path": "WindowScheduleTaskList/Bottom/Bg_Pattern",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 137.14999389648438
+              },
+              "m_SizeDelta": {
+                "x": 4577.60986328125,
+                "y": 274.29998779296875
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "DescBase",
+            "path": "WindowScheduleTaskList/Bottom/DescBase",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 348.27001953125
+              },
+              "m_SizeDelta": {
+                "x": 4500.0,
+                "y": 10.634994506835938
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "DescBase2",
+                "path": "WindowScheduleTaskList/Bottom/DescBase/DescBase2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -39.6400146484375
+                  },
+                  "m_SizeDelta": {
+                    "x": 4500.0,
+                    "y": 68.63999938964844
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "DescBase3",
+                "path": "WindowScheduleTaskList/Bottom/DescBase/DescBase3",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -74.53998565673828
+                  },
+                  "m_SizeDelta": {
+                    "x": 4500.0,
+                    "y": 10.635000228881836
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "DescLayout",
+            "path": "WindowScheduleTaskList/Bottom/DescLayout",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 310.46002197265625
+              },
+              "m_SizeDelta": {
+                "x": 2560.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Icon",
+                "path": "WindowScheduleTaskList/Bottom/DescLayout/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 39.18000030517578
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Desc",
+                "path": "WindowScheduleTaskList/Bottom/DescLayout/Desc",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 55.779998779296875
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "SkillBase",
+            "path": "WindowScheduleTaskList/Bottom/SkillBase",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 1439.030029296875,
+                "y": 134.00999450683594
+              },
+              "m_SizeDelta": {
+                "x": 735.9400024414062,
+                "y": 231.82000732421875
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "SkillBase2",
+                "path": "WindowScheduleTaskList/Bottom/SkillBase/SkillBase2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 367.9700927734375,
+                    "y": 115.91001892089844
+                  },
+                  "m_SizeDelta": {
+                    "x": 735.9400024414062,
+                    "y": 231.82000732421875
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "HeroPos",
+            "path": "WindowScheduleTaskList/Bottom/HeroPos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 262.0,
+                "y": -208.0
+              },
+              "m_SizeDelta": {
+                "x": 100.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.699999988079071,
+                "y": 0.699999988079071,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": []
+          },
+          {
+            "name": "Stress",
+            "path": "WindowScheduleTaskList/Bottom/Stress",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 829.0,
+                "y": 200.4199981689453
+              },
+              "m_SizeDelta": {
+                "x": 570.0,
+                "y": 136.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.8999999761581421,
+                "y": 0.8999999761581421,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Text",
+                "path": "WindowScheduleTaskList/Bottom/Stress/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 26.0,
+                    "y": 26.699935913085938
+                  },
+                  "m_SizeDelta": {
+                    "x": -112.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Icon",
+                "path": "WindowScheduleTaskList/Bottom/Stress/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -235.0,
+                    "y": 30.699935913085938
+                  },
+                  "m_SizeDelta": {
+                    "x": 49.439998626708984,
+                    "y": 49.439998626708984
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "UpSlider",
+                "path": "WindowScheduleTaskList/Bottom/Stress/UpSlider",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -10.0,
+                    "y": -27.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 502.0,
+                    "y": 60.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Slider"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Background",
+                    "path": "WindowScheduleTaskList/Bottom/Stress/UpSlider/Background",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Fill Area",
+                    "path": "WindowScheduleTaskList/Bottom/Stress/UpSlider/Fill Area",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -20.0,
+                        "y": -16.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Mask"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Up",
+                        "path": "WindowScheduleTaskList/Bottom/Stress/UpSlider/Fill Area/Up",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "BetterImage"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NowSlider",
+                "path": "WindowScheduleTaskList/Bottom/Stress/NowSlider",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -10.0,
+                    "y": -27.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 502.0,
+                    "y": 60.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Slider"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Fill Area",
+                    "path": "WindowScheduleTaskList/Bottom/Stress/NowSlider/Fill Area",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -20.0,
+                        "y": -16.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Mask"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Fill",
+                        "path": "WindowScheduleTaskList/Bottom/Stress/NowSlider/Fill Area/Fill",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "BetterImage"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Value",
+                    "path": "WindowScheduleTaskList/Bottom/Stress/NowSlider/Value",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Border",
+                "path": "WindowScheduleTaskList/Bottom/Stress/Border",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -10.0,
+                    "y": -27.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 492.0,
+                    "y": 54.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Living",
+            "path": "WindowScheduleTaskList/Bottom/Living",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 829.0,
+                "y": 77.5
+              },
+              "m_SizeDelta": {
+                "x": 570.0,
+                "y": 136.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.8999999761581421,
+                "y": 0.8999999761581421,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "LivingLevel",
+                "path": "WindowScheduleTaskList/Bottom/Living/LivingLevel",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -70.61283111572266,
+                    "y": 26.700000762939453
+                  },
+                  "m_SizeDelta": {
+                    "x": -305.2257080078125,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "HorizontalLayoutGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Text",
+                    "path": "WindowScheduleTaskList/Bottom/Living/LivingLevel/Text",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "StringBind"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Text_Level",
+                    "path": "WindowScheduleTaskList/Bottom/Living/LivingLevel/Text_Level",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "LevelUpArrow",
+                    "path": "WindowScheduleTaskList/Bottom/Living/LivingLevel/LevelUpArrow",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Icon",
+                "path": "WindowScheduleTaskList/Bottom/Living/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -235.0,
+                    "y": 30.699935913085938
+                  },
+                  "m_SizeDelta": {
+                    "x": 46.0,
+                    "y": 46.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "UpSlider",
+                "path": "WindowScheduleTaskList/Bottom/Living/UpSlider",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -10.0,
+                    "y": -27.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 502.0,
+                    "y": 60.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Slider"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Background",
+                    "path": "WindowScheduleTaskList/Bottom/Living/UpSlider/Background",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Fill Area",
+                    "path": "WindowScheduleTaskList/Bottom/Living/UpSlider/Fill Area",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -20.0,
+                        "y": -16.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Mask"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Up",
+                        "path": "WindowScheduleTaskList/Bottom/Living/UpSlider/Fill Area/Up",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "BetterImage"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NowSlider",
+                "path": "WindowScheduleTaskList/Bottom/Living/NowSlider",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -10.0,
+                    "y": -27.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 502.0,
+                    "y": 60.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Slider"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Fill Area",
+                    "path": "WindowScheduleTaskList/Bottom/Living/NowSlider/Fill Area",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -20.0,
+                        "y": -16.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Mask"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Fill",
+                        "path": "WindowScheduleTaskList/Bottom/Living/NowSlider/Fill Area/Fill",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "BetterImage"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Value",
+                    "path": "WindowScheduleTaskList/Bottom/Living/NowSlider/Value",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Border",
+                "path": "WindowScheduleTaskList/Bottom/Living/Border",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -10.0,
+                    "y": -27.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 492.0,
+                    "y": 54.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "AmountUpGroup",
+                "path": "WindowScheduleTaskList/Bottom/Living/AmountUpGroup",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 164.27346801757812,
+                    "y": 30.700000762939453
+                  },
+                  "m_SizeDelta": {
+                    "x": 202.3585968017578,
+                    "y": 53.400001525878906
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.800000011920929,
+                    "y": 0.800000011920929,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "HorizontalLayoutGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "AmountUp",
+                    "path": "WindowScheduleTaskList/Bottom/Living/AmountUpGroup/AmountUp",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 53.20000076293945
+                      },
+                      "m_Pivot": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ContentSizeFitter"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Base",
+                        "path": "WindowScheduleTaskList/Bottom/Living/AmountUpGroup/AmountUp/Base",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 42.4364013671875,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "LayoutElement"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Text",
+                        "path": "WindowScheduleTaskList/Bottom/Living/AmountUpGroup/AmountUp/Text",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -26.600000381469727
+                          },
+                          "m_SizeDelta": {
+                            "x": 17.799999237060547,
+                            "y": 43.20000076293945
+                          },
+                          "m_Pivot": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ContentSizeFitter"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "SkillList",
+            "path": "WindowScheduleTaskList/Bottom/SkillList",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 1440.0,
+                "y": 133.0
+              },
+              "m_SizeDelta": {
+                "x": 724.0,
+                "y": 232.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ScrollRect"
+              }
+            ],
+            "children": [
+              {
+                "name": "Viewport",
+                "path": "WindowScheduleTaskList/Bottom/SkillList/Viewport",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "RectMask2D"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "SkillSlots",
+                    "path": "WindowScheduleTaskList/Bottom/SkillList/Viewport/SkillSlots",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 5.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.8999999761581421,
+                        "y": 0.8999999761581421,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "GridLayoutGroup"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ContentSizeFitter"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "BtnLayout",
+            "path": "WindowScheduleTaskList/Bottom/BtnLayout",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": -470.0,
+                "y": 130.0
+              },
+              "m_SizeDelta": {
+                "x": 510.0,
+                "y": 220.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "VerticalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "SkipCheckBox",
+                "path": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 440.0,
+                    "y": 66.93499755859375
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  },
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Base (1)",
+                    "path": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Base (1)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 1.3799999952316284,
+                        "y": -4.940000057220459
+                      },
+                      "m_SizeDelta": {
+                        "x": 424.95001220703125,
+                        "y": 68.91999816894531
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Base",
+                    "path": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Base",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 422.19000244140625,
+                        "y": 66.93000030517578
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Text",
+                    "path": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Text",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -32.7400016784668,
+                        "y": -7.152557373046875e-07
+                      },
+                      "m_SizeDelta": {
+                        "x": -131.7899932861328,
+                        "y": 59.04999923706055
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "StringBind"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "CheckBox",
+                    "path": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/CheckBox",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 169.50003051757812,
+                        "y": 7.519999980926514
+                      },
+                      "m_SizeDelta": {
+                        "x": 60.689998626708984,
+                        "y": 62.86000061035156
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Check",
+                    "path": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Check",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 169.5,
+                        "y": 10.399999618530273
+                      },
+                      "m_SizeDelta": {
+                        "x": 63.14899826049805,
+                        "y": 52.369998931884766
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "BtnArea",
+                "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 510.0,
+                    "y": 124.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "RepeatBtn",
+                    "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/RepeatBtn",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -132.000244140625,
+                        "y": 0.000152587890625
+                      },
+                      "m_SizeDelta": {
+                        "x": 246.0,
+                        "y": 124.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Button"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ButtonExtend"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Base",
+                        "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/RepeatBtn/Base",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Label_Enter",
+                        "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/RepeatBtn/Label_Enter",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -3.0,
+                            "y": 5.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -6.0,
+                            "y": -10.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "StringBind"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "IconOvertime",
+                        "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/RepeatBtn/IconOvertime",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 20.0,
+                            "y": -20.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 54.0,
+                            "y": 71.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "StartBtn",
+                    "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtn",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 131.99951171875,
+                        "y": 0.000152587890625
+                      },
+                      "m_SizeDelta": {
+                        "x": 246.0,
+                        "y": 124.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Button"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ButtonExtend"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Base",
+                        "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtn/Base",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Label_Enter",
+                        "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtn/Label_Enter",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -3.0,
+                            "y": 5.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -6.0,
+                            "y": -10.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "StringBind"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "IconOvertime",
+                        "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtn/IconOvertime",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 20.0,
+                            "y": -20.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 54.0,
+                            "y": 71.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "StartBtnLong",
+                    "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtnLong",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.000244140625,
+                        "y": 0.000152587890625
+                      },
+                      "m_SizeDelta": {
+                        "x": 510.0,
+                        "y": 124.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Button"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ButtonExtend"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Base",
+                        "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtnLong/Base",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Label_Enter",
+                        "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtnLong/Label_Enter",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -3.0,
+                            "y": 5.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -6.0,
+                            "y": -10.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "StringBind"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "IconOvertime",
+                        "path": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtnLong/IconOvertime",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 20.0,
+                            "y": -20.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 54.0,
+                            "y": 71.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "RecommendBtn",
+            "path": "WindowScheduleTaskList/Bottom/RecommendBtn",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": -100.0,
+                "y": 134.0
+              },
+              "m_SizeDelta": {
+                "x": 156.0,
+                "y": 156.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.2000000476837158,
+                "y": 1.2000000476837158,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "AmountText",
+                "path": "WindowScheduleTaskList/Bottom/RecommendBtn/AmountText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 25.0,
+                    "y": -34.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 71.05000305175781,
+                    "y": 45.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "CurrencyIcon",
+                "path": "WindowScheduleTaskList/Bottom/RecommendBtn/CurrencyIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -32.0,
+                    "y": -31.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 48.0,
+                    "y": 48.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.800000011920929,
+                    "y": 0.800000011920929,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "RefreshText",
+                "path": "WindowScheduleTaskList/Bottom/RecommendBtn/RefreshText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -4.0,
+                    "y": 22.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 130.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "EmotionSlotPos",
+            "path": "WindowScheduleTaskList/Bottom/EmotionSlotPos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 456.0,
+                "y": 130.71998596191406
+              },
+              "m_SizeDelta": {
+                "x": 320.0,
+                "y": 320.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.699999988079071,
+                "y": 0.699999988079071,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "LoadingSpine",
+        "path": "WindowScheduleTaskList/LoadingSpine",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 733.0,
+            "y": 2012.74755859375
+          },
+          "m_Pivot": {
+            "x": 0.5107296109199524,
+            "y": 1.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "SkeletonGraphic"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "WindowScheduleTaskList",
+      "nodePath": "WindowScheduleTaskList",
+      "component": "MonoBehaviour",
+      "script": "WindowScheduleTaskList",
+      "field": "m_overtimeIcons[0]",
+      "fileId": 0,
+      "pathId": "3007090664862979383",
+      "bundle": ""
+    },
+    {
+      "gameObject": "WindowScheduleTaskList",
+      "nodePath": "WindowScheduleTaskList",
+      "component": "MonoBehaviour",
+      "script": "WindowScheduleTaskList",
+      "field": "m_overtimeIcons[1]",
+      "fileId": 0,
+      "pathId": "4864188853765909335",
+      "bundle": ""
+    },
+    {
+      "gameObject": "WindowScheduleTaskList",
+      "nodePath": "WindowScheduleTaskList",
+      "component": "MonoBehaviour",
+      "script": "WindowScheduleTaskList",
+      "field": "m_overtimeIcons[2]",
+      "fileId": 0,
+      "pathId": "-5623437939606488787",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Desk",
+      "nodePath": "WindowScheduleTaskList/Background/Desk",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "7231432296704297872",
+      "bundle": "CAB-456eba50e9f50ccebe0662e89f7abbf1",
+      "assetType": "Sprite",
+      "assetName": "Bg_Desk",
+      "demoPath": "assets/story_ui/schedule-ui/Bg_Desk.png",
+      "projectPath": "assets/story_ui/schedule-ui/Bg_Desk.png"
+    },
+    {
+      "gameObject": "Img_Bg_1",
+      "nodePath": "WindowScheduleTaskList/Background/Img_Bg_1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "Img_Bg_2",
+      "nodePath": "WindowScheduleTaskList/Background/Img_Bg_2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "Viewport",
+      "nodePath": "WindowScheduleTaskList/TaskScroll/Viewport",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 0,
+      "pathId": "-2320101112833093935",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowScheduleTaskList/Bottom/DescLayout/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6250556514880015847",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Info_Icon_Shadow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Info_Icon_Shadow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Info_Icon_Shadow.png"
+    },
+    {
+      "gameObject": "Desc",
+      "nodePath": "WindowScheduleTaskList/Bottom/DescLayout/Desc",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Desc",
+      "nodePath": "WindowScheduleTaskList/Bottom/DescLayout/Desc",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Desc",
+      "nodePath": "WindowScheduleTaskList/Bottom/DescLayout/Desc",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "SkillBase",
+      "nodePath": "WindowScheduleTaskList/Bottom/SkillBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "SkillBase2",
+      "nodePath": "WindowScheduleTaskList/Bottom/SkillBase/SkillBase2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "7304185877511743106",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_3030 1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030 1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030 1.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/UpSlider/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Fill Area",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/UpSlider/Fill Area",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "Up",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/UpSlider/Fill Area/Up",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Up",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/UpSlider/Fill Area/Up",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 2,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Fill Area",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/NowSlider/Fill Area",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "Fill",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/NowSlider/Fill Area/Fill",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Fill",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/NowSlider/Fill Area/Fill",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 2,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/NowSlider/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/NowSlider/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "WindowScheduleTaskList/Bottom/Stress/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "809471951461115752",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/LivingLevel/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/LivingLevel/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text_Level",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/LivingLevel/Text_Level",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_Level",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/LivingLevel/Text_Level",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/UpSlider/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Fill Area",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/UpSlider/Fill Area",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "Up",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/UpSlider/Fill Area/Up",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Up",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/UpSlider/Fill Area/Up",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 2,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Fill Area",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/NowSlider/Fill Area",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "Fill",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/NowSlider/Fill Area/Fill",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Fill",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/NowSlider/Fill Area/Fill",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 2,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/NowSlider/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/NowSlider/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "809471951461115752",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/AmountUpGroup/AmountUp/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/AmountUpGroup/AmountUp/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/Living/AmountUpGroup/AmountUp/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Viewport",
+      "nodePath": "WindowScheduleTaskList/Bottom/SkillList/Viewport",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 0,
+      "pathId": "-2320101112833093935",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Base (1)",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Base (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "441584363957378766",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2020",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "441584363957378766",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2020",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "CheckBox",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/CheckBox",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4466778176118261713",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Guild_Icon_CheckMark_1",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Guild_Icon_CheckMark_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Guild_Icon_CheckMark_1.png"
+    },
+    {
+      "gameObject": "Check",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/SkipCheckBox/Check",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "6223071140197951738",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "common_check",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/common_check.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/common_check.png"
+    },
+    {
+      "gameObject": "Label_Enter",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/RepeatBtn/Label_Enter",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Label_Enter",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/RepeatBtn/Label_Enter",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Label_Enter",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/RepeatBtn/Label_Enter",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Label_Enter",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtn/Label_Enter",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Label_Enter",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtn/Label_Enter",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Label_Enter",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtn/Label_Enter",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Label_Enter",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtnLong/Label_Enter",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Label_Enter",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtnLong/Label_Enter",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Label_Enter",
+      "nodePath": "WindowScheduleTaskList/Bottom/BtnLayout/BtnArea/StartBtnLong/Label_Enter",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "AmountText",
+      "nodePath": "WindowScheduleTaskList/Bottom/RecommendBtn/AmountText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "AmountText",
+      "nodePath": "WindowScheduleTaskList/Bottom/RecommendBtn/AmountText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "CurrencyIcon",
+      "nodePath": "WindowScheduleTaskList/Bottom/RecommendBtn/CurrencyIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8338488319006219684",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CurrencyIcon_0009",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0009.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0009.png"
+    },
+    {
+      "gameObject": "RefreshText",
+      "nodePath": "WindowScheduleTaskList/Bottom/RecommendBtn/RefreshText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "RefreshText",
+      "nodePath": "WindowScheduleTaskList/Bottom/RecommendBtn/RefreshText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "LoadingSpine",
+      "nodePath": "WindowScheduleTaskList/LoadingSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 5,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "LoadingSpine",
+      "nodePath": "WindowScheduleTaskList/LoadingSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 6,
+      "pathId": "8179542940688453608",
+      "bundle": "CAB-f6050db1c837d4d167a719410ae27f96",
+      "assetType": "MonoBehaviour",
+      "assetName": "TaskLoading_SkeletonData"
+    },
+    {
+      "gameObject": "LoadingSpine",
+      "nodePath": "WindowScheduleTaskList/LoadingSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "additiveMaterial",
+      "fileId": 5,
+      "pathId": "-7852358095173771177",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicAdditive"
+    },
+    {
+      "gameObject": "LoadingSpine",
+      "nodePath": "WindowScheduleTaskList/LoadingSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "multiplyMaterial",
+      "fileId": 5,
+      "pathId": "-13276894215973044",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicMultiply"
+    },
+    {
+      "gameObject": "LoadingSpine",
+      "nodePath": "WindowScheduleTaskList/LoadingSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "screenMaterial",
+      "fileId": 5,
+      "pathId": "-5524858707655825726",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicScreen"
+    }
+  ],
+  "animators": []
+}

@@ -422,7 +422,14 @@ parallel:
 
 parallel:
   move ner preset 拉伸 scaleX 1.08 scaleY 0.92 duration 0.3
-  wait 300ms`)}
+  wait 300ms
+
+show image hall as poster at 960,540 scale 0.2
+parallel:
+  move ner scaleX 1 -> 1.3 in 0.5s ease Linear
+  move ner scaleY 1 -> 0.8 in 0.5s ease Linear
+  move poster scaleX 1 -> 1.2 in 0.5s ease Linear
+  wait 500ms`)}
 <p><code>跑入</code> 从屏幕外移动到当前站位，<code>from</code> 可选 left/right。<code>拉伸</code> 以当前大小乘上 scaleX/scaleY；结束后保持拉伸后的值，不会自动弹回。</p>
 <h2>可用缓动名称</h2>
 <p><code>Linear</code> 匀速；<code>InSine</code> 慢起；<code>OutSine</code> 慢停；<code>InOutSine</code> 两端平缓；<code>InCubic</code>、<code>OutCubic</code>、<code>InOutCubic</code> 变化更明显；<code>OutBack</code> 有回弹；<code>OutQuint</code> 快起慢停。名称区分大小写。</p>`,
@@ -494,16 +501,17 @@ camera follow ner offset 0,300
 ner normal "镜头跟着角色。"
 camera reset
 narration "恢复默认镜头。"`)}
-<p><code>zoom</code> 必须大于 0。<code>follow</code> 跟随舞台对象，offset 调整跟随偏移；跟随期间位置由跟随逻辑决定，不能依赖 camera x/y 直接控制画面位置。</p>
+<p>舞台坐标左上角为 <code>0,0</code>，X 向右、Y 向下增大。<code>camera target 960,540</code> 设置镜头视野中心，使用相同的舞台坐标；<code>targetX</code>/<code>targetY</code> 也可动画。兼容旧剧本的 <code>camera x/y</code> 仍是画面平移偏移。<code>zoom</code> 必须大于 0；<code>follow</code> 跟随舞台对象，offset 调整对象在画面中的偏移。</p>
 <h2>镜头平滑变化</h2>
 ${code(String.raw`
 parallel:
   camera zoom 1 -> 1.15 in 1s ease InOutSine
-  camera x by 80 in 1s
+  camera targetX 960 -> 1180 in 1s ease Linear
+  camera targetY 540 -> 600 in 1s ease Linear
   camera rotate 0 -> 3 in 1s
   ner normal "慢慢靠近一点。"
 camera reset`)}
-<p>平滑变化写在 parallel 内；x、y、rotate 支持 by，zoom 暂不支持 by。同属性绝对设置按开始时间覆盖，相对设置叠加。</p>
+<p>平滑变化写在 parallel 内；targetX、targetY 支持 by，旧版画面偏移 x/y 与 rotate 也支持 by，zoom 暂不支持 by。同属性绝对设置按开始时间覆盖，相对设置叠加。</p>
 <h2>亮度、模糊与染色</h2>
 ${code(String.raw`
 effect tint "#4466aa" 0.2

@@ -1,0 +1,3406 @@
+{
+  "id": "ui/firstherocut",
+  "sourceBundle": "prefab/ui/firstherocut",
+  "hierarchy": {
+    "name": "FirstHeroCut",
+    "path": "FirstHeroCut",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 10,
+          "pathId": "-3916337215412462622",
+          "bundle": "CAB-6a03a417b8da8e0ad99008d0837763e3"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "LifeCycleEvent"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "FirstHeroCut"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Panel",
+        "path": "FirstHeroCut/Panel",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "CameraAxis",
+            "path": "FirstHeroCut/Panel/CameraAxis",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 1597.31689453125,
+                "y": -144.0001220703125
+              },
+              "m_SizeDelta": {
+                "x": 9099.228515625,
+                "y": 1728.0
+              },
+              "m_Pivot": {
+                "x": 0.6865342259407043,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "BG",
+                "path": "FirstHeroCut/Panel/CameraAxis/BG",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 1189.800048828125,
+                    "y": -387.7300109863281
+                  },
+                  "m_SizeDelta": {
+                    "x": 6078.169921875,
+                    "y": 3542.25
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.2508610486984253,
+                    "y": 1.2508610486984253,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "HighlightBG",
+                "path": "FirstHeroCut/Panel/CameraAxis/HighlightBG",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 2097.217529296875,
+                    "y": 141.09742736816406
+                  },
+                  "m_SizeDelta": {
+                    "x": 5551.83984375,
+                    "y": 3622.239990234375
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.2508610486984253,
+                    "y": 1.2508610486984253,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "CanvasGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Image",
+                    "path": "FirstHeroCut/Panel/CameraAxis/HighlightBG/Image",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.09289191663265228,
+                        "w": 0.9956761598587036
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Image (1)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/HighlightBG/Image (1)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 550.1199951171875
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 788.6900024414062
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 5.0,
+                        "y": 2.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "FirstHero",
+                "path": "FirstHeroCut/Panel/CameraAxis/FirstHero",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 1588.300048828125,
+                    "y": -1141.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1133.199951171875,
+                    "y": 1508.9000244140625
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.2999999523162842,
+                    "y": 1.2999998331069946,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Light1",
+                    "path": "FirstHeroCut/Panel/CameraAxis/FirstHero/Light1",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 18.200000762939453,
+                        "y": -358.70306396484375
+                      },
+                      "m_SizeDelta": {
+                        "x": 3851.81005859375,
+                        "y": 2540.239990234375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "HeroSpine",
+                    "path": "FirstHeroCut/Panel/CameraAxis/FirstHero/HeroSpine",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -692.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 2.0,
+                        "y": 2.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SkeletonGraphic"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Deco_BByong_L",
+                "path": "FirstHeroCut/Panel/CameraAxis/Deco_BByong_L",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 1182.0,
+                    "y": -194.22364807128906
+                  },
+                  "m_SizeDelta": {
+                    "x": 310.0,
+                    "y": 310.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.7581693530082703,
+                    "y": 0.183140829205513
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Image",
+                    "path": "FirstHeroCut/Panel/CameraAxis/Deco_BByong_L/Image",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 5.489990234375,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 299.4599914550781,
+                        "y": 239.5500030517578
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.06423933804035187,
+                        "w": -0.9979345202445984
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Deco_BByong_R",
+                "path": "FirstHeroCut/Panel/CameraAxis/Deco_BByong_R",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 2046.5684814453125,
+                    "y": -194.22364807128906
+                  },
+                  "m_SizeDelta": {
+                    "x": 310.0,
+                    "y": 310.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.2711753249168396,
+                    "y": 0.183144211769104
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Image (1)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/Deco_BByong_R/Image (1)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 13.21002197265625,
+                        "y": 12.999992370605469
+                      },
+                      "m_SizeDelta": {
+                        "x": 336.4100036621094,
+                        "y": 269.1099853515625
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": -1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.1127961203455925,
+                        "w": 0.9936181902885437
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "DecoHeroGroup",
+                "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 1701.0,
+                    "y": -1151.9749755859375
+                  },
+                  "m_SizeDelta": {
+                    "x": 7582.68994140625,
+                    "y": 1440.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.6865342259407043,
+                    "y": -0.30000001192092896
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "DecoHero (2)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (2)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -1810.800048828125,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "HeroSpine",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (2)/HeroSpine",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.000244140625,
+                            "y": -1070.5
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 3.0,
+                            "y": 3.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphic"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DecoHero",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -3697.000244140625,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "HeroSpine",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero/HeroSpine",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -0.00048828125,
+                            "y": -1070.5
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 3.0,
+                            "y": 3.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphic"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DecoHero (1)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (1)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -2645.800048828125,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "HeroSpine",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (1)/HeroSpine",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -0.029541015625,
+                            "y": -1844.500244140625
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 4.0,
+                            "y": 4.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphic"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphicDataAllocator"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DecoHero (3)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (3)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -864.369873046875,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "HeroSpine",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (3)/HeroSpine",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 6.103515625e-05,
+                            "y": -1070.5
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 3.0,
+                            "y": 3.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphic"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphicDataAllocator"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DecoHero (5)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (5)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 953.0,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Axis",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (5)/Axis",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.9993598461151123,
+                            "y": 0.9993598461151123,
+                            "z": 0.9993598461151123
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": [
+                          {
+                            "name": "HeroSpine",
+                            "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (5)/Axis/HeroSpine",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": -6.103515625e-05,
+                                "y": -1202.2691650390625
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 3.001922130584717,
+                                "y": 3.001922130584717,
+                                "z": 1.000640630722046
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SkeletonGraphic"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DecoHero (7)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (7)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 2129.0,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Axis",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (7)/Axis",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.9993598461151123,
+                            "y": 0.9797647595405579,
+                            "z": 0.9993598461151123
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": [
+                          {
+                            "name": "HeroSpine",
+                            "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (7)/Axis/HeroSpine",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": -1092.6092529296875
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 3.001922130584717,
+                                "y": 3.0619595050811768,
+                                "z": 1.000640630722046
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SkeletonGraphic"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DecoHero (9)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (9)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 3775.0,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "HeroSpine (1)",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (9)/HeroSpine (1)",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -50.0,
+                            "y": -1140.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 3.299999475479126,
+                            "y": 3.299999475479126,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphic"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphicDataAllocator"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DecoHero (6)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (6)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 1562.5,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Axis",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (6)/Axis",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.9993598461151123,
+                            "y": 0.9993598461151123,
+                            "z": 0.9993598461151123
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": [
+                          {
+                            "name": "HeroSpine",
+                            "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (6)/Axis/HeroSpine",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": -0.0001220703125,
+                                "y": -1541.4869384765625
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 3.3021137714385986,
+                                "y": 3.3021137714385986,
+                                "z": 1.000640630722046
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SkeletonGraphic"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SkeletonGraphicDataAllocator"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DecoHero (8)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (8)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 2915.0,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Axis",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (8)/Axis",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.9993598461151123,
+                            "y": 0.9993598461151123,
+                            "z": 0.9993598461151123
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": [
+                          {
+                            "name": "HeroSpine",
+                            "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (8)/Axis/HeroSpine",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": -0.00048828125,
+                                "y": -1614.533935546875
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 4.002562522888184,
+                                "y": 4.002562522888184,
+                                "z": 1.000640630722046
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SkeletonGraphic"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SkeletonGraphicDataAllocator"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DecoHero (4)",
+                    "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (4)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -83.0,
+                        "y": -1316.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 946.4600219726562,
+                        "y": 1469.81005859375
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Axis",
+                        "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (4)/Axis",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": [
+                          {
+                            "name": "HeroSpine",
+                            "path": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (4)/Axis/HeroSpine",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 116.99993896484375,
+                                "y": -1463.499755859375
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 3.6999988555908203,
+                                "y": 3.6999988555908203,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SkeletonGraphic"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SkeletonGraphicDataAllocator"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SpeechGroup",
+        "path": "FirstHeroCut/SpeechGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "FirstHeroSpeech",
+            "path": "FirstHeroCut/SpeechGroup/FirstHeroSpeech",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -438.446044921875,
+                "y": 3.0705604553222656
+              },
+              "m_SizeDelta": {
+                "x": 712.510009765625,
+                "y": 391.1400146484375
+              },
+              "m_Pivot": {
+                "x": 0.8544342517852783,
+                "y": -0.03159315884113312
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Base",
+                "path": "FirstHeroCut/SpeechGroup/FirstHeroSpeech/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -6.103515625e-05,
+                    "y": 3.0517578125e-05
+                  },
+                  "m_SizeDelta": {
+                    "x": -0.54998779296875,
+                    "y": -0.94000244140625
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Arrow",
+                "path": "FirstHeroCut/SpeechGroup/FirstHeroSpeech/Arrow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -212.0,
+                    "y": 2.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 73.14999389648438,
+                    "y": 50.88999938964844
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": -1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.04006386548280716,
+                    "w": 0.9991971254348755
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text",
+                "path": "FirstHeroCut/SpeechGroup/FirstHeroSpeech/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -3.4993896484375
+                  },
+                  "m_SizeDelta": {
+                    "x": -167.57000732421875,
+                    "y": -110.91999816894531
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "OtherSpeech",
+            "path": "FirstHeroCut/SpeechGroup/OtherSpeech",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 573.1251220703125,
+                "y": 431.77984619140625
+              },
+              "m_SizeDelta": {
+                "x": 477.70001220703125,
+                "y": 263.5
+              },
+              "m_Pivot": {
+                "x": 0.39559605717658997,
+                "y": 0.4279002547264099
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Base",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text (TMP)",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech/Text (TMP)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.100006103515625
+                  },
+                  "m_SizeDelta": {
+                    "x": -167.57000732421875,
+                    "y": -112.83999633789062
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "OtherSpeech (1)",
+            "path": "FirstHeroCut/SpeechGroup/OtherSpeech (1)",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -705.0,
+                "y": 153.5399932861328
+              },
+              "m_SizeDelta": {
+                "x": 586.530029296875,
+                "y": 391.4200134277344
+              },
+              "m_Pivot": {
+                "x": 0.6568625569343567,
+                "y": 0.4364243149757385
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Base",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech (1)/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text (TMP)",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech (1)/Text (TMP)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.100006103515625
+                  },
+                  "m_SizeDelta": {
+                    "x": -167.57000732421875,
+                    "y": -112.83999633789062
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "OtherSpeech (2)",
+            "path": "FirstHeroCut/SpeechGroup/OtherSpeech (2)",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -794.0,
+                "y": -331.0
+              },
+              "m_SizeDelta": {
+                "x": 533.1199951171875,
+                "y": 272.3599853515625
+              },
+              "m_Pivot": {
+                "x": 0.6319746375083923,
+                "y": 0.6056672930717468
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Base",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech (2)/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text (TMP)",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech (2)/Text (TMP)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.100006103515625
+                  },
+                  "m_SizeDelta": {
+                    "x": -167.57000732421875,
+                    "y": -112.83999633789062
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "OtherSpeech (3)",
+            "path": "FirstHeroCut/SpeechGroup/OtherSpeech (3)",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 835.0123901367188,
+                "y": 159.1501007080078
+              },
+              "m_SizeDelta": {
+                "x": 574.239990234375,
+                "y": 356.8599853515625
+              },
+              "m_Pivot": {
+                "x": 0.37291058897972107,
+                "y": 0.4459760785102844
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Base",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech (3)/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text (TMP)",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech (3)/Text (TMP)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.100006103515625
+                  },
+                  "m_SizeDelta": {
+                    "x": -167.57000732421875,
+                    "y": -112.83999633789062
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "OtherSpeech (4)",
+            "path": "FirstHeroCut/SpeechGroup/OtherSpeech (4)",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 771.1205444335938,
+                "y": -362.1455078125
+              },
+              "m_SizeDelta": {
+                "x": 499.4200134277344,
+                "y": 285.6000061035156
+              },
+              "m_Pivot": {
+                "x": 0.3861328959465027,
+                "y": 0.5905008316040039
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Base",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech (4)/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text (TMP)",
+                "path": "FirstHeroCut/SpeechGroup/OtherSpeech (4)/Text (TMP)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.100006103515625
+                  },
+                  "m_SizeDelta": {
+                    "x": -167.57000732421875,
+                    "y": -112.83999633789062
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Light2",
+        "path": "FirstHeroCut/Light2",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -355.69000244140625
+          },
+          "m_SizeDelta": {
+            "x": 2966.3798828125,
+            "y": 711.3800048828125
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": -1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "FirstHeroCut",
+      "nodePath": "FirstHeroCut",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 10,
+      "pathId": "-3916337215412462622",
+      "bundle": "CAB-6a03a417b8da8e0ad99008d0837763e3",
+      "assetType": "AnimatorController",
+      "assetName": "UserPlay_First3GradeHero"
+    },
+    {
+      "gameObject": "BG",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/BG",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "6958601397950724017",
+      "bundle": "CAB-ff91365ba367053e8b09d2c7d47584b2",
+      "assetType": "Sprite",
+      "assetName": "Fairy_innercourt_ruins",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Fairy_innercourt_ruins.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Fairy_innercourt_ruins.png"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/HighlightBG/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "1176255886623616883",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "RandomBasePattern",
+      "atlasBundle": "atlases/ingameui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RandomBasePattern.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RandomBasePattern.png"
+    },
+    {
+      "gameObject": "Light1",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/FirstHero/Light1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 5,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "Light1",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/FirstHero/Light1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "-958877187842353010",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Lamp_Light"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/FirstHero/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/Deco_BByong_L/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-3431337035422628454",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Help_Tab_Selected",
+      "atlasBundle": "atlases/commonicons",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Help_Tab_Selected.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Help_Tab_Selected.png"
+    },
+    {
+      "gameObject": "Image (1)",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/Deco_BByong_R/Image (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-3431337035422628454",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Help_Tab_Selected",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Help_Tab_Selected.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Help_Tab_Selected.png"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (2)/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (1)/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (1)/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 13,
+      "pathId": "3380532671736977069",
+      "bundle": "CAB-a1e6a7c86b7aa241776d4b3d2ebc66e8",
+      "assetType": "MonoBehaviour",
+      "assetName": "Ashur_Standing"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (3)/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (3)/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 8,
+      "pathId": "7013221236649203256",
+      "bundle": "CAB-e0e24809affe813e101558b474155bdd",
+      "assetType": "MonoBehaviour",
+      "assetName": "Butter_Standing"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (5)/Axis/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (7)/Axis/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine (1)",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (9)/HeroSpine (1)",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine (1)",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (9)/HeroSpine (1)",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 2,
+      "pathId": "-749409936750983642",
+      "bundle": "CAB-0fc699a82b976149b29703a7aecff61f",
+      "assetType": "MonoBehaviour",
+      "assetName": "Kommy_Standing"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (6)/Axis/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (6)/Axis/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 15,
+      "pathId": "-4390002701919730912",
+      "bundle": "CAB-afa5a72e05aa6b945132afb1b1beef6c",
+      "assetType": "MonoBehaviour",
+      "assetName": "Mayo_Standing"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (8)/Axis/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (8)/Axis/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 14,
+      "pathId": "8430226956120489295",
+      "bundle": "CAB-6e968e190c88338bad307cd4b657fec5",
+      "assetType": "MonoBehaviour",
+      "assetName": "Festa_Standing"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (4)/Axis/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "HeroSpine",
+      "nodePath": "FirstHeroCut/Panel/CameraAxis/DecoHeroGroup/DecoHero (4)/Axis/HeroSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 12,
+      "pathId": "-6024569580823911339",
+      "bundle": "CAB-93a77e73b3a281a4db4f9ffca0727788",
+      "assetType": "MonoBehaviour",
+      "assetName": "Elena_Standing"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "FirstHeroCut/SpeechGroup/FirstHeroSpeech/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-5960144695804152339",
+      "bundle": "CAB-e20dcc30d06ebf0a83cc8b3ddb64accf",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubble_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png"
+    },
+    {
+      "gameObject": "Arrow",
+      "nodePath": "FirstHeroCut/SpeechGroup/FirstHeroSpeech/Arrow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 11,
+      "pathId": "4847655791748309487",
+      "bundle": "CAB-6c831e862a739978c1c98b2eca1c4ff7",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubbleTail_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubbleTail_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubbleTail_1.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "FirstHeroCut/SpeechGroup/FirstHeroSpeech/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "FirstHeroCut/SpeechGroup/FirstHeroSpeech/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-5960144695804152339",
+      "bundle": "CAB-e20dcc30d06ebf0a83cc8b3ddb64accf",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubble_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (1)/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-5960144695804152339",
+      "bundle": "CAB-e20dcc30d06ebf0a83cc8b3ddb64accf",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubble_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (1)/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (1)/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (2)/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-5960144695804152339",
+      "bundle": "CAB-e20dcc30d06ebf0a83cc8b3ddb64accf",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubble_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (2)/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (2)/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (3)/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-5960144695804152339",
+      "bundle": "CAB-e20dcc30d06ebf0a83cc8b3ddb64accf",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubble_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (3)/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (3)/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (4)/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-5960144695804152339",
+      "bundle": "CAB-e20dcc30d06ebf0a83cc8b3ddb64accf",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubble_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_2.png"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (4)/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text (TMP)",
+      "nodePath": "FirstHeroCut/SpeechGroup/OtherSpeech (4)/Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Light2",
+      "nodePath": "FirstHeroCut/Light2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 5,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "Light2",
+      "nodePath": "FirstHeroCut/Light2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "2505189553584105816",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow_Half",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "FirstHeroCut",
+      "controllerBundle": "CAB-6a03a417b8da8e0ad99008d0837763e3",
+      "controllerPathId": "-3916337215412462622",
+      "controllerType": "AnimatorController",
+      "controllerName": "UserPlay_First3GradeHero",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.Start",
+          "clips": [
+            "Start"
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [
+        {
+          "name": "Start",
+          "duration": 7.550000190734863,
+          "pathId": "6090462028628541071"
+        }
+      ],
+      "controller": "UserPlay_First3GradeHero"
+    }
+  ]
+}

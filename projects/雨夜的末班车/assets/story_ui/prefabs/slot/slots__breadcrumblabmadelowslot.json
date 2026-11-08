@@ -1,0 +1,3402 @@
+{
+  "id": "slots/breadcrumblabmadelowslot",
+  "sourceBundle": "prefab/slots/breadcrumblabmadelowslot",
+  "hierarchy": {
+    "name": "BreadCrumbLabMadeLowSlot",
+    "path": "BreadCrumbLabMadeLowSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "BreadCrumbLabMadeLowSlot"
+      }
+    ],
+    "children": [
+      {
+        "name": "ItemSlot",
+        "path": "BreadCrumbLabMadeLowSlot/ItemSlot",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 220.0,
+            "y": 220.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "x": 1.625445958386429e-11,
+            "y": 3.7252541051913113e-09,
+            "z": 4.656611762854368e-10,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ItemSlot"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          }
+        ],
+        "children": [
+          {
+            "name": "Base",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 3.0,
+                "y": -3.0
+              },
+              "m_SizeDelta": {
+                "x": 6.0,
+                "y": 6.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Mask",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Base/Mask",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -3.0,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -10.0,
+                    "y": -10.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Base/Mask/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 132.0,
+                        "y": 132.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Border",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Base/Border",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -3.0,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -6.0,
+                    "y": -6.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "LicensePos",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/LicensePos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": []
+          },
+          {
+            "name": "NamePos",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/NamePos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": []
+          },
+          {
+            "name": "ProfilePos",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "UserProfileSlot",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 230.0,
+                    "y": 230.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "UserProfileSlot"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Base",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Base",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 200.0,
+                        "y": 200.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Mask"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Icon",
+                        "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Base/Icon",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 205.0,
+                            "y": 205.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Border",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Border",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 210.0,
+                        "y": 210.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Selected",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Selected",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 280.0,
+                        "y": 280.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "SelectedProfile",
+                        "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Selected/SelectedProfile",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 280.0,
+                            "y": 280.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "SelectedBorder",
+                        "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Selected/SelectedBorder",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 200.0,
+                            "y": 200.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Dim",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Dim",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 210.0,
+                        "y": 210.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "DimProfile",
+                        "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Dim/DimProfile",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 210.0,
+                            "y": 210.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Mask"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "DimBorder",
+                        "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Dim/DimBorder",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 210.0,
+                            "y": 210.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Mask"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Spine",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Spine",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 253.0,
+                        "y": 255.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.4999999701976776,
+                        "y": 0.4960784316062927
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SkeletonGraphic"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Frame",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Frame",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 290.0,
+                        "y": 290.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "RedDot",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/RedDot",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 85.0,
+                        "y": 85.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 50.0,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Image",
+                        "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/RedDot/Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tag",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Tag",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 118.0,
+                        "y": 46.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 67.0,
+                        "y": 68.0
+                      },
+                      "m_Pivot": {
+                        "x": 1.0,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Image",
+                        "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Tag/Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 8.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 68.0,
+                            "y": 52.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.6000000238418579,
+                            "y": 0.6000000238418579,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Lock",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Lock",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 210.0,
+                        "y": 210.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "LockIconShadow",
+                        "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Lock/LockIconShadow",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 83.5999984741211,
+                            "y": 77.4000015258789
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "LockIcon",
+                        "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Lock/LockIcon",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 80.0,
+                            "y": 80.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "TypeHandler",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/TypeHandler",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIElementStateHandler"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "LockHandler",
+                    "path": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/LockHandler",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIElementStateHandler"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Value",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Value",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 14.0
+              },
+              "m_SizeDelta": {
+                "x": -24.0,
+                "y": 28.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Clock",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Value/Clock",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 40.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Value/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Dim",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Dim",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Selected",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Selected",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 24.0,
+                "y": 24.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Tag",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Tag",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 48.0,
+                "y": -16.0
+              },
+              "m_SizeDelta": {
+                "x": 124.0,
+                "y": 60.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "OverLimitTag",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/OverLimitTag",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 41.71200180053711,
+                "y": -33.36000061035156
+              },
+              "m_SizeDelta": {
+                "x": 97.19309997558594,
+                "y": 90.71900177001953
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "CommonTag",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/CommonTag",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -14.0,
+                "y": -16.0
+              },
+              "m_SizeDelta": {
+                "x": 102.44999694824219,
+                "y": 58.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ContentSizeFitter"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/CommonTag/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 48.724998474121094,
+                    "y": -27.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 67.44999694824219,
+                    "y": 55.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "RedDot",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/RedDot",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -18.0,
+                "y": -14.0
+              },
+              "m_SizeDelta": {
+                "x": 60.0,
+                "y": 60.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Taken",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Taken",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 86.0,
+                "y": 70.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.2999999523162842,
+                "y": 1.2999999523162842,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "DimLabel",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/DimLabel",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -69.4000015258789
+              },
+              "m_SizeDelta": {
+                "x": 200.0,
+                "y": 60.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/DimLabel/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 188.7958984375,
+                    "y": 60.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Lock",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Lock",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 47.0,
+                "y": 65.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LimitTimer",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/LimitTimer",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -48.0,
+                "y": -42.0
+              },
+              "m_SizeDelta": {
+                "x": 58.0,
+                "y": 54.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Max",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Max",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 48.0,
+                "y": -16.0
+              },
+              "m_SizeDelta": {
+                "x": 124.0,
+                "y": 60.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "FeelingStatus",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/FeelingStatus",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -24.0,
+                "y": -22.0
+              },
+              "m_SizeDelta": {
+                "x": 112.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.6000000238418579,
+                "y": 0.6000000238418579,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Pos_TasteBonusIcon",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Pos_TasteBonusIcon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 25.5,
+                "y": -22.0
+              },
+              "m_SizeDelta": {
+                "x": 64.7699966430664,
+                "y": 64.7699966430664
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": []
+          },
+          {
+            "name": "SkinBGTag",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/SkinBGTag",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 9.4000244140625,
+                "y": -18.0
+              },
+              "m_SizeDelta": {
+                "x": 160.3000030517578,
+                "y": 66.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "SkinBgText",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/SkinBGTag/SkinBgText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 80.1500015258789,
+                    "y": -25.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 118.91999816894531,
+                    "y": 42.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Size",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Size",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 8.0,
+                "y": -8.0
+              },
+              "m_SizeDelta": {
+                "x": 55.0,
+                "y": 55.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ContentSizeFitter"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text_OutLine",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Size/Text_OutLine",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Size/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Info",
+            "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Info",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -38.0,
+                "y": -38.0
+              },
+              "m_SizeDelta": {
+                "x": 56.0,
+                "y": 56.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              },
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Image",
+                "path": "BreadCrumbLabMadeLowSlot/ItemSlot/Info/Image",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 56.0,
+                    "y": 58.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CheckIcon",
+        "path": "BreadCrumbLabMadeLowSlot/CheckIcon",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 43.0099983215332,
+            "y": 37.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 3.0,
+            "y": 3.0,
+            "z": 3.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Base",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-4601866304756101581",
+      "bundle": "CAB-b938505915e8d794a26e173228cf93fc",
+      "assetType": "Sprite",
+      "assetName": "ItemSlot_White",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ItemSlot_White.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ItemSlot_White.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Base/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "5906083425581044279",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_220220",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_220220.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_220220.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Base/Mask/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-8338488319006219684",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CurrencyIcon_0009",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0009.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0009.png"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Base/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "6845025342508890574",
+      "bundle": "CAB-b938505915e8d794a26e173228cf93fc",
+      "assetType": "Sprite",
+      "assetName": "ItemSlot_Border_8080",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ItemSlot_Border_8080.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ItemSlot_Border_8080.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 8,
+      "pathId": "1366043099404602941",
+      "bundle": "CAB-0c1d5f233bda5f24fd53b97b52bd1c00",
+      "assetType": "Sprite",
+      "assetName": "CommonCircularMask_512",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircularMask_512.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircularMask_512.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Base/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "1735077113089279964",
+      "bundle": "CAB-ba51c4b63648c20ac5334d5395a0c9ca",
+      "assetType": "Sprite",
+      "assetName": "Icon_GraduateSkill_Tig",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_Tig.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_Tig.png"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-7292988416003876303",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Border_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Border_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Border_2.png"
+    },
+    {
+      "gameObject": "Selected",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Selected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-1169862486502871732",
+      "bundle": "CAB-20f6a925dcbb7732dc4e6eaa14896702",
+      "assetType": "Sprite",
+      "assetName": "UserFrame_Selected",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/UserFrame_Selected.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/UserFrame_Selected.png"
+    },
+    {
+      "gameObject": "SelectedProfile",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Selected/SelectedProfile",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-1169862486502871732",
+      "bundle": "CAB-20f6a925dcbb7732dc4e6eaa14896702",
+      "assetType": "Sprite",
+      "assetName": "UserFrame_Selected",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/UserFrame_Selected.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/UserFrame_Selected.png"
+    },
+    {
+      "gameObject": "SelectedBorder",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Selected/SelectedBorder",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "-591190951413183803",
+      "bundle": "CAB-cfe8a2e5d4d83c78f0e7a662ccae328d",
+      "assetType": "Sprite",
+      "assetName": "UserFrameSelected2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/UserFrameSelected2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/UserFrameSelected2.png"
+    },
+    {
+      "gameObject": "DimProfile",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Dim/DimProfile",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "8869699984286934631",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png"
+    },
+    {
+      "gameObject": "DimBorder",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Dim/DimBorder",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "8869699984286934631",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "additiveMaterial",
+      "fileId": 1,
+      "pathId": "-7852358095173771177",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicAdditive"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "multiplyMaterial",
+      "fileId": 1,
+      "pathId": "-13276894215973044",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicMultiply"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "screenMaterial",
+      "fileId": 1,
+      "pathId": "-5524858707655825726",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicScreen"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/RedDot/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Tag",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Tag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "9171700956441053989",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBalloon_Right",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBalloon_Right.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBalloon_Right.png"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Tag/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-7931238010148188149",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonIcon_Check_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Check_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Check_2.png"
+    },
+    {
+      "gameObject": "Lock",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Lock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "8869699984286934631",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png"
+    },
+    {
+      "gameObject": "LockIconShadow",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Lock/LockIconShadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "8261301354488901438",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonIcon_ContentsUnLock_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_ContentsUnLock_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_ContentsUnLock_1.png"
+    },
+    {
+      "gameObject": "LockIcon",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/ProfilePos/UserProfileSlot/Lock/LockIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "8261301354488901438",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonIcon_ContentsUnLock_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_ContentsUnLock_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_ContentsUnLock_1.png"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Value",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-3877974131338562507",
+      "bundle": "CAB-b938505915e8d794a26e173228cf93fc",
+      "assetType": "Sprite",
+      "assetName": "ItemSlot_ValueBase",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ItemSlot_ValueBase.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ItemSlot_ValueBase.png"
+    },
+    {
+      "gameObject": "Clock",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Value/Clock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "9014415962819050222",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "ClockIcon_002",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ClockIcon_002.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ClockIcon_002.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Value/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Value/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "6432470525094934",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4040",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png"
+    },
+    {
+      "gameObject": "Selected",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Selected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "4259154544048972647",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "SelectedBase",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/SelectedBase.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/SelectedBase.png"
+    },
+    {
+      "gameObject": "Tag",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Tag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 12,
+      "pathId": "1689291489372581618",
+      "bundle": "CAB-571552ea54549dabbee45e4bd9cbd739",
+      "assetType": "Sprite",
+      "assetName": "1stRewardIcon_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/1stRewardIcon_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/1stRewardIcon_KR.png"
+    },
+    {
+      "gameObject": "OverLimitTag",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/OverLimitTag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "1759296470478026651",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Icon_05",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Icon_05.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Icon_05.png"
+    },
+    {
+      "gameObject": "CommonTag",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/CommonTag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-6386209698633703910",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_TagExceed",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TagExceed.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TagExceed.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/CommonTag/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/CommonTag/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Taken",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Taken",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-4258897261011391289",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonIcon_Check",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Check.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Check.png"
+    },
+    {
+      "gameObject": "DimLabel",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/DimLabel",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/DimLabel/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/DimLabel/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Lock",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Lock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-7476085759644814580",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonIcon_Lock",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Lock.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Lock.png"
+    },
+    {
+      "gameObject": "LimitTimer",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/LimitTimer",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "9014415962819050222",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "ClockIcon_002",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ClockIcon_002.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ClockIcon_002.png"
+    },
+    {
+      "gameObject": "Max",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Max",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 13,
+      "pathId": "5859924413372584583",
+      "bundle": "CAB-f725d9bdfb1c4b342b9fe393b73ed2aa",
+      "assetType": "Sprite",
+      "assetName": "Common_Max_1_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_Max_1_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_Max_1_KR.png"
+    },
+    {
+      "gameObject": "SkinBGTag",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/SkinBGTag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "9171700956441053989",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBalloon_Right",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBalloon_Right.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBalloon_Right.png"
+    },
+    {
+      "gameObject": "SkinBgText",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/SkinBGTag/SkinBgText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "SkinBgText",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/SkinBGTag/SkinBgText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Size",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Size",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-756805929436247788",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_2020_004",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_2020_004.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_2020_004.png"
+    },
+    {
+      "gameObject": "Text_OutLine",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Size/Text_OutLine",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_OutLine",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Size/Text_OutLine",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 10,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Size/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Size/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Info",
+      "nodePath": "BreadCrumbLabMadeLowSlot/ItemSlot/Info",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "281247350890492310",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4545",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png"
+    },
+    {
+      "gameObject": "CheckIcon",
+      "nodePath": "BreadCrumbLabMadeLowSlot/CheckIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 11,
+      "pathId": "-4024818847505927443",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumbLab_CheckIcon_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_CheckIcon_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_CheckIcon_1.png"
+    }
+  ],
+  "animators": []
+}

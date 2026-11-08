@@ -1,0 +1,1723 @@
+{
+  "id": "slots/dialogueanotherslotcommonred",
+  "sourceBundle": "prefab/slots/dialogueanotherslotcommonred",
+  "hierarchy": {
+    "name": "DialogueAnotherSlotCommonRed",
+    "path": "DialogueAnotherSlotCommonRed",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 550.0,
+        "y": 550.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "DialogueAnotherSlotCommon"
+      },
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Axis",
+        "path": "DialogueAnotherSlotCommonRed/Axis",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 550.0,
+            "y": 550.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "Animator",
+            "controller": {
+              "fileId": 10,
+              "pathId": "-5443518287803700646",
+              "bundle": "CAB-40b198c079cfac28d7b19ffee084af0c"
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "Shadow",
+            "path": "DialogueAnotherSlotCommonRed/Axis/Shadow",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -250.0
+              },
+              "m_SizeDelta": {
+                "x": 382.0,
+                "y": 120.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BgGlow",
+            "path": "DialogueAnotherSlotCommonRed/Axis/BgGlow",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -4.38818359375
+              },
+              "m_SizeDelta": {
+                "x": 900.0,
+                "y": 900.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.014738565310835838,
+                "w": 0.9998914003372192
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Selected",
+            "path": "DialogueAnotherSlotCommonRed/Axis/Selected",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 400.0,
+                "y": 400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Select",
+            "path": "DialogueAnotherSlotCommonRed/Axis/Select",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 550.0,
+                "y": 550.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "SelectDecoStar",
+                "path": "DialogueAnotherSlotCommonRed/Axis/Select/SelectDecoStar",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 218.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 80.0,
+                    "y": 80.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Star",
+                    "path": "DialogueAnotherSlotCommonRed/Axis/Select/SelectDecoStar/Star",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 40.0,
+                        "y": 48.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "StarGlow",
+                    "path": "DialogueAnotherSlotCommonRed/Axis/Select/SelectDecoStar/StarGlow",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 80.0,
+                        "y": 80.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "TextPos",
+                "path": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -7.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 15.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "ShadowText",
+                    "path": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/ShadowText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -7.5
+                      },
+                      "m_SizeDelta": {
+                        "x": 550.0,
+                        "y": 287.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "OutLinedText",
+                    "path": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/OutLinedText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 7.5
+                      },
+                      "m_SizeDelta": {
+                        "x": 550.0,
+                        "y": 287.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "BaseText",
+                    "path": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/BaseText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 7.5
+                      },
+                      "m_SizeDelta": {
+                        "x": 550.0,
+                        "y": 287.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "InnerSpriteText",
+                    "path": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/InnerSpriteText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 7.5
+                      },
+                      "m_SizeDelta": {
+                        "x": 550.0,
+                        "y": 287.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Default",
+            "path": "DialogueAnotherSlotCommonRed/Axis/Default",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 550.0,
+                "y": 550.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "ShadowText",
+                "path": "DialogueAnotherSlotCommonRed/Axis/Default/ShadowText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -15.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": -248.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProEffect"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "OutLinedText",
+                "path": "DialogueAnotherSlotCommonRed/Axis/Default/OutLinedText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": -248.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProEffect"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "OutGlowText",
+                "path": "DialogueAnotherSlotCommonRed/Axis/Default/OutGlowText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": -248.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProEffect"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "BaseText",
+                "path": "DialogueAnotherSlotCommonRed/Axis/Default/BaseText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": -248.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProEffect"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "InnerText",
+                "path": "DialogueAnotherSlotCommonRed/Axis/Default/InnerText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": -248.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProEffect"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "UnSelect",
+            "path": "DialogueAnotherSlotCommonRed/Axis/UnSelect",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 550.0,
+                "y": 550.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "ShadowText",
+                "path": "DialogueAnotherSlotCommonRed/Axis/UnSelect/ShadowText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -15.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": -248.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "OutLinedText",
+                "path": "DialogueAnotherSlotCommonRed/Axis/UnSelect/OutLinedText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": -248.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "BaseText",
+                "path": "DialogueAnotherSlotCommonRed/Axis/UnSelect/BaseText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": -248.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "DescText",
+            "path": "DialogueAnotherSlotCommonRed/Axis/DescText",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 71.0
+              },
+              "m_SizeDelta": {
+                "x": 700.0,
+                "y": 85.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Axis",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 10,
+      "pathId": "-5443518287803700646",
+      "bundle": "CAB-40b198c079cfac28d7b19ffee084af0c",
+      "assetType": "AnimatorController",
+      "assetName": "DialogueAnotherSlot"
+    },
+    {
+      "gameObject": "Shadow",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8869699984286934631",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png"
+    },
+    {
+      "gameObject": "BgGlow",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/BgGlow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3414536351621513450",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow.png"
+    },
+    {
+      "gameObject": "Selected",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Selected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 7,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "Selected",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Selected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 8,
+      "pathId": "-6569125726189357182",
+      "bundle": "CAB-5e20fc9255ae27c9861eb3b39424ec1f",
+      "assetType": "Sprite",
+      "assetName": "DialogueAnotherSlot_SelectCircle",
+      "demoPath": "assets/story_ui/dialogue/controls/DialogueAnotherSlot_SelectCircle.png",
+      "projectPath": "assets/story_ui/dialogue/controls/DialogueAnotherSlot_SelectCircle.png"
+    },
+    {
+      "gameObject": "StarGlow",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/SelectDecoStar/StarGlow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 7,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "StarGlow",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/SelectDecoStar/StarGlow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3414536351621513450",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow.png"
+    },
+    {
+      "gameObject": "ShadowText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/ShadowText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ShadowText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/ShadowText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "6264380543285231457",
+      "bundle": "CAB-5fc0f3bff06af3470aa8595dfec3cc78",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_Black"
+    },
+    {
+      "gameObject": "OutLinedText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/OutLinedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "OutLinedText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/OutLinedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-3673571163402325921",
+      "bundle": "CAB-d76bc228cd8ab725604e4cbd26805922",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_DialogueAnother_Common_Outlined"
+    },
+    {
+      "gameObject": "BaseText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/BaseText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "BaseText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/BaseText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 9,
+      "pathId": "46725009805148783",
+      "bundle": "CAB-9b64fce557645ea1cdc04de8e02a2302",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_DialogueAnother_Common_Inner"
+    },
+    {
+      "gameObject": "InnerSpriteText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/InnerSpriteText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "InnerSpriteText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Select/TextPos/InnerSpriteText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-2439466193398380329",
+      "bundle": "CAB-a430ef8dcea173688dd88700010785da",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_DialogueAnother_Common_InnerSprite"
+    },
+    {
+      "gameObject": "ShadowText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/ShadowText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ShadowText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/ShadowText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "6264380543285231457",
+      "bundle": "CAB-5fc0f3bff06af3470aa8595dfec3cc78",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_Black"
+    },
+    {
+      "gameObject": "OutLinedText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/OutLinedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "OutLinedText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/OutLinedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "6264380543285231457",
+      "bundle": "CAB-5fc0f3bff06af3470aa8595dfec3cc78",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_Black"
+    },
+    {
+      "gameObject": "OutGlowText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/OutGlowText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "OutGlowText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/OutGlowText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "2679799435908406711",
+      "bundle": "CAB-462584355dfaa6d007cff6856a1cce4f",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_DialogueAnother_Common_Outglow_Red"
+    },
+    {
+      "gameObject": "BaseText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/BaseText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "BaseText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/BaseText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "InnerText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/InnerText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "InnerText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/Default/InnerText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 9,
+      "pathId": "46725009805148783",
+      "bundle": "CAB-9b64fce557645ea1cdc04de8e02a2302",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_DialogueAnother_Common_Inner"
+    },
+    {
+      "gameObject": "ShadowText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/UnSelect/ShadowText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ShadowText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/UnSelect/ShadowText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "6264380543285231457",
+      "bundle": "CAB-5fc0f3bff06af3470aa8595dfec3cc78",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_Black"
+    },
+    {
+      "gameObject": "OutLinedText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/UnSelect/OutLinedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "OutLinedText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/UnSelect/OutLinedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "6264380543285231457",
+      "bundle": "CAB-5fc0f3bff06af3470aa8595dfec3cc78",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_Black"
+    },
+    {
+      "gameObject": "BaseText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/UnSelect/BaseText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "BaseText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/UnSelect/BaseText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "DescText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/DescText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "DescText",
+      "nodePath": "DialogueAnotherSlotCommonRed/Axis/DescText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": [
+    {
+      "path": "DialogueAnotherSlotCommonRed/Axis",
+      "controllerBundle": "CAB-40b198c079cfac28d7b19ffee084af0c",
+      "controllerPathId": "-5443518287803700646",
+      "controllerType": "AnimatorController",
+      "controllerName": "DialogueAnotherSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.ChooseEpisodeSlot_Select_BgGlow",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.ChooseEpisodeSlot_Default_Loop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.ChooseEpisodeSlot_UnSelect",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.ChooseEpisodeSlot_Select_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.ChooseEpisodeSlot_Select_Loop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.ChooseEpisodeSlot_Default",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Selected.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Selected.ChooseEpisodeSlot_Selected",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 2,
+          "name": "BgGlow Layer.ChooseEpisodeSlot_Select_BgGlow",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "DialogueAnotherSlot"
+    }
+  ]
+}

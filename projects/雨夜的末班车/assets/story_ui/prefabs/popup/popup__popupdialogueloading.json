@@ -1,0 +1,951 @@
+{
+  "id": "popup/popupdialogueloading",
+  "sourceBundle": "prefab/popup/popupdialogueloading",
+  "hierarchy": {
+    "name": "PopupDialogueLoading",
+    "path": "PopupDialogueLoading",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 2,
+          "pathId": "-4533354008267550989",
+          "bundle": "CAB-ae126520efe58cb83c3b157f096aee88"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "PopupDialogueLoading"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Black",
+        "path": "PopupDialogueLoading/Black",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 3000.0,
+            "y": 3000.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "ChapterImage",
+        "path": "PopupDialogueLoading/ChapterImage",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 761.0,
+            "y": -1177.0
+          },
+          "m_SizeDelta": {
+            "x": 1000.0,
+            "y": 1400.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 3.0,
+            "y": 3.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Shadow",
+        "path": "PopupDialogueLoading/Shadow",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -2341.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 1096.5999755859375,
+            "y": 1400.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 3.5,
+            "y": 3.5,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BlackBox",
+        "path": "PopupDialogueLoading/BlackBox",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 330.0,
+            "y": 2928.0
+          },
+          "m_SizeDelta": {
+            "x": 3200.0,
+            "y": 1400.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 3.5,
+            "y": 3.5,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BlackBoxGra",
+        "path": "PopupDialogueLoading/BlackBoxGra",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 868.780029296875,
+            "y": -695.6300048828125
+          },
+          "m_SizeDelta": {
+            "x": 3292.0,
+            "y": 546.72998046875
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 3.5,
+            "y": 3.5,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.48480960726737976,
+            "w": 0.874619722366333
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BlackBox (1)",
+        "path": "PopupDialogueLoading/BlackBox (1)",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 3205.0,
+            "y": -1806.0
+          },
+          "m_SizeDelta": {
+            "x": 1096.0,
+            "y": 2376.118896484375
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 3.5,
+            "y": 3.5,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.24090564250946045,
+            "w": 0.9705485701560974
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BlackBox (2)",
+        "path": "PopupDialogueLoading/BlackBox (2)",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 330.0,
+            "y": -4874.0
+          },
+          "m_SizeDelta": {
+            "x": 3175.7958984375,
+            "y": 1400.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 3.5,
+            "y": 3.5,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BlackBoxGra (1)",
+        "path": "PopupDialogueLoading/BlackBoxGra (1)",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 985.9500122070312,
+            "y": -1628.300048828125
+          },
+          "m_SizeDelta": {
+            "x": 3292.0,
+            "y": 673.6599731445312
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 3.5,
+            "y": 3.5,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.03577164188027382,
+            "w": 0.9993600249290466
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "UI",
+        "path": "PopupDialogueLoading/UI",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Glow",
+            "path": "PopupDialogueLoading/UI/Glow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": -135.0,
+                "y": -28.0
+              },
+              "m_SizeDelta": {
+                "x": 1500.0,
+                "y": 1500.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Icon",
+            "path": "PopupDialogueLoading/UI/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": -114.0,
+                "y": 114.0
+              },
+              "m_SizeDelta": {
+                "x": 152.0,
+                "y": 152.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TitleShadow",
+            "path": "PopupDialogueLoading/UI/TitleShadow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": -228.0,
+                "y": 56.0
+              },
+              "m_SizeDelta": {
+                "x": 1100.0,
+                "y": 114.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProEffect"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text",
+            "path": "PopupDialogueLoading/UI/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": -1343.7999267578125,
+                "y": 132.0
+              },
+              "m_SizeDelta": {
+                "x": 1115.800048828125,
+                "y": 114.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProEffect"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "NoisePattern",
+        "path": "PopupDialogueLoading/NoisePattern",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 3000.0,
+            "y": 3000.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "PopupDialogueLoading",
+      "nodePath": "PopupDialogueLoading",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 2,
+      "pathId": "-4533354008267550989",
+      "bundle": "CAB-ae126520efe58cb83c3b157f096aee88",
+      "assetType": "AnimatorController",
+      "assetName": "PopupDialogueLoading"
+    },
+    {
+      "gameObject": "Shadow",
+      "nodePath": "PopupDialogueLoading/Shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "BlackBox",
+      "nodePath": "PopupDialogueLoading/BlackBox",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "BlackBoxGra",
+      "nodePath": "PopupDialogueLoading/BlackBoxGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4519748180857352522",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "BlackBox (1)",
+      "nodePath": "PopupDialogueLoading/BlackBox (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "BlackBox (2)",
+      "nodePath": "PopupDialogueLoading/BlackBox (2)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "BlackBoxGra (1)",
+      "nodePath": "PopupDialogueLoading/BlackBoxGra (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4519748180857352522",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "PopupDialogueLoading/UI/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7583831162855317799",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png"
+    },
+    {
+      "gameObject": "TitleShadow",
+      "nodePath": "PopupDialogueLoading/UI/TitleShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TitleShadow",
+      "nodePath": "PopupDialogueLoading/UI/TitleShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupDialogueLoading/UI/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupDialogueLoading/UI/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "NoisePattern",
+      "nodePath": "PopupDialogueLoading/NoisePattern",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4009392842112147202",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_Pattern_Noise",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_Pattern_Noise.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_Pattern_Noise.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "PopupDialogueLoading",
+      "controllerBundle": "CAB-ae126520efe58cb83c3b157f096aee88",
+      "controllerPathId": "-4533354008267550989",
+      "controllerType": "AnimatorController",
+      "controllerName": "PopupDialogueLoading",
+      "states": [
+        {
+          "layer": 0,
+          "name": "GaugeLoop Layer.PopupDialogueLoading_GaugeLoop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "ImageEntry Layer.PopupDialogueLoading_ImageEntry",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 2,
+          "name": "Pattern Layer.PopupDialogueLoading_PatternLoop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "PopupDialogueLoading"
+    }
+  ]
+}

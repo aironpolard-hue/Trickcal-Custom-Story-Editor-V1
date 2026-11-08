@@ -1,0 +1,976 @@
+{
+  "id": "slots/storysummarytabslot",
+  "sourceBundle": "prefab/slots/storysummarytabslot",
+  "hierarchy": {
+    "name": "StorySummaryTabSlot",
+    "path": "StorySummaryTabSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 512.2000122070312,
+        "y": 129.8000030517578
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "StorySummaryTabSlot"
+      }
+    ],
+    "children": [
+      {
+        "name": "Base",
+        "path": "StorySummaryTabSlot/Base",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -13.300000190734863
+          },
+          "m_SizeDelta": {
+            "x": 553.4000244140625,
+            "y": 165.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "RectTransformHelper"
+          }
+        ],
+        "children": [
+          {
+            "name": "Deco1",
+            "path": "StorySummaryTabSlot/Base/Deco1",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -183.1999969482422,
+                "y": 14.199999809265137
+              },
+              "m_SizeDelta": {
+                "x": 168.0,
+                "y": 115.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Deco2",
+            "path": "StorySummaryTabSlot/Base/Deco2",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -2.299999952316284,
+                "y": -16.399999618530273
+              },
+              "m_SizeDelta": {
+                "x": 482.0,
+                "y": 40.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "TextGlow",
+            "path": "StorySummaryTabSlot/Base/TextGlow",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -180.39999389648438,
+                "y": 9.999954223632812
+              },
+              "m_SizeDelta": {
+                "x": 403.3999938964844,
+                "y": 90.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text",
+            "path": "StorySummaryTabSlot/Base/Text",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -180.39999389648438,
+                "y": 9.999954223632812
+              },
+              "m_SizeDelta": {
+                "x": 403.3999938964844,
+                "y": 90.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": [
+              {
+                "name": "Icon",
+                "path": "StorySummaryTabSlot/Base/Text/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -30.799999237060547,
+                    "y": 1.20001220703125
+                  },
+                  "m_SizeDelta": {
+                    "x": 35.0,
+                    "y": 35.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Dim",
+            "path": "StorySummaryTabSlot/Base/Dim",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 15.199999809265137
+              },
+              "m_SizeDelta": {
+                "x": 486.25,
+                "y": 118.0999984741211
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0526316165924072,
+                "y": 1.0526316165924072,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LockIcon",
+            "path": "StorySummaryTabSlot/Base/LockIcon",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 18.0
+              },
+              "m_SizeDelta": {
+                "x": 52.0,
+                "y": 67.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0526316165924072,
+                "y": 1.0526316165924072,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "ComingSoonGroup",
+        "path": "StorySummaryTabSlot/ComingSoonGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 100.0,
+            "y": 100.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "TextGlow",
+            "path": "StorySummaryTabSlot/ComingSoonGroup/TextGlow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -3.300048828125
+              },
+              "m_SizeDelta": {
+                "x": 403.3999938964844,
+                "y": 90.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text",
+            "path": "StorySummaryTabSlot/ComingSoonGroup/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -3.300048828125
+              },
+              "m_SizeDelta": {
+                "x": 403.3999938964844,
+                "y": 90.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              }
+            ],
+            "children": [
+              {
+                "name": "Icon",
+                "path": "StorySummaryTabSlot/ComingSoonGroup/Text/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 1.06005859375,
+                    "y": 0.6400146484375
+                  },
+                  "m_SizeDelta": {
+                    "x": 35.0,
+                    "y": 35.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.949999988079071,
+                    "y": 0.949999988079071,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "StorySummaryTabSlot",
+      "nodePath": "StorySummaryTabSlot",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[0].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "4750745878419020210",
+      "bundle": "CAB-12599441e1fc7b035af86e35060e16c3",
+      "assetType": "Sprite",
+      "assetName": "StorySummary_Slot_Selected",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected.png"
+    },
+    {
+      "gameObject": "StorySummaryTabSlot",
+      "nodePath": "StorySummaryTabSlot",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "4750745878419020210",
+      "bundle": "CAB-12599441e1fc7b035af86e35060e16c3",
+      "assetType": "Sprite",
+      "assetName": "StorySummary_Slot_Selected",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected.png"
+    },
+    {
+      "gameObject": "StorySummaryTabSlot",
+      "nodePath": "StorySummaryTabSlot",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "1645920055341706080",
+      "bundle": "CAB-12599441e1fc7b035af86e35060e16c3",
+      "assetType": "Sprite",
+      "assetName": "StorySummary_Slot_Normal",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Normal.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Normal.png"
+    },
+    {
+      "gameObject": "StorySummaryTabSlot",
+      "nodePath": "StorySummaryTabSlot",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "1645920055341706080",
+      "bundle": "CAB-12599441e1fc7b035af86e35060e16c3",
+      "assetType": "Sprite",
+      "assetName": "StorySummary_Slot_Normal",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Normal.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Normal.png"
+    },
+    {
+      "gameObject": "StorySummaryTabSlot",
+      "nodePath": "StorySummaryTabSlot",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "1645920055341706080",
+      "bundle": "CAB-12599441e1fc7b035af86e35060e16c3",
+      "assetType": "Sprite",
+      "assetName": "StorySummary_Slot_Normal",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Normal.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Normal.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "StorySummaryTabSlot/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4750745878419020210",
+      "bundle": "CAB-12599441e1fc7b035af86e35060e16c3",
+      "assetType": "Sprite",
+      "assetName": "StorySummary_Slot_Selected",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected.png"
+    },
+    {
+      "gameObject": "Deco1",
+      "nodePath": "StorySummaryTabSlot/Base/Deco1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5922573980300600233",
+      "bundle": "CAB-12599441e1fc7b035af86e35060e16c3",
+      "assetType": "Sprite",
+      "assetName": "StorySummary_Slot_Selected_Deco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected_Deco.png"
+    },
+    {
+      "gameObject": "Deco2",
+      "nodePath": "StorySummaryTabSlot/Base/Deco2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7972101017760885865",
+      "bundle": "CAB-12599441e1fc7b035af86e35060e16c3",
+      "assetType": "Sprite",
+      "assetName": "StorySummary_Slot_Selected_LighDeco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected_LighDeco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_Slot_Selected_LighDeco.png"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "StorySummaryTabSlot/Base/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "StorySummaryTabSlot/Base/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-4674990699674562199",
+      "bundle": "CAB-c670ac853cfb420e1200c8842abae99a",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick_Glow"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "StorySummaryTabSlot/Base/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StorySummaryTabSlot/Base/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StorySummaryTabSlot/Base/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StorySummaryTabSlot/Base/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StorySummaryTabSlot/Base/Text/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-6977618607534099534",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonTriangle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonTriangle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonTriangle_2.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "StorySummaryTabSlot/Base/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-8401507766787122633",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_5050",
+      "demoPath": "assets/dialogue/CommonBox_5050.png",
+      "projectPath": "assets/dialogue/CommonBox_5050.png"
+    },
+    {
+      "gameObject": "LockIcon",
+      "nodePath": "StorySummaryTabSlot/Base/LockIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6314929959644447551",
+      "bundle": "CAB-12599441e1fc7b035af86e35060e16c3",
+      "assetType": "Sprite",
+      "assetName": "StorySummary_LockIcon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_LockIcon.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StorySummary_LockIcon.png"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "StorySummaryTabSlot/ComingSoonGroup/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "StorySummaryTabSlot/ComingSoonGroup/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-4674990699674562199",
+      "bundle": "CAB-c670ac853cfb420e1200c8842abae99a",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick_Glow"
+    },
+    {
+      "gameObject": "TextGlow",
+      "nodePath": "StorySummaryTabSlot/ComingSoonGroup/TextGlow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StorySummaryTabSlot/ComingSoonGroup/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StorySummaryTabSlot/ComingSoonGroup/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StorySummaryTabSlot/ComingSoonGroup/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StorySummaryTabSlot/ComingSoonGroup/Text/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-6977618607534099534",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonTriangle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonTriangle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonTriangle_2.png"
+    }
+  ],
+  "animators": []
+}

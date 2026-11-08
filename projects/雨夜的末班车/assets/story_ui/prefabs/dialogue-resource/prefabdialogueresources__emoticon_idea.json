@@ -1,0 +1,163 @@
+{
+  "id": "prefabdialogueresources/emoticon_idea",
+  "sourceBundle": "prefab/prefabdialogueresources/emoticon_idea",
+  "hierarchy": {
+    "name": "Emoticon_Idea",
+    "path": "Emoticon_Idea",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 2,
+          "pathId": "-8968842764876698303",
+          "bundle": "CAB-350358c530c5404dd98cd564401314b7"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "EmoteAnimationCallback"
+      }
+    ],
+    "children": [
+      {
+        "name": "Idea",
+        "path": "Emoticon_Idea/Idea",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 147.0,
+            "y": 147.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Emoticon_Idea",
+      "nodePath": "Emoticon_Idea",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 2,
+      "pathId": "-8968842764876698303",
+      "bundle": "CAB-350358c530c5404dd98cd564401314b7",
+      "assetType": "AnimatorController",
+      "assetName": "Emoticon_Idea"
+    },
+    {
+      "gameObject": "Idea",
+      "nodePath": "Emoticon_Idea/Idea",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2115155712479339407",
+      "bundle": "CAB-8e67eddc7e8b09ec92ce1ec47dc1958a",
+      "assetType": "Sprite",
+      "assetName": "Idea",
+      "atlasBundle": "atlases/emoticon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Idea.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Idea.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "Emoticon_Idea",
+      "controllerBundle": "CAB-350358c530c5404dd98cd564401314b7",
+      "controllerPathId": "-8968842764876698303",
+      "controllerType": "AnimatorController",
+      "controllerName": "Emoticon_Idea",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.Emoticon_Sparkle",
+          "clips": [
+            "Emoticon_Sparkle"
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [
+        {
+          "name": "Emoticon_Sparkle",
+          "duration": 0.699999988079071,
+          "pathId": "2771510366848912161"
+        }
+      ],
+      "controller": "Emoticon_Idea"
+    }
+  ]
+}

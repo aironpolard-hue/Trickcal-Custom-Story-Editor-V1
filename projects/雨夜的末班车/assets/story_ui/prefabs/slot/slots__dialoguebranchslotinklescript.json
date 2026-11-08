@@ -1,0 +1,4189 @@
+{
+  "id": "slots/dialoguebranchslotinklescript",
+  "sourceBundle": "prefab/slots/dialoguebranchslotinklescript",
+  "hierarchy": {
+    "name": "DialogueBranchSlotInkleScript",
+    "path": "DialogueBranchSlotInkleScript",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 4,
+          "pathId": "-608034087370510244",
+          "bundle": "CAB-b6313cf6fbd2529f2a478ea95bc59b86"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "DialogueBranchSlotInkleScript"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "LayoutElement"
+      },
+      {
+        "type": "CanvasGroup"
+      }
+    ],
+    "children": [
+      {
+        "name": "Line",
+        "path": "DialogueBranchSlotInkleScript/Line",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -752.2000122070312,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 750.0,
+            "y": 24.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "Shadow",
+            "path": "DialogueBranchSlotInkleScript/Line/Shadow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -50.900001525878906,
+                "y": -5.825599670410156
+              },
+              "m_SizeDelta": {
+                "x": 736.4000244140625,
+                "y": 23.293800354003906
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Lock",
+            "path": "DialogueBranchSlotInkleScript/Line/Lock",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 736.4000244140625,
+                "y": 24.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Mask",
+            "path": "DialogueBranchSlotInkleScript/Line/Mask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -736.4000244140625,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 736.4000244140625,
+                "y": 24.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              }
+            ],
+            "children": [
+              {
+                "name": "OpenAni",
+                "path": "DialogueBranchSlotInkleScript/Line/Mask/OpenAni",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 736.4000244140625,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 736.4000244140625,
+                    "y": 24.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Open ",
+            "path": "DialogueBranchSlotInkleScript/Line/Open ",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 736.4000244140625,
+                "y": 24.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LockArrow",
+            "path": "DialogueBranchSlotInkleScript/Line/LockArrow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 390.20001220703125,
+                "y": -5.699999809265137
+              },
+              "m_SizeDelta": {
+                "x": 50.0,
+                "y": 71.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "ArrowShadow",
+            "path": "DialogueBranchSlotInkleScript/Line/ArrowShadow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 390.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 50.0,
+                "y": 71.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "OpenArrow",
+            "path": "DialogueBranchSlotInkleScript/Line/OpenArrow",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 390.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 50.0,
+                "y": 71.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Mask2",
+            "path": "DialogueBranchSlotInkleScript/Line/Mask2",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 340.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 50.0,
+                "y": 71.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              },
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "OpenArrowAni",
+                "path": "DialogueBranchSlotInkleScript/Line/Mask2/OpenArrowAni",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 50.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 50.0,
+                    "y": 71.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NextEpisode",
+        "path": "DialogueBranchSlotInkleScript/NextEpisode",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 428.8999938964844,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 1360.0,
+            "y": 107.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonExtend"
+          },
+          {
+            "type": "CanvasGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": [
+          {
+            "name": "Mask",
+            "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              },
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Shadow",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Shadow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -10.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1360.0,
+                    "y": 107.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Base",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1360.0,
+                    "y": 107.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "LockText",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask/LockText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -111.20999908447266,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1000.0,
+                    "y": 76.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "OpenText",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask/OpenText",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -111.20999908447266,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1000.0,
+                    "y": 76.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Gra",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Gra",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -462.43463134765625,
+                    "y": 0.3328000009059906
+                  },
+                  "m_SizeDelta": {
+                    "x": 66.46920013427734,
+                    "y": 81.33450317382812
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Gra (1)",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Gra (1)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 34.737274169921875,
+                    "y": -2.470599974913057e-05
+                  },
+                  "m_SizeDelta": {
+                    "x": 927.8822021484375,
+                    "y": 81.33450317382812
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Additive",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Additive",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1360.0,
+                    "y": 107.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "CanvasGroup"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Dim",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Dim",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1360.0,
+                    "y": 107.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Dim (1)",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Dim (1)",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1360.0,
+                    "y": 107.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Left",
+            "path": "DialogueBranchSlotInkleScript/NextEpisode/Left",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -689.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 27.0,
+                "y": 141.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Deco",
+            "path": "DialogueBranchSlotInkleScript/NextEpisode/Deco",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -694.5,
+                "y": 64.559814453125
+              },
+              "m_SizeDelta": {
+                "x": 87.0,
+                "y": 113.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.1891208440065384,
+                "w": -0.9819538593292236
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "DecoAni",
+            "path": "DialogueBranchSlotInkleScript/NextEpisode/DecoAni",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -694.5,
+                "y": 64.559814453125
+              },
+              "m_SizeDelta": {
+                "x": 87.0,
+                "y": 113.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.1891208440065384,
+                "w": -0.9819538593292236
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Lock",
+            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -690.2999877929688,
+                "y": 42.79999923706055
+              },
+              "m_SizeDelta": {
+                "x": 100.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1529858410358429,
+                "w": 0.9882283806800842
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Ribbon_01",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Ribbon_01",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -1.5,
+                    "y": -3.200000047683716
+                  },
+                  "m_SizeDelta": {
+                    "x": 27.0,
+                    "y": 101.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.2974797189235687,
+                    "w": -0.9547281861305237
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Ribbon_02",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Ribbon_02",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.10000000149011612,
+                    "y": -7.099999904632568
+                  },
+                  "m_SizeDelta": {
+                    "x": 27.0,
+                    "y": 101.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.2974831461906433,
+                    "w": 0.9547271132469177
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Ribbon_03",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Ribbon_03",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -2.799999952316284,
+                    "y": 1.399999976158142
+                  },
+                  "m_SizeDelta": {
+                    "x": 75.0,
+                    "y": 58.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Ribbon_04",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Ribbon_04",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 12.0,
+                    "y": -2.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 75.0,
+                    "y": 58.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "FX",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "FX_UI_ItemReward",
+                    "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "EffectAutoDestroy"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "EffectAutoDestroy"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "EffectAutoDestroy"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "EffectAutoDestroy"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "EffectAutoDestroy"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Root",
+                        "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root",
+                        "active": true,
+                        "rect": {
+                          "m_LocalScale": {
+                            "x": 20.0,
+                            "y": 20.0,
+                            "z": 20.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "[Atlas_add]_Glow_bg",
+                            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Glow_bg",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_ab]_Glow_bg",
+                            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_ab]_Glow_bg",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Star",
+                            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Star",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Particle",
+                            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Particle",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Flash",
+                            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flash",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.1736481636762619,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 0.9848077893257141
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Flare",
+                            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flare",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Flare_1",
+                            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flare_1",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Spark_2",
+                            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Spark_2",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Ray",
+                            "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Ray",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lock",
+                "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Lock",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "LockIcon (2)",
+                    "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Lock/LockIcon (2)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -5.416399955749512,
+                        "y": 16.91990089416504
+                      },
+                      "m_SizeDelta": {
+                        "x": 44.5443000793457,
+                        "y": 21.400999069213867
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "LockIcon (1)",
+                    "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Lock/LockIcon (1)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 17.309999465942383
+                      },
+                      "m_SizeDelta": {
+                        "x": 58.0,
+                        "y": 62.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "LockIcon",
+                    "path": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Lock/LockIcon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -14.199999809265137
+                      },
+                      "m_SizeDelta": {
+                        "x": 80.0,
+                        "y": 70.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Slot",
+        "path": "DialogueBranchSlotInkleScript/Slot",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 1360.0,
+            "y": 107.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonExtend"
+          },
+          {
+            "type": "CanvasGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UISfxHandler"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "EventTrigger"
+          }
+        ],
+        "children": [
+          {
+            "name": "Mask",
+            "path": "DialogueBranchSlotInkleScript/Slot/Mask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              },
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Shadow",
+                "path": "DialogueBranchSlotInkleScript/Slot/Mask/Shadow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -10.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 107.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Base",
+                "path": "DialogueBranchSlotInkleScript/Slot/Mask/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 107.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text",
+                "path": "DialogueBranchSlotInkleScript/Slot/Mask/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 136.34646606445312,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1024.4454345703125,
+                    "y": 76.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "NameText",
+                "path": "DialogueBranchSlotInkleScript/Slot/Mask/NameText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -511.0,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 240.0,
+                    "y": 76.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Additive",
+                "path": "DialogueBranchSlotInkleScript/Slot/Mask/Additive",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1360.0,
+                    "y": 107.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "CanvasGroup"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Dim",
+                "path": "DialogueBranchSlotInkleScript/Slot/Mask/Dim",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 107.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Left",
+            "path": "DialogueBranchSlotInkleScript/Slot/Left",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -689.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 27.0,
+                "y": 141.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Right",
+            "path": "DialogueBranchSlotInkleScript/Slot/Right",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 687.7000122070312,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 27.0,
+                "y": 141.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Deco",
+            "path": "DialogueBranchSlotInkleScript/Slot/Deco",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -694.5,
+                "y": 64.5598373413086
+              },
+              "m_SizeDelta": {
+                "x": 87.0,
+                "y": 113.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.1891208440065384,
+                "w": -0.9819538593292236
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Lock",
+            "path": "DialogueBranchSlotInkleScript/Slot/Lock",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 1360.0,
+                "y": 108.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Rope",
+                "path": "DialogueBranchSlotInkleScript/Slot/Lock/Rope",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 205.0,
+                    "y": 122.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Ribbon_01",
+                "path": "DialogueBranchSlotInkleScript/Slot/Lock/Ribbon_01",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 4.800000190734863,
+                    "y": -3.700000047683716
+                  },
+                  "m_SizeDelta": {
+                    "x": 27.0,
+                    "y": 101.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.2974797189235687,
+                    "w": -0.9547281861305237
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Ribbon_02",
+                "path": "DialogueBranchSlotInkleScript/Slot/Lock/Ribbon_02",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -5.5,
+                    "y": -3.700000047683716
+                  },
+                  "m_SizeDelta": {
+                    "x": 27.0,
+                    "y": 101.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.2974831461906433,
+                    "w": 0.9547271132469177
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Ribbon_03",
+                "path": "DialogueBranchSlotInkleScript/Slot/Lock/Ribbon_03",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -12.399999618530273,
+                    "y": -4.599999904632568
+                  },
+                  "m_SizeDelta": {
+                    "x": 75.0,
+                    "y": 58.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Ribbon_04",
+                "path": "DialogueBranchSlotInkleScript/Slot/Lock/Ribbon_04",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 8.0,
+                    "y": -3.0999999046325684
+                  },
+                  "m_SizeDelta": {
+                    "x": 74.0,
+                    "y": 55.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "LockIcon",
+                "path": "DialogueBranchSlotInkleScript/Slot/Lock/LockIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 80.0,
+                    "y": 104.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "DialogueBranchSlotInkleScript",
+      "nodePath": "DialogueBranchSlotInkleScript",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 4,
+      "pathId": "-608034087370510244",
+      "bundle": "CAB-b6313cf6fbd2529f2a478ea95bc59b86",
+      "assetType": "AnimatorController",
+      "assetName": "DialogueBranchSlotInkleScript"
+    },
+    {
+      "gameObject": "Shadow",
+      "nodePath": "DialogueBranchSlotInkleScript/Line/Shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2321818253191097552",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Line2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line2.png"
+    },
+    {
+      "gameObject": "Lock",
+      "nodePath": "DialogueBranchSlotInkleScript/Line/Lock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2321818253191097552",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Line2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line2.png"
+    },
+    {
+      "gameObject": "OpenAni",
+      "nodePath": "DialogueBranchSlotInkleScript/Line/Mask/OpenAni",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2819894280563021397",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Line1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line1.png"
+    },
+    {
+      "gameObject": "Open ",
+      "nodePath": "DialogueBranchSlotInkleScript/Line/Open ",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2819894280563021397",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Line1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line1.png"
+    },
+    {
+      "gameObject": "LockArrow",
+      "nodePath": "DialogueBranchSlotInkleScript/Line/LockArrow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "5682195746198931566",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Line4",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line4.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line4.png"
+    },
+    {
+      "gameObject": "ArrowShadow",
+      "nodePath": "DialogueBranchSlotInkleScript/Line/ArrowShadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "5682195746198931566",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Line4",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line4.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line4.png"
+    },
+    {
+      "gameObject": "OpenArrow",
+      "nodePath": "DialogueBranchSlotInkleScript/Line/OpenArrow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-1039836317379821008",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Line3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line3.png"
+    },
+    {
+      "gameObject": "OpenArrowAni",
+      "nodePath": "DialogueBranchSlotInkleScript/Line/Mask2/OpenArrowAni",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-1039836317379821008",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Line3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Line3.png"
+    },
+    {
+      "gameObject": "Shadow",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "670921971973922251",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "670921971973922251",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png"
+    },
+    {
+      "gameObject": "LockText",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/LockText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 8,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "LockText",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/LockText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "OpenText",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/OpenText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 8,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "OpenText",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/OpenText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Gra",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Gra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "1934680755669973488",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_4",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_4.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_4.png"
+    },
+    {
+      "gameObject": "Additive",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Additive",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 7,
+      "pathId": "-6234972973990593070",
+      "bundle": "CAB-29f8647bb1b42321d8909ec49cedbde9",
+      "assetType": "Material",
+      "assetName": "UI_Additive"
+    },
+    {
+      "gameObject": "Additive",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Additive",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "670921971973922251",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "670921971973922251",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png"
+    },
+    {
+      "gameObject": "Dim (1)",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Mask/Dim (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "670921971973922251",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png"
+    },
+    {
+      "gameObject": "Left",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Left",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "727263250197674512",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Deco1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco1.png"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-1879545799837989955",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Deco2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco2.png"
+    },
+    {
+      "gameObject": "DecoAni",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/DecoAni",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-1879545799837989955",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Deco2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco2.png"
+    },
+    {
+      "gameObject": "Ribbon_01",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Ribbon_01",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "8734000501514067740",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Lock1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock1.png"
+    },
+    {
+      "gameObject": "Ribbon_02",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Ribbon_02",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6853533449466761105",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Lock5",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock5.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock5.png"
+    },
+    {
+      "gameObject": "Ribbon_03",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Ribbon_03",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-3234668898300603934",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Lock2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock2.png"
+    },
+    {
+      "gameObject": "Ribbon_04",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Ribbon_04",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7877518361023407208",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Lock4",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock4.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock4.png"
+    },
+    {
+      "gameObject": "Root",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_bg",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Glow_bg",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-4842174792883495735",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SimpleGrow"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_bg",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Glow_bg",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "4092340957742492049",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow_Middle"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_add]_Star",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Star",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "4022082499726974434",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Flare_03"
+    },
+    {
+      "gameObject": "[Atlas_add]_Star",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Star",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Particle",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "4011342379961704803",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SimpleFlash_Yellow"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Flash",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flash",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "4022082499726974434",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Flare_03"
+    },
+    {
+      "gameObject": "[Atlas_add]_Flash",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flash",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Flash",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flash",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 6,
+      "pathId": "10202",
+      "bundle": "unity default resources"
+    },
+    {
+      "gameObject": "[Atlas_add]_Flare",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flare",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-6888612303298459405",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Flare_06_y"
+    },
+    {
+      "gameObject": "[Atlas_add]_Flare",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flare",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Flare",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flare",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 6,
+      "pathId": "10202",
+      "bundle": "unity default resources"
+    },
+    {
+      "gameObject": "[Atlas_add]_Flare_1",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flare_1",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-6888612303298459405",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Flare_06_y"
+    },
+    {
+      "gameObject": "[Atlas_add]_Flare_1",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flare_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Flare_1",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Flare_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 6,
+      "pathId": "10202",
+      "bundle": "unity default resources"
+    },
+    {
+      "gameObject": "[Atlas_add]_Spark_2",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Spark_2",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-2972597276597634168",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Square_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Spark_2",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Spark_2",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Ray",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Ray",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "5188210948294590756",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Flare_Line_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Ray",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Ray",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Ray",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/FX/FX_UI_ItemReward/Root/[Atlas_add]_Ray",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 6,
+      "pathId": "10202",
+      "bundle": "unity default resources"
+    },
+    {
+      "gameObject": "LockIcon (1)",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Lock/LockIcon (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-3012493247668853155",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleLobby_LockIcon1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleLobby_LockIcon1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleLobby_LockIcon1.png"
+    },
+    {
+      "gameObject": "LockIcon",
+      "nodePath": "DialogueBranchSlotInkleScript/NextEpisode/Lock/Lock/LockIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "2674297018715966488",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleLobby_LockIcon2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleLobby_LockIcon2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleLobby_LockIcon2.png"
+    },
+    {
+      "gameObject": "Shadow",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Mask/Shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "670921971973922251",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Mask/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "670921971973922251",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Mask/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 8,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Mask/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "NameText",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Mask/NameText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 8,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NameText",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Mask/NameText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Additive",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Mask/Additive",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 7,
+      "pathId": "-6234972973990593070",
+      "bundle": "CAB-29f8647bb1b42321d8909ec49cedbde9",
+      "assetType": "Material",
+      "assetName": "UI_Additive"
+    },
+    {
+      "gameObject": "Additive",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Mask/Additive",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "670921971973922251",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Mask/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "670921971973922251",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Base.png"
+    },
+    {
+      "gameObject": "Left",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Left",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "727263250197674512",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Deco1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco1.png"
+    },
+    {
+      "gameObject": "Right",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Right",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "727263250197674512",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Deco1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco1.png"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-1879545799837989955",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Deco2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Deco2.png"
+    },
+    {
+      "gameObject": "Rope",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Lock/Rope",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-960367948588131905",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Lock3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock3.png"
+    },
+    {
+      "gameObject": "Ribbon_01",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Lock/Ribbon_01",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "8734000501514067740",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Lock1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock1.png"
+    },
+    {
+      "gameObject": "Ribbon_02",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Lock/Ribbon_02",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6853533449466761105",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Lock5",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock5.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock5.png"
+    },
+    {
+      "gameObject": "Ribbon_03",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Lock/Ribbon_03",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-3234668898300603934",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Lock2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock2.png"
+    },
+    {
+      "gameObject": "Ribbon_04",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Lock/Ribbon_04",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7877518361023407208",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleDialogue_Lock4",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock4.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleDialogue_Lock4.png"
+    },
+    {
+      "gameObject": "LockIcon",
+      "nodePath": "DialogueBranchSlotInkleScript/Slot/Lock/LockIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4765589545245539385",
+      "bundle": "CAB-726b2dc3fdfa2b1293b6dae3a72077a3",
+      "assetType": "Sprite",
+      "assetName": "ArtHall_InkleLobby_LockIcon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleLobby_LockIcon.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtHall_InkleLobby_LockIcon.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "DialogueBranchSlotInkleScript",
+      "controllerBundle": "CAB-b6313cf6fbd2529f2a478ea95bc59b86",
+      "controllerPathId": "-608034087370510244",
+      "controllerType": "AnimatorController",
+      "controllerName": "DialogueBranchSlotInkleScript",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.DialogueBranchSlotInkleScript_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.DialogueBranchSlotInkleScript_Exit",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.DialogueBranchSlotInkleScript_Idle",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.DialogueBranchSlotInkleScript_Select",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.DialogueBranchSlotInkleScript_SelectOpen",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "DialogueBranchSlotInkleScript"
+    }
+  ]
+}

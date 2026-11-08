@@ -1,0 +1,488 @@
+{
+  "id": "popup/popupdialoguelog",
+  "sourceBundle": "prefab/popup/popupdialoguelog",
+  "hierarchy": {
+    "name": "PopupDialogueLog",
+    "path": "PopupDialogueLog",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasGroup"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "PopupDialogueLog"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Background",
+        "path": "PopupDialogueLog/Background",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 500.0
+          },
+          "m_SizeDelta": {
+            "x": 1000.0,
+            "y": 2000.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "ContentsGroup",
+        "path": "PopupDialogueLog/ContentsGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ScrollRect"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIRecycleViewController_DialogueLog"
+          }
+        ],
+        "children": [
+          {
+            "name": "Viewport",
+            "path": "PopupDialogueLog/ContentsGroup/Viewport",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "RectMask2D"
+              },
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Content",
+                "path": "PopupDialogueLog/ContentsGroup/Viewport/Content",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.000244140625
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "DialogueLogCell",
+                    "path": "PopupDialogueLog/ContentsGroup/Viewport/Content/DialogueLogCell",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -40.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 2000.0,
+                        "y": 390.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIRecycleViewCell_DialogueLog"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HeaderGroup",
+        "path": "PopupDialogueLog/HeaderGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 140.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 1.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "CloseButton",
+            "path": "PopupDialogueLog/HeaderGroup/CloseButton",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -92.0,
+                "y": -82.0
+              },
+              "m_SizeDelta": {
+                "x": 124.0,
+                "y": 124.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "CloseIcon",
+                "path": "PopupDialogueLog/HeaderGroup/CloseButton/CloseIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -2.0,
+                    "y": 4.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 52.0,
+                    "y": 52.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Background",
+      "nodePath": "PopupDialogueLog/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Viewport",
+      "nodePath": "PopupDialogueLog/ContentsGroup/Viewport",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7579496373606198959",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png"
+    },
+    {
+      "gameObject": "CloseIcon",
+      "nodePath": "PopupDialogueLog/HeaderGroup/CloseButton/CloseIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2737667185971423406",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Obsolated_CommonButton_Close_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonButton_Close_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonButton_Close_2.png"
+    }
+  ],
+  "animators": []
+}

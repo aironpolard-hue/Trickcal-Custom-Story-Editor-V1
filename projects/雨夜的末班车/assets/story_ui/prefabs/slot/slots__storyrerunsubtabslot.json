@@ -1,0 +1,433 @@
+{
+  "id": "slots/storyrerunsubtabslot",
+  "sourceBundle": "prefab/slots/storyrerunsubtabslot",
+  "hierarchy": {
+    "name": "StoryRerunSubTabSlot",
+    "path": "StoryRerunSubTabSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 512.0,
+        "y": 100.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "StoryRerunSubTabSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      }
+    ],
+    "children": [
+      {
+        "name": "BtnBase",
+        "path": "StoryRerunSubTabSlot/BtnBase",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -17.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 34.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "SelectText",
+        "path": "StoryRerunSubTabSlot/SelectText",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -2.0
+          },
+          "m_SizeDelta": {
+            "x": -240.0,
+            "y": -32.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "TextMeshProUGUI"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "UnSelectText",
+        "path": "StoryRerunSubTabSlot/UnSelectText",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -1.9999990463256836
+          },
+          "m_SizeDelta": {
+            "x": -240.0,
+            "y": -32.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "TextMeshProUGUI"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "RedDot",
+        "path": "StoryRerunSubTabSlot/RedDot",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -42.0,
+            "y": -14.0
+          },
+          "m_SizeDelta": {
+            "x": 55.0,
+            "y": 55.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "NewTag",
+        "path": "StoryRerunSubTabSlot/NewTag",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 64.0,
+            "y": -21.0
+          },
+          "m_SizeDelta": {
+            "x": 124.0,
+            "y": 60.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 0.8999999761581421,
+            "y": 0.8999999761581421,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonElastic"
+          },
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "BtnBase",
+      "nodePath": "StoryRerunSubTabSlot/BtnBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "7415346368801406639",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "WindowStoryRerun_Btn_3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Btn_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Btn_3.png"
+    },
+    {
+      "gameObject": "BtnBase",
+      "nodePath": "StoryRerunSubTabSlot/BtnBase",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[0].Sprite",
+      "fileId": 2,
+      "pathId": "7415346368801406639",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "WindowStoryRerun_Btn_3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Btn_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Btn_3.png"
+    },
+    {
+      "gameObject": "BtnBase",
+      "nodePath": "StoryRerunSubTabSlot/BtnBase",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[0].Sprite",
+      "fileId": 2,
+      "pathId": "4046642119684125913",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "WindowStoryRerun_Btn_7",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Btn_7.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Btn_7.png"
+    },
+    {
+      "gameObject": "SelectText",
+      "nodePath": "StoryRerunSubTabSlot/SelectText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "SelectText",
+      "nodePath": "StoryRerunSubTabSlot/SelectText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-7276179176071642665",
+      "bundle": "CAB-4f283a8d33e7773a5c4a4baf19124d26",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_WindowStoryRerunTab"
+    },
+    {
+      "gameObject": "UnSelectText",
+      "nodePath": "StoryRerunSubTabSlot/UnSelectText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "UnSelectText",
+      "nodePath": "StoryRerunSubTabSlot/UnSelectText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "StoryRerunSubTabSlot/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "NewTag",
+      "nodePath": "StoryRerunSubTabSlot/NewTag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8791054138832441540",
+      "bundle": "CAB-551ba164792d61dfc3c6a49d6f4939eb",
+      "assetType": "Sprite",
+      "assetName": "Common_New_2_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png"
+    }
+  ],
+  "animators": []
+}

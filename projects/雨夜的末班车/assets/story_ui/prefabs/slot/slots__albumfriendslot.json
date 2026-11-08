@@ -1,0 +1,907 @@
+{
+  "id": "slots/albumfriendslot",
+  "sourceBundle": "prefab/slots/albumfriendslot",
+  "hierarchy": {
+    "name": "AlbumFriendSlot",
+    "path": "AlbumFriendSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 196.0,
+        "y": 196.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "AlbumFriendSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Base",
+        "path": "AlbumFriendSlot/Base",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 190.0,
+            "y": 190.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Have_Top",
+            "path": "AlbumFriendSlot/Base/Have_Top",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 101.0,
+                "y": 91.0
+              },
+              "m_SizeDelta": {
+                "x": 208.0,
+                "y": 198.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Mask",
+                "path": "AlbumFriendSlot/Base/Have_Top/Mask",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -7.699999809265137,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 180.0,
+                    "y": 180.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.8999999761581421,
+                    "y": 0.8999999761581421,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "AlbumFriendSlot/Base/Have_Top/Mask/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 178.0,
+                        "y": 178.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0499999523162842,
+                        "y": 1.0499999523162842,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Star",
+                "path": "AlbumFriendSlot/Base/Have_Top/Star",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 67.0,
+                    "y": 43.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 74.0,
+                    "y": 74.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.8999999761581421,
+                    "y": 0.8999999761581421,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.04361940547823906,
+                    "w": 0.9990482926368713
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Have_Middle",
+            "path": "AlbumFriendSlot/Base/Have_Middle",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 101.0,
+                "y": 91.0
+              },
+              "m_SizeDelta": {
+                "x": 208.0,
+                "y": 198.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Mask",
+                "path": "AlbumFriendSlot/Base/Have_Middle/Mask",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -7.699999809265137,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 180.0,
+                    "y": 180.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.8999999761581421,
+                    "y": 0.8999999761581421,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "AlbumFriendSlot/Base/Have_Middle/Mask/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 178.0,
+                        "y": 178.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0499999523162842,
+                        "y": 1.0499999523162842,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NotHeld",
+            "path": "AlbumFriendSlot/Base/NotHeld",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 101.0,
+                "y": 91.0
+              },
+              "m_SizeDelta": {
+                "x": 208.0,
+                "y": 198.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Mask",
+                "path": "AlbumFriendSlot/Base/NotHeld/Mask",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -7.699999809265137,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 180.0,
+                    "y": 180.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.8999999761581421,
+                    "y": 0.8999999761581421,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "AlbumFriendSlot/Base/NotHeld/Mask/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 178.0,
+                        "y": 178.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Dim",
+                    "path": "AlbumFriendSlot/Base/NotHeld/Mask/Dim",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "QuestionMark",
+            "path": "AlbumFriendSlot/Base/QuestionMark",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 194.0,
+                "y": 194.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "AlbumFriendSlot",
+      "nodePath": "AlbumFriendSlot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumFriendSlot/Base/Have_Top/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3138205059829008452",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_9090",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_9090.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_9090.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumFriendSlot/Base/Have_Top/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumFriendSlot/Base/Have_Top/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "AlbumFriendSlot/Base/Have_Top/Mask/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "8864371487926806241",
+      "bundle": "CAB-81a14ff69c64c7e9712ab3c5facbaf57",
+      "assetType": "Sprite",
+      "assetName": "Icon_GraduateSkill_KommySwim",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_KommySwim.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_KommySwim.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumFriendSlot/Base/Have_Middle/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3138205059829008452",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_9090",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_9090.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_9090.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumFriendSlot/Base/Have_Middle/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumFriendSlot/Base/Have_Middle/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "AlbumFriendSlot/Base/Have_Middle/Mask/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "8864371487926806241",
+      "bundle": "CAB-81a14ff69c64c7e9712ab3c5facbaf57",
+      "assetType": "Sprite",
+      "assetName": "Icon_GraduateSkill_KommySwim",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_KommySwim.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_KommySwim.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumFriendSlot/Base/NotHeld/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3138205059829008452",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_9090",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_9090.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_9090.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumFriendSlot/Base/NotHeld/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumFriendSlot/Base/NotHeld/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "AlbumFriendSlot/Base/NotHeld/Mask/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "8864371487926806241",
+      "bundle": "CAB-81a14ff69c64c7e9712ab3c5facbaf57",
+      "assetType": "Sprite",
+      "assetName": "Icon_GraduateSkill_KommySwim",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_KommySwim.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GraduateSkill_KommySwim.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "AlbumFriendSlot/Base/NotHeld/Mask/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6495842596592531028",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    }
+  ],
+  "animators": []
+}

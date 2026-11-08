@@ -1,0 +1,1345 @@
+{
+  "id": "slots/storychapterslot",
+  "sourceBundle": "prefab/slots/storychapterslot",
+  "hierarchy": {
+    "name": "StoryChapterSlot",
+    "path": "StoryChapterSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 1000.0,
+        "y": 1400.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "StoryChapterSlot"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 7,
+          "pathId": "-4659888210524555513",
+          "bundle": "CAB-f9d5ec1147ecd00fed8238eb53f85a4c"
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "ChapterImage2",
+        "path": "StoryChapterSlot/ChapterImage2",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 100.0,
+            "y": 67.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 0.800000011920929,
+            "y": 0.800000011920929,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "ChapterImage",
+        "path": "StoryChapterSlot/ChapterImage",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "ChapterImageBack",
+            "path": "StoryChapterSlot/ChapterImage/ChapterImageBack",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": -1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "ChapterInfo",
+        "path": "StoryChapterSlot/ChapterInfo",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 1000.0,
+            "y": 640.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "ChapterNumber",
+            "path": "StoryChapterSlot/ChapterInfo/ChapterNumber",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 240.0
+              },
+              "m_SizeDelta": {
+                "x": 248.0,
+                "y": 204.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Value",
+                "path": "StoryChapterSlot/ChapterInfo/ChapterNumber/Value",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 20.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 204.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "ChapterName",
+            "path": "StoryChapterSlot/ChapterInfo/ChapterName",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 180.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 70.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ContentSizeFitter"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "StoryChapterSlot/ChapterInfo/ChapterName/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "DetailInfo",
+            "path": "StoryChapterSlot/ChapterInfo/DetailInfo",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 90.0
+              },
+              "m_SizeDelta": {
+                "x": 560.0,
+                "y": 66.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "EpisodeCount",
+                "path": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 200.0,
+                    "y": 66.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Base",
+                    "path": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount/Base",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 3.0,
+                        "y": -3.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 6.0,
+                        "y": 6.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Border",
+                        "path": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount/Base/Border",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -3.0,
+                            "y": 3.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -6.0,
+                            "y": -6.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Value",
+                    "path": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount/Value",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 26.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -72.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Icon",
+                    "path": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 44.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 36.0,
+                        "y": 36.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "AffinityLevel",
+                "path": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 340.0,
+                    "y": 66.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Base",
+                    "path": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel/Base",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 3.0,
+                        "y": -3.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 6.0,
+                        "y": 6.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Border",
+                        "path": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel/Base/Border",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -3.0,
+                            "y": 3.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -6.0,
+                            "y": -6.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Text",
+                    "path": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel/Text",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 23.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -86.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Icon",
+                    "path": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 44.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 36.0,
+                        "y": 36.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "New",
+        "path": "StoryChapterSlot/New",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 82.0,
+            "y": -35.0
+          },
+          "m_SizeDelta": {
+            "x": 184.0,
+            "y": 90.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonElastic"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "StoryChapterSlot",
+      "nodePath": "StoryChapterSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 7,
+      "pathId": "-4659888210524555513",
+      "bundle": "CAB-f9d5ec1147ecd00fed8238eb53f85a4c",
+      "assetType": "AnimatorController",
+      "assetName": "StoryChapterSlot"
+    },
+    {
+      "gameObject": "ChapterImageBack",
+      "nodePath": "StoryChapterSlot/ChapterImage/ChapterImageBack",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-8122466326209096000",
+      "bundle": "CAB-746e94e096cbfa4d2562c53fc72f6de3",
+      "assetType": "Sprite",
+      "assetName": "ChapterSlot_Back",
+      "demoPath": "assets/story_ui/episode-list/ChapterSlot_Back.png",
+      "projectPath": "assets/story_ui/episode-list/ChapterSlot_Back.png"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "StoryChapterSlot/ChapterInfo/ChapterNumber/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "StoryChapterSlot/ChapterInfo/ChapterNumber/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "ChapterName",
+      "nodePath": "StoryChapterSlot/ChapterInfo/ChapterName",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-1061162180782574476",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StoryChapterSlot/ChapterInfo/ChapterName/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StoryChapterSlot/ChapterInfo/ChapterName/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-1061162180782574476",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_3030.png"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount/Base/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "809471951461115752",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/EpisodeCount/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-3776412287163391126",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenu_Icon_EpisodeCount",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenu_Icon_EpisodeCount.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenu_Icon_EpisodeCount.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-1061162180782574476",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_3030.png"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel/Base/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "809471951461115752",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StoryChapterSlot/ChapterInfo/DetailInfo/AffinityLevel/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "1836317023400353852",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenu_Icon_Affinity",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenu_Icon_Affinity.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenu_Icon_Affinity.png"
+    },
+    {
+      "gameObject": "New",
+      "nodePath": "StoryChapterSlot/New",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "8791054138832441540",
+      "bundle": "CAB-551ba164792d61dfc3c6a49d6f4939eb",
+      "assetType": "Sprite",
+      "assetName": "Common_New_2_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "StoryChapterSlot",
+      "controllerBundle": "CAB-f9d5ec1147ecd00fed8238eb53f85a4c",
+      "controllerPathId": "-4659888210524555513",
+      "controllerType": "AnimatorController",
+      "controllerName": "StoryChapterSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryChapterSlotNormal",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryChapterSlotSelect",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryChapterSlotChange_Left",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryChapterSlotSelected",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryChapterSlotHeroSelect",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryChapterSlotHeroSelected",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryChapterSlotChange_Right",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "StoryChapterSlot"
+    }
+  ]
+}

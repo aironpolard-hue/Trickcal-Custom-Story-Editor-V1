@@ -1,0 +1,2075 @@
+{
+  "id": "slots/breadcrumbbattleislandslot",
+  "sourceBundle": "prefab/slots/breadcrumbbattleislandslot",
+  "hierarchy": {
+    "name": "BreadCrumbBattleIslandSlot",
+    "path": "BreadCrumbBattleIslandSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 546.0,
+        "y": 660.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "BreadCrumbBattleIslandSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "PersonalityStateHandler",
+        "path": "BreadCrumbBattleIslandSlot/PersonalityStateHandler",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 965.0,
+            "y": -646.0
+          },
+          "m_SizeDelta": {
+            "x": 3201.999755859375,
+            "y": 2012.1942138671875
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Island",
+        "path": "BreadCrumbBattleIslandSlot/Island",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 287.25,
+            "y": -417.9200134277344
+          },
+          "m_SizeDelta": {
+            "x": 697.6168823242188,
+            "y": 573.04248046875
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Pesonality icon",
+        "path": "BreadCrumbBattleIslandSlot/Pesonality icon",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 273.0,
+            "y": -178.39999389648438
+          },
+          "m_SizeDelta": {
+            "x": 164.0,
+            "y": 164.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "HorizontalLayoutGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "LayoutElement"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Floor",
+        "path": "BreadCrumbBattleIslandSlot/Floor",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 289.0,
+            "y": -330.0
+          },
+          "m_SizeDelta": {
+            "x": 222.2761993408203,
+            "y": 96.7969970703125
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          }
+        ],
+        "children": [
+          {
+            "name": "Title",
+            "path": "BreadCrumbBattleIslandSlot/Floor/Title",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -9.35009765625,
+                "y": 55.169532775878906
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": -58.13690185546875
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "VerticalLayoutGroup"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ContentSizeFitter"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "BreadCrumbBattleIslandSlot/Floor/Title/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 30.095001220703125,
+                    "y": -19.639999389648438
+                  },
+                  "m_SizeDelta": {
+                    "x": 60.70000076293945,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ContentSizeFitter"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Deco1",
+                "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco1",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -62.049903869628906,
+                    "y": -0.3845558166503906
+                  },
+                  "m_SizeDelta": {
+                    "x": -12.386505126953125,
+                    "y": -14.287796020507812
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "1",
+                    "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco1/1",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 27.28700065612793,
+                        "y": 9.798999786376953
+                      },
+                      "m_SizeDelta": {
+                        "x": 16.628700256347656,
+                        "y": 16.628700256347656
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "2",
+                        "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco1/1/2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -8.0,
+                            "y": -8.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "2",
+                    "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco1/2",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 8.0,
+                        "y": 9.798999786376953
+                      },
+                      "m_SizeDelta": {
+                        "x": 10.395999908447266,
+                        "y": 10.395999908447266
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "2",
+                        "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco1/2/2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -6.0,
+                            "y": -6.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco2",
+                "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 62.05009841918945,
+                    "y": 0.9304428100585938
+                  },
+                  "m_SizeDelta": {
+                    "x": -12.386505126953125,
+                    "y": -14.287796020507812
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": -1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "1",
+                    "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco2/1",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 27.28700065612793,
+                        "y": 9.798999786376953
+                      },
+                      "m_SizeDelta": {
+                        "x": 16.628700256347656,
+                        "y": 16.628700256347656
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "2",
+                        "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco2/1/2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -8.0,
+                            "y": -8.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "2",
+                    "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco2/2",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 8.0,
+                        "y": 9.798999786376953
+                      },
+                      "m_SizeDelta": {
+                        "x": 10.395999908447266,
+                        "y": 10.395999908447266
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "2",
+                        "path": "BreadCrumbBattleIslandSlot/Floor/Title/Deco2/2/2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -6.0,
+                            "y": -6.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "FirstStageTextShadow",
+            "path": "BreadCrumbBattleIslandSlot/Floor/FirstStageTextShadow",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -7.4998779296875,
+                "y": -5.79998779296875
+              },
+              "m_SizeDelta": {
+                "x": 88.193603515625,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "FirstStageTextLine",
+            "path": "BreadCrumbBattleIslandSlot/Floor/FirstStageTextLine",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -7.4998779296875,
+                "y": 0.9000244140625
+              },
+              "m_SizeDelta": {
+                "x": 88.193603515625,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "FirstStageText",
+            "path": "BreadCrumbBattleIslandSlot/Floor/FirstStageText",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -7.4998779296875,
+                "y": 0.9000244140625
+              },
+              "m_SizeDelta": {
+                "x": 88.193603515625,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "NumTextShadow",
+            "path": "BreadCrumbBattleIslandSlot/Floor/NumTextShadow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -5.2667999267578125,
+                "y": -5.800000190734863
+              },
+              "m_SizeDelta": {
+                "x": 112.96019744873047,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "NumTextLine",
+            "path": "BreadCrumbBattleIslandSlot/Floor/NumTextLine",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -5.2667999267578125,
+                "y": 0.9000015258789062
+              },
+              "m_SizeDelta": {
+                "x": 112.96019744873047,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "NumText",
+            "path": "BreadCrumbBattleIslandSlot/Floor/NumText",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -5.2667999267578125,
+                "y": 0.9000015258789062
+              },
+              "m_SizeDelta": {
+                "x": 112.96019744873047,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "StatusHandler",
+            "path": "BreadCrumbBattleIslandSlot/Floor/StatusHandler",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 106.56757354736328,
+                "y": -119.0985107421875
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "UIElementStateHandler"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "IslandName",
+        "path": "BreadCrumbBattleIslandSlot/IslandName",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 275.1499938964844,
+            "y": -83.0
+          },
+          "m_SizeDelta": {
+            "x": 249.99000549316406,
+            "y": 96.7969970703125
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          }
+        ],
+        "children": [
+          {
+            "name": "BgBox line",
+            "path": "BreadCrumbBattleIslandSlot/IslandName/BgBox line",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 121.55999755859375,
+                "y": -60.78099822998047
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 72.03299713134766
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "VerticalLayoutGroup"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ContentSizeFitter"
+              }
+            ],
+            "children": [
+              {
+                "name": "BGLine",
+                "path": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/BGLine",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -0.33697509765625,
+                    "y": 47.603904724121094
+                  },
+                  "m_SizeDelta": {
+                    "x": 150.2216796875,
+                    "y": 62.12099838256836
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "BG",
+                    "path": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/BGLine/BG",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Icon",
+                    "path": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/BGLine/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -6.600000381469727
+                      },
+                      "m_SizeDelta": {
+                        "x": 20.932296752929688,
+                        "y": 20.932300567626953
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "BgBox",
+                "path": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/BgBox",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -10.0,
+                    "y": -10.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Circle",
+                    "path": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/BgBox/Circle",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -3.0517578125e-05,
+                        "y": -41.79999542236328
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 60.69300079345703
+                      },
+                      "m_Pivot": {
+                        "x": 0.4911421835422516,
+                        "y": 0.37801259756088257
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "LayoutElement"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "path": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 118.20999908447266,
+                    "y": -36.01649856567383
+                  },
+                  "m_SizeDelta": {
+                    "x": 136.4199981689453,
+                    "y": 47.26750183105469
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ContentSizeFitter"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NextStage",
+        "path": "BreadCrumbBattleIslandSlot/NextStage",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 287.2451171875,
+            "y": -409.31591796875
+          },
+          "m_SizeDelta": {
+            "x": 324.09051513671875,
+            "y": 72.85919952392578
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": -1.0,
+            "z": 0.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Text",
+            "path": "BreadCrumbBattleIslandSlot/NextStage/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -3.23309326171875,
+                "y": 8.604999542236328
+              },
+              "m_SizeDelta": {
+                "x": -38.62269973754883,
+                "y": -22.569299697875977
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": -1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "4041079175889086362",
+      "bundle": "CAB-dacc26e3dd602acb6da8b84202ed1f5d",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_BreadCrumbBattleTitle"
+    },
+    {
+      "gameObject": "1",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Deco1/1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "2",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Deco1/1/2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "2",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Deco1/2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "2",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Deco1/2/2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "1",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Deco2/1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "2",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Deco2/1/2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "2",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Deco2/2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "2",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/Title/Deco2/2/2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "FirstStageTextShadow",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/FirstStageTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "FirstStageTextShadow",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/FirstStageTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "FirstStageTextLine",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/FirstStageTextLine",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "FirstStageTextLine",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/FirstStageTextLine",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "FirstStageText",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/FirstStageText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "FirstStageText",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/FirstStageText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-5964816968389568691",
+      "bundle": "CAB-039756c7cf412c903004d7934aa78479",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_SkinInfo_BonusProfileLabel"
+    },
+    {
+      "gameObject": "NumTextShadow",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/NumTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NumTextShadow",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/NumTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "NumTextLine",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/NumTextLine",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NumTextLine",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/NumTextLine",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "NumText",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/NumText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NumText",
+      "nodePath": "BreadCrumbBattleIslandSlot/Floor/NumText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "BgBox line",
+      "nodePath": "BreadCrumbBattleIslandSlot/IslandName/BgBox line",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "281247350890492310",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4545",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png"
+    },
+    {
+      "gameObject": "BgBox",
+      "nodePath": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/BgBox",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "281247350890492310",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4545",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png"
+    },
+    {
+      "gameObject": "Circle",
+      "nodePath": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/BgBox/Circle",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "6594447383212585428",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBlur_Fill",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleIslandSlot/IslandName/BgBox line/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "6264380543285231457",
+      "bundle": "CAB-5fc0f3bff06af3470aa8595dfec3cc78",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined_Black"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleIslandSlot/NextStage/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleIslandSlot/NextStage/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": []
+}

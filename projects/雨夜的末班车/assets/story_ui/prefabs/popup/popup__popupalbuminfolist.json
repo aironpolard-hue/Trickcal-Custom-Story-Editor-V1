@@ -1,0 +1,880 @@
+{
+  "id": "popup/popupalbuminfolist",
+  "sourceBundle": "prefab/popup/popupalbuminfolist",
+  "hierarchy": {
+    "name": "PopupAlbumInfoList",
+    "path": "PopupAlbumInfoList",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 1420.0,
+        "y": 1163.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasGroup"
+      },
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "PopupAlbumInfoList"
+      }
+    ],
+    "children": [
+      {
+        "name": "Base",
+        "path": "PopupAlbumInfoList/Base",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 4.0,
+            "y": -4.0
+          },
+          "m_SizeDelta": {
+            "x": 8.0,
+            "y": 8.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "ContentsGroup",
+        "path": "PopupAlbumInfoList/ContentsGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -72.5
+          },
+          "m_SizeDelta": {
+            "x": -80.0,
+            "y": -225.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ScrollRect"
+          }
+        ],
+        "children": [
+          {
+            "name": "Base",
+            "path": "PopupAlbumInfoList/ContentsGroup/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Viewport",
+            "path": "PopupAlbumInfoList/ContentsGroup/Viewport",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 15.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": -47.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              }
+            ],
+            "children": [
+              {
+                "name": "Content",
+                "path": "PopupAlbumInfoList/ContentsGroup/Viewport/Content",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 63.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0499999523162842,
+                    "y": 1.0499999523162842,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ContentSizeFitter"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "GridLayoutGroup"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "TopGra",
+            "path": "PopupAlbumInfoList/ContentsGroup/TopGra",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -15.0
+              },
+              "m_SizeDelta": {
+                "x": -60.0,
+                "y": 15.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": -1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BotGra",
+            "path": "PopupAlbumInfoList/ContentsGroup/BotGra",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": -60.0,
+                "y": 15.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "HeaderGroup",
+        "path": "PopupAlbumInfoList/HeaderGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -15.0
+          },
+          "m_SizeDelta": {
+            "x": -30.0,
+            "y": 130.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 1.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "BetterImage"
+          }
+        ],
+        "children": [
+          {
+            "name": "LeftDeco",
+            "path": "PopupAlbumInfoList/HeaderGroup/LeftDeco",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 213.0,
+                "y": 130.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "RightDeco",
+            "path": "PopupAlbumInfoList/HeaderGroup/RightDeco",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 213.0,
+                "y": 130.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "PopupName",
+            "path": "PopupAlbumInfoList/HeaderGroup/PopupName",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": -400.0,
+                "y": -20.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "CloseButton",
+            "path": "PopupAlbumInfoList/HeaderGroup/CloseButton",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -65.0,
+                "y": -65.0
+              },
+              "m_SizeDelta": {
+                "x": 130.0,
+                "y": 130.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "CloseIcon",
+                "path": "PopupAlbumInfoList/HeaderGroup/CloseButton/CloseIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -2.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 52.0,
+                    "y": 52.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "PopupAlbumInfoList",
+      "nodePath": "PopupAlbumInfoList",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "3956361827982675939",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_5050",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_5050.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_5050.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "PopupAlbumInfoList/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "3956361827982675939",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_5050",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_5050.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_5050.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "PopupAlbumInfoList/ContentsGroup/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Viewport",
+      "nodePath": "PopupAlbumInfoList/ContentsGroup/Viewport",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 0,
+      "pathId": "-2320101112833093935",
+      "bundle": ""
+    },
+    {
+      "gameObject": "TopGra",
+      "nodePath": "PopupAlbumInfoList/ContentsGroup/TopGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7807473786379493709",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Obsolated_CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "BotGra",
+      "nodePath": "PopupAlbumInfoList/ContentsGroup/BotGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7807473786379493709",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Obsolated_CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "HeaderGroup",
+      "nodePath": "PopupAlbumInfoList/HeaderGroup",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7622683857947353713",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PopupHeader_Base_001",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Base_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Base_001.png"
+    },
+    {
+      "gameObject": "HeaderGroup",
+      "nodePath": "PopupAlbumInfoList/HeaderGroup",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 2,
+      "pathId": "-7622683857947353713",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PopupHeader_Base_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Base_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Base_001.png"
+    },
+    {
+      "gameObject": "LeftDeco",
+      "nodePath": "PopupAlbumInfoList/HeaderGroup/LeftDeco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8365887663543357713",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Obsolated_PopupHeader_Left_0001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_PopupHeader_Left_0001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_PopupHeader_Left_0001.png"
+    },
+    {
+      "gameObject": "RightDeco",
+      "nodePath": "PopupAlbumInfoList/HeaderGroup/RightDeco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8862733143539608802",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Obsolated_PopupHeader_Right_0001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_PopupHeader_Right_0001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_PopupHeader_Right_0001.png"
+    },
+    {
+      "gameObject": "PopupName",
+      "nodePath": "PopupAlbumInfoList/HeaderGroup/PopupName",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "PopupName",
+      "nodePath": "PopupAlbumInfoList/HeaderGroup/PopupName",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "CloseIcon",
+      "nodePath": "PopupAlbumInfoList/HeaderGroup/CloseButton/CloseIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2737667185971423406",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Obsolated_CommonButton_Close_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonButton_Close_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonButton_Close_2.png"
+    }
+  ],
+  "animators": []
+}

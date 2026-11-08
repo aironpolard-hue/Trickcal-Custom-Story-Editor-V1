@@ -1,0 +1,832 @@
+{
+  "id": "slots/albumtribeslot",
+  "sourceBundle": "prefab/slots/albumtribeslot",
+  "hierarchy": {
+    "name": "AlbumTribeSlot",
+    "path": "AlbumTribeSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 432.0,
+        "y": 380.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "AlbumTribeSlot"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 6,
+          "pathId": "134509958566632482",
+          "bundle": "CAB-b1168f839c81e51c0fb2a9458e511ecb"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Base",
+        "path": "AlbumTribeSlot/Base",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Mask",
+            "path": "AlbumTribeSlot/Base/Mask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 40.0
+              },
+              "m_SizeDelta": {
+                "x": 374.0,
+                "y": 245.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SoftMask"
+              }
+            ],
+            "children": [
+              {
+                "name": "Icon",
+                "path": "AlbumTribeSlot/Base/Mask/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 308.0,
+                    "y": 290.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tribe",
+            "path": "AlbumTribeSlot/Base/Tribe",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 200.0,
+                "y": 200.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Shadow",
+                "path": "AlbumTribeSlot/Base/Tribe/Shadow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -99.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 104.0,
+                    "y": 20.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.800000011920929,
+                    "y": 0.800000011920929,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Circle",
+                "path": "AlbumTribeSlot/Base/Tribe/Circle",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 200.0,
+                    "y": 200.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Icon",
+                "path": "AlbumTribeSlot/Base/Tribe/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 26.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 200.0,
+                    "y": 200.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Title",
+            "path": "AlbumTribeSlot/Base/Title",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -6.0,
+                "y": 178.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 48.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ContentSizeFitter"
+              },
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "rice1",
+                "path": "AlbumTribeSlot/Base/Title/rice1",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 43.0,
+                    "y": -42.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 33.0,
+                    "y": 35.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_LocalScale": {
+                    "x": -1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text",
+                "path": "AlbumTribeSlot/Base/Title/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "rice2",
+                "path": "AlbumTribeSlot/Base/Title/rice2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -43.0,
+                    "y": -42.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 33.0,
+                    "y": 35.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Number",
+        "path": "AlbumTribeSlot/Number",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 23.0,
+            "y": -132.0
+          },
+          "m_SizeDelta": {
+            "x": 300.0,
+            "y": 42.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "TextMeshProUGUI"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "AlbumTribeSlot",
+      "nodePath": "AlbumTribeSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 6,
+      "pathId": "134509958566632482",
+      "bundle": "CAB-b1168f839c81e51c0fb2a9458e511ecb",
+      "assetType": "AnimatorController",
+      "assetName": "AlbumTribeSlot"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "AlbumTribeSlot/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "2253331132923829219",
+      "bundle": "CAB-efafc57799253c5c37dc681b064f19a8",
+      "assetType": "Sprite",
+      "assetName": "Album_Main_Select",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Album_Main_Select.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Album_Main_Select.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumTribeSlot/Base/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 7,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "AlbumTribeSlot/Base/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 7,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Shadow",
+      "nodePath": "AlbumTribeSlot/Base/Tribe/Shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6957709129194371702",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient_2",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient_2.png"
+    },
+    {
+      "gameObject": "Circle",
+      "nodePath": "AlbumTribeSlot/Base/Tribe/Circle",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-952181678247986719",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png"
+    },
+    {
+      "gameObject": "Title",
+      "nodePath": "AlbumTribeSlot/Base/Title",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumTribeSlot/Base/Title/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumTribeSlot/Base/Title/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "6240115296130656292",
+      "bundle": "CAB-7d36d98c33fcd719b7dbc2a18dc01bc4",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_MinigamePlay_Butter_Gauge"
+    },
+    {
+      "gameObject": "Number",
+      "nodePath": "AlbumTribeSlot/Number",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Number",
+      "nodePath": "AlbumTribeSlot/Number",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-8541679325435551055",
+      "bundle": "CAB-71c7a00e317a8d59caf9cb3daf0e0ff6",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_PopupScheduleStoryDetail_Name"
+    }
+  ],
+  "animators": [
+    {
+      "path": "AlbumTribeSlot",
+      "controllerBundle": "CAB-b1168f839c81e51c0fb2a9458e511ecb",
+      "controllerPathId": "134509958566632482",
+      "controllerType": "AnimatorController",
+      "controllerName": "AlbumTribeSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.AlbumTribeSlotLoop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.AlbumTribeSlotStart",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "AlbumTribeSlot"
+    }
+  ]
+}

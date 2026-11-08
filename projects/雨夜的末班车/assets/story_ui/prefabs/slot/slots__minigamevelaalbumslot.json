@@ -1,0 +1,1343 @@
+{
+  "id": "slots/minigamevelaalbumslot",
+  "sourceBundle": "prefab/slots/minigamevelaalbumslot",
+  "hierarchy": {
+    "name": "MiniGameVelaAlbumSlot",
+    "path": "MiniGameVelaAlbumSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 1000.0,
+        "y": 400.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "MiniGameVelaAlbumSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      }
+    ],
+    "children": [
+      {
+        "name": "Panel",
+        "path": "MiniGameVelaAlbumSlot/Panel",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 714.0,
+            "y": 490.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "Animator",
+            "controller": {
+              "fileId": 2,
+              "pathId": "1684775258614522248",
+              "bundle": "CAB-cf456def2c8d02580769002ebb4b2ba3"
+            }
+          },
+          {
+            "type": "CanvasGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": [
+          {
+            "name": "BgImage",
+            "path": "MiniGameVelaAlbumSlot/Panel/BgImage",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 65.0,
+                "y": -14.0
+              },
+              "m_SizeDelta": {
+                "x": 70.0,
+                "y": 580.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.026176923885941505,
+                "w": 0.9996573328971863
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "BetterImage"
+              },
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Mask",
+            "path": "MiniGameVelaAlbumSlot/Panel/Mask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 790.0,
+                "y": 580.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SoftMask"
+              }
+            ],
+            "children": [
+              {
+                "name": "Image",
+                "path": "MiniGameVelaAlbumSlot/Panel/Mask/Image",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 66.0,
+                    "y": -39.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 913.0,
+                    "y": 606.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.399999976158142,
+                    "y": 1.399999976158142,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Dim",
+                "path": "MiniGameVelaAlbumSlot/Panel/Mask/Dim",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 42.0,
+                    "y": -39.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 2.0,
+                    "y": 1.7000000476837158,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "LT",
+                    "path": "MiniGameVelaAlbumSlot/Panel/Mask/Dim/LT",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 310.0,
+                        "y": 310.0
+                      },
+                      "m_Pivot": {
+                        "x": 1.0,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "LB",
+                    "path": "MiniGameVelaAlbumSlot/Panel/Mask/Dim/LB",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 310.0,
+                        "y": 310.0
+                      },
+                      "m_Pivot": {
+                        "x": 1.0,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.7071068286895752,
+                        "w": 0.7071068286895752
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "RB",
+                    "path": "MiniGameVelaAlbumSlot/Panel/Mask/Dim/RB",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 310.0,
+                        "y": 310.0
+                      },
+                      "m_Pivot": {
+                        "x": 1.0,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0,
+                        "w": 0.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "RT",
+                    "path": "MiniGameVelaAlbumSlot/Panel/Mask/Dim/RT",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 310.0,
+                        "y": 310.0
+                      },
+                      "m_Pivot": {
+                        "x": 1.0,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.7071068286895752,
+                        "w": -0.7071068286895752
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Lock",
+                "path": "MiniGameVelaAlbumSlot/Panel/Mask/Lock",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 964.0,
+                    "y": 617.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Title",
+            "path": "MiniGameVelaAlbumSlot/Panel/Title",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -25.0
+              },
+              "m_SizeDelta": {
+                "x": 715.0,
+                "y": 84.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              },
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "FxPos",
+                "path": "MiniGameVelaAlbumSlot/Panel/Title/FxPos",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 712.0,
+                    "y": 53.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "FX_UI_VelaBattle_Btn_1",
+                    "path": "MiniGameVelaAlbumSlot/Panel/Title/FxPos/FX_UI_VelaBattle_Btn_1",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Root",
+                        "path": "MiniGameVelaAlbumSlot/Panel/Title/FxPos/FX_UI_VelaBattle_Btn_1/Root",
+                        "active": true,
+                        "rect": {
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "[Seq]_Fire",
+                            "path": "MiniGameVelaAlbumSlot/Panel/Title/FxPos/FX_UI_VelaBattle_Btn_1/Root/[Seq]_Fire",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Spark",
+                            "path": "MiniGameVelaAlbumSlot/Panel/Title/FxPos/FX_UI_VelaBattle_Btn_1/Root/[Atlas_add]_Spark",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": -50.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TitleLayOut",
+                "path": "MiniGameVelaAlbumSlot/Panel/Title/TitleLayOut",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "HorizontalLayoutGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "BgGlow",
+                    "path": "MiniGameVelaAlbumSlot/Panel/Title/TitleLayOut/BgGlow",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 60.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.100000023841858,
+                        "y": 1.100000023841858,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "LayoutElement"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Text",
+                    "path": "MiniGameVelaAlbumSlot/Panel/Title/TitleLayOut/Text",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 62.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "RedDot",
+            "path": "MiniGameVelaAlbumSlot/Panel/RedDot",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -25.0,
+                "y": -25.0
+              },
+              "m_SizeDelta": {
+                "x": 65.0,
+                "y": 65.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Panel",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 2,
+      "pathId": "1684775258614522248",
+      "bundle": "CAB-cf456def2c8d02580769002ebb4b2ba3",
+      "assetType": "AnimatorController",
+      "assetName": "MiniGameVela_EndingSlot"
+    },
+    {
+      "gameObject": "BgImage",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/BgImage",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "9105746868208332157",
+      "bundle": "CAB-a1148c6f823001ea7da96853eec45370",
+      "assetType": "Sprite",
+      "assetName": "MiniGameMain_Vela_Album_Page",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameMain_Vela_Album_Page.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameMain_Vela_Album_Page.png"
+    },
+    {
+      "gameObject": "BgImage",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/BgImage",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 3,
+      "pathId": "9105746868208332157",
+      "bundle": "CAB-a1148c6f823001ea7da96853eec45370",
+      "assetType": "Sprite",
+      "assetName": "MiniGameMain_Vela_Album_Page",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameMain_Vela_Album_Page.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameMain_Vela_Album_Page.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "9105746868208332157",
+      "bundle": "CAB-a1148c6f823001ea7da96853eec45370",
+      "assetType": "Sprite",
+      "assetName": "MiniGameMain_Vela_Album_Page",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameMain_Vela_Album_Page.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameMain_Vela_Album_Page.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 6,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 6,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Mask/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "LT",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Mask/Dim/LT",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "3198498299274798917",
+      "bundle": "CAB-a1148c6f823001ea7da96853eec45370",
+      "assetType": "Sprite",
+      "assetName": "MiniGameVela_EndingSlot_Dim",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameVela_EndingSlot_Dim.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameVela_EndingSlot_Dim.png"
+    },
+    {
+      "gameObject": "LB",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Mask/Dim/LB",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "3198498299274798917",
+      "bundle": "CAB-a1148c6f823001ea7da96853eec45370",
+      "assetType": "Sprite",
+      "assetName": "MiniGameVela_EndingSlot_Dim",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameVela_EndingSlot_Dim.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameVela_EndingSlot_Dim.png"
+    },
+    {
+      "gameObject": "RB",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Mask/Dim/RB",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "3198498299274798917",
+      "bundle": "CAB-a1148c6f823001ea7da96853eec45370",
+      "assetType": "Sprite",
+      "assetName": "MiniGameVela_EndingSlot_Dim",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameVela_EndingSlot_Dim.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameVela_EndingSlot_Dim.png"
+    },
+    {
+      "gameObject": "RT",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Mask/Dim/RT",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "3198498299274798917",
+      "bundle": "CAB-a1148c6f823001ea7da96853eec45370",
+      "assetType": "Sprite",
+      "assetName": "MiniGameVela_EndingSlot_Dim",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameVela_EndingSlot_Dim.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameVela_EndingSlot_Dim.png"
+    },
+    {
+      "gameObject": "Lock",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Mask/Lock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "8365211492757946688",
+      "bundle": "CAB-a1148c6f823001ea7da96853eec45370",
+      "assetType": "Sprite",
+      "assetName": "MiniGameMain_Vela_Album_Lock",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameMain_Vela_Album_Lock.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MiniGameMain_Vela_Album_Lock.png"
+    },
+    {
+      "gameObject": "Root",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Title/FxPos/FX_UI_VelaBattle_Btn_1/Root",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-4842174792883495735",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SimpleGrow"
+    },
+    {
+      "gameObject": "[Seq]_Fire",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Title/FxPos/FX_UI_VelaBattle_Btn_1/Root/[Seq]_Fire",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-4842174792883495735",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SimpleGrow"
+    },
+    {
+      "gameObject": "[Seq]_Fire",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Title/FxPos/FX_UI_VelaBattle_Btn_1/Root/[Seq]_Fire",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "29462997525624929",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Seq_Fire_Vela_1"
+    },
+    {
+      "gameObject": "[Atlas_add]_Spark",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Title/FxPos/FX_UI_VelaBattle_Btn_1/Root/[Atlas_add]_Spark",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "8405307937573698872",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SK_SmallPointLight_Gray"
+    },
+    {
+      "gameObject": "[Atlas_add]_Spark",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Title/FxPos/FX_UI_VelaBattle_Btn_1/Root/[Atlas_add]_Spark",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "BgGlow",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Title/TitleLayOut/BgGlow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-6828438310007169599",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow_Split",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Split.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Split.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Title/TitleLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/Title/TitleLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "MiniGameVelaAlbumSlot/Panel/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "MiniGameVelaAlbumSlot/Panel",
+      "controllerBundle": "CAB-cf456def2c8d02580769002ebb4b2ba3",
+      "controllerPathId": "1684775258614522248",
+      "controllerType": "AnimatorController",
+      "controllerName": "MiniGameVela_EndingSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.MiniGameVela_EndingSlot_Default",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MiniGameVela_EndingSlot_Select",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "MiniGameVela_EndingSlot"
+    }
+  ]
+}

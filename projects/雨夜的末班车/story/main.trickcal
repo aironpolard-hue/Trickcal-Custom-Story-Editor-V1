@@ -1,325 +1,43 @@
-# 《雨夜的末班车》：从零学习 Trickcal 剧情脚本
-#
-# 【先读这里】
-# 1. 以 # 开头的是注释，给写剧本的人阅读，不会显示在剧情画面中。
-# 2. 其余行是本引擎的 DSL 指令，通常从上往下执行；choice、if、jump 会改变路线。
-# 3. 英文符号必须使用半角：双引号 " "、冒号 :、逗号 ,、等号 = 和箭头 ->。
-# 4. 缩进表示指令属于上面的块：本教程统一用两个空格，不要随意改变同一层的缩进。
-# 5. 名称区分大小写，例如 ner 和 Ner 是两个不同的名称；自己起的名称可以替换。
-# 6. 坐标以 1920×1080 设计画面为例：左上角是 0,0；X 向右增加，Y 向下增加。
-# 7. 文本请放在英文双引号中；时间常用 1s（1 秒）或 500ms（500 毫秒）。
-# 8. 点击播放画面：文字未显示完时先显示全文，再点击才进入下一句。
-# 9. 本文件是本引擎语法，不是可以直接放进 Ren'Py 的 Python 脚本。
-# 10. 每个 preset 只给下一条兼容的剧情指令提供设置，不会改写预设文件。
-#     普通台词的逐字显示属于台词本身，本教程没有独立 UI 或独立打字机对象。
-#
-# ============================================================
-# 第一课：声明资源与变量
-# ============================================================
-# image 声明图片；等号左侧是稍后使用的名称，右侧是相对项目根目录的文件路径。
-# erpin_avatar 是埃尔芬的头像；它先声明，后面 Spine 的 avatar 才能引用。
-image erpin_avatar = "assets/herohead/erpin.png"
-# ner_avatar 是内尔的头像；只声明不会立刻把图片显示到画面上。
-image ner_avatar = "assets/herohead/ner.png"
-# Spine(...) 声明角色模型；括号内第一个字符串是模型文件夹，不是单张图片。
-# name 是角色显示名；avatar 是上面声明的图片名；avatarBg 是头像底色。
-# "#e7b35f" 是六位十六进制颜色；逗号分隔各项，名称和颜色可自行更换。
-define erpin = Spine("assets/spine/standing/erpin", name="埃尔芬", avatar=erpin_avatar, avatarBg="#e7b35f")
-# 第二个角色同样先声明，后面才能使用 ner 说话或在舞台显示 ner。
-define ner = Spine("assets/spine/standing/ner", name="内尔", avatar=ner_avatar, avatarBg="#9fc766")
-# emoticon 是一次性 Spine 表情素材的名称；没有指定 name 或头像，因为它不是说话角色。
-define emoticon = Spine("assets/spine/emoticon")
-# station 和 hall 分别是站台、候车厅背景图的名称；也可以作为舞台图片使用。
-image station = "assets/bg/elf_city_night.png"
-image hall = "assets/bg/elf_arthall_night.png"
-# define audio.rain 声明一个叫 rain 的音频；audio. 表明它属于音频资源。
-# 本项目的 silent.wav 是静音占位素材，所以示例没有实际雨声音效。
-# 换成有权使用的音频后，需同时修改引号中的文件路径。
-define audio.rain = "assets/audio/silent.wav"
-# default 声明变量及初始值；saw_signal 是自定义名称，false 表示尚未看到信号灯。
-# 变量只能先声明再读取或修改，true 表示是，false 表示否。
-default saw_signal = false
+image bg_black = "assets/bg/纯黑.png"
+image bg_Fta = "assets/bg/Fairy_temple_afternoon.png"
+image erp_avatar = "assets/herohead/erpin.png"
+image ym_avatar = "assets/herohead/YomiSkin2.png"
+image vivi_avatar = "assets/herohead/ViviSkin2.png"
+define erp = Spine("assets/spine\standing\erpin", name="埃尔芬",avatar=erp_avatar, avatarBg="#dd2525")
+define bq = Spine("assets\spine\emoticon", name="表情")
+define ym = Spine("assets/spine/standing/yomiskin2", name="优米",avatar=ym_avatar, avatarBg="#b225dd")
+define vivi = Spine("assets/spine/standing/viviskin2", name="微微",avatar=vivi_avatar, avatarBg="#979797")
 
-# ============================================================
-# 第二课：章节、背景、音频和地点
-# ============================================================
-# scene bg black 将背景设为引擎内置黑屏；black 不是需要声明的图片。
-scene bg black
-# preset 选择「章节开场」；uiScale 0.95 表示本次整体缩放到 95%。
-preset 章节开场 uiScale 0.95
-# opening 后的 1 是章节号，引号内是标题；hold 0 表示完成后额外停留 0 秒。
-# cinema on 开启电影边框；bg black 指定本次开场背景为黑色。
-opening 1 "雨夜的末班车" hold 0 cinema on bg black
-# 用已经声明的 station 图片切换背景；scene bg 后写声明名，不写文件路径。
-scene bg station
-# audio play rain 播放已声明的 rain；loop 是循环，fadeIn 1s 是一秒淡入。
-# 普通音频指令在下一段可播放剧情开始时执行；静音文件不会发出声音。
-audio play rain loop fadeIn 1s
-# 地点标识本次整体向上移动 20 像素；uiY 为正则向下。
-preset 地点标识 uiY -20
-# location 显示地点文字；hold 0 表示动画后额外停留 0 秒。
-location "王都 · 中央车站" hold 0
-# 新闻主播框：fontSize 是文字大小，shadowX/Y 是阴影向右/向下的偏移。
-# entryDuration 0.8 把这一次入场设为 0.8 秒；原预设文件不变。
-preset 新闻框·主播 fontSize 52 shadowX 16 shadowY 12 entryDuration 0.8
-# news anchor 使用主播样式，双引号内是实际广播内容。
-news anchor "站台广播：末班车因暴雨晚点。"
-# 新闻简报框本次把文字设为深蓝色；颜色必须放进英文双引号。
-preset 新闻框·简报 textColor "#012060"
-# news summary 使用简报样式；anchor 和 summary 是不同的新闻模式。
-news summary "请旅客留意站台广播，耐心等候。"
-# 旁白框本次字号为 52；preset 的覆盖只作用于下面这一句。
-preset 旁白框 fontSize 52
-# narration 是没有角色说话者的旁白；引号内为显示的文字。
-narration "暴雨落在空荡荡的站台上，末班车迟迟没有到来。"
-
-# ============================================================
-# 第三课：角色登场、动作与普通对话
-# ============================================================
-# show erpin 把已声明的角色放上舞台；at right 是右侧预设站位。
-# face 1 与 face -1 为两个朝向；pose Idle_1 指模型中实际存在的动作名。
-show erpin at right face 1 pose Idle_1
-# ner 先出现在左侧但 alpha 0 为完全透明；brightness 0.85 为原亮度的 85%。
-# alpha 范围是 0 到 1；brightness 0 为黑，1 为正常，大于 1 可提亮。
-show ner at left face -1 pose Idle_1 alpha 0 brightness 0.85
-# skin erpin Normal 选择埃尔芬模型已有的 Normal 皮肤；名称必须与模型一致。
-skin erpin Normal
-# anim 给舞台角色切换 Spine 动作；Happy_1 是模型动作名，fade 0.25 是混合秒数。
-anim erpin Happy_1 fade 0.25
-# parallel: 开始并行时间线；块内语句缩进，且本块没有台词时会自动等待动作完成。
+opening 67 "这是标题演示" hold 0 cinema on bg black
+scene bg bg_Fta
+location "皇宫的大厅" hold 0 uiX 0 uiY 0 uiScale 1 uiRot 0 uiOpacity 1
 parallel:
-  # after 0.5s: 表示以并行块开始为起点，延迟半秒执行内部内容。
-  after 0.5s:
-    # move 对 ner 的 alpha 补间：从 0 到 1，in 1s 耗时一秒，Linear 为匀速。
-    move ner alpha 0 -> 1 in 1s ease Linear
-
-# 选择普通框；下方 ner 是说话角色，normal 是对话模式，引号里是台词。
-preset 普通对话框
-ner normal "还好，你赶上了。广播说列车晚点。"
-# 不写 preset 时使用这一模式的默认设置；这里由 erpin 接话。
-erpin normal "我还以为要冒雨走回家了。"
-# 「无名字」预设隐藏名字区域，但不会改变说话者或角色模型。
-preset 普通对话框·无名字
-ner normal "先站到屋檐下面吧。"
-# speed 是逐字间隔的秒数；punctuationPause 是句中标点后的额外停顿秒数。
-# typeSpeed 是速度倍率；这个预设作用于下一句普通对话，并不是独立对象。
-preset 普通打字机 speed 0.06 punctuationPause 0.2 typeSpeed 1
-erpin normal "听，雨声好像变小了。"
-# 富文本 color 改变包住的文字颜色，/color 结束着色。
-# pause=0.3 暂停 0.3 秒；speed=0.5 将局部速度设为一半，/speed 恢复原速。
-ner normal "看，那盏灯<color=#ffcc00>又亮了</color>。<pause=0.3><speed=0.5>我们过去看看？</speed>"
-
-# ============================================================
-# 第四课：漫画气泡、想法、独白和字幕
-# ============================================================
-# bubbleWidth 800 是气泡宽度；tail br 是右下箭头，另外可用 bl、tl、tr。
-# shadowX/Y 是阴影向右/向下的偏移；shadowColor 是颜色，shadowAlpha 是透明度。
-preset 漫画对话气泡 tail br bubbleWidth 800 shadowX 18 shadowY 20 shadowColor "#513a61" shadowAlpha 0.45
-# manga 是带箭头尾巴的漫画气泡；引号内是内容，bubble 820,500 是本句气泡坐标。
-# 台词行内也可写 tail bl/br/tl/tr，行内方向优先于对应预设。
-erpin manga "等等我！那盏灯刚才是不是动了一下？" bubble 820,500
-# 第二句更换左上箭头；连续漫画气泡会各自执行默认退场和入场。
-preset 漫画对话气泡 tail tl bubbleWidth 800
-erpin manga "它在站台尽头，一闪一闪的。"
-# bubbleMinHeight 和 bubbleMaxHeight 是气泡高度上下限；bubblePaddingY 为上下留白。
-# fontSize 46 是文字大小；textWidth 620 是文字排版宽度；uiScale 0.95 是整体缩放。
-# overflow grow 会随文字增长，到上限后滚动；还可选 shrink、scroll 或 clip。
-preset 漫画对话气泡 tail tr bubbleWidth 800 bubbleMinHeight 240 bubbleMaxHeight 400 bubblePaddingY 60 fontSize 46 textWidth 620 uiScale 0.95 overflow grow
-ner manga "别急，先看看脚下。站台被雨水打湿了，我们可以沿着屋檐慢慢走过去。"
-# 紫色内心漫画气泡仍搭配 manga，因此使用箭头尾巴，而不是圆点尾巴。
-preset 紫色内心气泡 tail bl
-ner manga "她总是在最后一刻赶到。"
-# 思考气泡搭配 think，使用圆点尾巴；它不是上面的紫色箭头气泡。
-preset 思考气泡
-erpin think "要是灯后面藏着什么呢？"
-# cloud 是云朵框；有名字的预设会显示说话角色的名字区域。
-preset 云朵对话框·有名字
-erpin cloud "不过，雨夜也有一点点冒险的气氛。"
-# 云朵内心框使用同一个 cloud 模式，但预设样式不同。
-preset 云朵内心框
-ner cloud "（希望她不会突然跑出去。）"
-# blast 是爆炸框模式；不要只选爆炸框预设却仍使用 normal 模式。
-preset 爆炸框
-erpin blast "那边有声音！"
-# 无名字版本隐藏名字区域，仍须使用 blast 台词模式。
-preset 爆炸框·无名字
-ner blast "小心地滑！"
-# 普通独白框中的 name、avatar 和 avatarBg 可以单句覆盖角色声明的默认值。
-# avatar 必须是先用 image 声明的名称；avatarBg 是头像背后的颜色。
-preset 独白框
-ner clear "雨似乎又大了一些。" name "内尔" avatar ner_avatar avatarBg "#75a659"
-# clearRe 紧接 clear 时保留框体，重新播放头像和名字的入场并更新说话者。
-erpin clearRe "那我们沿着屋檐走，我会看着路的。"
-# 紫色独白预设搭配 clear；预设的 avatarBg 可以设置这一次的头像底色。
-preset 紫色内心独白框 avatarBg "#80639b"
-ner clear "但愿她说到做到。"
-# anime 是动画字幕模式；textColor 只修改本次字幕文字颜色。
-preset 动画字幕 textColor "#ffffff"
-erpin anime "出发，调查那盏信号灯！"
-# 拟声框阴影同样可以调整：X 向右、Y 向下；shadowAlpha 范围为 0 到 1。
-preset 拟声框 shadowX 30 shadowY 30 shadowColor "#333333" shadowAlpha 0.7
-# sfx 显示拟声文字；at 960,470 指定框体在设计画面上的坐标。
-# 入场参考已提取曲线，但框体目前由引擎近似绘制，并非原版 SDF。
-sfx "哗啦——" at 960,470
-
-# ============================================================
-# 第五课：并行动作、表情、镜头和等待
-# ============================================================
-# anim 中的 Surprise_1 必须是 ner 模型已有的动作；fade 0.25 表示混合 0.25 秒。
-anim ner Surprise_1 fade 0.25
-# 块内只能同时放一条普通剧情台词；下面的移动、镜头和表情与该台词共用时间线。
-parallel:
-  # at 960,520 是表情坐标，scale 0.8 是缩放；Huh 是表情素材的动画名称。
-  # oneshot spine 会播放一次表情；after 100ms 从块开始延迟 100 毫秒。
-  after 100ms:
-    oneshot spine emoticon anim Huh at 960,520 scale 0.8
-  # move erpin x by -120 表示水平相对左移 120；in 0.8s 是时长。
-  # InOutSine 是缓入缓出；move 可用于已登场角色或图片。
-  move erpin x by -120 in 0.8s ease InOutSine
-  # 200 毫秒后显示本块唯一台词，并把内尔逐渐恢复到正常亮度。
+  camera zoom 1
+  camera zoom 1 -> 1.3 in 2s
+  camera x 0 -> -220 in 0.5s
   after 200ms:
-    erpin manga "我走近一点，看看信号灯。"
-    # 亮度从 0.85 到 1，耗时 0.6 秒；Linear 表示匀速。
-    move ner brightness 0.85 -> 1 in 0.6s ease Linear
-    # Idle_1 是内尔的待机动作；fade 为切换动作时的混合秒数。
-    anim ner Idle_1 fade 0.25
-    # camera zoom 将镜头缩放从 1 平滑增至 1.08，耗时 0.6 秒。
-    camera zoom 1 -> 1.08 in 0.6s ease InOutSine
-# camera follow 让镜头跟随 erpin；offset 0,300 是跟随偏移坐标。
-camera follow erpin offset 0,300
-# 这句台词会在跟随镜头下显示。
-ner normal "别走太快，我跟着你。"
-# camera reset 将镜头恢复默认，并结束跟随。
-camera reset
-
-# 显示图片、绑定、跟随和解绑：hall 是已声明图片，hall_card 是舞台对象名。
+    show erp at 2000,800 face 1 pose Idle_1
+    after 200ms:
+      move erp x 2000 -> 960 in 2s
+      camera x -220 -> 0 in 2s
+  after 800ms:
+    erp clear "<speed=0.5>Hello！<pause=0.2>教主，<pause=0.5>我是埃尔芬<pause=0.5>\n这是我的对话内容哦，<pause=0.5>怎么样？<pause=0.5>\n是不是挺酷的？</speed>" enter "default" exit "default" textOffsetX 0 textOffsetY 0 uiX 0 uiY 0 uiScale 1 uiRot 0 uiOpacity 1 typeSpeed 1 fontSize 52 textColor "#333333" shadowX 12.5 shadowY 12.5 shadowAlpha 0.4 shadowColor "#000000"
+    after 0.2s:
+      anim erp Happy_2 fade 0.25
+      after 1.5s:
+        anim erp Happy_5 fade 0.25
+        after 1s:
+          anim erp Happy_7 fade 0.25
+            after 1s:
+              anim erp Happy_8 fade 0.25
 parallel:
-  # 先在 200 毫秒显示图片；at 是位置，scale 是缩放，alpha 是不透明度。
-  after 200ms:
-    show image hall as hall_card at 960,520 scale 0.12 alpha 0.9
-  # 400 毫秒时绑定到 erpin；offset 是相对于父对象的本地偏移。
-  after 400ms:
-    bind hall_card to erpin offset 220,-360
-  # 角色移动时图片跟随；by -80 是相对于当前位置左移 80。
-  after 500ms:
-    move erpin x by -80 in 400ms ease Linear
-  # 绑定期间仍可单独调整子图片的不透明度和亮度。
-  after 600ms:
-    move hall_card alpha 0.9 -> 0.4 in 300ms ease Linear
-    move hall_card brightness 1 -> 1.3 in 300ms ease Linear
-  # 解绑时必须提供 at 坐标；之后图片不再跟随角色。
-  after 1s:
-    unbind hall_card at 1180,520
-  # wait 1.1s 确保该无台词并行块至少持续 1.1 秒，再自动继续。
-  wait 1.1s
-# hide 移除名为 hall_card 的舞台图片；不会删除原图片文件。
-hide hall_card
-# 动作预设「跑入」可在名称后单次覆盖参数：from right 从右侧进入。
-# duration 0.4 是 0.4 秒；ease Linear 为匀速；修改不写回预设文件。
-parallel:
-  move erpin preset 跑入 from right duration 0.4 ease Linear
-  wait 0.4s
-# 「拉伸」是引擎的通用缩放动作，不代表原游戏特有动作。
-# scaleX 1.03 与 scaleY 0.97 是当前大小的倍率，结束后缩放会保留。
-parallel:
-  move erpin preset 拉伸 duration 0.3 scaleX 1.03 scaleY 0.97
-  wait 0.3s
-# 单独的 wait 会保留舞台、隐藏对话框，等待 200 毫秒后自动继续，点击不能跳过。
-wait 200ms
+  camera zoom 1.3 -> 1 in 2s
+  show vivi at 2000,800 face 1 pose Tickle_Idle_1
+  move erp x 800 -> 500 in 1s
+  move vivi x 2000 -> 1100 in 2s
+  vivi manga "扎啤吧" enter default exit default tail tr bubbleWidth 760 bubbleMinHeight 320 bubbleMaxHeight 640 bubblePaddingY 180 textWidth 580 textOffsetX 0 textOffsetY 0 uiX 0 uiY 0 uiScale 0.8 uiRot 0 uiOpacity 1 typeSpeed 1 overflow grow fontSize 52 textColor "#333333" shadowX 12.5 shadowY 12.5 shadowAlpha 0.4 shadowColor "#000000"
 
-# ============================================================
-# 第六课：画面效果、背景渐变与遮罩转场
-# ============================================================
-# 并行时间线允许背景和亮度同时变化；scene 渐变必须写在 parallel 内。
-parallel:
-  # 延迟 200 毫秒开始；嵌套内容从这一时间点触发。
-  after 200ms:
-    # 背景在 300 毫秒内从当前画面交叉淡化到 hall；Linear 表示匀速。
-    scene bg hall in 300ms ease Linear
-    # 全画面亮度从 1 降至 0.8；这不同于单个角色的 brightness。
-    effect brightness 1 -> 0.8 in 300ms ease Linear
-  # 从块开始等待 500 毫秒，正好覆盖 200 毫秒延时和 300 毫秒变化。
-  wait 500ms
-# 清除全画面效果；不会把独立角色亮度也改回默认值。
-effect reset
-# shader gray 0.35 使用内置灰度着色器，0.35 是效果强度；设备不支持时会提示。
-shader gray 0.35
-# 可播放台词让这一效果可见；shader reset 会在下一段剧情开始时生效。
-ner normal "从这里可以看清候车厅的窗户。"
-# reset 关闭当前 shader；它不是删除着色器文件。
-shader reset
-# 黑场预设 hold 0.8 表示这次转场持续 0.8 秒；transition 会自动结束并继续。
-preset 转场·黑场 hold 0.8
-transition
-# 转场只覆盖画面，不负责切换背景；这里单独将背景渐变回 station。
-parallel:
-  scene bg station in 300ms ease Linear
-  wait 300ms
-# 色条为引擎自绘遮罩，hold 0.8 为本次时长，不等于直接播放原游戏动画。
-preset 转场·色条 hold 0.8
-transition
-# 转场结束后仍在站台；旁白说明故事接下来的情景。
-narration "色条散去后，远处的信号灯仍在雨里闪烁。"
 
-# ============================================================
-# 第七课：选择、变量、条件与汇合
-# ============================================================
-# choice 显示问题；其下每个选项缩进两个空格。
-# 双引号内是按钮文字；-> 后是目标 label 名称，而不是显示给读者的文字。
-# 最后一项的 if saw_signal 是解锁条件：当前初值为 false，因此它不可点击。
-# 可以把文件开头的 default saw_signal 改为 true，重新运行后观察解锁状态。
-choice "接下来去哪里？"
-  "去站台查看信号灯" -> platform
-  "留在候车厅避雨" -> waiting
-  "再次查看已发现的信号灯" -> platform if saw_signal
 
-# label 定义跳转目的地；platform 是自定义名称，行末冒号不可省略。
-label platform:
-  # set 修改已声明变量；= true 表示这条路线已经看到信号灯。
-  set saw_signal = true
-  # narration 与角色台词都属于 platform 这条路线。
-  narration "两人沿着屋檐来到站台尽头，发现那是一盏旧信号灯。"
-  erpin manga "原来它一直在给末班车指路。"
-  ner think "灯还亮着，列车应该不会错过这里。"
-  # jump ending 立即跳到 ending，避免顺着文件继续执行 waiting 路线。
-  jump ending
 
-# 用户选择候车厅时直接跳到 waiting，不会执行 platform 下的内容。
-label waiting:
-  # 切换到已声明的 hall 背景；这条路线不修改 saw_signal，仍是 false。
-  scene bg hall
-  narration "她们回到候车厅，等候雨势减弱。"
-  ner normal "在这里至少不会淋雨。"
-  erpin normal "好，我们一起等末班车。"
-  # 两条路线都跳到 ending；在这里写出 jump 能让汇合意图更清楚。
-  jump ending
-
-# ending 是两条路线共同的后续；前面的 choice/jump 都引用这个名称。
-label ending:
-  # 重置镜头，避免前面的设置影响结尾。
-  camera reset
-  # 停止 rain，fadeOut 1s 表示从停止时开始淡出一秒；音频是静音占位。
-  audio stop rain fadeOut 1s
-  # if 检查布尔变量；冒号后的缩进行只在 saw_signal 为 true 时执行。
-  if saw_signal:
-    narration "雨声渐渐变小，信号灯仍在雨幕里闪烁。"
-  # else 表示条件不成立时执行另一组缩进行；它与 if 保持同层缩进。
-  else:
-    narration "雨声渐渐变小，远处传来列车的汽笛。"
-  # 再显示一次拟声框；at 设定画面坐标。
-  preset 拟声框
-  sfx "呜——" at 960,470
-  # hide all 清除舞台上的角色和图片，不删除项目里的素材。
-  hide all
-  # 全屏文字的 fontSize 和 textColor 只覆盖下面这一句。
-  preset 全屏文字 fontSize 64 textColor "#ffffff"
-  fullscreen "末班车终于来了。"
-  # end 结束这条故事路线；没有它，后续内容可能继续执行。
-  end
-
-# 【继续学习】
-# 试着改一条台词、气泡的 tail 或头像底色，保存后重新运行预览。
-# 试完一个选择后从头再运行一次，选择另一条路线，比较结尾的 if / else。
-# 未访问路线的跳转预览不是完整存档；从头实际播放才能验证分支。
-# parallel 暂不支持任意语句并发、同时显示多句台词或在块内执行 choice/jump。
-# 项目使用的游戏素材与动画可能受权利限制；发布前须自行确认授权。
+end

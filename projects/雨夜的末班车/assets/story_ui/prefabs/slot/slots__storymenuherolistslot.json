@@ -1,0 +1,4420 @@
+{
+  "id": "slots/storymenuherolistslot",
+  "sourceBundle": "prefab/slots/storymenuherolistslot",
+  "hierarchy": {
+    "name": "StoryMenuHeroListSlot",
+    "path": "StoryMenuHeroListSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 448.0,
+        "y": 482.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 9,
+          "pathId": "3620912136215807264",
+          "bundle": "CAB-397713ea989659d2fe3809f8b7327858"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "StoryMenuHeroListSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "SynergyHandler",
+        "path": "StoryMenuHeroListSlot/SynergyHandler",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 100.0,
+            "y": 100.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Axis",
+        "path": "StoryMenuHeroListSlot/Axis",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 448.0,
+            "y": 482.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "FilmDeco",
+            "path": "StoryMenuHeroListSlot/Axis/FilmDeco",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -14.0,
+                "y": -114.0
+              },
+              "m_SizeDelta": {
+                "x": 340.0,
+                "y": 142.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "FilmCase",
+            "path": "StoryMenuHeroListSlot/Axis/FilmCase",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 450.0,
+                "y": 450.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              }
+            ],
+            "children": [
+              {
+                "name": "FilmCase_Back",
+                "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Back",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 450.0,
+                    "y": 450.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "CaseBack",
+                    "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Back/CaseBack",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 450.0,
+                        "y": 450.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "CaseFront",
+                    "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Back/CaseFront",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 450.0,
+                        "y": 450.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "FilmBaseBorderBack",
+                "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmBaseBorderBack",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -106.0,
+                    "y": -106.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMask"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "FilmBaseBorderFront",
+                "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmBaseBorderFront",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -106.0,
+                    "y": -106.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMask"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "FilmCase_Front",
+                "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 450.0,
+                    "y": 450.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "CaseBack",
+                    "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/CaseBack",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 450.0,
+                        "y": 450.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "CaseFront",
+                    "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/CaseFront",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 450.0,
+                        "y": 450.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "FilmHole",
+                    "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -2.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 341.0,
+                        "y": 380.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Axis_InnerHole1",
+                        "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole1",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 140.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 130.0,
+                            "y": 130.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SoftMask"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Axis_InnerHole2",
+                        "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 122.0,
+                            "y": 72.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 130.0,
+                            "y": 130.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.5,
+                            "w": 0.8660253882408142
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SoftMask"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Axis_InnerHole3",
+                        "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole3",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 122.0,
+                            "y": -68.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 130.0,
+                            "y": 130.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.866025447845459,
+                            "w": 0.4999999403953552
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SoftMask"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Axis_InnerHole4",
+                        "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole4",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -140.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 130.0,
+                            "y": 130.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -1.0,
+                            "w": 0.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SoftMask"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Axis_InnerHole5",
+                        "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole5",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -122.0,
+                            "y": -68.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 130.0,
+                            "y": 130.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": 0.866025447845459,
+                            "w": 0.4999999403953552
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SoftMask"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Axis_InnerHole6",
+                        "path": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole6",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -122.0,
+                            "y": 72.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 130.0,
+                            "y": 130.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": 0.5,
+                            "w": 0.8660253882408142
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SoftMask"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "HeroSlot",
+                "path": "StoryMenuHeroListSlot/Axis/FilmCase/HeroSlot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 276.0,
+                    "y": 276.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "UI",
+            "path": "StoryMenuHeroListSlot/Axis/UI",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "New",
+                "path": "StoryMenuHeroListSlot/Axis/UI/New",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 176.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 144.0,
+                    "y": 70.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "NewIcon",
+                    "path": "StoryMenuHeroListSlot/Axis/UI/New/NewIcon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 144.0,
+                        "y": 70.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ButtonElastic"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "HeroIcon",
+                "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 250.0,
+                    "y": 250.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "HeroAffinityState",
+                    "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/HeroAffinityState",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 240.0,
+                        "y": 240.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Hero",
+                    "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 240.0,
+                        "y": 240.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Mask"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Icon",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/Icon",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -8.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 252.0,
+                            "y": 252.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SoftMask"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "ImageColor",
+                            "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/Icon/ImageColor",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 252.0,
+                                "y": 252.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SoftMaskable"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "TopGra",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/TopGra",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 280.0,
+                            "y": 120.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": -1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "HeroAffinityStateGra",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/HeroAffinityStateGra",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 428.0,
+                            "y": 428.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Border",
+                    "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Border",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 2.5,
+                        "y": 2.5,
+                        "z": 2.5
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "TribeIcon",
+                    "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/TribeIcon",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -149.0,
+                        "y": 125.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 112.0,
+                        "y": 131.1999969482422
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Shadow"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Affinity",
+                    "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 25.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 134.0,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "AffinityBase",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/AffinityBase",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -17.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 144.0,
+                            "y": 44.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "LayoutElement"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Icon_Affinity",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/Icon_Affinity",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 30.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "LayoutElement"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "IconBase",
+                            "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/Icon_Affinity/IconBase",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 5.340576171875e-05,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 40.0,
+                                "y": 40.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "LayoutElement"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "Icon",
+                            "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/Icon_Affinity/Icon",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 32.0,
+                                "y": 28.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "LayoutElement"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Text_AffinityLV",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/Text_AffinityLV",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 39.599998474121094
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NameArea",
+                "path": "StoryMenuHeroListSlot/Axis/UI/NameArea",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 102.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "NameArea_Film",
+                    "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -185.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 370.0,
+                        "y": 66.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Mask"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "FilmTileDeco",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film/FilmTileDeco",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 200.0,
+                            "y": 56.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "FilmLight",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film/FilmLight",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 42.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 413.0,
+                            "y": 140.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "DecoLeft",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film/DecoLeft",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 97.30000305175781,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 194.0,
+                            "y": 66.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "DecoRight",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film/DecoRight",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 272.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 194.0,
+                            "y": 66.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": -1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NameAreaSize",
+                    "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "NameAreaLayOut",
+                        "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 104.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Name",
+                            "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut/Name",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 83.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "RedDot",
+                            "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut/RedDot",
+                            "active": false,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 38.0,
+                                "y": -12.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 65.04000091552734,
+                                "y": 65.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "LayoutElement"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "Shadow",
+                                "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut/RedDot/Shadow",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "Icon",
+                                "path": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut/RedDot/Icon",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": -32.49999237060547,
+                                    "y": -32.5
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 65.0,
+                                    "y": 65.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "StoryMenuHeroListSlot",
+      "nodePath": "StoryMenuHeroListSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 9,
+      "pathId": "3620912136215807264",
+      "bundle": "CAB-397713ea989659d2fe3809f8b7327858",
+      "assetType": "AnimatorController",
+      "assetName": "StoryMenuHeroListSlot"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[0].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-5136734786824609447",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_1",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[0].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[0].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[0].SpriteModules[3].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[0].SpriteModules[4].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[0].SpriteModules[5].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[0].SpriteModules[6].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[0].SpriteModules[7].Sprite",
+      "fileId": 1,
+      "pathId": "-185782543750777842",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_HeroSlot",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-5136734786824609447",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "-5136734786824609447",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[3].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[4].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[5].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[6].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[7].Sprite",
+      "fileId": 1,
+      "pathId": "-2861535405238637163",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[8].Sprite",
+      "fileId": 1,
+      "pathId": "-185782543750777842",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_HeroSlot",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-7123677466540016956",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Naive",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Naive.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Naive.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "-7123677466540016956",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Naive",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Naive.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Naive.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "-563541066297861415",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_1",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[3].Sprite",
+      "fileId": 1,
+      "pathId": "-563541066297861415",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[4].Sprite",
+      "fileId": 1,
+      "pathId": "7109452226354601560",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_2",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[5].Sprite",
+      "fileId": 1,
+      "pathId": "-2741929969478874060",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_3",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_3.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[6].Sprite",
+      "fileId": 1,
+      "pathId": "7109452226354601560",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[7].Sprite",
+      "fileId": 1,
+      "pathId": "-563541066297861415",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[8].Sprite",
+      "fileId": 1,
+      "pathId": "-7538946854100373545",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_HeroSlot_Naive",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Naive.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Naive.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-7452555788118560884",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Cool",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Cool.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Cool.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "-7452555788118560884",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Cool",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Cool.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Cool.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "8475317029422007354",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Cool_1",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[3].Sprite",
+      "fileId": 1,
+      "pathId": "8475317029422007354",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Cool_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[4].Sprite",
+      "fileId": 1,
+      "pathId": "-3556153611718409500",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Cool_2",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[5].Sprite",
+      "fileId": 1,
+      "pathId": "7837540518180812742",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Cool_3",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_3.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[6].Sprite",
+      "fileId": 1,
+      "pathId": "-3556153611718409500",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Cool_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[7].Sprite",
+      "fileId": 1,
+      "pathId": "8475317029422007354",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Cool_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Cool_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[8].Sprite",
+      "fileId": 1,
+      "pathId": "6123319466545996927",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_HeroSlot_Cool",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Cool.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Cool.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "2985565159990751177",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Mad",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Mad.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Mad.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "2985565159990751177",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Mad",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Mad.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Mad.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "-5869391342376045878",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Mad_1",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[3].Sprite",
+      "fileId": 1,
+      "pathId": "-5869391342376045878",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Mad_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[4].Sprite",
+      "fileId": 1,
+      "pathId": "706900371413033407",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Mad_2",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[5].Sprite",
+      "fileId": 1,
+      "pathId": "3055884879765815634",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Mad_3",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_3.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[6].Sprite",
+      "fileId": 1,
+      "pathId": "706900371413033407",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Mad_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[7].Sprite",
+      "fileId": 1,
+      "pathId": "-5869391342376045878",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Mad_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Mad_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[8].Sprite",
+      "fileId": 1,
+      "pathId": "4809098437846204109",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_HeroSlot_Mad",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Mad.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Mad.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-310316467745309782",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Jolly",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Jolly.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Jolly.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "-310316467745309782",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Jolly",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Jolly.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Jolly.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "-6378004346082576218",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Jolly_1",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[3].Sprite",
+      "fileId": 1,
+      "pathId": "-6378004346082576218",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Jolly_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[4].Sprite",
+      "fileId": 1,
+      "pathId": "2013397036977104012",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Jolly_2",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[5].Sprite",
+      "fileId": 1,
+      "pathId": "39312899308672450",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Jolly_3",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_3.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[6].Sprite",
+      "fileId": 1,
+      "pathId": "2013397036977104012",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Jolly_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[7].Sprite",
+      "fileId": 1,
+      "pathId": "-6378004346082576218",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Jolly_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Jolly_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[8].Sprite",
+      "fileId": 1,
+      "pathId": "188651300247359566",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_HeroSlot_Jolly",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Jolly.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Jolly.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "4486754450121469927",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Gloomy",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Gloomy.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Gloomy.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "4486754450121469927",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Gloomy",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Gloomy.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Gloomy.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "13276614730684161",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_1",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[3].Sprite",
+      "fileId": 1,
+      "pathId": "13276614730684161",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[4].Sprite",
+      "fileId": 1,
+      "pathId": "-7478210658203112927",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_2",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[5].Sprite",
+      "fileId": 1,
+      "pathId": "3943571596340175262",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_3",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_3.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[6].Sprite",
+      "fileId": 1,
+      "pathId": "-7478210658203112927",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[7].Sprite",
+      "fileId": 1,
+      "pathId": "13276614730684161",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[8].Sprite",
+      "fileId": 1,
+      "pathId": "7530992998561478401",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_HeroSlot_Gloomy",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Gloomy.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Gloomy.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "6389206882049957263",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Resonance",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Resonance.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Resonance.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "-2240812250667150725",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Resonanace_1",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "-611860613326268580",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Resonanace_2",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[3].Sprite",
+      "fileId": 1,
+      "pathId": "1389179512877390452",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Resonanace_3",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_3.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[4].Sprite",
+      "fileId": 1,
+      "pathId": "7769962764004239021",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Resonanace_4",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_4.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_4.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[5].Sprite",
+      "fileId": 1,
+      "pathId": "-5324674974516468901",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Resonanace_5",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_5.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_5.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[6].Sprite",
+      "fileId": 1,
+      "pathId": "-1371714288612680607",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Resonanace_6",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_6.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Resonanace_6.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[7].Sprite",
+      "fileId": 1,
+      "pathId": "-8509294058014638871",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_HeroSlot_Resonanace",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Resonanace.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_HeroSlot_Resonanace.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "6389206882049957263",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Resonance",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Resonance.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Resonance.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "13276614730684161",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "7109452226354601560",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[3].Sprite",
+      "fileId": 1,
+      "pathId": "-2741929969478874060",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_3.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[4].Sprite",
+      "fileId": 1,
+      "pathId": "7109452226354601560",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[5].Sprite",
+      "fileId": 1,
+      "pathId": "-7478210658203112927",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_2.png"
+    },
+    {
+      "gameObject": "SynergyHandler",
+      "nodePath": "StoryMenuHeroListSlot/SynergyHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[6].Sprite",
+      "fileId": 1,
+      "pathId": "13276614730684161",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png"
+    },
+    {
+      "gameObject": "FilmDeco",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmDeco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8563016963046459259",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Film_3",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_3.png"
+    },
+    {
+      "gameObject": "CaseBack",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Back/CaseBack",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2858911357141864543",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Back",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Back.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Back.png"
+    },
+    {
+      "gameObject": "CaseFront",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Back/CaseFront",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5136734786824609447",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_1.png"
+    },
+    {
+      "gameObject": "FilmBaseBorderBack",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmBaseBorderBack",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5489873735336631632",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Film_2",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_2.png"
+    },
+    {
+      "gameObject": "FilmBaseBorderBack",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmBaseBorderBack",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "FilmBaseBorderBack",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmBaseBorderBack",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "FilmBaseBorderFront",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmBaseBorderFront",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5489873735336631632",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Film_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_2.png"
+    },
+    {
+      "gameObject": "FilmBaseBorderFront",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmBaseBorderFront",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "FilmBaseBorderFront",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmBaseBorderFront",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "CaseBack",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/CaseBack",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2858911357141864543",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Back",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Back.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Back.png"
+    },
+    {
+      "gameObject": "CaseFront",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/CaseFront",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6389206882049957263",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_Resonance",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Resonance.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_Resonance.png"
+    },
+    {
+      "gameObject": "Axis_InnerHole1",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole1",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole1",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole1",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole1",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "13276614730684161",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png"
+    },
+    {
+      "gameObject": "Axis_InnerHole2",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole2",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole2",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole2",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole2",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7109452226354601560",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png"
+    },
+    {
+      "gameObject": "Axis_InnerHole3",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole3",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole3",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole3",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole3",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole3",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2741929969478874060",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_3.png"
+    },
+    {
+      "gameObject": "Axis_InnerHole4",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole4",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole4",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole4",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole4",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole4",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7109452226354601560",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Naive_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Naive_2.png"
+    },
+    {
+      "gameObject": "Axis_InnerHole5",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole5",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole5",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole5",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole5",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole5",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7478210658203112927",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_2.png"
+    },
+    {
+      "gameObject": "Axis_InnerHole6",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole6",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole6",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole6",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Axis_InnerHole6",
+      "nodePath": "StoryMenuHeroListSlot/Axis/FilmCase/FilmCase_Front/FilmHole/Axis_InnerHole6",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "13276614730684161",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Hole_Gloomy_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Hole_Gloomy_1.png"
+    },
+    {
+      "gameObject": "NewIcon",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/New/NewIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "8791054138832441540",
+      "bundle": "CAB-551ba164792d61dfc3c6a49d6f4939eb",
+      "assetType": "Sprite",
+      "assetName": "Common_New_2_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png"
+    },
+    {
+      "gameObject": "HeroAffinityState",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/HeroAffinityState",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Hero",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 8,
+      "pathId": "-4064957206806980710",
+      "bundle": "CAB-1d9df18af16027e7c8f3c7afcab40355",
+      "assetType": "Sprite",
+      "assetName": "Daya",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Daya.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Daya.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/Icon",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/Icon",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "ImageColor",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/Icon/ImageColor",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "TopGra",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/TopGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4519748180857352522",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "HeroAffinityStateGra",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Hero/HeroAffinityStateGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "2651077058364071816",
+      "bundle": "CAB-2ec3eef4d520a029f6cc3efec05477a8",
+      "assetType": "Sprite",
+      "assetName": "Common_Grad_Vignette",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_Grad_Vignette.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_Grad_Vignette.png"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7086563513080930354",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_140140",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_140140.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_140140.png"
+    },
+    {
+      "gameObject": "AffinityBase",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/AffinityBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8087016980147507770",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_3",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_3.png"
+    },
+    {
+      "gameObject": "IconBase",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/Icon_Affinity/IconBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-789213402524529159",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_FilmCase_4",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_4.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_FilmCase_4.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/Icon_Affinity/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8732288095236621914",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Icon_Heart_001",
+      "atlasBundle": "atlases/commonicons",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Heart_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Heart_001.png"
+    },
+    {
+      "gameObject": "Text_AffinityLV",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/Text_AffinityLV",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_AffinityLV",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/HeroIcon/Affinity/Text_AffinityLV",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "-4708643006431895836",
+      "bundle": "CAB-0f90d814725137ddddfd9c9c387b8635",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_StoryMenuHeroListSlot"
+    },
+    {
+      "gameObject": "NameArea_Film",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7144245145512982142",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_0808",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0808.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0808.png"
+    },
+    {
+      "gameObject": "FilmTileDeco",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film/FilmTileDeco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2362220744719679268",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Film_4",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_4.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_4.png"
+    },
+    {
+      "gameObject": "FilmLight",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film/FilmLight",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7583831162855317799",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png"
+    },
+    {
+      "gameObject": "DecoLeft",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film/DecoLeft",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3742140903998702566",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Film_5",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_5.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_5.png"
+    },
+    {
+      "gameObject": "DecoRight",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameArea_Film/DecoRight",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3742140903998702566",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "StoryMenuHeroListSlot_Film_5",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_5.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/StoryMenuHeroListSlot_Film_5.png"
+    },
+    {
+      "gameObject": "Name",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut/Name",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Name",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut/Name",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "-4708643006431895836",
+      "bundle": "CAB-0f90d814725137ddddfd9c9c387b8635",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_StoryMenuHeroListSlot"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Shadow",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut/RedDot/Shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-952181678247986719",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StoryMenuHeroListSlot/Axis/UI/NameArea/NameAreaSize/NameAreaLayOut/RedDot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "StoryMenuHeroListSlot",
+      "controllerBundle": "CAB-397713ea989659d2fe3809f8b7327858",
+      "controllerPathId": "3620912136215807264",
+      "controllerType": "AnimatorController",
+      "controllerName": "StoryMenuHeroListSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.New State",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryMenuHeroListSlot_EntryIdle",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryMenuHeroListSlot_EntryIdle 0",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryMenuHeroListSlot_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "name": "Loop Layer_NameArea.StoryMenuHeroListSlot_Loop_Film",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 2,
+          "name": "Loop Layer_FilmBaseBorder.StoryMenuHeroListSlot_Loop_FilmBaseBorder",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 3,
+          "name": "Loop Layer_FilmHole.StoryMenuHeroListSlot_Loop_FilmHole",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "StoryMenuHeroListSlot"
+    }
+  ]
+}

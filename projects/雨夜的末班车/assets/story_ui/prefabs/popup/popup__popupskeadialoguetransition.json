@@ -1,0 +1,337 @@
+{
+  "id": "popup/popupskeadialoguetransition",
+  "sourceBundle": "prefab/popup/popupskeadialoguetransition",
+  "hierarchy": {
+    "name": "PopupSkeaDialogueTransition",
+    "path": "PopupSkeaDialogueTransition",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 2,
+          "pathId": "-3116028561303222059",
+          "bundle": "CAB-39cb64c3ea011662f9fcf53fc6746e0d"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "PopupSkeaDialogueTransition"
+      }
+    ],
+    "children": [
+      {
+        "name": "CloseEyes",
+        "path": "PopupSkeaDialogueTransition/CloseEyes",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "White",
+            "path": "PopupSkeaDialogueTransition/CloseEyes/White",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 6000.0,
+                "y": 6000.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Up",
+            "path": "PopupSkeaDialogueTransition/CloseEyes/Up",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 1585.0
+              },
+              "m_SizeDelta": {
+                "x": 6000.0,
+                "y": 2320.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Down",
+            "path": "PopupSkeaDialogueTransition/CloseEyes/Down",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -1585.0
+              },
+              "m_SizeDelta": {
+                "x": 6000.0,
+                "y": 2320.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "PopupSkeaDialogueTransition",
+      "nodePath": "PopupSkeaDialogueTransition",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 2,
+      "pathId": "-3116028561303222059",
+      "bundle": "CAB-39cb64c3ea011662f9fcf53fc6746e0d",
+      "assetType": "AnimatorController",
+      "assetName": "SkeaDialogueTransitionPopup"
+    },
+    {
+      "gameObject": "White",
+      "nodePath": "PopupSkeaDialogueTransition/CloseEyes/White",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Up",
+      "nodePath": "PopupSkeaDialogueTransition/CloseEyes/Up",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7002205778761924282",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_2 1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_2 1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_2 1.png"
+    },
+    {
+      "gameObject": "Down",
+      "nodePath": "PopupSkeaDialogueTransition/CloseEyes/Down",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4957083372948124646",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_2.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "PopupSkeaDialogueTransition",
+      "controllerBundle": "CAB-39cb64c3ea011662f9fcf53fc6746e0d",
+      "controllerPathId": "-3116028561303222059",
+      "controllerType": "AnimatorController",
+      "controllerName": "SkeaDialogueTransitionPopup",
+      "states": [
+        {
+          "layer": 0,
+          "name": "CloseEyes .New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "CloseEyes .PopupSkeaDirector_CloseEyes",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "CloseEyes .PopupSkeaDirector_OpenEyes",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "SkeaDialogueTransitionPopup"
+    }
+  ]
+}

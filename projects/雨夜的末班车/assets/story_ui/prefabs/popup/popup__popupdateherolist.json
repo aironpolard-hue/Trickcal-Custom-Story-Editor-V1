@@ -1,0 +1,1958 @@
+{
+  "id": "popup/popupdateherolist",
+  "sourceBundle": "prefab/popup/popupdateherolist",
+  "hierarchy": {
+    "name": "PopupDateHeroList",
+    "path": "PopupDateHeroList",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 2400.0,
+        "y": 1080.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "PopupDateHeroList"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 0,
+          "pathId": "0",
+          "bundle": ""
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Dim",
+        "path": "PopupDateHeroList/Dim",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 2000.0,
+            "y": 2000.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Panel",
+        "path": "PopupDateHeroList/Panel",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 1620.0,
+            "y": 1040.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "CanvasGroup"
+          },
+          {
+            "type": "Animator",
+            "controller": {
+              "fileId": 3,
+              "pathId": "-8626290231973688649",
+              "bundle": "CAB-62dfe80f4d31cd9c66b5cf3634beedad"
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "PopupBase",
+            "path": "PopupDateHeroList/Panel/PopupBase",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SoftMask"
+              }
+            ],
+            "children": [
+              {
+                "name": "Border",
+                "path": "PopupDateHeroList/Panel/PopupBase/Border",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Header",
+                "path": "PopupDateHeroList/Panel/PopupBase/Header",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 130.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "HeaderGroup",
+            "path": "PopupDateHeroList/Panel/HeaderGroup",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 130.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              }
+            ],
+            "children": [
+              {
+                "name": "CloseButton",
+                "path": "PopupDateHeroList/Panel/HeaderGroup/CloseButton",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -40.0,
+                    "y": -5.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 64.0,
+                    "y": 64.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "TitleText",
+                "path": "PopupDateHeroList/Panel/HeaderGroup/TitleText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -40.0,
+                    "y": -5.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -180.0,
+                    "y": -30.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TMPLayered"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "TabMenu",
+            "path": "PopupDateHeroList/Panel/TabMenu",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -35.0,
+                "y": -166.0
+              },
+              "m_SizeDelta": {
+                "x": 800.0,
+                "y": 84.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "FilterBtn",
+                "path": "PopupDateHeroList/Panel/TabMenu/FilterBtn",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 264.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "ButtonText",
+                    "path": "PopupDateHeroList/Panel/TabMenu/FilterBtn/ButtonText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.5,
+                        "y": 1.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -61.0,
+                        "y": 52.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "FilterOn",
+                "path": "PopupDateHeroList/Panel/TabMenu/FilterOn",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 416.0,
+                    "y": -42.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 264.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "ButtonText",
+                    "path": "PopupDateHeroList/Panel/TabMenu/FilterOn/ButtonText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.5,
+                        "y": 1.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -61.0,
+                        "y": 52.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "SortBtn",
+                "path": "PopupDateHeroList/Panel/TabMenu/SortBtn",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 264.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "ButtonText",
+                    "path": "PopupDateHeroList/Panel/TabMenu/SortBtn/ButtonText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.5,
+                        "y": 1.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -61.0,
+                        "y": 52.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "UpDown",
+                "path": "PopupDateHeroList/Panel/TabMenu/UpDown",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 84.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Arrow",
+                    "path": "PopupDateHeroList/Panel/TabMenu/UpDown/Arrow",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 28.0,
+                        "y": 31.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.2000000476837158,
+                        "y": 1.2000000476837158,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.06975647062063217,
+                        "w": 0.9975640773773193
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "AllRewardBtn",
+            "path": "PopupDateHeroList/Panel/AllRewardBtn",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 208.0,
+                "y": -208.0
+              },
+              "m_SizeDelta": {
+                "x": 346.0,
+                "y": 84.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "AutoRemoveAllListener"
+              }
+            ],
+            "children": [
+              {
+                "name": "Dim",
+                "path": "PopupDateHeroList/Panel/AllRewardBtn/Dim",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -1.5,
+                    "y": 1.5
+                  },
+                  "m_SizeDelta": {
+                    "x": -3.0,
+                    "y": -3.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "ButtonText",
+                    "path": "PopupDateHeroList/Panel/AllRewardBtn/Dim/ButtonText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 1.0,
+                        "y": -0.5
+                      },
+                      "m_SizeDelta": {
+                        "x": -58.0,
+                        "y": 52.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "StringBind"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Active",
+                "path": "PopupDateHeroList/Panel/AllRewardBtn/Active",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Base",
+                    "path": "PopupDateHeroList/Panel/AllRewardBtn/Active/Base",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "ButtonText",
+                    "path": "PopupDateHeroList/Panel/AllRewardBtn/Active/ButtonText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.5,
+                        "y": 1.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -61.0,
+                        "y": 52.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "StringBind"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "RedDot",
+                    "path": "PopupDateHeroList/Panel/AllRewardBtn/Active/RedDot",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 170.0,
+                        "y": 30.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 55.0,
+                        "y": 55.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "HeroList",
+            "path": "PopupDateHeroList/Panel/HeroList",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -121.0
+              },
+              "m_SizeDelta": {
+                "x": -60.0,
+                "y": -330.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ScrollRect"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SimpleRecycleViewController"
+              }
+            ],
+            "children": [
+              {
+                "name": "Viewport",
+                "path": "PopupDateHeroList/Panel/HeroList/Viewport",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -7.0,
+                    "y": -30.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 14.0,
+                    "y": -60.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "RectMask2D"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Content",
+                    "path": "PopupDateHeroList/Panel/HeroList/Viewport/Content",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "GridLayoutGroup"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ContentSizeFitter"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "BannerRoot",
+            "path": "PopupDateHeroList/Panel/BannerRoot",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -60.0
+              },
+              "m_SizeDelta": {
+                "x": 1000.0,
+                "y": 64.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "BannerText",
+                "path": "PopupDateHeroList/Panel/BannerRoot/BannerText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TMPLayered"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "PopupDateHeroList",
+      "nodePath": "PopupDateHeroList",
+      "component": "MonoBehaviour",
+      "script": "PopupDateHeroList",
+      "field": "m_arrowImage",
+      "fileId": 0,
+      "pathId": "4509918521780509016",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Panel",
+      "nodePath": "PopupDateHeroList/Panel",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 3,
+      "pathId": "-8626290231973688649",
+      "bundle": "CAB-62dfe80f4d31cd9c66b5cf3634beedad",
+      "assetType": "AnimatorController",
+      "assetName": "PopupBreadCrumbDateCommon"
+    },
+    {
+      "gameObject": "PopupBase",
+      "nodePath": "PopupDateHeroList/Panel/PopupBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8401507766787122633",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_5050",
+      "demoPath": "assets/dialogue/CommonBox_5050.png",
+      "projectPath": "assets/dialogue/CommonBox_5050.png"
+    },
+    {
+      "gameObject": "PopupBase",
+      "nodePath": "PopupDateHeroList/Panel/PopupBase",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 7,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "PopupBase",
+      "nodePath": "PopupDateHeroList/Panel/PopupBase",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 7,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "PopupDateHeroList/Panel/PopupBase/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7814504710293709438",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_5050",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_5050.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_5050.png"
+    },
+    {
+      "gameObject": "CloseButton",
+      "nodePath": "PopupDateHeroList/Panel/HeaderGroup/CloseButton",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4830036780231356160",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonButton_Close_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonButton_Close_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonButton_Close_2.png"
+    },
+    {
+      "gameObject": "TitleText",
+      "nodePath": "PopupDateHeroList/Panel/HeaderGroup/TitleText",
+      "component": "MonoBehaviour",
+      "script": "TMPLayered",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TitleText",
+      "nodePath": "PopupDateHeroList/Panel/HeaderGroup/TitleText",
+      "component": "MonoBehaviour",
+      "script": "TMPLayered",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "TitleText",
+      "nodePath": "PopupDateHeroList/Panel/HeaderGroup/TitleText",
+      "component": "MonoBehaviour",
+      "script": "TMPLayered",
+      "field": "behindLayers[0].material",
+      "fileId": 5,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/TabMenu/FilterBtn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/TabMenu/FilterBtn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/TabMenu/FilterOn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/TabMenu/FilterOn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/TabMenu/SortBtn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/TabMenu/SortBtn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Arrow",
+      "nodePath": "PopupDateHeroList/Panel/TabMenu/UpDown/Arrow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "3344671160574996162",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Align_IconUp",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Align_IconUp.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Align_IconUp.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "PopupDateHeroList/Panel/AllRewardBtn/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/AllRewardBtn/Dim/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/AllRewardBtn/Dim/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/AllRewardBtn/Active/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/AllRewardBtn/Active/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "PopupDateHeroList/Panel/AllRewardBtn/Active/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "PopupDateHeroList/Panel/AllRewardBtn/Active/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "HeroList",
+      "nodePath": "PopupDateHeroList/Panel/HeroList",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "6432470525094934",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4040",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png"
+    },
+    {
+      "gameObject": "Viewport",
+      "nodePath": "PopupDateHeroList/Panel/HeroList/Viewport",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 0,
+      "pathId": "38861690050489314",
+      "bundle": ""
+    },
+    {
+      "gameObject": "BannerRoot",
+      "nodePath": "PopupDateHeroList/Panel/BannerRoot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 0,
+      "pathId": "-6932470282978226757",
+      "bundle": ""
+    },
+    {
+      "gameObject": "BannerText",
+      "nodePath": "PopupDateHeroList/Panel/BannerRoot/BannerText",
+      "component": "MonoBehaviour",
+      "script": "TMPLayered",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "BannerText",
+      "nodePath": "PopupDateHeroList/Panel/BannerRoot/BannerText",
+      "component": "MonoBehaviour",
+      "script": "TMPLayered",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "BannerText",
+      "nodePath": "PopupDateHeroList/Panel/BannerRoot/BannerText",
+      "component": "MonoBehaviour",
+      "script": "TMPLayered",
+      "field": "behindLayers[0].material",
+      "fileId": 4,
+      "pathId": "-4674990699674562199",
+      "bundle": "CAB-c670ac853cfb420e1200c8842abae99a",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick_Glow"
+    }
+  ],
+  "animators": [
+    {
+      "path": "PopupDateHeroList",
+      "controllerBundle": "",
+      "controllerPathId": "0"
+    },
+    {
+      "path": "PopupDateHeroList/Panel",
+      "controllerBundle": "CAB-62dfe80f4d31cd9c66b5cf3634beedad",
+      "controllerPathId": "-8626290231973688649",
+      "controllerType": "AnimatorController",
+      "controllerName": "PopupBreadCrumbDateCommon",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.PopupBreadCrumbDateCommon_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "PopupBreadCrumbDateCommon"
+    }
+  ]
+}

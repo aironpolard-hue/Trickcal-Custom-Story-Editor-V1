@@ -1,0 +1,918 @@
+{
+  "id": "slots/recommendstorypanel",
+  "sourceBundle": "prefab/slots/recommendstorypanel",
+  "hierarchy": {
+    "name": "RecommendStoryPanel",
+    "path": "RecommendStoryPanel",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "RecommendStoryPanel"
+      }
+    ],
+    "children": [
+      {
+        "name": "RecommendButton",
+        "path": "RecommendStoryPanel/RecommendButton",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -47.300048828125,
+            "y": -204.1999969482422
+          },
+          "m_SizeDelta": {
+            "x": 400.0,
+            "y": 81.0
+          },
+          "m_Pivot": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "HorizontalLayoutGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonExtend"
+          }
+        ],
+        "children": [
+          {
+            "name": "RecommendBtnImage",
+            "path": "RecommendStoryPanel/RecommendButton/RecommendBtnImage",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 275.0,
+                "y": -40.5
+              },
+              "m_SizeDelta": {
+                "x": 250.0,
+                "y": 81.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "LayoutElement"
+              }
+            ],
+            "children": [
+              {
+                "name": "Arrow",
+                "path": "RecommendStoryPanel/RecommendButton/RecommendBtnImage/Arrow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 60.80500030517578,
+                    "y": -37.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 19.0,
+                    "y": 22.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "RecommendText",
+                "path": "RecommendStoryPanel/RecommendButton/RecommendBtnImage/RecommendText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 138.5,
+                    "y": -37.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 112.38999938964844,
+                    "y": 52.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RecommendPopup",
+        "path": "RecommendStoryPanel/RecommendPopup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -27.60009765625,
+            "y": -303.99993896484375
+          },
+          "m_SizeDelta": {
+            "x": 1220.0,
+            "y": 290.0
+          },
+          "m_Pivot": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "BG",
+            "path": "RecommendStoryPanel/RecommendPopup/BG",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Scroll View",
+                "path": "RecommendStoryPanel/RecommendPopup/BG/Scroll View",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 9.000009536743164,
+                    "y": -9.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -89.99998474121094,
+                    "y": -122.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ScrollRect"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Viewport",
+                    "path": "RecommendStoryPanel/RecommendPopup/BG/Scroll View/Viewport",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "RectMask2D"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Content",
+                        "path": "RecommendStoryPanel/RecommendPopup/BG/Scroll View/Viewport/Content",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 168.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ContentSizeFitter"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arrow",
+                "path": "RecommendStoryPanel/RecommendPopup/BG/Arrow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 25.5999755859375,
+                    "y": 13.699999809265137
+                  },
+                  "m_SizeDelta": {
+                    "x": 28.325899124145508,
+                    "y": 32.79840087890625
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": -1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "RecommendIcon",
+                "path": "RecommendStoryPanel/RecommendPopup/BG/RecommendIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -64.19999694824219,
+                    "y": -43.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 35.0,
+                    "y": 33.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "RecommendText",
+                "path": "RecommendStoryPanel/RecommendPopup/BG/RecommendText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -94.400146484375,
+                    "y": -43.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 726.5999755859375,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "RecommendTitle",
+                "path": "RecommendStoryPanel/RecommendPopup/BG/RecommendTitle",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 72.69999694824219,
+                    "y": -45.400001525878906
+                  },
+                  "m_SizeDelta": {
+                    "x": 321.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OpenStateHandler",
+        "path": "RecommendStoryPanel/OpenStateHandler",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 100.0,
+            "y": 100.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "RecommendBtnImage",
+      "nodePath": "RecommendStoryPanel/RecommendButton/RecommendBtnImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "1996127930182306000",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "Rerun_RecommendButton",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendButton.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendButton.png"
+    },
+    {
+      "gameObject": "Arrow",
+      "nodePath": "RecommendStoryPanel/RecommendButton/RecommendBtnImage/Arrow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "7224996282135946640",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "Rerun_RecommendButtonArrow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendButtonArrow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendButtonArrow.png"
+    },
+    {
+      "gameObject": "RecommendText",
+      "nodePath": "RecommendStoryPanel/RecommendButton/RecommendBtnImage/RecommendText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "RecommendText",
+      "nodePath": "RecommendStoryPanel/RecommendButton/RecommendBtnImage/RecommendText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "BG",
+      "nodePath": "RecommendStoryPanel/RecommendPopup/BG",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "7064553845336352205",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "Rerun_RecommendBg",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendBg.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendBg.png"
+    },
+    {
+      "gameObject": "Scroll View",
+      "nodePath": "RecommendStoryPanel/RecommendPopup/BG/Scroll View",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Arrow",
+      "nodePath": "RecommendStoryPanel/RecommendPopup/BG/Arrow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "7224996282135946640",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "Rerun_RecommendButtonArrow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendButtonArrow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendButtonArrow.png"
+    },
+    {
+      "gameObject": "RecommendIcon",
+      "nodePath": "RecommendStoryPanel/RecommendPopup/BG/RecommendIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-9051756986609071812",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "Rerun_RecommendIcon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendIcon.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_RecommendIcon.png"
+    },
+    {
+      "gameObject": "RecommendText",
+      "nodePath": "RecommendStoryPanel/RecommendPopup/BG/RecommendText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "RecommendText",
+      "nodePath": "RecommendStoryPanel/RecommendPopup/BG/RecommendText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "RecommendTitle",
+      "nodePath": "RecommendStoryPanel/RecommendPopup/BG/RecommendTitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "RecommendTitle",
+      "nodePath": "RecommendStoryPanel/RecommendPopup/BG/RecommendTitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": []
+}

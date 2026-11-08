@@ -394,7 +394,7 @@ const timedUiStageCollisionCompiled = compile([
   'end',
 ].join('\n'), { projectRoot: project });
 assert.deepStrictEqual(timedUiStageCollisionCompiled.diagnostics, []);
-const tutorialProject = path.join(root, 'projects', '雨夜的末班车');
+const tutorialProject = path.join(root, 'templates', 'minimal-demo');
 const manifest = JSON.parse(fs.readFileSync(path.join(tutorialProject, 'trickcal.project.json'), 'utf8'));
 const presets = fs.readdirSync(path.join(tutorialProject, 'presets')).filter(file => file.endsWith('.json')).map(file => ({
   file, ...JSON.parse(fs.readFileSync(path.join(tutorialProject, 'presets', file), 'utf8')),
@@ -1388,7 +1388,7 @@ app.whenReady().then(async () => {
       result.nextColor = other.draw.color;
       return result;
     })()`);
-    assert.deepStrictEqual([authoredDialogue.name, authoredDialogue.avatar, authoredDialogue.loaded], ['内尔', 'ner_avatar', true]);
+    assert.deepStrictEqual([authoredDialogue.name, authoredDialogue.avatar, authoredDialogue.loaded], ['尼尔', 'ner_avatar', true]);
     assert.deepStrictEqual(authoredDialogue.color, [117 / 255, 166 / 255, 89 / 255, 1]);
     assert.notDeepStrictEqual(authoredDialogue.color, authoredDialogue.nextColor);
     const avatarPixels = await win.webContents.executeJavaScript(`(() => {
@@ -3501,6 +3501,17 @@ app.whenReady().then(async () => {
     assert.deepStrictEqual(motion.preview, [1.625, 62.5, -30]);
     assert.ok(motion.skipped[0] === 1 && Math.abs(motion.skipped[1] - 1) < 0.01 &&
       Math.abs(motion.skipped[2]) < 0.5 && motion.skipped[3] === 0, JSON.stringify(motion.skipped));
+    const cameraTarget = await win.webContents.executeJavaScript(`(() => {
+      const demo = window.__demo;
+      demo.startLine(0);
+      demo.drawScene(performance.now());
+      const picture = demo.stageImages.get('picture');
+      demo.state.camera = { ...demo.state.camera, zoom: 1, x: 0, y: 0, follow: null,
+        targetX: picture.x, targetY: picture.y };
+      const mapped = demo.uiWorldTransforms().get('picture').matrix;
+      return [mapped[4], mapped[5]];
+    })()`);
+    assert.deepStrictEqual(cameraTarget, [960, 540]);
     await win.loadURL(`http://127.0.0.1:${server.address().port}/index.html?embed=1&autoStart=1&storyUrl=/typing.json`);
     const typingDeadline = Date.now() + 20000;
     while (Date.now() < typingDeadline && !await win.webContents.executeJavaScript('Boolean(window.__demo?.state.started)')) {

@@ -1,0 +1,3984 @@
+{
+  "id": "window/windowanniversarylobby",
+  "sourceBundle": "prefab/window/windowanniversarylobby",
+  "hierarchy": {
+    "name": "WindowAnniversaryLobby",
+    "path": "WindowAnniversaryLobby",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "WindowAnniversaryLobby"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 7,
+          "pathId": "-4455396487811868868",
+          "bundle": "CAB-1fcd49a1f50f5990a3d591318ec789d9"
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "OutOfResolution",
+        "path": "WindowAnniversaryLobby/OutOfResolution",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 99999.0,
+            "y": 99999.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Background",
+        "path": "WindowAnniversaryLobby/Background",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 3200.000244140625,
+            "y": 2048.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "LightLampL",
+            "path": "WindowAnniversaryLobby/Background/LightLampL",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -1311.0,
+                "y": 195.0
+              },
+              "m_SizeDelta": {
+                "x": 350.0,
+                "y": 350.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LightLampR",
+            "path": "WindowAnniversaryLobby/Background/LightLampR",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 1273.9000244140625,
+                "y": -158.3000030517578
+              },
+              "m_SizeDelta": {
+                "x": 350.0,
+                "y": 350.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LightCandleL",
+            "path": "WindowAnniversaryLobby/Background/LightCandleL",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -70.0,
+                "y": 118.0
+              },
+              "m_SizeDelta": {
+                "x": 350.0,
+                "y": 350.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.30000001192092896,
+                "y": 0.30000001192092896,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LightCandleR",
+            "path": "WindowAnniversaryLobby/Background/LightCandleR",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 93.0,
+                "y": 176.0
+              },
+              "m_SizeDelta": {
+                "x": 350.0,
+                "y": 350.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.30000001192092896,
+                "y": 0.30000001192092896,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Buttons",
+        "path": "WindowAnniversaryLobby/Buttons",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 2560.0,
+            "y": 1440.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Btn0",
+            "path": "WindowAnniversaryLobby/Buttons/Btn0",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 319.0,
+                "y": -309.239990234375
+              },
+              "m_SizeDelta": {
+                "x": 400.0,
+                "y": 400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "ButtonSlot",
+                "path": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 478.0,
+                        "y": 440.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "TextArea",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/TextArea",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -200.00006103515625
+                      },
+                      "m_SizeDelta": {
+                        "x": 420.0,
+                        "y": 60.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "TextLayOut",
+                        "path": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/TextArea/TextLayOut",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 60.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Text",
+                            "path": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/TextArea/TextLayOut/Text",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProEffect"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "RedDot",
+                                "path": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/TextArea/TextLayOut/Text/RedDot",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 22.0,
+                                    "y": -65.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "LayoutElement"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Icon",
+                                    "path": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 9.0,
+                                        "y": -15.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 55.0,
+                                        "y": 55.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Btn1",
+            "path": "WindowAnniversaryLobby/Buttons/Btn1",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 750.0,
+                "y": 361.0
+              },
+              "m_SizeDelta": {
+                "x": 490.0,
+                "y": 204.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "ButtonSlot",
+                "path": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 556.0,
+                        "y": 258.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "TextArea",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/TextArea",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -6.103515625e-05,
+                        "y": -140.00006103515625
+                      },
+                      "m_SizeDelta": {
+                        "x": 420.0,
+                        "y": 60.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "TextLayOut",
+                        "path": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/TextArea/TextLayOut",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 60.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Text",
+                            "path": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/TextArea/TextLayOut/Text",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProEffect"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "RedDot",
+                                "path": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/TextArea/TextLayOut/Text/RedDot",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 22.0,
+                                    "y": -65.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 0.9993597269058228,
+                                    "y": 0.9993597269058228,
+                                    "z": 0.9993597269058228
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "LayoutElement"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Icon",
+                                    "path": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 9.0,
+                                        "y": -15.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 55.0,
+                                        "y": 55.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Btn2",
+            "path": "WindowAnniversaryLobby/Buttons/Btn2",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -949.0,
+                "y": -93.0
+              },
+              "m_SizeDelta": {
+                "x": 400.0,
+                "y": 400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "ButtonSlot",
+                "path": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 450.0,
+                        "y": 528.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "TextArea",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/TextArea",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -200.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 420.0,
+                        "y": 60.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "TextLayOut",
+                        "path": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/TextArea/TextLayOut",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 60.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Text",
+                            "path": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/TextArea/TextLayOut/Text",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProEffect"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "RedDot",
+                                "path": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/TextArea/TextLayOut/Text/RedDot",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 22.0,
+                                    "y": -65.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 0.9993597269058228,
+                                    "y": 0.9993597269058228,
+                                    "z": 0.9993597269058228
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "LayoutElement"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Icon",
+                                    "path": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 9.0,
+                                        "y": -15.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 55.0,
+                                        "y": 55.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Btn3",
+            "path": "WindowAnniversaryLobby/Buttons/Btn3",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 694.0,
+                "y": -172.0
+              },
+              "m_SizeDelta": {
+                "x": 480.0,
+                "y": 300.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "ButtonSlot",
+                "path": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 680.0,
+                        "y": 480.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "TextArea",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/TextArea",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -6.103515625e-05,
+                        "y": -199.99996948242188
+                      },
+                      "m_SizeDelta": {
+                        "x": 420.0,
+                        "y": 60.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "TextLayOut",
+                        "path": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/TextArea/TextLayOut",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 60.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Text",
+                            "path": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/TextArea/TextLayOut/Text",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProEffect"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "RedDot",
+                                "path": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/TextArea/TextLayOut/Text/RedDot",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 22.0,
+                                    "y": -65.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 0.9993597269058228,
+                                    "y": 0.9993597269058228,
+                                    "z": 0.9993597269058228
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "LayoutElement"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Icon",
+                                    "path": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 9.0,
+                                        "y": -15.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 55.0,
+                                        "y": 55.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Btn4",
+            "path": "WindowAnniversaryLobby/Buttons/Btn4",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -458.0,
+                "y": 210.0
+              },
+              "m_SizeDelta": {
+                "x": 400.0,
+                "y": 400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "ButtonSlot",
+                "path": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 506.0,
+                        "y": 488.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "TextArea",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/TextArea",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 6.103515625e-05,
+                        "y": -199.99993896484375
+                      },
+                      "m_SizeDelta": {
+                        "x": 420.0,
+                        "y": 60.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "TextLayOut",
+                        "path": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/TextArea/TextLayOut",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 60.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Text",
+                            "path": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/TextArea/TextLayOut/Text",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProEffect"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "RedDot",
+                                "path": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/TextArea/TextLayOut/Text/RedDot",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 22.0,
+                                    "y": -65.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 0.9993597269058228,
+                                    "y": 0.9993597269058228,
+                                    "z": 0.9993597269058228
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "LayoutElement"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Icon",
+                                    "path": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 9.0,
+                                        "y": -15.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 55.0,
+                                        "y": 55.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Btn5",
+            "path": "WindowAnniversaryLobby/Buttons/Btn5",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 372.0,
+                "y": 187.0
+              },
+              "m_SizeDelta": {
+                "x": 400.0,
+                "y": 270.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "ButtonSlot",
+                "path": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 394.0,
+                        "y": 268.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "TextArea",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/TextArea",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -3.0517578125e-05,
+                        "y": -135.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 420.0,
+                        "y": 60.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "TextLayOut",
+                        "path": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/TextArea/TextLayOut",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 60.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Text",
+                            "path": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/TextArea/TextLayOut/Text",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProEffect"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "RedDot",
+                                "path": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/TextArea/TextLayOut/Text/RedDot",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 22.0,
+                                    "y": -65.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 0.9993597269058228,
+                                    "y": 0.9993597269058228,
+                                    "z": 0.9993597269058228
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "LayoutElement"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Icon",
+                                    "path": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 9.0,
+                                        "y": -15.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 55.0,
+                                        "y": 55.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Btn6",
+            "path": "WindowAnniversaryLobby/Buttons/Btn6",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 1017.0,
+                "y": 80.0
+              },
+              "m_SizeDelta": {
+                "x": 340.0,
+                "y": 228.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "ButtonSlot",
+                "path": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 378.0,
+                        "y": 256.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "TextArea",
+                    "path": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/TextArea",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -114.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 420.0,
+                        "y": 60.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "TextLayOut",
+                        "path": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/TextArea/TextLayOut",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 60.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Text",
+                            "path": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/TextArea/TextLayOut/Text",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProEffect"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "RedDot",
+                                "path": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/TextArea/TextLayOut/Text/RedDot",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 22.0,
+                                    "y": -65.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 0.9993597269058228,
+                                    "y": 0.9993597269058228,
+                                    "z": 0.9993597269058228
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "LayoutElement"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Icon",
+                                    "path": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 9.0,
+                                        "y": -15.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 55.0,
+                                        "y": 55.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TextShadow",
+        "path": "WindowAnniversaryLobby/TextShadow",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -640.0
+          },
+          "m_SizeDelta": {
+            "x": 2200.0,
+            "y": 152.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "TextMeshProUGUI"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Text",
+        "path": "WindowAnniversaryLobby/Text",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -632.0
+          },
+          "m_SizeDelta": {
+            "x": 2200.0,
+            "y": 152.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "TextMeshProUGUI"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "WindowAnniversaryLobby",
+      "nodePath": "WindowAnniversaryLobby",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 7,
+      "pathId": "-4455396487811868868",
+      "bundle": "CAB-1fcd49a1f50f5990a3d591318ec789d9",
+      "assetType": "AnimatorController",
+      "assetName": "WindowAnniversaryLobby_Btn"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "WindowAnniversaryLobby/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "2788123193134645201",
+      "bundle": "CAB-678dd52afb59811a32c5445e0be71b2c",
+      "assetType": "Sprite",
+      "assetName": "AnniversaryLobby_Background",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Background.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Background.png"
+    },
+    {
+      "gameObject": "LightLampL",
+      "nodePath": "WindowAnniversaryLobby/Background/LightLampL",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 5,
+      "pathId": "-6234972973990593070",
+      "bundle": "CAB-29f8647bb1b42321d8909ec49cedbde9",
+      "assetType": "Material",
+      "assetName": "UI_Additive"
+    },
+    {
+      "gameObject": "LightLampL",
+      "nodePath": "WindowAnniversaryLobby/Background/LightLampL",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-952181678247986719",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png"
+    },
+    {
+      "gameObject": "LightLampR",
+      "nodePath": "WindowAnniversaryLobby/Background/LightLampR",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 5,
+      "pathId": "-6234972973990593070",
+      "bundle": "CAB-29f8647bb1b42321d8909ec49cedbde9",
+      "assetType": "Material",
+      "assetName": "UI_Additive"
+    },
+    {
+      "gameObject": "LightLampR",
+      "nodePath": "WindowAnniversaryLobby/Background/LightLampR",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-952181678247986719",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png"
+    },
+    {
+      "gameObject": "LightCandleL",
+      "nodePath": "WindowAnniversaryLobby/Background/LightCandleL",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 5,
+      "pathId": "-6234972973990593070",
+      "bundle": "CAB-29f8647bb1b42321d8909ec49cedbde9",
+      "assetType": "Material",
+      "assetName": "UI_Additive"
+    },
+    {
+      "gameObject": "LightCandleL",
+      "nodePath": "WindowAnniversaryLobby/Background/LightCandleL",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-952181678247986719",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png"
+    },
+    {
+      "gameObject": "LightCandleR",
+      "nodePath": "WindowAnniversaryLobby/Background/LightCandleR",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 5,
+      "pathId": "-6234972973990593070",
+      "bundle": "CAB-29f8647bb1b42321d8909ec49cedbde9",
+      "assetType": "Material",
+      "assetName": "UI_Additive"
+    },
+    {
+      "gameObject": "LightCandleR",
+      "nodePath": "WindowAnniversaryLobby/Background/LightCandleR",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-952181678247986719",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png"
+    },
+    {
+      "gameObject": "Btn0",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn0",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 10,
+      "pathId": "-7506415819064423121",
+      "bundle": "CAB-823e588c54f22617331f397ba5a29694",
+      "assetType": "Sprite",
+      "assetName": "AnniversaryLobby_Reward",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Reward.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Reward.png"
+    },
+    {
+      "gameObject": "TextLayOut",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/TextArea/TextLayOut",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn0/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Btn1",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "TextLayOut",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/TextArea/TextLayOut",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn1/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Btn2",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-6187022801191792303",
+      "bundle": "CAB-ea88567e80d07d450eaa708c0925f91f",
+      "assetType": "Sprite",
+      "assetName": "AnniversaryLobby_Personality",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Personality.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Personality.png"
+    },
+    {
+      "gameObject": "TextLayOut",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/TextArea/TextLayOut",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn2/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Btn3",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn3",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "4883750232154816959",
+      "bundle": "CAB-270037600fa7022ae97002c075682850",
+      "assetType": "Sprite",
+      "assetName": "AnniversaryLobby_Bingo",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Bingo.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Bingo.png"
+    },
+    {
+      "gameObject": "TextLayOut",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/TextArea/TextLayOut",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn3/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Btn4",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn4",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 8,
+      "pathId": "7819784878491247816",
+      "bundle": "CAB-0919f5ba09116ae5861b55aee863d802",
+      "assetType": "Sprite",
+      "assetName": "AnniversaryLobby_Store",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Store.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_Store.png"
+    },
+    {
+      "gameObject": "TextLayOut",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/TextArea/TextLayOut",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn4/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Btn5",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn5",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 11,
+      "pathId": "3251927954558079443",
+      "bundle": "CAB-e02c6fddec0329db9da499184669150e",
+      "assetType": "Sprite",
+      "assetName": "AnniversaryLobby_UserPaly",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_UserPaly.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/AnniversaryLobby_UserPaly.png"
+    },
+    {
+      "gameObject": "TextLayOut",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/TextArea/TextLayOut",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn5/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Btn6",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn6",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "TextLayOut",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/TextArea/TextLayOut",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/TextArea/TextLayOut/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "WindowAnniversaryLobby/Buttons/Btn6/ButtonSlot/TextArea/TextLayOut/Text/RedDot/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "TextShadow",
+      "nodePath": "WindowAnniversaryLobby/TextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TextShadow",
+      "nodePath": "WindowAnniversaryLobby/TextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowAnniversaryLobby/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": [
+    {
+      "path": "WindowAnniversaryLobby",
+      "controllerBundle": "CAB-1fcd49a1f50f5990a3d591318ec789d9",
+      "controllerPathId": "-4455396487811868868",
+      "controllerType": "AnimatorController",
+      "controllerName": "WindowAnniversaryLobby_Btn",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.Defult",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.Start",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Background Layer.BgLoop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "WindowAnniversaryLobby_Btn"
+    }
+  ]
+}

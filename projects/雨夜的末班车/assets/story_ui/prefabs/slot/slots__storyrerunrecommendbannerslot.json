@@ -1,0 +1,2657 @@
+{
+  "id": "slots/storyrerunrecommendbannerslot",
+  "sourceBundle": "prefab/slots/storyrerunrecommendbannerslot",
+  "hierarchy": {
+    "name": "StoryRerunRecommendBannerSlot",
+    "path": "StoryRerunRecommendBannerSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 416.0,
+        "y": 153.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 4,
+          "pathId": "4037146952049038349",
+          "bundle": "CAB-37eecad6f7f57ebfa46a7d258be27c91"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "StoryRerunRecommendBannerSlot"
+      }
+    ],
+    "children": [
+      {
+        "name": "FxPos",
+        "path": "StoryRerunRecommendBannerSlot/FxPos",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -153.0
+          },
+          "m_SizeDelta": {
+            "x": 100.0,
+            "y": 100.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "FX_UI_StoryRerunSlot_1",
+            "path": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Root",
+                "path": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "ParticleSystem"
+                  },
+                  {
+                    "type": "ParticleSystemRenderer"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "[Atlas_add]_Glow_add",
+                    "path": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Glow_add",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_add]_Particle_Up",
+                    "path": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Particle_Up",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_add]_Light_Line",
+                    "path": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Light_Line",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_add]_Light_Line",
+                    "path": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Light_Line",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mask",
+        "path": "StoryRerunRecommendBannerSlot/Mask",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 416.0,
+            "y": 153.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Mask"
+          }
+        ],
+        "children": [
+          {
+            "name": "Background",
+            "path": "StoryRerunRecommendBannerSlot/Mask/Background",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 416.0,
+                "y": 153.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Title",
+            "path": "StoryRerunRecommendBannerSlot/Mask/Title",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 416.0,
+                "y": 153.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Selected",
+            "path": "StoryRerunRecommendBannerSlot/Mask/Selected",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Check2",
+                "path": "StoryRerunRecommendBannerSlot/Mask/Selected/Check2",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 108.0,
+                    "y": 108.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Check",
+                "path": "StoryRerunRecommendBannerSlot/Mask/Selected/Check",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 150.0,
+                    "y": 128.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "ClearTag",
+            "path": "StoryRerunRecommendBannerSlot/Mask/ClearTag",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.09088134765625,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 140.0,
+                "y": 42.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.1363636255264282,
+                "y": 1.1363636255264282,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "ClearIcon",
+                "path": "StoryRerunRecommendBannerSlot/Mask/ClearTag/ClearIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 22.399999618530273,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 26.0,
+                    "y": 25.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "ClearText",
+                "path": "StoryRerunRecommendBannerSlot/Mask/ClearTag/ClearText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 15.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -50.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RedDot",
+        "path": "StoryRerunRecommendBannerSlot/RedDot",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -44.0,
+            "y": -34.0
+          },
+          "m_SizeDelta": {
+            "x": 55.0,
+            "y": 55.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "NewTag",
+        "path": "StoryRerunRecommendBannerSlot/NewTag",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 80.0,
+            "y": -40.0
+          },
+          "m_SizeDelta": {
+            "x": 124.0,
+            "y": 60.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonElastic"
+          },
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Slider",
+        "path": "StoryRerunRecommendBannerSlot/Slider",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -23.0
+          },
+          "m_SizeDelta": {
+            "x": 458.0,
+            "y": 10.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MonoBehaviour",
+            "script": "Slider"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": [
+          {
+            "name": "Background",
+            "path": "StoryRerunRecommendBannerSlot/Slider/Background",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 6.103515625e-05,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Fill Area",
+            "path": "StoryRerunRecommendBannerSlot/Slider/Fill Area",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 6.103515625e-05,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Fill",
+                "path": "StoryRerunRecommendBannerSlot/Slider/Fill Area/Fill",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.625,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 6.103515625e-05,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "BetterImage"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Handle Slide Area",
+            "path": "StoryRerunRecommendBannerSlot/Slider/Handle Slide Area",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": -10.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Handle",
+                "path": "StoryRerunRecommendBannerSlot/Slider/Handle Slide Area/Handle",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.625,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.625,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 12.0,
+                    "y": 2.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "CircleFx",
+                    "path": "StoryRerunRecommendBannerSlot/Slider/Handle Slide Area/Handle/CircleFx",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 6.103515625e-05,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 5.0,
+                        "y": 5.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 4.0,
+                        "y": 4.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Circle",
+                    "path": "StoryRerunRecommendBannerSlot/Slider/Handle Slide Area/Handle/Circle",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 6.103515625e-05,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 12.0,
+                        "y": 12.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SelectedCountNumber",
+        "path": "StoryRerunRecommendBannerSlot/SelectedCountNumber",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -55.0
+          },
+          "m_SizeDelta": {
+            "x": -180.0,
+            "y": 44.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "CountNumberShadow",
+            "path": "StoryRerunRecommendBannerSlot/SelectedCountNumber/CountNumberShadow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 18.049957275390625
+              },
+              "m_SizeDelta": {
+                "x": 518.0,
+                "y": 43.900001525878906
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "CountNumber",
+            "path": "StoryRerunRecommendBannerSlot/SelectedCountNumber/CountNumber",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 21.950027465820312
+              },
+              "m_SizeDelta": {
+                "x": 518.0,
+                "y": 43.900001525878906
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "NormalCountNumber",
+        "path": "StoryRerunRecommendBannerSlot/NormalCountNumber",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -55.0
+          },
+          "m_SizeDelta": {
+            "x": -180.0,
+            "y": 44.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "TextMeshProUGUI"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BannerSlotLock",
+        "path": "StoryRerunRecommendBannerSlot/BannerSlotLock",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -54.0
+          },
+          "m_SizeDelta": {
+            "x": 288.0,
+            "y": 32.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Deco",
+            "path": "StoryRerunRecommendBannerSlot/BannerSlotLock/Deco",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 288.0,
+                "y": 9.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LockTextPanel",
+            "path": "StoryRerunRecommendBannerSlot/BannerSlotLock/LockTextPanel",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 261.5799865722656,
+                "y": 32.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "LockTextShadow",
+                "path": "StoryRerunRecommendBannerSlot/BannerSlotLock/LockTextPanel/LockTextShadow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -4.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "LockText",
+                "path": "StoryRerunRecommendBannerSlot/BannerSlotLock/LockTextPanel/LockText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BannerSlotEvent",
+        "path": "StoryRerunRecommendBannerSlot/BannerSlotEvent",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -54.0
+          },
+          "m_SizeDelta": {
+            "x": 288.0,
+            "y": 32.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Deco",
+            "path": "StoryRerunRecommendBannerSlot/BannerSlotEvent/Deco",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 288.0,
+                "y": 9.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LockTextPanel",
+            "path": "StoryRerunRecommendBannerSlot/BannerSlotEvent/LockTextPanel",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 261.5799865722656,
+                "y": 32.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "LockTextShadow",
+                "path": "StoryRerunRecommendBannerSlot/BannerSlotEvent/LockTextPanel/LockTextShadow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -4.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "LockText",
+                "path": "StoryRerunRecommendBannerSlot/BannerSlotEvent/LockTextPanel/LockText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "StoryRerunRecommendBannerSlot",
+      "nodePath": "StoryRerunRecommendBannerSlot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "StoryRerunRecommendBannerSlot",
+      "nodePath": "StoryRerunRecommendBannerSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 4,
+      "pathId": "4037146952049038349",
+      "bundle": "CAB-37eecad6f7f57ebfa46a7d258be27c91",
+      "assetType": "AnimatorController",
+      "assetName": "StoryRerunSlot"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_add",
+      "nodePath": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Glow_add",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 3,
+      "pathId": "-4842174792883495735",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SimpleGrow"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_add",
+      "nodePath": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Glow_add",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_add",
+      "nodePath": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Glow_add",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 3,
+      "pathId": "2388390337977903553",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_Plane_Half_02"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Up",
+      "nodePath": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Particle_Up",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 3,
+      "pathId": "-2972597276597634168",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Square_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Up",
+      "nodePath": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Particle_Up",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 3,
+      "pathId": "3880845339072772296",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 3,
+      "pathId": "8602566225605374383",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Flare_07"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryRerunRecommendBannerSlot/FxPos/FX_UI_StoryRerunSlot_1/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "StoryRerunRecommendBannerSlot/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "Selected",
+      "nodePath": "StoryRerunRecommendBannerSlot/Mask/Selected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "Check2",
+      "nodePath": "StoryRerunRecommendBannerSlot/Mask/Selected/Check2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "2088115340735470153",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "WindowStoryRerun_Icon_Check_1",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Icon_Check_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Icon_Check_1.png"
+    },
+    {
+      "gameObject": "Check",
+      "nodePath": "StoryRerunRecommendBannerSlot/Mask/Selected/Check",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "2088115340735470153",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "WindowStoryRerun_Icon_Check_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Icon_Check_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Icon_Check_1.png"
+    },
+    {
+      "gameObject": "ClearTag",
+      "nodePath": "StoryRerunRecommendBannerSlot/Mask/ClearTag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 8,
+      "pathId": "-3018109922890863419",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "Rerun_ClearTag",
+      "atlasBundle": "atlases/storyrerun",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_ClearTag.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_ClearTag.png"
+    },
+    {
+      "gameObject": "ClearIcon",
+      "nodePath": "StoryRerunRecommendBannerSlot/Mask/ClearTag/ClearIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 8,
+      "pathId": "5511368102319129160",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "Rerun_ClearIcon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_ClearIcon.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Rerun_ClearIcon.png"
+    },
+    {
+      "gameObject": "ClearText",
+      "nodePath": "StoryRerunRecommendBannerSlot/Mask/ClearTag/ClearText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ClearText",
+      "nodePath": "StoryRerunRecommendBannerSlot/Mask/ClearTag/ClearText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "StoryRerunRecommendBannerSlot/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "NewTag",
+      "nodePath": "StoryRerunRecommendBannerSlot/NewTag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "8791054138832441540",
+      "bundle": "CAB-551ba164792d61dfc3c6a49d6f4939eb",
+      "assetType": "Sprite",
+      "assetName": "Common_New_2_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "StoryRerunRecommendBannerSlot/Slider/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7579496373606198959",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png"
+    },
+    {
+      "gameObject": "Fill",
+      "nodePath": "StoryRerunRecommendBannerSlot/Slider/Fill Area/Fill",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7579496373606198959",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png"
+    },
+    {
+      "gameObject": "Fill",
+      "nodePath": "StoryRerunRecommendBannerSlot/Slider/Fill Area/Fill",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 1,
+      "pathId": "7579496373606198959",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png"
+    },
+    {
+      "gameObject": "Handle",
+      "nodePath": "StoryRerunRecommendBannerSlot/Slider/Handle Slide Area/Handle",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8869699984286934631",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png"
+    },
+    {
+      "gameObject": "CircleFx",
+      "nodePath": "StoryRerunRecommendBannerSlot/Slider/Handle Slide Area/Handle/CircleFx",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "CircleFx",
+      "nodePath": "StoryRerunRecommendBannerSlot/Slider/Handle Slide Area/Handle/CircleFx",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-952181678247986719",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient.png"
+    },
+    {
+      "gameObject": "Circle",
+      "nodePath": "StoryRerunRecommendBannerSlot/Slider/Handle Slide Area/Handle/Circle",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8869699984286934631",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png"
+    },
+    {
+      "gameObject": "CountNumberShadow",
+      "nodePath": "StoryRerunRecommendBannerSlot/SelectedCountNumber/CountNumberShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "CountNumberShadow",
+      "nodePath": "StoryRerunRecommendBannerSlot/SelectedCountNumber/CountNumberShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "CountNumber",
+      "nodePath": "StoryRerunRecommendBannerSlot/SelectedCountNumber/CountNumber",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "CountNumber",
+      "nodePath": "StoryRerunRecommendBannerSlot/SelectedCountNumber/CountNumber",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "9008416338616823829",
+      "bundle": "CAB-09897aae16fc7c1dc681cbd4a2e61d35",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_StoryRerun_SelectCountNumber"
+    },
+    {
+      "gameObject": "NormalCountNumber",
+      "nodePath": "StoryRerunRecommendBannerSlot/NormalCountNumber",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NormalCountNumber",
+      "nodePath": "StoryRerunRecommendBannerSlot/NormalCountNumber",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "BannerSlotLock",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotLock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotLock/Deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "LockTextShadow",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotLock/LockTextPanel/LockTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "LockTextShadow",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotLock/LockTextPanel/LockTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "LockTextShadow",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotLock/LockTextPanel/LockTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "LockText",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotLock/LockTextPanel/LockText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "LockText",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotLock/LockTextPanel/LockText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "LockText",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotLock/LockTextPanel/LockText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "BannerSlotEvent",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotEvent",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotEvent/Deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "LockTextShadow",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotEvent/LockTextPanel/LockTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "LockTextShadow",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotEvent/LockTextPanel/LockTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "LockTextShadow",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotEvent/LockTextPanel/LockTextShadow",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "LockText",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotEvent/LockTextPanel/LockText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "LockText",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotEvent/LockTextPanel/LockText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "LockText",
+      "nodePath": "StoryRerunRecommendBannerSlot/BannerSlotEvent/LockTextPanel/LockText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": [
+    {
+      "path": "StoryRerunRecommendBannerSlot",
+      "controllerBundle": "CAB-37eecad6f7f57ebfa46a7d258be27c91",
+      "controllerPathId": "4037146952049038349",
+      "controllerType": "AnimatorController",
+      "controllerName": "StoryRerunSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryRerunSlot_Select_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryRerunSlot_Unselect",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryRerunSlot_Select_Idle",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "StoryRerunSlot"
+    }
+  ]
+}

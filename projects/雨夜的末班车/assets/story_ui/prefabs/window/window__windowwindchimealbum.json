@@ -1,0 +1,2638 @@
+{
+  "id": "window/windowwindchimealbum",
+  "sourceBundle": "prefab/window/windowwindchimealbum",
+  "hierarchy": {
+    "name": "WindowWindChimeAlbum",
+    "path": "WindowWindChimeAlbum",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 8,
+          "pathId": "-4642483408885050835",
+          "bundle": "CAB-49b1d393aa9b04f7490b32a14b6b4177"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "WindowWindChimeAlbum"
+      }
+    ],
+    "children": [
+      {
+        "name": "Background",
+        "path": "WindowWindChimeAlbum/Background",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 3200.0,
+            "y": 2048.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "FX_UI_SherumBattle_Spotlight (Missing Prefab with guid: ca6ea47b033a3284984b2c7e65c8f16e)",
+            "path": "WindowWindChimeAlbum/Background/FX_UI_SherumBattle_Spotlight (Missing Prefab with guid: ca6ea47b033a3284984b2c7e65c8f16e)",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "List",
+        "path": "WindowWindChimeAlbum/List",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -540.0,
+            "y": -70.0
+          },
+          "m_SizeDelta": {
+            "x": 1346.0,
+            "y": 1226.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "MenuBtn",
+            "path": "WindowWindChimeAlbum/List/MenuBtn",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -200.0,
+                "y": 500.0
+              },
+              "m_SizeDelta": {
+                "x": 800.0,
+                "y": 84.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "FilterBtn",
+                "path": "WindowWindChimeAlbum/List/MenuBtn/FilterBtn",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 264.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "ButtonText",
+                    "path": "WindowWindChimeAlbum/List/MenuBtn/FilterBtn/ButtonText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.5,
+                        "y": 1.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -61.0,
+                        "y": 52.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "FilterOn",
+                "path": "WindowWindChimeAlbum/List/MenuBtn/FilterOn",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 416.0,
+                    "y": -42.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 264.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "ButtonText",
+                    "path": "WindowWindChimeAlbum/List/MenuBtn/FilterOn/ButtonText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.5,
+                        "y": 1.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -61.0,
+                        "y": 52.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "SortBtn",
+                "path": "WindowWindChimeAlbum/List/MenuBtn/SortBtn",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 264.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "ButtonText",
+                    "path": "WindowWindChimeAlbum/List/MenuBtn/SortBtn/ButtonText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.5,
+                        "y": 1.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -61.0,
+                        "y": 52.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "UpDown",
+                "path": "WindowWindChimeAlbum/List/MenuBtn/UpDown",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 84.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Arrow",
+                    "path": "WindowWindChimeAlbum/List/MenuBtn/UpDown/Arrow",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 28.0,
+                        "y": 31.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.2000000476837158,
+                        "y": 1.2000000476837158,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.06975647062063217,
+                        "w": 0.9975640773773193
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Line",
+            "path": "WindowWindChimeAlbum/List/Line",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 441.0
+              },
+              "m_SizeDelta": {
+                "x": 1200.0,
+                "y": 6.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Mask",
+            "path": "WindowWindChimeAlbum/List/Mask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": -64.0
+              },
+              "m_SizeDelta": {
+                "x": 1230.0,
+                "y": 960.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              }
+            ],
+            "children": [
+              {
+                "name": "ScrollView",
+                "path": "WindowWindChimeAlbum/List/Mask/ScrollView",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ScrollRect"
+                  },
+                  {
+                    "type": "CanvasGroup"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "UIRecycleViewController_WindChimeAlbum"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Viewport",
+                    "path": "WindowWindChimeAlbum/List/Mask/ScrollView/Viewport",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Content",
+                        "path": "WindowWindChimeAlbum/List/Mask/ScrollView/Viewport/Content",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 1.0
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "VerticalLayoutGroup"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ContentSizeFitter"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "WindChimeCell",
+                            "path": "WindowWindChimeAlbum/List/Mask/ScrollView/Viewport/Content/WindChimeCell",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": -350.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 1494.0,
+                                "y": 700.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.0,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 0.800000011920929,
+                                "y": 0.800000011920929,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "HorizontalLayoutGroup"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIRecycleViewCell_WindChimeAlbum"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "ContentSizeFitter"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GradientTop",
+                "path": "WindowWindChimeAlbum/List/Mask/GradientTop",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1230.0,
+                    "y": 20.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": -1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "GradientBottom",
+                "path": "WindowWindChimeAlbum/List/Mask/GradientBottom",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1230.0,
+                    "y": 20.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "EmptyText",
+                "path": "WindowWindChimeAlbum/List/Mask/EmptyText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 25.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -400.0,
+                    "y": -350.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "DecoGroup",
+            "path": "WindowWindChimeAlbum/List/DecoGroup",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 1346.0,
+                "y": 1226.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              }
+            ],
+            "children": [
+              {
+                "name": "Deco (1)",
+                "path": "WindowWindChimeAlbum/List/DecoGroup/Deco (1)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 360.0,
+                    "y": 600.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 226.0,
+                    "y": 122.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Deco (2)",
+                "path": "WindowWindChimeAlbum/List/DecoGroup/Deco (2)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 635.0,
+                    "y": 430.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 90.0,
+                    "y": 196.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Deco (3)",
+                "path": "WindowWindChimeAlbum/List/DecoGroup/Deco (3)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -544.0,
+                    "y": -574.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 226.0,
+                    "y": 122.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": -1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Deco (4)",
+                "path": "WindowWindChimeAlbum/List/DecoGroup/Deco (4)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -653.0,
+                    "y": -453.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 90.0,
+                    "y": 196.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": -1.0,
+                    "y": -1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Deco",
+                "path": "WindowWindChimeAlbum/List/DecoGroup/Deco",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 590.0,
+                    "y": 585.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 240.0,
+                    "y": 120.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -0.087155781686306,
+                    "w": 0.9961947202682495
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Detail",
+        "path": "WindowWindChimeAlbum/Detail",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 630.0,
+            "y": -20.0
+          },
+          "m_SizeDelta": {
+            "x": 670.0,
+            "y": 1330.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.100000023841858,
+            "y": 1.100000023841858,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.04361940920352936,
+            "w": 0.9990482926368713
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "Animator",
+            "controller": {
+              "fileId": 10,
+              "pathId": "7560883153963687573",
+              "bundle": "CAB-e68cd5036ef4134410f60308874d36e9"
+            }
+          },
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "TribeIcon",
+            "path": "WindowWindChimeAlbum/Detail/TribeIcon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": 2.0
+              },
+              "m_SizeDelta": {
+                "x": 219.0,
+                "y": 222.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.5,
+                "y": 1.5,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "UIElementStateHandler"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "WindChimePos",
+            "path": "WindowWindChimeAlbum/Detail/WindChimePos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -0.0,
+                "y": -660.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.559999942779541,
+                "y": 1.559999942779541,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              }
+            ],
+            "children": [
+              {
+                "name": "Spine",
+                "path": "WindowWindChimeAlbum/Detail/WindChimePos/Spine",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SkeletonGraphic"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "MixedEventSkeletonGraphicHandler"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "MinimiHeroPos",
+            "path": "WindowWindChimeAlbum/Detail/MinimiHeroPos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 420.0,
+                "y": -410.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.100000023841858,
+                "y": 1.100000023841858,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.04361940547823906,
+                "w": 0.9990482926368713
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              }
+            ],
+            "children": [
+              {
+                "name": "MinimiHero",
+                "path": "WindowWindChimeAlbum/Detail/MinimiHeroPos/MinimiHero",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "MinimiHero"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Spine",
+                    "path": "WindowWindChimeAlbum/Detail/MinimiHeroPos/MinimiHero/Spine",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SkeletonGraphic"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NameTag",
+            "path": "WindowWindChimeAlbum/Detail/NameTag",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 390.0,
+                "y": -486.0
+              },
+              "m_SizeDelta": {
+                "x": 398.0,
+                "y": 168.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.100000023841858,
+                "y": 1.100000023841858,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.04361940920352936,
+                "w": 0.9990482926368713
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "NameText",
+                "path": "WindowWindChimeAlbum/Detail/NameTag/NameText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -2.0,
+                    "y": 26.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 260.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "DateText",
+                "path": "WindowWindChimeAlbum/Detail/NameTag/DateText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -2.0,
+                    "y": -44.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 350.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "White",
+        "path": "WindowWindChimeAlbum/White",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 1000.0,
+            "y": 1000.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "WindowWindChimeAlbum",
+      "nodePath": "WindowWindChimeAlbum",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 8,
+      "pathId": "-4642483408885050835",
+      "bundle": "CAB-49b1d393aa9b04f7490b32a14b6b4177",
+      "assetType": "AnimatorController",
+      "assetName": "WindowWindChimeAlbum"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "WindowWindChimeAlbum/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "1874592607632491251",
+      "bundle": "CAB-53dc99964f9a607eb181439f8e3fd0e9",
+      "assetType": "Sprite",
+      "assetName": "WindChime_BG_Album",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_BG_Album.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_BG_Album.png"
+    },
+    {
+      "gameObject": "List",
+      "nodePath": "WindowWindChimeAlbum/List",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8047893027650369045",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Album_Box",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Box.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Box.png"
+    },
+    {
+      "gameObject": "FilterBtn",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/FilterBtn",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6735425379789506594",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_FilterButton",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_FilterButton.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_FilterButton.png"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/FilterBtn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/FilterBtn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "FilterOn",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/FilterOn",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6406904219051758089",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_FilterOn",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_FilterOn.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_FilterOn.png"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/FilterOn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/FilterOn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "SortBtn",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/SortBtn",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6735425379789506594",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_FilterButton",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_FilterButton.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_FilterButton.png"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/SortBtn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ButtonText",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/SortBtn/ButtonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "UpDown",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/UpDown",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6735425379789506594",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_FilterButton",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_FilterButton.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_FilterButton.png"
+    },
+    {
+      "gameObject": "Arrow",
+      "nodePath": "WindowWindChimeAlbum/List/MenuBtn/UpDown/Arrow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "3344671160574996162",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Align_IconUp",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Align_IconUp.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Align_IconUp.png"
+    },
+    {
+      "gameObject": "Line",
+      "nodePath": "WindowWindChimeAlbum/List/Line",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7840668626368937934",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Album_Line",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Line.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Line.png"
+    },
+    {
+      "gameObject": "Viewport",
+      "nodePath": "WindowWindChimeAlbum/List/Mask/ScrollView/Viewport",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 0,
+      "pathId": "-2320101112833093935",
+      "bundle": ""
+    },
+    {
+      "gameObject": "GradientTop",
+      "nodePath": "WindowWindChimeAlbum/List/Mask/GradientTop",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-9061072232281260515",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradient_0001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradient_0001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradient_0001.png"
+    },
+    {
+      "gameObject": "GradientBottom",
+      "nodePath": "WindowWindChimeAlbum/List/Mask/GradientBottom",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-9061072232281260515",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradient_0001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradient_0001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradient_0001.png"
+    },
+    {
+      "gameObject": "EmptyText",
+      "nodePath": "WindowWindChimeAlbum/List/Mask/EmptyText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "EmptyText",
+      "nodePath": "WindowWindChimeAlbum/List/Mask/EmptyText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Deco (1)",
+      "nodePath": "WindowWindChimeAlbum/List/DecoGroup/Deco (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-4315278482427639261",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Album_Deco_B",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_B.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_B.png"
+    },
+    {
+      "gameObject": "Deco (2)",
+      "nodePath": "WindowWindChimeAlbum/List/DecoGroup/Deco (2)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7161808405925901031",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Album_Deco_C",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_C.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_C.png"
+    },
+    {
+      "gameObject": "Deco (3)",
+      "nodePath": "WindowWindChimeAlbum/List/DecoGroup/Deco (3)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-4315278482427639261",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Album_Deco_B",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_B.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_B.png"
+    },
+    {
+      "gameObject": "Deco (4)",
+      "nodePath": "WindowWindChimeAlbum/List/DecoGroup/Deco (4)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7161808405925901031",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Album_Deco_C",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_C.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_C.png"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "WindowWindChimeAlbum/List/DecoGroup/Deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-4423679929230700729",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Album_Deco_A",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_A.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Album_Deco_A.png"
+    },
+    {
+      "gameObject": "Detail",
+      "nodePath": "WindowWindChimeAlbum/Detail",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "3821622886713330649",
+      "bundle": "CAB-ced8070a5be3339d6d9cb413e170c7dc",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_Bg",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_Bg.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_Bg.png"
+    },
+    {
+      "gameObject": "Detail",
+      "nodePath": "WindowWindChimeAlbum/Detail",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 10,
+      "pathId": "7560883153963687573",
+      "bundle": "CAB-e68cd5036ef4134410f60308874d36e9",
+      "assetType": "AnimatorController",
+      "assetName": "WindowWindChimeAlbum_Detail"
+    },
+    {
+      "gameObject": "TribeIcon",
+      "nodePath": "WindowWindChimeAlbum/Detail/TribeIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2113924969371089753",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_TribeIcon_Fairy",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Fairy.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Fairy.png"
+    },
+    {
+      "gameObject": "TribeIcon",
+      "nodePath": "WindowWindChimeAlbum/Detail/TribeIcon",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "5321077532454843847",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_TribeIcon_Dragon",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Dragon.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Dragon.png"
+    },
+    {
+      "gameObject": "TribeIcon",
+      "nodePath": "WindowWindChimeAlbum/Detail/TribeIcon",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "2113924969371089753",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_TribeIcon_Fairy",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Fairy.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Fairy.png"
+    },
+    {
+      "gameObject": "TribeIcon",
+      "nodePath": "WindowWindChimeAlbum/Detail/TribeIcon",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "5857182996175601659",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_TribeIcon_Furry",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Furry.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Furry.png"
+    },
+    {
+      "gameObject": "TribeIcon",
+      "nodePath": "WindowWindChimeAlbum/Detail/TribeIcon",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "7831820132657245187",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_TribeIcon_Ghost",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Ghost.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Ghost.png"
+    },
+    {
+      "gameObject": "TribeIcon",
+      "nodePath": "WindowWindChimeAlbum/Detail/TribeIcon",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "3407920258193494515",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_TribeIcon_Spirit",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Spirit.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Spirit.png"
+    },
+    {
+      "gameObject": "TribeIcon",
+      "nodePath": "WindowWindChimeAlbum/Detail/TribeIcon",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-1383308823477420708",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_TribeIcon_Elf",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Elf.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Elf.png"
+    },
+    {
+      "gameObject": "TribeIcon",
+      "nodePath": "WindowWindChimeAlbum/Detail/TribeIcon",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "258051482587710677",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_TribeIcon_Mystic",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Mystic.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Mystic.png"
+    },
+    {
+      "gameObject": "TribeIcon",
+      "nodePath": "WindowWindChimeAlbum/Detail/TribeIcon",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-6453288474300275586",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_Slot_TribeIcon_Witch",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Witch.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_Slot_TribeIcon_Witch.png"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "WindowWindChimeAlbum/Detail/WindChimePos/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 3,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "WindowWindChimeAlbum/Detail/WindChimePos/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 6,
+      "pathId": "-6382799002828082640",
+      "bundle": "CAB-61d1b15dac754c8c5dc105922363991d",
+      "assetType": "MonoBehaviour",
+      "assetName": "Windchime_SkeletonData"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "WindowWindChimeAlbum/Detail/MinimiHeroPos/MinimiHero/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 3,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "WindowWindChimeAlbum/Detail/MinimiHeroPos/MinimiHero/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 4,
+      "pathId": "-7992128305050955659",
+      "bundle": "CAB-4fa120780f90e1786650082627a6533a",
+      "assetType": "MonoBehaviour",
+      "assetName": "Minimi_SkeletonData"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "WindowWindChimeAlbum/Detail/MinimiHeroPos/MinimiHero/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "additiveMaterial",
+      "fileId": 3,
+      "pathId": "-7852358095173771177",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicAdditive"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "WindowWindChimeAlbum/Detail/MinimiHeroPos/MinimiHero/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "multiplyMaterial",
+      "fileId": 3,
+      "pathId": "-13276894215973044",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicMultiply"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "WindowWindChimeAlbum/Detail/MinimiHeroPos/MinimiHero/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "screenMaterial",
+      "fileId": 3,
+      "pathId": "-5524858707655825726",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicScreen"
+    },
+    {
+      "gameObject": "NameTag",
+      "nodePath": "WindowWindChimeAlbum/Detail/NameTag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7132303937505951449",
+      "bundle": "CAB-e9d74c8a67128d2d82b624dd43a78b1d",
+      "assetType": "Sprite",
+      "assetName": "WindChime_NameTag",
+      "atlasBundle": "atlases/windchime",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_NameTag.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindChime_NameTag.png"
+    },
+    {
+      "gameObject": "NameText",
+      "nodePath": "WindowWindChimeAlbum/Detail/NameTag/NameText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NameText",
+      "nodePath": "WindowWindChimeAlbum/Detail/NameTag/NameText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "DateText",
+      "nodePath": "WindowWindChimeAlbum/Detail/NameTag/DateText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "DateText",
+      "nodePath": "WindowWindChimeAlbum/Detail/NameTag/DateText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": [
+    {
+      "path": "WindowWindChimeAlbum",
+      "controllerBundle": "CAB-49b1d393aa9b04f7490b32a14b6b4177",
+      "controllerPathId": "-4642483408885050835",
+      "controllerType": "AnimatorController",
+      "controllerName": "WindowWindChimeAlbum",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.WindowWindChimeAlbum_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "WindowWindChimeAlbum"
+    },
+    {
+      "path": "WindowWindChimeAlbum/Detail",
+      "controllerBundle": "CAB-e68cd5036ef4134410f60308874d36e9",
+      "controllerPathId": "7560883153963687573",
+      "controllerType": "AnimatorController",
+      "controllerName": "WindowWindChimeAlbum_Detail",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.WindowWindChimeAlbum_Detail_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.WindowWindChimeAlbum_Detail_Loop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "WindowWindChimeAlbum_Detail"
+    }
+  ]
+}

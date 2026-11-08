@@ -1,0 +1,804 @@
+{
+  "id": "slots/breadcrumbbattlerankingslot",
+  "sourceBundle": "prefab/slots/breadcrumbbattlerankingslot",
+  "hierarchy": {
+    "name": "BreadCrumbBattleRankingSlot",
+    "path": "BreadCrumbBattleRankingSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 703.0,
+        "y": -100.0
+      },
+      "m_SizeDelta": {
+        "x": 1811.0,
+        "y": 199.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "BreadCrumbBattleRankingSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "BossScore",
+        "path": "BreadCrumbBattleRankingSlot/BossScore",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -222.0,
+            "y": 35.0
+          },
+          "m_SizeDelta": {
+            "x": 339.0,
+            "y": 44.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "TextMeshProUGUI"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "ScoreValue",
+        "path": "BreadCrumbBattleRankingSlot/ScoreValue",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -445.0,
+            "y": -30.0
+          },
+          "m_SizeDelta": {
+            "x": 787.0,
+            "y": 80.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "TextMeshProUGUI"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Level",
+        "path": "BreadCrumbBattleRankingSlot/Level",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 517.0,
+            "y": -49.0
+          },
+          "m_SizeDelta": {
+            "x": 297.0,
+            "y": 54.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "TextMeshProUGUI"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "NameSpace",
+        "path": "BreadCrumbBattleRankingSlot/NameSpace",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 369.0,
+            "y": 25.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 66.0
+          },
+          "m_Pivot": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MonoBehaviour",
+            "script": "HorizontalLayoutGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ContentSizeFitter"
+          }
+        ],
+        "children": [
+          {
+            "name": "Nickname",
+            "path": "BreadCrumbBattleRankingSlot/NameSpace/Nickname",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -33.0
+              },
+              "m_SizeDelta": {
+                "x": 28.479999542236328,
+                "y": 50.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "UserNameTagPos",
+            "path": "BreadCrumbBattleRankingSlot/NameSpace/UserNameTagPos",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 38.47999954223633,
+                "y": -33.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 88.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.949999988079071,
+                "y": 0.949999988079071,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": []
+          },
+          {
+            "name": "ViewIcon",
+            "path": "BreadCrumbBattleRankingSlot/NameSpace/ViewIcon",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -33.0
+              },
+              "m_SizeDelta": {
+                "x": 50.0,
+                "y": 50.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "LayoutElement"
+              }
+            ],
+            "children": [
+              {
+                "name": "Icon",
+                "path": "BreadCrumbBattleRankingSlot/NameSpace/ViewIcon/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -15.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 30.0,
+                    "y": 30.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RankBase",
+        "path": "BreadCrumbBattleRankingSlot/RankBase",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 330.0,
+            "y": 0.5
+          },
+          "m_SizeDelta": {
+            "x": 317.8999938964844,
+            "y": 173.0
+          },
+          "m_Pivot": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "RankValue",
+        "path": "BreadCrumbBattleRankingSlot/RankValue",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 330.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 314.0,
+            "y": 180.0
+          },
+          "m_Pivot": {
+            "x": 1.0,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Icon",
+            "path": "BreadCrumbBattleRankingSlot/RankValue/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 24.178955078125
+              },
+              "m_SizeDelta": {
+                "x": 158.0,
+                "y": 106.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text",
+            "path": "BreadCrumbBattleRankingSlot/RankValue/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -47.0
+              },
+              "m_SizeDelta": {
+                "x": 238.0,
+                "y": 60.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TMPLayered"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "BossScore",
+      "nodePath": "BreadCrumbBattleRankingSlot/BossScore",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "BossScore",
+      "nodePath": "BreadCrumbBattleRankingSlot/BossScore",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "ScoreValue",
+      "nodePath": "BreadCrumbBattleRankingSlot/ScoreValue",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ScoreValue",
+      "nodePath": "BreadCrumbBattleRankingSlot/ScoreValue",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Level",
+      "nodePath": "BreadCrumbBattleRankingSlot/Level",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Level",
+      "nodePath": "BreadCrumbBattleRankingSlot/Level",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Nickname",
+      "nodePath": "BreadCrumbBattleRankingSlot/NameSpace/Nickname",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Nickname",
+      "nodePath": "BreadCrumbBattleRankingSlot/NameSpace/Nickname",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "ViewIcon",
+      "nodePath": "BreadCrumbBattleRankingSlot/NameSpace/ViewIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "281247350890492310",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4545",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "BreadCrumbBattleRankingSlot/NameSpace/ViewIcon/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8804496970770143920",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_Icon_Search",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_Icon_Search.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_Icon_Search.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleRankingSlot/RankValue/Text",
+      "component": "MonoBehaviour",
+      "script": "TMPLayered",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleRankingSlot/RankValue/Text",
+      "component": "MonoBehaviour",
+      "script": "TMPLayered",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleRankingSlot/RankValue/Text",
+      "component": "MonoBehaviour",
+      "script": "TMPLayered",
+      "field": "behindLayers[0].material",
+      "fileId": 3,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    }
+  ],
+  "animators": []
+}

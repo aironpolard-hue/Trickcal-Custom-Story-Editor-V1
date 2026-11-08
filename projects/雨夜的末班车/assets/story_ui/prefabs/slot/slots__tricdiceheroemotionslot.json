@@ -1,0 +1,1369 @@
+{
+  "id": "slots/tricdiceheroemotionslot",
+  "sourceBundle": "prefab/slots/tricdiceheroemotionslot",
+  "hierarchy": {
+    "name": "TricDiceHeroEmotionSlot",
+    "path": "TricDiceHeroEmotionSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 188.89999389648438,
+        "y": 92.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 8,
+          "pathId": "329109858229826286",
+          "bundle": "CAB-afd115acb70499871db9e87b30bbcdd0"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "TricDiceEmotionSlot"
+      }
+    ],
+    "children": [
+      {
+        "name": "SpineMaskShadow",
+        "path": "TricDiceHeroEmotionSlot/SpineMaskShadow",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -154.10000610351562
+          },
+          "m_SizeDelta": {
+            "x": 384.0,
+            "y": 141.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_LocalScale": {
+            "x": 2.0,
+            "y": 2.0,
+            "z": 2.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Mask"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "SpineMask",
+        "path": "TricDiceHeroEmotionSlot/SpineMask",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -136.39999389648438
+          },
+          "m_SizeDelta": {
+            "x": 384.0,
+            "y": 141.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_LocalScale": {
+            "x": 2.0,
+            "y": 2.0,
+            "z": 2.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Mask"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Pos",
+        "path": "TricDiceHeroEmotionSlot/Pos",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 758.0,
+            "y": 448.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": -1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "EmotionStateHandler",
+            "path": "TricDiceHeroEmotionSlot/Pos/EmotionStateHandler",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": 2.0
+              },
+              "m_SizeDelta": {
+                "x": 100.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "UIElementStateHandler"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "PlayerStateHandler",
+            "path": "TricDiceHeroEmotionSlot/Pos/PlayerStateHandler",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": 2.0
+              },
+              "m_SizeDelta": {
+                "x": 100.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "UIElementStateHandler"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "PatternMask",
+            "path": "TricDiceHeroEmotionSlot/Pos/PatternMask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": 2.0
+              },
+              "m_SizeDelta": {
+                "x": 736.0,
+                "y": 248.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              }
+            ],
+            "children": [
+              {
+                "name": "Pattern",
+                "path": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 2000.0,
+                    "y": 2000.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "BasePattern",
+                    "path": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/BasePattern",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 2000.0,
+                        "y": 2000.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 2.5,
+                        "y": 2.5,
+                        "z": 2.5
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.3826834261417389,
+                        "w": 0.9238795638084412
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "SurpriseDeco",
+                    "path": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/SurpriseDeco",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -249.0,
+                        "y": 44.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 64.0,
+                        "y": 123.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Shadow"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "SadDeco",
+                    "path": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/SadDeco",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": []
+                  },
+                  {
+                    "name": "HappyDeco",
+                    "path": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/HappyDeco",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -273.29998779296875,
+                        "y": -26.399999618530273
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco1",
+                        "path": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/HappyDeco/Deco1",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 38.29999923706055,
+                            "y": 89.4000015258789
+                          },
+                          "m_SizeDelta": {
+                            "x": 83.0,
+                            "y": 95.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": -1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Shadow"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Deco2",
+                        "path": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/HappyDeco/Deco2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 75.0,
+                            "y": 104.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": -1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Shadow"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "SpineMask",
+            "path": "TricDiceHeroEmotionSlot/Pos/SpineMask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -121.69999694824219
+              },
+              "m_SizeDelta": {
+                "x": 833.0999755859375,
+                "y": 739.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              }
+            ],
+            "children": [
+              {
+                "name": "SpinePos",
+                "path": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 22.0,
+                    "y": -588.9000244140625
+                  },
+                  "m_SizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.8999999761581421,
+                    "y": 0.8999999761581421,
+                    "z": 0.8999999761581421
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "StandingUnit",
+                    "path": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Button"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "StandingUnit"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Spine",
+                        "path": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/Spine",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 355.99932861328125,
+                            "y": 700.997314453125
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphic"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "AutoSpineSetter"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Aside",
+                            "path": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/Spine/Aside",
+                            "active": false,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 175.0,
+                                "y": 350.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SkeletonGraphic"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "MyhomeHero_Aside"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "Guild",
+                            "path": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/Spine/Guild",
+                            "active": false,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 240.0,
+                                "y": 240.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [],
+                            "children": []
+                          },
+                          {
+                            "name": "Bone",
+                            "path": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/Spine/Bone",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "BoneFollowerGraphic"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "TalkBubble",
+                        "path": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/TalkBubble",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -280.0,
+                            "y": 760.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 440.0,
+                            "y": 294.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": -1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ButtonElastic"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Text_Talk",
+                            "path": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/TalkBubble/Text_Talk",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 15.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 334.0,
+                                "y": -110.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": -1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "BtnImg",
+                        "path": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/BtnImg",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 397.1000061035156
+                          },
+                          "m_SizeDelta": {
+                            "x": 500.0,
+                            "y": 800.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "TricDiceHeroEmotionSlot",
+      "nodePath": "TricDiceHeroEmotionSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 8,
+      "pathId": "329109858229826286",
+      "bundle": "CAB-afd115acb70499871db9e87b30bbcdd0",
+      "assetType": "AnimatorController",
+      "assetName": "TricDiceHeroEmotionAnim"
+    },
+    {
+      "gameObject": "SpineMaskShadow",
+      "nodePath": "TricDiceHeroEmotionSlot/SpineMaskShadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-4554734745141070833",
+      "bundle": "CAB-50f20b4388fccc61c8e19d2e0a9a2df8",
+      "assetType": "Sprite",
+      "assetName": "TricDice_GamePlay_Mask_BG",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_GamePlay_Mask_BG.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_GamePlay_Mask_BG.png"
+    },
+    {
+      "gameObject": "SpineMask",
+      "nodePath": "TricDiceHeroEmotionSlot/SpineMask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-4554734745141070833",
+      "bundle": "CAB-50f20b4388fccc61c8e19d2e0a9a2df8",
+      "assetType": "Sprite",
+      "assetName": "TricDice_GamePlay_Mask_BG",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_GamePlay_Mask_BG.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_GamePlay_Mask_BG.png"
+    },
+    {
+      "gameObject": "PatternMask",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/PatternMask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "-9219035022356874985",
+      "bundle": "CAB-ae88d2bd81d8cc74b54ef42161be1409",
+      "assetType": "Sprite",
+      "assetName": "TricDice_GamePlay_Mask",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_GamePlay_Mask.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_GamePlay_Mask.png"
+    },
+    {
+      "gameObject": "BasePattern",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/BasePattern",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "4013598511713314013",
+      "bundle": "CAB-d25602e9028298e253baf62168c32891",
+      "assetType": "Sprite",
+      "assetName": "TricDiceCommon_Pattern",
+      "atlasBundle": "atlases/tricdicecommon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDiceCommon_Pattern.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDiceCommon_Pattern.png"
+    },
+    {
+      "gameObject": "SurpriseDeco",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/SurpriseDeco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "3287836435790513608",
+      "bundle": "CAB-d25602e9028298e253baf62168c32891",
+      "assetType": "Sprite",
+      "assetName": "TricDice_Ingame_Icon_Emotion_Surprise_Icon",
+      "atlasBundle": "atlases/tricdicegameplay",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Surprise_Icon.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Surprise_Icon.png"
+    },
+    {
+      "gameObject": "Deco1",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/HappyDeco/Deco1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-9043691004122851139",
+      "bundle": "CAB-d25602e9028298e253baf62168c32891",
+      "assetType": "Sprite",
+      "assetName": "TricDice_Ingame_Icon_Emotion_Happy_Deco_2",
+      "atlasBundle": "atlases/tricdicegameplay",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Happy_Deco_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Happy_Deco_2.png"
+    },
+    {
+      "gameObject": "Deco2",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/PatternMask/Pattern/HappyDeco/Deco2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-7231400517232724015",
+      "bundle": "CAB-d25602e9028298e253baf62168c32891",
+      "assetType": "Sprite",
+      "assetName": "TricDice_Ingame_Icon_Emotion_Happy_Deco",
+      "atlasBundle": "atlases/tricdicegameplay",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Happy_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Happy_Deco.png"
+    },
+    {
+      "gameObject": "Spine",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/Spine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 2,
+      "pathId": "-4414874751425926006",
+      "bundle": "CAB-a425042315195453b0e2188e6e6632bc",
+      "assetType": "MonoBehaviour",
+      "assetName": "Rufo_Standing"
+    },
+    {
+      "gameObject": "Aside",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/Spine/Aside",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 5,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "TalkBubble",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/TalkBubble",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "6312410235965281275",
+      "bundle": "CAB-7cba402e20989ec630b2f7cc00392a1f",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubble_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubble_1.png"
+    },
+    {
+      "gameObject": "Text_Talk",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/TalkBubble/Text_Talk",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_Talk",
+      "nodePath": "TricDiceHeroEmotionSlot/Pos/SpineMask/SpinePos/StandingUnit/TalkBubble/Text_Talk",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": [
+    {
+      "path": "TricDiceHeroEmotionSlot",
+      "controllerBundle": "CAB-afd115acb70499871db9e87b30bbcdd0",
+      "controllerPathId": "329109858229826286",
+      "controllerType": "AnimatorController",
+      "controllerName": "TricDiceHeroEmotionAnim",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.TricDiceHeroEmotionEntry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "TricDiceHeroEmotionAnim"
+    }
+  ]
+}

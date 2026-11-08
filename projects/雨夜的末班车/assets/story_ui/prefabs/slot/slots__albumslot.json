@@ -1,0 +1,3416 @@
+{
+  "id": "slots/albumslot",
+  "sourceBundle": "prefab/slots/albumslot",
+  "hierarchy": {
+    "name": "AlbumSlot",
+    "path": "AlbumSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 175.0,
+        "y": -236.0
+      },
+      "m_SizeDelta": {
+        "x": 350.0,
+        "y": 472.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "AlbumSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "CardArea",
+        "path": "AlbumSlot/CardArea",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "CardBase",
+            "path": "AlbumSlot/CardArea/CardBase",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": -8.0,
+                "y": -8.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "RatingSlot",
+                "path": "AlbumSlot/CardArea/CardBase/RatingSlot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 90.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 640.0,
+                    "y": 640.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.800000011920929,
+                    "y": 0.800000011920929,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Normalslot",
+                "path": "AlbumSlot/CardArea/CardBase/Normalslot",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "MonsterSlot",
+                "path": "AlbumSlot/CardArea/CardBase/MonsterSlot",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.087155781686306,
+                    "w": 0.9961947202682495
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "CardImage",
+            "path": "AlbumSlot/CardArea/CardImage",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 36.0
+              },
+              "m_SizeDelta": {
+                "x": 336.0,
+                "y": -82.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              }
+            ],
+            "children": [
+              {
+                "name": "SpellCardIcon",
+                "path": "AlbumSlot/CardArea/CardImage/SpellCardIcon",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 3.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 381.0,
+                    "y": 381.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "ArtifactIcon",
+                "path": "AlbumSlot/CardArea/CardImage/ArtifactIcon",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -190.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 256.0,
+                    "y": 256.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "BattleItem",
+                "path": "AlbumSlot/CardArea/CardImage/BattleItem",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 225.0,
+                    "y": 225.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Hero",
+                "path": "AlbumSlot/CardArea/CardImage/Hero",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 256.0,
+                    "y": 256.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.5,
+                    "y": 1.5,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Pet",
+                "path": "AlbumSlot/CardArea/CardImage/Pet",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 5.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 256.0,
+                    "y": 256.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Monster",
+                "path": "AlbumSlot/CardArea/CardImage/Monster",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 4.0,
+                    "y": 4.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Tribe",
+                "path": "AlbumSlot/CardArea/CardImage/Tribe",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 16.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 310.0,
+                    "y": 310.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Gradiant",
+            "path": "AlbumSlot/CardArea/Gradiant",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 130.0
+              },
+              "m_SizeDelta": {
+                "x": 350.0,
+                "y": 102.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Dim",
+            "path": "AlbumSlot/CardArea/Dim",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Name",
+            "path": "AlbumSlot/CardArea/Name",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 350.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ContentSizeFitter"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "GridLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "AlbumSlot/CardArea/Name/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Gauge",
+                "path": "AlbumSlot/CardArea/Name/Gauge",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 175.0,
+                    "y": -105.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 350.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Count",
+                    "path": "AlbumSlot/CardArea/Name/Gauge/Count",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 7.0,
+                        "y": -5.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 300.0,
+                        "y": 116.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Background",
+                        "path": "AlbumSlot/CardArea/Name/Gauge/Count/Background",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 5.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 270.0,
+                            "y": 40.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Mask"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Slider",
+                            "path": "AlbumSlot/CardArea/Name/Gauge/Count/Background/Slider",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": -2.5,
+                                "y": 30.0
+                              },
+                              "m_SizeDelta": {
+                                "x": -5.0,
+                                "y": 60.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Slider"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "Fill Area",
+                                "path": "AlbumSlot/CardArea/Name/Gauge/Count/Background/Slider/Fill Area",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": -10.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 30.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [],
+                                "children": [
+                                  {
+                                    "name": "Fill",
+                                    "path": "AlbumSlot/CardArea/Name/Gauge/Count/Background/Slider/Fill Area/Fill",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 1.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "BetterImage"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Border",
+                        "path": "AlbumSlot/CardArea/Name/Gauge/Count/Border",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 5.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 270.0,
+                            "y": 40.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Text",
+                        "path": "AlbumSlot/CardArea/Name/Gauge/Count/Text",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 300.0,
+                            "y": 40.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Arrow",
+                        "path": "AlbumSlot/CardArea/Name/Gauge/Count/Arrow",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 109.0,
+                            "y": 5.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 50.0,
+                            "y": 58.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ArrowAniComponent"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Grade",
+                        "path": "AlbumSlot/CardArea/Name/Gauge/Count/Grade",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 40.0,
+                            "y": 60.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": [
+                          {
+                            "name": "Icon",
+                            "path": "AlbumSlot/CardArea/Name/Gauge/Count/Grade/Icon",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 34.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 68.0,
+                                "y": 60.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "Text",
+                                "path": "AlbumSlot/CardArea/Name/Gauge/Count/Grade/Icon/Text",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": -2.5,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": -5.0,
+                                    "y": 0.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "TextMeshProUGUI"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "MaxLevel",
+                    "path": "AlbumSlot/CardArea/Name/Gauge/MaxLevel",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 7.0,
+                        "y": -5.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 300.0,
+                        "y": 116.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Background",
+                        "path": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Background",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 5.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 270.0,
+                            "y": 40.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Fill Area",
+                            "path": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Background/Fill Area",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 260.0,
+                                "y": 30.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "BetterImage"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "Text",
+                            "path": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Background/Text",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Grade",
+                        "path": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Grade",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 40.0,
+                            "y": 60.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": [
+                          {
+                            "name": "Icon",
+                            "path": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Grade/Icon",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 34.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 68.0,
+                                "y": 60.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "Text",
+                                "path": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Grade/Icon/Text",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": -2.5,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": -5.0,
+                                    "y": 0.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "TextMeshProUGUI"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NotHave",
+                    "path": "AlbumSlot/CardArea/Name/Gauge/NotHave",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -5.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 350.0,
+                        "y": 116.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Base",
+                        "path": "AlbumSlot/CardArea/Name/Gauge/NotHave/Base",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": -60.0,
+                            "y": -80.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Text",
+                        "path": "AlbumSlot/CardArea/Name/Gauge/NotHave/Text",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Border",
+            "path": "AlbumSlot/CardArea/Border",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "InnerBorder",
+            "path": "AlbumSlot/CardArea/InnerBorder",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": -16.0,
+                "y": -16.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "MonsterType",
+            "path": "AlbumSlot/CardArea/MonsterType",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 350.0,
+                "y": 128.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Base",
+                "path": "AlbumSlot/CardArea/MonsterType/Base",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 55.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 64.0,
+                    "y": 60.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Icon",
+                "path": "AlbumSlot/CardArea/MonsterType/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 55.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 72.0,
+                    "y": 72.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Grade",
+            "path": "AlbumSlot/CardArea/Grade",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 90.0
+              },
+              "m_SizeDelta": {
+                "x": 336.0,
+                "y": 48.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Star_1",
+                "path": "AlbumSlot/CardArea/Grade/Star_1",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 48.0,
+                    "y": 48.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Star_2",
+                "path": "AlbumSlot/CardArea/Grade/Star_2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 48.0,
+                    "y": 48.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Star_3",
+                "path": "AlbumSlot/CardArea/Grade/Star_3",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 48.0,
+                    "y": 48.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Star_4",
+                "path": "AlbumSlot/CardArea/Grade/Star_4",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 48.0,
+                    "y": 48.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Star_5",
+                "path": "AlbumSlot/CardArea/Grade/Star_5",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 48.0,
+                    "y": 48.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Top",
+            "path": "AlbumSlot/CardArea/Top",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 2.5,
+                "y": -20.0
+              },
+              "m_SizeDelta": {
+                "x": 375.0,
+                "y": 80.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "YellowSlotDeco",
+                "path": "AlbumSlot/CardArea/Top/YellowSlotDeco",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -2.4999728202819824,
+                    "y": -27.999988555908203
+                  },
+                  "m_SizeDelta": {
+                    "x": 310.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "YellowSlotDecoDim",
+                    "path": "AlbumSlot/CardArea/Top/YellowSlotDeco/YellowSlotDecoDim",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 2.7179718017578125e-05,
+                        "y": -24.999988555908203
+                      },
+                      "m_SizeDelta": {
+                        "x": 310.0,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "New",
+                "path": "AlbumSlot/CardArea/Top/New",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 3.0517578125e-05,
+                    "y": -19.999988555908203
+                  },
+                  "m_SizeDelta": {
+                    "x": 124.0,
+                    "y": 60.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "RedDot",
+                "path": "AlbumSlot/CardArea/Top/RedDot",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 3.0517578125e-05,
+                    "y": 1.1444091796875e-05
+                  },
+                  "m_SizeDelta": {
+                    "x": 90.0,
+                    "y": 90.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RewardButtonShadow",
+        "path": "AlbumSlot/RewardButtonShadow",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 5.0,
+            "y": -5.0
+          },
+          "m_SizeDelta": {
+            "x": 300.0,
+            "y": 86.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "RewardButton",
+        "path": "AlbumSlot/RewardButton",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 300.0,
+            "y": 86.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonExtend"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          }
+        ],
+        "children": [
+          {
+            "name": "Icon",
+            "path": "AlbumSlot/RewardButton/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 56.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 50.0,
+                "y": 50.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text",
+            "path": "AlbumSlot/RewardButton/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 32.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 202.0,
+                "y": 50.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "CardBase",
+      "nodePath": "AlbumSlot/CardArea/CardBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "1366043099404602941",
+      "bundle": "CAB-0c1d5f233bda5f24fd53b97b52bd1c00",
+      "assetType": "Sprite",
+      "assetName": "CommonCircularMask_512",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircularMask_512.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircularMask_512.png"
+    },
+    {
+      "gameObject": "MonsterSlot",
+      "nodePath": "AlbumSlot/CardArea/CardBase/MonsterSlot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "9024375733868813395",
+      "bundle": "CAB-ee8e60b3412784a5ef1d331e51f920be",
+      "assetType": "Sprite",
+      "assetName": "Monster_Slot_Property_Tile",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Monster_Slot_Property_Tile.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Monster_Slot_Property_Tile.png"
+    },
+    {
+      "gameObject": "CardImage",
+      "nodePath": "AlbumSlot/CardArea/CardImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4567284759352380234",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_7070",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_7070.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_7070.png"
+    },
+    {
+      "gameObject": "SpellCardIcon",
+      "nodePath": "AlbumSlot/CardArea/CardImage/SpellCardIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "-3022885881575048916",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "SpellCardIcon_9",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/SpellCardIcon_9.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/SpellCardIcon_9.png"
+    },
+    {
+      "gameObject": "ArtifactIcon",
+      "nodePath": "AlbumSlot/CardArea/CardImage/ArtifactIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "33361851092866208",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "ArtifactIcon_38",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ArtifactIcon_38.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ArtifactIcon_38.png"
+    },
+    {
+      "gameObject": "BattleItem",
+      "nodePath": "AlbumSlot/CardArea/CardImage/BattleItem",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "7533800245818714007",
+      "bundle": "CAB-33dd4e38d943ce24cd3174e2b5220449",
+      "assetType": "Sprite",
+      "assetName": "BattleItemIcon_3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BattleItemIcon_3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BattleItemIcon_3.png"
+    },
+    {
+      "gameObject": "Hero",
+      "nodePath": "AlbumSlot/CardArea/CardImage/Hero",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7115612731590632245",
+      "bundle": "CAB-832ab04a91726b28fb54f1c161bbf3d9",
+      "assetType": "Sprite",
+      "assetName": "Butter",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Butter.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Butter.png"
+    },
+    {
+      "gameObject": "Pet",
+      "nodePath": "AlbumSlot/CardArea/CardImage/Pet",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7879223003436235996",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png"
+    },
+    {
+      "gameObject": "Monster",
+      "nodePath": "AlbumSlot/CardArea/CardImage/Monster",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-6546549497264586027",
+      "bundle": "CAB-bd50c020ba3750ea6a07a234288a799b",
+      "assetType": "Sprite",
+      "assetName": "Icon_GinsengNaive",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GinsengNaive.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_GinsengNaive.png"
+    },
+    {
+      "gameObject": "Gradiant",
+      "nodePath": "AlbumSlot/CardArea/Gradiant",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-9061072232281260515",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradient_0001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradient_0001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradient_0001.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/Count/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6361831585834629570",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1515",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png"
+    },
+    {
+      "gameObject": "Fill",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/Count/Background/Slider/Fill Area/Fill",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "Fill",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/Count/Background/Slider/Fill Area/Fill",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 1,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/Count/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8395975282808945360",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_1515",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_1515.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_1515.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/Count/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/Count/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/Count/Grade/Icon/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/Count/Grade/Icon/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6361831585834629570",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1515",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png"
+    },
+    {
+      "gameObject": "Fill Area",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Background/Fill Area",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "Fill Area",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Background/Fill Area",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 1,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Background/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Background/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Grade/Icon/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/MaxLevel/Grade/Icon/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/NotHave/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6361831585834629570",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1515",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/NotHave/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/CardArea/Name/Gauge/NotHave/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Star_1",
+      "nodePath": "AlbumSlot/CardArea/Grade/Star_1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6509352237371737109",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "HeroGrade_0004",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png"
+    },
+    {
+      "gameObject": "Star_2",
+      "nodePath": "AlbumSlot/CardArea/Grade/Star_2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6509352237371737109",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "HeroGrade_0004",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png"
+    },
+    {
+      "gameObject": "Star_3",
+      "nodePath": "AlbumSlot/CardArea/Grade/Star_3",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6509352237371737109",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "HeroGrade_0004",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png"
+    },
+    {
+      "gameObject": "Star_4",
+      "nodePath": "AlbumSlot/CardArea/Grade/Star_4",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6509352237371737109",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "HeroGrade_0004",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png"
+    },
+    {
+      "gameObject": "Star_5",
+      "nodePath": "AlbumSlot/CardArea/Grade/Star_5",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6509352237371737109",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "HeroGrade_0004",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/HeroGrade_0004.png"
+    },
+    {
+      "gameObject": "New",
+      "nodePath": "AlbumSlot/CardArea/Top/New",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 8,
+      "pathId": "8791054138832441540",
+      "bundle": "CAB-551ba164792d61dfc3c6a49d6f4939eb",
+      "assetType": "Sprite",
+      "assetName": "Common_New_2_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "AlbumSlot/CardArea/Top/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "RewardButtonShadow",
+      "nodePath": "AlbumSlot/RewardButtonShadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "RewardButton",
+      "nodePath": "AlbumSlot/RewardButton",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2248652030250219841",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RewardButton_0001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RewardButton_0001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RewardButton_0001.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "AlbumSlot/RewardButton/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8338488319006219684",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CurrencyIcon_0009",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0009.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0009.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/RewardButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 3,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "AlbumSlot/RewardButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": []
+}

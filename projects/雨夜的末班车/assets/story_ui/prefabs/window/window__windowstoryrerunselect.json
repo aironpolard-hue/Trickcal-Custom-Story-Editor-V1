@@ -1,0 +1,1824 @@
+{
+  "id": "window/windowstoryrerunselect",
+  "sourceBundle": "prefab/window/windowstoryrerunselect",
+  "hierarchy": {
+    "name": "WindowStoryRerunSelect",
+    "path": "WindowStoryRerunSelect",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 4,
+          "pathId": "-4981646934276891886",
+          "bundle": "CAB-66f6d12c29d86645948a2d654a4a6ccf"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "WindowStoryRerunSelect"
+      }
+    ],
+    "children": [
+      {
+        "name": "Pos",
+        "path": "WindowStoryRerunSelect/Pos",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Cover",
+            "path": "WindowStoryRerunSelect/Pos/Cover",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 2440.0,
+                "y": 1208.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BG",
+            "path": "WindowStoryRerunSelect/Pos/BG",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 3200.0,
+                "y": 2048.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "PatternMask",
+                "path": "WindowStoryRerunSelect/Pos/BG/PatternMask",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -74.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 360.0,
+                    "y": -968.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Image",
+                    "path": "WindowStoryRerunSelect/Pos/BG/PatternMask/Image",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ShinyEffectForUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Right",
+                "path": "WindowStoryRerunSelect/Pos/BG/Right",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 500.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "BetterImage"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Left",
+                "path": "WindowStoryRerunSelect/Pos/BG/Left",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 500.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "BetterImage"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Contents",
+            "path": "WindowStoryRerunSelect/Pos/Contents",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -74.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 1080.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Scroll View",
+                "path": "WindowStoryRerunSelect/Pos/Contents/Scroll View",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 260.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 80.00003051757812,
+                    "y": 1080.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ScrollRect"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Viewport",
+                    "path": "WindowStoryRerunSelect/Pos/Contents/Scroll View/Viewport",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "RectMask2D"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Content",
+                        "path": "WindowStoryRerunSelect/Pos/Contents/Scroll View/Viewport/Content",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -0.0010986328125,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ContentSizeFitter"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco",
+                "path": "WindowStoryRerunSelect/Pos/Contents/Deco",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 230.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "ELFLIXText",
+                    "path": "WindowStoryRerunSelect/Pos/Contents/Deco/ELFLIXText",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -90.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 200.0,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProEffect"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "StringBind"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Logo",
+                    "path": "WindowStoryRerunSelect/Pos/Contents/Deco/Logo",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -212.10000610351562
+                      },
+                      "m_SizeDelta": {
+                        "x": 185.0,
+                        "y": 197.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Rotate",
+                        "path": "WindowStoryRerunSelect/Pos/Contents/Deco/Logo/Rotate",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -6.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 87.0,
+                            "y": 87.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": [
+                          {
+                            "name": "LogoRotate1",
+                            "path": "WindowStoryRerunSelect/Pos/Contents/Deco/Logo/Rotate/LogoRotate1",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 1.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 87.0,
+                                "y": 35.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 1.0
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "LogoRotate2",
+                            "path": "WindowStoryRerunSelect/Pos/Contents/Deco/Logo/Rotate/LogoRotate2",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 87.0,
+                                "y": 35.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 1.0
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": -1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ArrowGroup",
+                    "path": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 62.0,
+                        "y": -125.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 30.0,
+                        "y": 639.7100219726562
+                      },
+                      "m_Pivot": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "VerticalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Arrow1",
+                        "path": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow1",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 15.0,
+                            "y": -16.5
+                          },
+                          "m_SizeDelta": {
+                            "x": 30.0,
+                            "y": 33.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Arrow2",
+                        "path": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 15.0,
+                            "y": -114.64285278320312
+                          },
+                          "m_SizeDelta": {
+                            "x": 30.0,
+                            "y": 33.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Arrow3",
+                        "path": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow3",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 15.0,
+                            "y": -212.7857208251953
+                          },
+                          "m_SizeDelta": {
+                            "x": 30.0,
+                            "y": 33.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Arrow4",
+                        "path": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow4",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 15.0,
+                            "y": -310.9285888671875
+                          },
+                          "m_SizeDelta": {
+                            "x": 30.0,
+                            "y": 33.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Arrow5",
+                        "path": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow5",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 15.0,
+                            "y": -409.0714416503906
+                          },
+                          "m_SizeDelta": {
+                            "x": 30.0,
+                            "y": 33.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Arrow6",
+                        "path": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow6",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 15.0,
+                            "y": -507.21429443359375
+                          },
+                          "m_SizeDelta": {
+                            "x": 30.0,
+                            "y": 33.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Arrow7",
+                        "path": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow7",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 15.0,
+                            "y": -605.357177734375
+                          },
+                          "m_SizeDelta": {
+                            "x": 30.0,
+                            "y": 33.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Glow",
+            "path": "WindowStoryRerunSelect/Pos/Glow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "BottomGlow",
+                "path": "WindowStoryRerunSelect/Pos/Glow/BottomGlow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -175.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 11640.7998046875,
+                    "y": 864.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "Animation"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Light",
+                "path": "WindowStoryRerunSelect/Pos/Glow/Light",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -990.0,
+                    "y": 120.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 3000.0,
+                    "y": 3000.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "Animation"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Black",
+            "path": "WindowStoryRerunSelect/Pos/Black",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 6460.0,
+                "y": 1740.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "WindowStoryRerunSelect",
+      "nodePath": "WindowStoryRerunSelect",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 4,
+      "pathId": "-4981646934276891886",
+      "bundle": "CAB-66f6d12c29d86645948a2d654a4a6ccf",
+      "assetType": "AnimatorController",
+      "assetName": "WindowStoryRerunSelect"
+    },
+    {
+      "gameObject": "BG",
+      "nodePath": "WindowStoryRerunSelect/Pos/BG",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "-310423666966754255",
+      "bundle": "CAB-370a18a285196287d6d5ebe0580736ba",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_BG",
+      "demoPath": "assets/story_ui/story-content/scenario/RerunSelect_BG.png",
+      "projectPath": "assets/story_ui/story-content/scenario/RerunSelect_BG.png"
+    },
+    {
+      "gameObject": "PatternMask",
+      "nodePath": "WindowStoryRerunSelect/Pos/BG/PatternMask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "WindowStoryRerunSelect/Pos/BG/PatternMask/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 6,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "WindowStoryRerunSelect/Pos/BG/PatternMask/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4147023548083732703",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "WindowStoryRerun_Pattern_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Pattern_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/WindowStoryRerun_Pattern_1.png"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "WindowStoryRerunSelect/Pos/BG/PatternMask/Image",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 6,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Scroll View",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Scroll View",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "ELFLIXText",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/ELFLIXText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ELFLIXText",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/ELFLIXText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Logo",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/Logo",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8672274131791075729",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_Logo",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Logo.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Logo.png"
+    },
+    {
+      "gameObject": "LogoRotate1",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/Logo/Rotate/LogoRotate1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7274561420599952732",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_Logo2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Logo2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Logo2.png"
+    },
+    {
+      "gameObject": "LogoRotate2",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/Logo/Rotate/LogoRotate2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7274561420599952732",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_Logo2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Logo2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Logo2.png"
+    },
+    {
+      "gameObject": "Arrow1",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4825962927274308788",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LogoArrow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png"
+    },
+    {
+      "gameObject": "Arrow2",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4825962927274308788",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LogoArrow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png"
+    },
+    {
+      "gameObject": "Arrow3",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow3",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4825962927274308788",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LogoArrow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png"
+    },
+    {
+      "gameObject": "Arrow4",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow4",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4825962927274308788",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LogoArrow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png"
+    },
+    {
+      "gameObject": "Arrow5",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow5",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4825962927274308788",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LogoArrow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png"
+    },
+    {
+      "gameObject": "Arrow6",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow6",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4825962927274308788",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LogoArrow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png"
+    },
+    {
+      "gameObject": "Arrow7",
+      "nodePath": "WindowStoryRerunSelect/Pos/Contents/Deco/ArrowGroup/Arrow7",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4825962927274308788",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LogoArrow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LogoArrow.png"
+    },
+    {
+      "gameObject": "BottomGlow",
+      "nodePath": "WindowStoryRerunSelect/Pos/Glow/BottomGlow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2505189553584105816",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow_Half",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png"
+    },
+    {
+      "gameObject": "BottomGlow",
+      "nodePath": "WindowStoryRerunSelect/Pos/Glow/BottomGlow",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animation",
+      "fileId": 3,
+      "pathId": "-7435855866895273419",
+      "bundle": "CAB-b74e02e813b4f5dafac834197884d601",
+      "assetType": "AnimationClip",
+      "assetName": "MainStoryChapterSlot_Loop_Light"
+    },
+    {
+      "gameObject": "BottomGlow",
+      "nodePath": "WindowStoryRerunSelect/Pos/Glow/BottomGlow",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animations[0]",
+      "fileId": 3,
+      "pathId": "-7435855866895273419",
+      "bundle": "CAB-b74e02e813b4f5dafac834197884d601",
+      "assetType": "AnimationClip",
+      "assetName": "MainStoryChapterSlot_Loop_Light"
+    },
+    {
+      "gameObject": "Light",
+      "nodePath": "WindowStoryRerunSelect/Pos/Glow/Light",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7583831162855317799",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png"
+    },
+    {
+      "gameObject": "Light",
+      "nodePath": "WindowStoryRerunSelect/Pos/Glow/Light",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animation",
+      "fileId": 3,
+      "pathId": "-7435855866895273419",
+      "bundle": "CAB-b74e02e813b4f5dafac834197884d601",
+      "assetType": "AnimationClip",
+      "assetName": "MainStoryChapterSlot_Loop_Light"
+    },
+    {
+      "gameObject": "Light",
+      "nodePath": "WindowStoryRerunSelect/Pos/Glow/Light",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animations[0]",
+      "fileId": 3,
+      "pathId": "-7435855866895273419",
+      "bundle": "CAB-b74e02e813b4f5dafac834197884d601",
+      "assetType": "AnimationClip",
+      "assetName": "MainStoryChapterSlot_Loop_Light"
+    }
+  ],
+  "animators": [
+    {
+      "path": "WindowStoryRerunSelect",
+      "controllerBundle": "CAB-66f6d12c29d86645948a2d654a4a6ccf",
+      "controllerPathId": "-4981646934276891886",
+      "controllerType": "AnimatorController",
+      "controllerName": "WindowStoryRerunSelect",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.WindowStoryRerunSelectEntry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Logo.WindowStoryRerunSelect_LogoEntry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 1,
+          "name": "Logo.WindowStoryRerunSelect_LogoIdle",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "WindowStoryRerunSelect"
+    }
+  ]
+}

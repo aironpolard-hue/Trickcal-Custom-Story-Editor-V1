@@ -1,0 +1,2074 @@
+{
+  "id": "window/windowmemory",
+  "sourceBundle": "prefab/window/windowmemory",
+  "hierarchy": {
+    "name": "WindowMemory",
+    "path": "WindowMemory",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animation"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "WindowMemory"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Black",
+        "path": "WindowMemory/Black",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 99999.0,
+            "y": 99999.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BgSpine",
+        "path": "WindowMemory/BgSpine",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.5700000524520874,
+            "y": 1.5700000524520874,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "SkeletonGraphic"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BookBase",
+        "path": "WindowMemory/BookBase",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 115.99999237060547,
+            "y": -60.0
+          },
+          "m_SizeDelta": {
+            "x": 2304.26708984375,
+            "y": 1307.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "SubTab",
+            "path": "WindowMemory/BookBase/SubTab",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 432.0,
+                "y": -55.0
+              },
+              "m_SizeDelta": {
+                "x": 414.0,
+                "y": 169.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BookDeco",
+            "path": "WindowMemory/BookBase/BookDeco",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Left",
+                "path": "WindowMemory/BookBase/BookDeco/Left",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -1087.133544921875,
+                    "y": 2.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 139.0,
+                    "y": -106.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Right",
+                "path": "WindowMemory/BookBase/BookDeco/Right",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 1088.133544921875,
+                    "y": 2.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 129.0,
+                    "y": -108.0
+                  },
+                  "m_Pivot": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "TabScrollView",
+            "path": "WindowMemory/BookBase/TabScrollView",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 119.0,
+                "y": -0.54351806640625
+              },
+              "m_SizeDelta": {
+                "x": 350.0,
+                "y": -217.08700561523438
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ScrollRect"
+              }
+            ],
+            "children": [
+              {
+                "name": "Viewport",
+                "path": "WindowMemory/BookBase/TabScrollView/Viewport",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": -17.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "RectMask2D"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Tab",
+                    "path": "WindowMemory/BookBase/TabScrollView/Viewport/Tab",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "VerticalLayoutGroup"
+                      },
+                      {
+                        "type": "CanvasGroup"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ContentSizeFitter"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Content",
+            "path": "WindowMemory/BookBase/Content",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 1.5,
+                "y": 1.0
+              },
+              "m_SizeDelta": {
+                "x": -385.0,
+                "y": -214.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Chapter",
+                "path": "WindowMemory/BookBase/Content/Chapter",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Content_Chapter_List",
+                    "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_List",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Pos0",
+                        "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_List/Pos0",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 610.0,
+                            "y": 1066.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": []
+                      },
+                      {
+                        "name": "Pos1",
+                        "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_List/Pos1",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 610.0,
+                            "y": 1066.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": []
+                      },
+                      {
+                        "name": "Pos2",
+                        "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_List/Pos2",
+                        "active": false,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 610.0,
+                            "y": 1066.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Content_Chapter_Selection",
+                    "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "Animation"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "ChapterSlot_Selection",
+                        "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ChapterSlot_Selection",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 290.0,
+                            "y": 546.4999389648438
+                          },
+                          "m_SizeDelta": {
+                            "x": 610.0,
+                            "y": 1066.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Button"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ButtonExtend"
+                          },
+                          {
+                            "type": "CanvasGroup"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "ScrollView",
+                        "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ScrollView",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 338.0,
+                            "y": 532.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 1354.5999755859375,
+                            "y": 1096.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 1.0
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ScrollRect"
+                          },
+                          {
+                            "type": "CanvasGroup"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Viewport",
+                            "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ScrollView/Viewport",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "RectMask2D"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "Content",
+                                "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ScrollView/Viewport/Content",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.0,
+                                    "y": 1.0
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "GridLayoutGroup"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "ContentSizeFitter"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "ListTop",
+                            "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ScrollView/ListTop",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 6.103515625e-05,
+                                "y": -8.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 5.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": -1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "ListBG",
+                            "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ScrollView/ListBG",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 6.103515625e-05,
+                                "y": 1.3259999752044678
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 9.854999542236328
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": -1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "ListBot",
+                            "path": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ScrollView/ListBot",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 6.103515625e-05,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 5.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ReOpening",
+                "path": "WindowMemory/BookBase/Content/ReOpening",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "Animation"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "TopButton",
+                    "path": "WindowMemory/BookBase/Content/ReOpening/TopButton",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 50.0,
+                        "y": 14.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 348.0,
+                        "y": 68.0
+                      },
+                      "m_Pivot": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Button_Sort",
+                        "path": "WindowMemory/BookBase/Content/ReOpening/TopButton/Button_Sort",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -52.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 240.0,
+                            "y": 64.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Button"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ButtonExtend"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Text",
+                            "path": "WindowMemory/BookBase/Content/ReOpening/TopButton/Button_Sort/Text",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": -2.5,
+                                "y": 2.0
+                              },
+                              "m_SizeDelta": {
+                                "x": -5.0,
+                                "y": -4.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Button_SortArrow",
+                        "path": "WindowMemory/BookBase/Content/ReOpening/TopButton/Button_SortArrow",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 125.4000015258789,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 104.0,
+                            "y": 64.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Button"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ButtonExtend"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Arrow",
+                            "path": "WindowMemory/BookBase/Content/ReOpening/TopButton/Button_SortArrow/Arrow",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 27.0,
+                                "y": 20.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Grid",
+                    "path": "WindowMemory/BookBase/Content/ReOpening/Grid",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -10.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 1950.0,
+                        "y": 992.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "GridLayoutGroup"
+                      },
+                      {
+                        "type": "CanvasGroup"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Arrow",
+            "path": "WindowMemory/BookBase/Arrow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Left",
+                "path": "WindowMemory/BookBase/Arrow/Left",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 110.00048828125,
+                    "y": 2.6702880859375e-05
+                  },
+                  "m_SizeDelta": {
+                    "x": 90.0,
+                    "y": 120.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "UIRoot",
+                    "path": "WindowMemory/BookBase/Arrow/Left/UIRoot",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 90.0,
+                        "y": 120.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Right",
+                "path": "WindowMemory/BookBase/Arrow/Right",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -105.2099609375,
+                    "y": 3.814697265625e-05
+                  },
+                  "m_SizeDelta": {
+                    "x": 90.0,
+                    "y": 120.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0,
+                    "w": 0.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ButtonExtend"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "UIRoot",
+                    "path": "WindowMemory/BookBase/Arrow/Right/UIRoot",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 90.0,
+                        "y": 120.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": -1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "WindowMemory",
+      "nodePath": "WindowMemory",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animation",
+      "fileId": 12,
+      "pathId": "-7896482310208318304",
+      "bundle": "CAB-c860c31d8986f61fdf8774ae648d0e54",
+      "assetType": "AnimationClip",
+      "assetName": "WindowMemory_ShowAnim"
+    },
+    {
+      "gameObject": "WindowMemory",
+      "nodePath": "WindowMemory",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animations[0]",
+      "fileId": 12,
+      "pathId": "-7896482310208318304",
+      "bundle": "CAB-c860c31d8986f61fdf8774ae648d0e54",
+      "assetType": "AnimationClip",
+      "assetName": "WindowMemory_ShowAnim"
+    },
+    {
+      "gameObject": "WindowMemory",
+      "nodePath": "WindowMemory",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animations[1]",
+      "fileId": 6,
+      "pathId": "4273213830967245631",
+      "bundle": "CAB-6343ea0aeea73d4a5a949b7eb4697006",
+      "assetType": "AnimationClip",
+      "assetName": "WindowMemory_ChpterSelection"
+    },
+    {
+      "gameObject": "WindowMemory",
+      "nodePath": "WindowMemory",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animations[2]",
+      "fileId": 5,
+      "pathId": "-3041857005059510776",
+      "bundle": "CAB-17d66d63038c6cbc81401a5ac2c9a436",
+      "assetType": "AnimationClip",
+      "assetName": "MemoryStoryTabAnim"
+    },
+    {
+      "gameObject": "BgSpine",
+      "nodePath": "WindowMemory/BgSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 8,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "BgSpine",
+      "nodePath": "WindowMemory/BgSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 10,
+      "pathId": "-3738286102709371378",
+      "bundle": "CAB-bd7b4151239ccbcc97235e267984d908",
+      "assetType": "MonoBehaviour",
+      "assetName": "Archives_background_SkeletonData"
+    },
+    {
+      "gameObject": "BgSpine",
+      "nodePath": "WindowMemory/BgSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "additiveMaterial",
+      "fileId": 8,
+      "pathId": "-7852358095173771177",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicAdditive"
+    },
+    {
+      "gameObject": "BgSpine",
+      "nodePath": "WindowMemory/BgSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "multiplyMaterial",
+      "fileId": 8,
+      "pathId": "-13276894215973044",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicMultiply"
+    },
+    {
+      "gameObject": "BgSpine",
+      "nodePath": "WindowMemory/BgSpine",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "screenMaterial",
+      "fileId": 8,
+      "pathId": "-5524858707655825726",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicScreen"
+    },
+    {
+      "gameObject": "BookBase",
+      "nodePath": "WindowMemory/BookBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-3940769660398010725",
+      "bundle": "CAB-aae315e9ad3f28643f9ba653861db2af",
+      "assetType": "Sprite",
+      "assetName": "Album_Book",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Album_Book.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Album_Book.png"
+    },
+    {
+      "gameObject": "Left",
+      "nodePath": "WindowMemory/BookBase/BookDeco/Left",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "2885920517533119839",
+      "bundle": "CAB-63718a72eeffd6c869bd49d13d11b39b",
+      "assetType": "Sprite",
+      "assetName": "Album_Book_Left",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Album_Book_Left.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Album_Book_Left.png"
+    },
+    {
+      "gameObject": "Right",
+      "nodePath": "WindowMemory/BookBase/BookDeco/Right",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 11,
+      "pathId": "-5381844019942882999",
+      "bundle": "CAB-c70ddfc2c4001d4c88c52275b011243f",
+      "assetType": "Sprite",
+      "assetName": "Album_Book_Right",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Album_Book_Right.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Album_Book_Right.png"
+    },
+    {
+      "gameObject": "TabScrollView",
+      "nodePath": "WindowMemory/BookBase/TabScrollView",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 0,
+      "pathId": "-6932470282978226757",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Viewport",
+      "nodePath": "WindowMemory/BookBase/TabScrollView/Viewport",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 0,
+      "pathId": "-2320101112833093935",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Content_Chapter_Selection",
+      "nodePath": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animation",
+      "fileId": 3,
+      "pathId": "2772969361333127977",
+      "bundle": "CAB-a4092b396db2824025be0ca049ebccaa",
+      "assetType": "AnimationClip",
+      "assetName": "WindowMemory_ContentChpterSelection"
+    },
+    {
+      "gameObject": "Content_Chapter_Selection",
+      "nodePath": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animations[0]",
+      "fileId": 3,
+      "pathId": "2772969361333127977",
+      "bundle": "CAB-a4092b396db2824025be0ca049ebccaa",
+      "assetType": "AnimationClip",
+      "assetName": "WindowMemory_ContentChpterSelection"
+    },
+    {
+      "gameObject": "ListTop",
+      "nodePath": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ScrollView/ListTop",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "4519748180857352522",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "ListBG",
+      "nodePath": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ScrollView/ListBG",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "ListBot",
+      "nodePath": "WindowMemory/BookBase/Content/Chapter/Content_Chapter_Selection/ScrollView/ListBot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "4519748180857352522",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "ReOpening",
+      "nodePath": "WindowMemory/BookBase/Content/ReOpening",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animation",
+      "fileId": 2,
+      "pathId": "-8611770596677835910",
+      "bundle": "CAB-1e53b82dc452d8454407ea53544c0e75",
+      "assetType": "AnimationClip",
+      "assetName": "WindowMemory_Selection_ReOpning"
+    },
+    {
+      "gameObject": "ReOpening",
+      "nodePath": "WindowMemory/BookBase/Content/ReOpening",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animations[0]",
+      "fileId": 2,
+      "pathId": "-8611770596677835910",
+      "bundle": "CAB-1e53b82dc452d8454407ea53544c0e75",
+      "assetType": "AnimationClip",
+      "assetName": "WindowMemory_Selection_ReOpning"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowMemory/BookBase/Content/ReOpening/TopButton/Button_Sort/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "WindowMemory/BookBase/Content/ReOpening/TopButton/Button_Sort/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": []
+}

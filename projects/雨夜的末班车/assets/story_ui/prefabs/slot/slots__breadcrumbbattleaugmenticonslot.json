@@ -1,0 +1,3258 @@
+{
+  "id": "slots/breadcrumbbattleaugmenticonslot",
+  "sourceBundle": "prefab/slots/breadcrumbbattleaugmenticonslot",
+  "hierarchy": {
+    "name": "BreadCrumbBattleAugmentIconSlot",
+    "path": "BreadCrumbBattleAugmentIconSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -100.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 200.0,
+        "y": 200.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "BreadCrumbBattleAugmentIconSlot"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 8,
+          "pathId": "-255981057086440168",
+          "bundle": "CAB-8b88db700436db66717cec640db93163"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "StoryStateHandler",
+        "path": "BreadCrumbBattleAugmentIconSlot/StoryStateHandler",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -42.5999755859375
+          },
+          "m_SizeDelta": {
+            "x": -435.0,
+            "y": -73.03450012207031
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "FX_UI_PopupTricDicePedigree_3",
+        "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3",
+        "active": false,
+        "rect": {
+          "m_LocalScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Root",
+            "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "ParticleSystem"
+              },
+              {
+                "type": "ParticleSystemRenderer"
+              }
+            ],
+            "children": [
+              {
+                "name": "Root_Scale",
+                "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "z": 100.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "ParticleSystem"
+                  },
+                  {
+                    "type": "ParticleSystemRenderer"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "[Atlas_ab]_Trail",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Trail",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.05999999865889549,
+                        "y": 0.05999999865889549
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_godray_1",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_godray_1",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -0.1899999976158142
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_Backglow",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Backglow",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -0.15000000596046448
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_Backglow2",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Backglow2",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -0.15000000596046448
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_par_1",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_par_1",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": 1.0,
+                        "z": -0.0,
+                        "w": 0.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_add]_par_1",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_add]_par_1",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": 1.0,
+                        "z": -0.0,
+                        "w": 0.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_img_1",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_1",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 3.0,
+                        "y": -0.8700000047683716
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_img_2",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_2",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -3.0,
+                        "y": -1.0199997425079346
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_img_3",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_3",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 2.0,
+                        "y": -0.8700000047683716
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_img_4",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_4",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -2.0,
+                        "y": -1.0199997425079346
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_img_5",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_5",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 2.0,
+                        "y": -0.8700000047683716
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_img_6",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_6",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -2.0,
+                        "y": -1.0200004577636719
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_img_7",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_7",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.6200000047683716,
+                        "y": -0.8700000047683716
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_ab]_img_8",
+                    "path": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_8",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -0.800000011920929,
+                        "y": -0.7100003957748413
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PersonalityHandler",
+        "path": "BreadCrumbBattleAugmentIconSlot/PersonalityHandler",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -42.5999755859375
+          },
+          "m_SizeDelta": {
+            "x": -435.0,
+            "y": -73.03450012207031
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "StatusHandler",
+        "path": "BreadCrumbBattleAugmentIconSlot/StatusHandler",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -42.5999755859375
+          },
+          "m_SizeDelta": {
+            "x": -435.0,
+            "y": -73.03450012207031
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "FloorOrNumHandler",
+        "path": "BreadCrumbBattleAugmentIconSlot/FloorOrNumHandler",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -42.5999755859375
+          },
+          "m_SizeDelta": {
+            "x": -435.0,
+            "y": -73.03450012207031
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "FirstChain",
+        "path": "BreadCrumbBattleAugmentIconSlot/FirstChain",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.8999999761581421,
+            "y": 281.3999938964844
+          },
+          "m_SizeDelta": {
+            "x": 39.90449905395508,
+            "y": 47.255401611328125
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": -1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          }
+        ],
+        "children": [
+          {
+            "name": "Chain1",
+            "path": "BreadCrumbBattleAugmentIconSlot/FirstChain/Chain1",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -7.5
+              },
+              "m_SizeDelta": {
+                "x": 62.0,
+                "y": 73.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Chain",
+            "path": "BreadCrumbBattleAugmentIconSlot/FirstChain/Chain",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -0.9000244140625,
+                "y": 101.51730346679688
+              },
+              "m_SizeDelta": {
+                "x": 72.76329803466797,
+                "y": 280.8743896484375
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.6000000238418579,
+                "y": 0.6000000238418579,
+                "z": 0.6000000238418579
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Chain1",
+        "path": "BreadCrumbBattleAugmentIconSlot/Chain1",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.30000001192092896,
+            "y": -332.239990234375
+          },
+          "m_SizeDelta": {
+            "x": 62.0,
+            "y": 73.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Chain",
+        "path": "BreadCrumbBattleAugmentIconSlot/Chain",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -199.04507446289062
+          },
+          "m_SizeDelta": {
+            "x": 72.76329803466797,
+            "y": 339.41558837890625
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 0.6000000238418579,
+            "y": 0.6000000238418579,
+            "z": 0.6000000238418579
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Bg",
+        "path": "BreadCrumbBattleAugmentIconSlot/Bg",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 9.0
+          },
+          "m_SizeDelta": {
+            "x": 340.17999267578125,
+            "y": 340.17999267578125
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "SoftMask"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Blur1",
+        "path": "BreadCrumbBattleAugmentIconSlot/Blur1",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 98.11238861083984,
+            "y": 103.86740112304688
+          },
+          "m_SizeDelta": {
+            "x": 377.6878967285156,
+            "y": 387.32501220703125
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BG",
+        "path": "BreadCrumbBattleAugmentIconSlot/BG",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 256.0,
+            "y": 256.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Bg",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/Bg",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 208.42889404296875,
+                "y": 208.42689514160156
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Mask"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Mask",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/Mask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 182.1884002685547,
+                "y": 182.1884002685547
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SoftMask"
+              }
+            ],
+            "children": [
+              {
+                "name": "Icon",
+                "path": "BreadCrumbBattleAugmentIconSlot/BG/Mask/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "BG",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/BG",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SoftMask"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Mask 1",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/Mask 1",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 208.42889404296875,
+                "y": 208.42689514160156
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SoftMask"
+              }
+            ],
+            "children": [
+              {
+                "name": "Num",
+                "path": "BreadCrumbBattleAugmentIconSlot/BG/Mask 1/Num",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -128.60000610351562
+                  },
+                  "m_SizeDelta": {
+                    "x": 208.42889404296875,
+                    "y": 138.89439392089844
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Floor",
+                "path": "BreadCrumbBattleAugmentIconSlot/BG/Mask 1/Floor",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 11.699951171875,
+                    "y": -121.9000244140625
+                  },
+                  "m_SizeDelta": {
+                    "x": 342.79180908203125,
+                    "y": 138.89439392089844
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.0688345804810524,
+                    "w": 0.9976280927658081
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "1",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/1",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 64.69999694824219,
+                "y": 173.89999389648438
+              },
+              "m_SizeDelta": {
+                "x": 48.492000579833984,
+                "y": 87.28569793701172
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.13505570590496063,
+                "w": -0.9908380508422852
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Dim Mask",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/Dim Mask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SoftMaskScript"
+              }
+            ],
+            "children": [
+              {
+                "name": "Dim",
+                "path": "BreadCrumbBattleAugmentIconSlot/BG/Dim Mask/Dim",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text",
+                "path": "BreadCrumbBattleAugmentIconSlot/BG/Dim Mask/Text",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 2.5033999918377958e-05
+                  },
+                  "m_SizeDelta": {
+                    "x": 202.4071044921875,
+                    "y": 68.11519622802734
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Floor Text (TMP)",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/Floor Text (TMP)",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -68.01434326171875
+              },
+              "m_SizeDelta": {
+                "x": 112.53199768066406,
+                "y": 46.97129821777344
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Blur",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/Blur",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 64.69999694824219,
+                "y": 173.89999389648438
+              },
+              "m_SizeDelta": {
+                "x": 48.492000579833984,
+                "y": 87.28569793701172
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.13505570590496063,
+                "w": -0.9908380508422852
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Lock",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/Lock",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 125.82414245605469,
+                "y": 131.94000244140625
+              },
+              "m_SizeDelta": {
+                "x": 269.70831298828125,
+                "y": 248.1199951171875
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              }
+            ],
+            "children": [
+              {
+                "name": "Icon",
+                "path": "BreadCrumbBattleAugmentIconSlot/BG/Lock/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 138.89999389648438,
+                    "y": 136.10000610351562
+                  },
+                  "m_SizeDelta": {
+                    "x": 57.23889923095703,
+                    "y": 74.6594009399414
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Num Text (TMP)",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/Num Text (TMP)",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -68.01434326171875
+              },
+              "m_SizeDelta": {
+                "x": 91.31680297851562,
+                "y": 46.97129821777344
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Tag",
+            "path": "BreadCrumbBattleAugmentIconSlot/BG/Tag",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 128.0,
+                "y": 4.400000095367432
+              },
+              "m_SizeDelta": {
+                "x": 274.064697265625,
+                "y": 113.70770263671875
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Icon",
+                "path": "BreadCrumbBattleAugmentIconSlot/BG/Tag/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -103.30000305175781,
+                    "y": 23.799999237060547
+                  },
+                  "m_SizeDelta": {
+                    "x": -233.0511016845703,
+                    "y": -72.69409942626953
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Floor Text (TMP) (1)",
+                "path": "BreadCrumbBattleAugmentIconSlot/BG/Tag/Floor Text (TMP) (1)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 3.7520999908447266,
+                    "y": -8.178600311279297
+                  },
+                  "m_SizeDelta": {
+                    "x": 196.26480102539062,
+                    "y": 71.64250183105469
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Deco",
+        "path": "BreadCrumbBattleAugmentIconSlot/Deco",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -2.5,
+            "y": 5.0
+          },
+          "m_SizeDelta": {
+            "x": 336.5299987792969,
+            "y": 349.9912109375
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "BreadCrumbBattleAugmentIconSlot",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 8,
+      "pathId": "-255981057086440168",
+      "bundle": "CAB-8b88db700436db66717cec640db93163",
+      "assetType": "AnimatorController",
+      "assetName": "BreadCrumbBattleAugmentIconSlot"
+    },
+    {
+      "gameObject": "Root",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "3664509523192179066",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Root_Scale",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "3664509523192179066",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_ab]_Trail",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Trail",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "5223388573215829019",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Particle_Star_05"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Trail",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Trail",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Trail",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Trail",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[1]",
+      "fileId": 1,
+      "pathId": "4924693631673587293",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Minigame_vivi_trail_BG"
+    },
+    {
+      "gameObject": "[Atlas_ab]_godray_1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_godray_1",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-1142411552571150443",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_light_line",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_light_line.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_light_line.png"
+    },
+    {
+      "gameObject": "[Atlas_ab]_godray_1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_godray_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Backglow",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Backglow",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "8946678777518408236",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_BgGlow"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Backglow",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Backglow",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Backglow2",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Backglow2",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "8946678777518408236",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_BgGlow"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Backglow2",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_Backglow2",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_par_1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_par_1",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3698295502073909860",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_Crepe_Star_01"
+    },
+    {
+      "gameObject": "[Atlas_ab]_par_1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_par_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_add]_par_1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_add]_par_1",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "7321939358216996985",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_Glow_08",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_Glow_08.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_Glow_08.png"
+    },
+    {
+      "gameObject": "[Atlas_add]_par_1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_add]_par_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_1",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3977447277222064059",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_TricDice_LargeStraight_Deco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_2",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_2",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3977447277222064059",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_TricDice_LargeStraight_Deco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_2",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_2",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_3",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_3",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3977447277222064059",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_TricDice_LargeStraight_Deco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_3",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_3",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_4",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_4",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3977447277222064059",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_TricDice_LargeStraight_Deco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_4",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_4",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_5",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_5",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3977447277222064059",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_TricDice_LargeStraight_Deco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_5",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_5",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_6",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_6",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3977447277222064059",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_TricDice_LargeStraight_Deco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_6",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_6",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_7",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_7",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3977447277222064059",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_TricDice_LargeStraight_Deco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_7",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_7",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_8",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_8",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3977447277222064059",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_TricDice_LargeStraight_Deco",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_TricDice_LargeStraight_Deco.png"
+    },
+    {
+      "gameObject": "[Atlas_ab]_img_8",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/FX_UI_PopupTricDicePedigree_3/Root/Root_Scale/[Atlas_ab]_img_8",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "Bg",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/Bg",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Bg",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/Bg",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "BG",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Bg",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Bg",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Mask/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "7881437543478049566",
+      "bundle": "CAB-ae6271614c797cce13b3ba33fd606701",
+      "assetType": "Sprite",
+      "assetName": "Icon_AdmissionSkill_Arnet",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_AdmissionSkill_Arnet.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_AdmissionSkill_Arnet.png"
+    },
+    {
+      "gameObject": "BG",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/BG",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "BG",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/BG",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Mask 1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Mask 1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Mask 1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Mask 1",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 3,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Mask 1",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Mask 1",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 3,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Num",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Mask 1/Num",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Floor",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Mask 1/Floor",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "3608778563165700475",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_7575",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_7575.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_7575.png"
+    },
+    {
+      "gameObject": "Dim Mask",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Dim Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Dim Mask/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Dim Mask/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Dim Mask/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "-7204417070096364968",
+      "bundle": "CAB-1e41f0d0589af6d09994afd85d730653",
+      "assetType": "Material",
+      "assetName": "SystemFont_z_BreadCrumbNavyline"
+    },
+    {
+      "gameObject": "Floor Text (TMP)",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Floor Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Floor Text (TMP)",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Floor Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "-7204417070096364968",
+      "bundle": "CAB-1e41f0d0589af6d09994afd85d730653",
+      "assetType": "Material",
+      "assetName": "SystemFont_z_BreadCrumbNavyline"
+    },
+    {
+      "gameObject": "Num Text (TMP)",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Num Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Num Text (TMP)",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Num Text (TMP)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Floor Text (TMP) (1)",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Tag/Floor Text (TMP) (1)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 5,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Floor Text (TMP) (1)",
+      "nodePath": "BreadCrumbBattleAugmentIconSlot/BG/Tag/Floor Text (TMP) (1)",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "-7204417070096364968",
+      "bundle": "CAB-1e41f0d0589af6d09994afd85d730653",
+      "assetType": "Material",
+      "assetName": "SystemFont_z_BreadCrumbNavyline"
+    }
+  ],
+  "animators": [
+    {
+      "path": "BreadCrumbBattleAugmentIconSlot",
+      "controllerBundle": "CAB-8b88db700436db66717cec640db93163",
+      "controllerPathId": "-255981057086440168",
+      "controllerType": "AnimatorController",
+      "controllerName": "BreadCrumbBattleAugmentIconSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.BreadCrumbBattleAugmentIconSlot_Idle",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.BreadCrumbAugmentIconSlot_Achieve",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.BreadCrumbBattleAugmentIconSlot_Reset",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.BreadCrumbBattleAugmentIconSlot_idle2",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "BreadCrumbBattleAugmentIconSlot"
+    }
+  ]
+}

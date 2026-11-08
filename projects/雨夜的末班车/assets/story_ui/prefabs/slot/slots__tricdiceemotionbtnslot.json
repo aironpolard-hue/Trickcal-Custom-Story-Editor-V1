@@ -1,0 +1,383 @@
+{
+  "id": "slots/tricdiceemotionbtnslot",
+  "sourceBundle": "prefab/slots/tricdiceemotionbtnslot",
+  "hierarchy": {
+    "name": "TricDiceEmotionBtnSlot",
+    "path": "TricDiceEmotionBtnSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 4.900000095367432,
+        "y": 104.19999694824219
+      },
+      "m_SizeDelta": {
+        "x": 187.0,
+        "y": 117.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "TricDiceEmotionButton"
+      }
+    ],
+    "children": [
+      {
+        "name": "Slot01",
+        "path": "TricDiceEmotionBtnSlot/Slot01",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 115.19999694824219,
+            "y": 128.82000732421875
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonExtend"
+          }
+        ],
+        "children": [
+          {
+            "name": "Base",
+            "path": "TricDiceEmotionBtnSlot/Slot01/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -2.299999952316284,
+                "y": 1.2000000476837158
+              },
+              "m_SizeDelta": {
+                "x": 136.0,
+                "y": 127.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.21643951535224915,
+                "w": 0.976296067237854
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Dim",
+            "path": "TricDiceEmotionBtnSlot/Slot01/Dim",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -15.500082015991211
+              },
+              "m_SizeDelta": {
+                "x": 136.0,
+                "y": 127.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Icon",
+            "path": "TricDiceEmotionBtnSlot/Slot01/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 18.5,
+                "y": 17.599916458129883
+              },
+              "m_SizeDelta": {
+                "x": 115.0,
+                "y": 128.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.9000000357627869,
+                "y": 0.9000000357627869,
+                "z": 0.9000000357627869
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Dim",
+                "path": "TricDiceEmotionBtnSlot/Slot01/Icon/Dim",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 115.0,
+                    "y": 128.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Slot01",
+      "nodePath": "TricDiceEmotionBtnSlot/Slot01",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-1982858972978074667",
+      "bundle": "CAB-d25602e9028298e253baf62168c32891",
+      "assetType": "Sprite",
+      "assetName": "TricDice_Ingame_Btn_Emotion",
+      "atlasBundle": "atlases/tricdicegameplay",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Btn_Emotion.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Btn_Emotion.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "TricDiceEmotionBtnSlot/Slot01/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-1982858972978074667",
+      "bundle": "CAB-d25602e9028298e253baf62168c32891",
+      "assetType": "Sprite",
+      "assetName": "TricDice_Ingame_Btn_Emotion",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Btn_Emotion.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Btn_Emotion.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "TricDiceEmotionBtnSlot/Slot01/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-1982858972978074667",
+      "bundle": "CAB-d25602e9028298e253baf62168c32891",
+      "assetType": "Sprite",
+      "assetName": "TricDice_Ingame_Btn_Emotion",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Btn_Emotion.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Btn_Emotion.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "TricDiceEmotionBtnSlot/Slot01/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6215640645881208127",
+      "bundle": "CAB-d25602e9028298e253baf62168c32891",
+      "assetType": "Sprite",
+      "assetName": "TricDice_Ingame_Icon_Emotion_Surprise",
+      "atlasBundle": "atlases/tricdicegameplay",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Surprise.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Surprise.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "TricDiceEmotionBtnSlot/Slot01/Icon/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6215640645881208127",
+      "bundle": "CAB-d25602e9028298e253baf62168c32891",
+      "assetType": "Sprite",
+      "assetName": "TricDice_Ingame_Icon_Emotion_Surprise",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Surprise.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/TricDice_Ingame_Icon_Emotion_Surprise.png"
+    }
+  ],
+  "animators": []
+}

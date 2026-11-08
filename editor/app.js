@@ -22,6 +22,7 @@ window.__studio = { get story() { return lastStory; }, get stageIndex() { return
 let lastBuildOut = null;
 let previewRunning = false;
 let previewSource = null;
+let previewUrlValue = null;
 let stageOptionsStory = null;
 let sourceIndexStory = null;
 let sourceLineIndex = new Map();
@@ -75,6 +76,9 @@ function fmtBytes(bytes) {
 function switchTab(name) {
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
   const codeVisible = name === 'code';
+  $('app').classList.toggle('preview-mode', !codeVisible);
+  if (codeVisible) $('app').classList.remove('sidebar-expanded');
+  if ($('toggleSidebarBtn')) $('toggleSidebarBtn').textContent = codeVisible ? '显示素材库' : ($('app').classList.contains('sidebar-expanded') ? '收起素材库' : '显示素材库');
   document.querySelector('.editor-wrap').style.display = codeVisible ? '' : 'none';
   $('previewPane').classList.toggle('hidden', codeVisible);
   syncPreviewRendering();
@@ -98,14 +102,14 @@ function registerLanguage(m) {
   m.languages.setMonarchTokensProvider('trickcal', {
     defaultToken: '',
     tokenPostfix: '.trickcal',
-    keywords: ['define', 'default', 'set', 'if', 'else', 'asset', 'name', 'opening', 'scene', 'show', 'hide', 'choice', 'label', 'jump', 'end', 'narration', 'location', 'fullscreen', 'news', 'audio', 'cloud', 'sfx', 'play', 'stop', 'loop', 'times', 'fadeIn', 'fadeOut', 'volume', 'preset', 'parallel', '同时', 'oneshot', 'spine', 'spawn', 'image', 'effect', 'shader', 'skin', 'anim', 'bind', 'unbind', 'say', 'move', 'after', 'wait', 'in', 'by', 'ease', 'at', 'face', 'pose', 'anim', 'scale', 'hold', 'emote', 'bubble', 'tail', 'purple', 'noName', 'anchor', 'parent'],
+    keywords: ['define', 'default', 'set', 'if', 'else', 'asset', 'name', 'opening', 'scene', 'show', 'hide', 'choice', 'label', 'jump', 'end', 'narration', 'location', 'fullscreen', 'news', 'audio', 'cloud', 'sfx', 'play', 'stop', 'loop', 'times', 'fadeIn', 'fadeOut', 'volume', 'preset', 'parallel', '同时', 'oneshot', 'spine', 'spawn', 'image', 'effect', 'shader', 'skin', 'anim', 'bind', 'unbind', 'say', 'move', 'camera', 'target', 'targetX', 'targetY', 'scaleX', 'scaleY', 'zoom', 'rotate', 'after', 'wait', 'in', 'by', 'ease', 'at', 'face', 'pose', 'anim', 'scale', 'hold', 'emote', 'bubble', 'tail', 'purple', 'noName', 'anchor', 'parent'],
     modes: ['normal', 'manga', 'think', 'clear', 'clearRe', 'anime', 'blast', 'fullscreen', 'narration', 'location', 'news', 'anchor', 'summary'],
     tokenizer: {
       root: [
         [/#.*$/, 'comment'],
         [/"(?:[^"\\]|\\.)*"/, 'string'],
         [/<[^>]+>/, 'tag'],
-        [/\b(define|default|set|if|else|image|asset|ui|opening|scene|show|hide|choice|label|jump|end|narration|location|fullscreen|audio|cloud|sfx|parallel|after|wait|say|move)\b/, 'keyword'],
+        [/\b(define|default|set|if|else|image|asset|ui|opening|scene|show|hide|choice|label|jump|end|narration|location|fullscreen|audio|cloud|sfx|parallel|after|wait|say|move|camera)\b/, 'keyword'],
         [/同时(?=\s*:)/, 'keyword'],
         [/\b(normal|manga|think|clear|clearRe|anime|blast|news|anchor|summary|at|face|pose|anim|scale|hold|emote|bubble|tail|purple|noName)\b/, 'type'],
         [/\b\d+(?:\.\d+)?(?:ms|s)?\b/, 'number'],
@@ -125,7 +129,7 @@ function registerLanguage(m) {
       add('define audio', m.languages.CompletionItemKind.Keyword, 'define audio.rain = "assets/audio/silent.wav"', '声明音频');
       add('wait', m.languages.CompletionItemKind.Keyword, 'wait 1s', '等待指定的秒数');
       add('wait milliseconds', m.languages.CompletionItemKind.Keyword, 'wait 500ms', '等待指定的毫秒数');
-      for (const k of ['default trust = 0', 'set trust += 1', 'if trust >= 2:', 'else:', 'opening', 'scene bg', 'show ', 'hide ', 'narration ', 'location ', 'choice ', 'label ', 'jump ', 'end', 'cloud ', 'sfx ', 'audio play ', 'preset ', 'parallel:', '同时:', 'after 500ms:', 'oneshot spine emoticon anim ', 'spawn ner as ner_2 ', 'show image station as poster at 960,540 scale 0.2', 'hide poster', 'bind poster to ner offset 80,0', 'unbind poster at 960,540', 'anim ner ', 'skin ner ', 'bind ner_2 to ner offset 80,0', 'spawn image logo as logo_1 at 960,540 scale 1', 'effect brightness 1.15', 'shader heat 0.35', '  say ', '  move ']) add(k, m.languages.CompletionItemKind.Keyword, k, 'Trickcal 语句');
+      for (const k of ['default trust = 0', 'set trust += 1', 'if trust >= 2:', 'else:', 'opening', 'scene bg', 'show ', 'hide ', 'narration ', 'location ', 'choice ', 'label ', 'jump ', 'end', 'cloud ', 'sfx ', 'audio play ', 'preset ', 'parallel:', '同时:', 'after 500ms:', 'oneshot spine emoticon anim ', 'spawn ner as ner_2 ', 'show image station as poster at 960,540 scale 0.2', 'hide poster', 'bind poster to ner offset 80,0', 'unbind poster at 960,540', 'anim ner ', 'skin ner ', 'bind ner_2 to ner offset 80,0', 'spawn image logo as logo_1 at 960,540 scale 1', 'effect brightness 1.15', 'shader heat 0.35', 'camera target 960,540', 'camera targetX 960 -> 1180 in 1s', 'camera targetY 540 -> 480 in 1s', 'move ner scaleX 1 -> 1.2 in 0.5s', 'move ner scaleY 1 -> 0.8 in 0.5s', '  say ', '  move ']) add(k, m.languages.CompletionItemKind.Keyword, k, 'Trickcal 语句');
       for (const mode of ['normal', 'manga', 'think', 'clear', 'clearRe', 'anime', 'blast']) add(mode, m.languages.CompletionItemKind.EnumMember, mode, '对话模式');
       for (const id of Object.keys(projectData?.manifest?.cast || {})) {
         add(id, m.languages.CompletionItemKind.Variable, id, '角色');
@@ -263,29 +267,38 @@ async function runPreview(targetIndex = null) {
   try {
     const savedSource = model.getValue();
     const savedRevision = sourceRevision;
-    const url = await window.engine.previewUrl({ projectPath });
-    if (sourceRevision !== savedRevision) {
-      setStatus('剧本已更改，请重新运行预览');
-      return;
-    }
     $('previewEmpty').classList.add('hidden');
     const frame = $('previewFrame');
     frame.classList.add('live');
     previewSource = savedSource;
-    if (targetIndex != null) {
-      frame.addEventListener('load', () => {
-        const demo = frame.contentWindow && frame.contentWindow.__demo;
-        if (!demo) return;
-        const deadline = Date.now() + 15000;
-        const seekWhenReady = () => {
-          if (frame.src !== url || Date.now() > deadline) return;
-          if (!demo.STORY.length || !demo.state.started) { setTimeout(seekWhenReady, 100); return; }
-          demo.seek(targetIndex, 0, { replay: true });
-        };
-        seekWhenReady();
-      }, { once: true });
+    if (sourceRevision !== savedRevision) {
+      setStatus('剧本已更改，请重新运行预览');
+      return;
     }
-    frame.src = url;
+    const existingDemo = frame.contentWindow?.__demo;
+    if (existingDemo?.showStory && frame.src && frame.src !== 'about:blank') {
+      existingDemo.showStory(saved.story);
+    } else {
+      if (!previewUrlValue) previewUrlValue = await window.engine.previewUrl({ projectPath });
+      const url = previewUrlValue;
+      if (frame.src !== url) {
+        await new Promise((resolve, reject) => {
+          frame.onload = resolve;
+          frame.onerror = () => reject(new Error('预览页面加载失败'));
+          frame.src = url;
+        });
+      }
+    }
+    if (targetIndex != null) {
+      const deadline = Date.now() + 15000;
+      const seekWhenReady = () => {
+        const demo = frame.contentWindow?.__demo;
+        if (!demo || Date.now() > deadline) return;
+        if (!demo.STORY?.length || !demo.state.started) { setTimeout(seekWhenReady, 100); return; }
+        demo.seek(targetIndex, 0, { replay: true });
+      };
+      seekWhenReady();
+    }
     previewRunning = true;
     $('previewState').textContent = '运行中';
     switchTab('preview');
@@ -299,7 +312,6 @@ async function runPreview(targetIndex = null) {
 function stopPreview() {
   const frame = $('previewFrame');
   frame.classList.remove('live');
-  frame.src = 'about:blank';
   $('previewEmpty').classList.remove('hidden');
   previewRunning = false;
   previewSource = null;
@@ -338,6 +350,115 @@ async function buildProject() {
     $('buildStatus').textContent = '构建失败';
     $('buildLog').textContent = e.message || String(e);
   }
+}
+
+function readPresetFieldValues(preset) {
+  const fields = { ...(preset?.fields || {}) };
+  for (const el of $('presetFields')?.querySelectorAll('[data-field]') || []) {
+    const key = el.dataset.field;
+    fields[key] = el.type === 'number' ? Number(el.value) : (el.type === 'checkbox' ? el.checked : el.value);
+  }
+  return fields;
+}
+
+function inlineDialogueOptions(fields, allowed = [
+  'enter', 'exit', 'hold', 'tail', 'purple', 'noName', 'bubbleWidth', 'bubbleMinHeight',
+  'bubbleMaxHeight', 'bubblePaddingY', 'textWidth', 'textOffsetX', 'textOffsetY',
+  'uiX', 'uiY', 'uiScale', 'uiRot', 'uiOpacity', 'typeSpeed', 'speed', 'punctuationPause', 'dialogueVariant', 'overflow',
+]) {
+  const out = [];
+  for (const key of allowed) {
+    if (!Object.hasOwn(fields, key) || fields[key] === '' || fields[key] == null) continue;
+    if (key === 'purple' || key === 'noName') {
+      if (fields[key] === true || fields[key] === 'true') out.push(key);
+      continue;
+    }
+    if (key === 'tail' && !fields[key]) continue;
+    const bareValue = ['enter', 'exit', 'tail', 'dialogueVariant', 'overflow'].includes(key);
+    out.push(`${key} ${typeof fields[key] === 'string' && !bareValue ? JSON.stringify(fields[key]) : fields[key]}`);
+  }
+  for (const key of ['fontSize', 'textColor', 'shadowX', 'shadowY', 'shadowAlpha', 'shadowColor']) {
+    if (!Object.hasOwn(fields, key) || fields[key] === '' || fields[key] == null) continue;
+    out.push(`${key} ${typeof fields[key] === 'string' ? JSON.stringify(fields[key]) : fields[key]}`);
+  }
+  return out.join(' ');
+}
+
+function buildPresetSnippet(preset, fields = readPresetFieldValues(preset)) {
+  const name = String(preset?.name || preset?.file || '');
+  const type = preset?.type || 'dialogue';
+  const safeId = String(preset?.file || name).replace(/\.json$/i, '').replace(/[^\w.-]+/g, '_').replace(/^_+|_+$/g, '').toLowerCase() || 'ui_asset';
+  const specialOptions = inlineDialogueOptions(fields, [
+    'enter', 'exit', 'uiX', 'uiY', 'uiScale', 'uiRot', 'uiOpacity',
+    'textOffsetX', 'textOffsetY', 'typeSpeed', 'speed', 'punctuationPause',
+  ]);
+  if (type === 'opening') {
+    const openingOptions = inlineDialogueOptions(fields, ['uiX', 'uiY', 'uiScale', 'uiRot', 'uiOpacity']);
+    return `opening 1 "标题" hold 0 cinema ${fields.cinema === false || fields.cinema === 'false' ? 'off' : 'on'} bg black${openingOptions ? ` ${openingOptions}` : ''}`;
+  }
+  if (type === 'location') {
+    const locationOptions = inlineDialogueOptions(fields, ['uiX', 'uiY', 'uiScale', 'uiRot', 'uiOpacity']);
+    return `location "地点" hold 0${locationOptions ? ` ${locationOptions}` : ''}`;
+  }
+  if (type === 'transition') return `transition ${fields.kind || 'fadeblack'} hold ${Number(fields.hold ?? 1.4)}`;
+  if (type === 'news') {
+    const options = inlineDialogueOptions(fields, ['enter', 'exit', 'uiX', 'uiY', 'uiScale', 'uiRot', 'uiOpacity',
+      'textOffsetX', 'textOffsetY', 'typeSpeed', 'speed', 'punctuationPause', 'entryDuration']);
+    return `news ${fields.mode === 'newsSummary' || /简报|summary/i.test(name) ? 'summary' : 'anchor'} "新闻内容"${options ? ` ${options}` : ''}`;
+  }
+  if (type === 'fullscreen') return `fullscreen "全屏文字"${specialOptions ? ` ${specialOptions}` : ''}`;
+  if (type === 'typewriter') return `ner normal "逐字显示的文字"${specialOptions ? ` ${specialOptions}` : ''}`;
+  if (type === 'move') {
+    if (fields.from) return `parallel:\n  move ner x ${fields.from === 'right' ? '1920' : '-600'} -> 960 in ${Number(fields.duration ?? 1)}s ease ${fields.ease || 'OutCubic'}`;
+    const scales = [];
+    if (fields.scaleX != null) scales.push(['scaleX', Number(fields.scaleX)]);
+    if (fields.scaleY != null) scales.push(['scaleY', Number(fields.scaleY)]);
+    if (!scales.length) scales.push(['scaleX', 1.08]);
+    const duration = Number(fields.duration ?? 0.35), ease = fields.ease || 'OutBack';
+    return `parallel:\n${scales.map(([axis, value]) => `  move ner ${axis} 1 -> ${value} in ${duration}s ease ${ease}`).join('\n')}`;
+  }
+  if (type === 'ui-bubble' || type === 'ui-box' || type === 'ui-text') {
+    const kind = type.slice(3);
+    const width = Number(fields.width ?? (kind === 'bubble' ? 760 : kind === 'box' ? 1200 : 580));
+    const height = Number(fields.height ?? (kind === 'bubble' ? 320 : kind === 'box' ? 260 : 220));
+    const parts = [`ui show ${kind} ${safeId}`, 'at 960,540', `size ${width},${height}`];
+    if (kind !== 'text') {
+      parts.push(`style ${fields.style || (kind === 'bubble' ? 'manga' : 'normal')}`);
+      if (kind === 'bubble' && fields.tail) parts.push(`tail ${fields.tail}`);
+      if (fields.paddingY != null) parts.push(`padding ${Number(fields.paddingY)}`);
+      if (fields.maxHeight != null) parts.push(`maxheight ${Number(fields.maxHeight)}`);
+    } else {
+      if (fields.fontSize != null) parts.push(`font ${Number(fields.fontSize)}`);
+      if (fields.speed != null) parts.push(`speed ${Number(fields.speed)}`);
+      if (fields.color) parts.push(`color ${JSON.stringify(fields.color)}`);
+      if (fields.overflow) parts.push(`overflow ${fields.overflow}`);
+      if (fields.maxHeight != null) parts.push(`maxheight ${Number(fields.maxHeight)}`);
+    }
+    return parts.join(' ');
+  }
+  let mode = fields.mode || 'normal';
+  if (type === 'dialogue' && fields.dialogueVariant === 'blast') mode = 'blast';
+  if (type === 'dialogue' && fields.dialogueVariant === 'cloud') mode = 'cloud';
+  if (type === 'dialogue' && /独白|monologue|clear/i.test(name)) mode = 'clear';
+  if (type === 'dialogue' && /旁白|narration/i.test(name)) mode = 'narration';
+  if (type === 'dialogue' && /拟声|sfx/i.test(name)) mode = 'sfx';
+  if (type === 'dialogue' && /字幕|anime/i.test(name)) mode = 'anime';
+  let line;
+  if (type === 'bubble') {
+    mode = /think|思考/i.test(name) ? 'think' : 'manga';
+    line = `ner ${mode} "气泡文字"`;
+  } else if (mode === 'narration') {
+    line = 'narration "旁白文字"';
+  } else if (mode === 'sfx') {
+    line = 'sfx "拟声文字" at 960,470';
+  } else if (mode === 'anime') {
+    line = 'ner anime "字幕文字"';
+  } else {
+    line = `ner ${mode} "${mode === 'clear' ? '独白文字' : '对白文字'}"`;
+    if (type === 'dialogue' && !Object.hasOwn(fields, 'dialogueVariant') && !fields.noName && /无名字|noname/i.test(name)) line += ' noName';
+  }
+  const options = inlineDialogueOptions(fields);
+  return options ? `${line} ${options}` : line;
 }
 
 function renderTree() {
@@ -534,6 +655,20 @@ function renderPresetFields(p) {
       + `<label>缓动<select data-field="ease">${['OutCubic', 'Linear', 'InSine', 'OutSine', 'InOutSine', 'InCubic', 'InOutCubic', 'OutBack', 'OutQuint'].map(value => `<option>${value}</option>`).join('')}</select></label>`;
     if (f.from != null) html += `<label>进入方向<select data-field="from"><option value="left">左侧</option><option value="right">右侧</option></select></label>`;
     else html += number('scaleX', '横向缩放', 0.01, 0.01, 3, 1) + number('scaleY', '纵向缩放', 0.01, 0.01, 3, 1);
+  } else if (p.type === 'ui-bubble' || p.type === 'ui-box' || p.type === 'ui-text') {
+    html = number('width', '宽度', 1, 1, 10000, p.type === 'ui-bubble' ? 760 : p.type === 'ui-box' ? 1200 : 580)
+      + number('height', '高度', 1, 1, 10000, p.type === 'ui-bubble' ? 320 : p.type === 'ui-box' ? 260 : 220)
+      + number('maxHeight', '最大高度', 1, 1, 10000, 900);
+    if (p.type === 'ui-text') {
+      html += number('fontSize', '字号', 1, 1, 200, 52) + number('speed', '打字速度', 0.05, 0.01, 10, 1)
+        + `<label>颜色<input type="color" data-field="color" value="${escapeHtml(/^#[0-9a-f]{6}$/i.test(f.color || '') ? f.color : '#333333')}"></label>`
+        + `<label>溢出<select data-field="overflow"><option value="grow">grow</option><option value="clip">clip</option></select></label>`;
+    } else {
+      const styles = p.type === 'ui-bubble' ? ['manga', 'think', 'purple', 'thought'] : ['normal', 'purple', 'cloud', 'blast', 'monologue', 'monologueThought', 'narration', 'sfx'];
+      html += `<label>样式<select data-field="style">${styles.map(value => `<option value="${value}">${value}</option>`).join('')}</select></label>`
+        + number('paddingY', '上下内边距', 1, 0, 10000, 80);
+      if (p.type === 'ui-bubble') html += `<label>尾巴<select data-field="tail"><option>bl</option><option>br</option><option>tl</option><option>tr</option><option>none</option></select></label>`;
+    }
   } else {
     html = `<div class="opening-note wide">这个预设没有结构化字段，可在下方直接编辑 JSON。</div>`;
   }
@@ -551,28 +686,41 @@ function renderPresetFields(p) {
       if (f[key] != null) el.value = String(f[key]);
       else if (key === 'enter' || key === 'exit') el.value = 'default';
       else if (key === 'mode' && /独白|clear/i.test(`${p.name || ''} ${p.file || ''}`)) el.value = 'clear';
-      el.addEventListener('change', () => { f[key] = ['purple', 'cinema'].includes(key) ? el.value === 'true' : el.value; $('presetDetails').value = JSON.stringify(p, null, 2); schedulePresetPreview(p); });
+      el.addEventListener('change', () => {
+        f[key] = ['purple', 'cinema'].includes(key) ? el.value === 'true' : el.value;
+        $('presetDetails').value = JSON.stringify(p, null, 2);
+        updatePresetInsertCode(p);
+        schedulePresetPreview(p);
+      });
     } else {
       el.addEventListener('input', () => {
         f[key] = el.type === 'number' ? Number(el.value) : el.value;
         $('presetDetails').value = JSON.stringify(p, null, 2);
+        updatePresetInsertCode(p);
         schedulePresetPreview(p);
       });
     }
   });
+  updatePresetInsertCode(p);
+}
+
+function updatePresetInsertCode(preset) {
+  const target = $('presetInsertCode');
+  if (target && preset) target.textContent = buildPresetSnippet(preset, readPresetFieldValues(preset));
 }
 
 function renderPresets() {
   const list = $('presetList');
   const visible = presets.filter(p => !['ui-bubble', 'ui-box', 'ui-text'].includes(p.type));
   if (!visible.length) {
-    list.innerHTML = '<div class="empty">还没有预设</div>';
+    list.innerHTML = '<div class="empty">还没有素材</div>';
     $('presetFields').innerHTML = '';
+    if ($('presetInsertCode')) $('presetInsertCode').textContent = '选择素材后，这里会显示将要插入的完整代码';
     return;
   }
   list.innerHTML = visible.map(p => `<div class="preset-item${selectedPreset?.file === p.file ? ' active' : ''}" data-file="${escapeHtml(p.file)}">
     <b>${escapeHtml(p.name || p.file)}</b>
-    <small>${escapeHtml(p.type || 'preset')}${p.description ? ' · ' + escapeHtml(p.description) : ''}</small>
+    <small>${escapeHtml(p.type || 'snippet')}${p.description ? ' · ' + escapeHtml(p.description) : ''}</small>
   </div>`).join('');
   list.querySelectorAll('.preset-item').forEach(el => {
     el.addEventListener('click', () => {
@@ -583,6 +731,7 @@ function renderPresets() {
       $('presetFile').textContent = p.file;
       $('presetDetails').value = JSON.stringify(p, null, 2);
       renderPresetFields(p);
+      updatePresetInsertCode(p);
       switchInspector('preset');
       showPresetPreview(p);
     });
@@ -594,7 +743,7 @@ async function loadPresets() {
     presets = await window.engine.listPresets(projectPath);
     renderPresets();
   } catch (e) {
-    $('presetList').innerHTML = `<div class="empty">读取预设失败：${escapeHtml(e.message || e)}</div>`;
+    $('presetList').innerHTML = `<div class="empty">读取素材失败：${escapeHtml(e.message || e)}</div>`;
   }
 }
 
@@ -623,15 +772,15 @@ async function showPresetPreview(preset) {
   const empty = $('presetPreviewEmpty');
   const frame = $('presetPreviewFrame');
   const status = $('presetPreviewStatus');
-  const supported = ['bubble', 'dialogue', 'typewriter', 'move', 'opening', 'location', 'transition', 'news', 'fullscreen'].includes(preset.type);
+  const supported = ['bubble', 'dialogue', 'typewriter', 'move', 'opening', 'location', 'transition', 'news', 'fullscreen', 'ui-bubble', 'ui-box', 'ui-text'].includes(preset.type);
   if (!supported) {
-    empty.textContent = '该预设暂不支持效果预览';
+    empty.textContent = '该素材暂不支持效果预览';
     empty.classList.remove('hidden');
     status.textContent = preset.name || preset.file;
     frame.src = 'about:blank';
     return;
   }
-  empty.textContent = '正在加载预览…';
+  empty.textContent = '正在加载素材预览…';
   empty.classList.remove('hidden');
   status.textContent = preset.name || preset.file;
   try {
@@ -648,6 +797,18 @@ async function showPresetPreview(preset) {
     while (request === presetPreviewRequest && Date.now() < deadline) {
       const preview = frame.contentWindow?.__demo;
       if (preview && frame.contentWindow.__presetPreviewReady) {
+        if (preset.type === 'ui-bubble' || preset.type === 'ui-box' || preset.type === 'ui-text') {
+          const compiled = await window.engine.compile({
+            projectPath,
+            purpose: 'presetPreview',
+            source: `${buildPresetSnippet(preset, readPresetFieldValues(preset))}\nui present`,
+          });
+          const error = (compiled.diagnostics || []).find(item => item.severity === 'error');
+          if (error) throw new Error(error.message);
+          preview.showStory(compiled.story);
+          empty.classList.add('hidden');
+          return;
+        }
         if (preset.type === 'move') {
           preview.showMovePreset(preset);
           empty.classList.add('hidden');
@@ -662,7 +823,7 @@ async function showPresetPreview(preset) {
             : fields.mode || (/独白|clear/i.test(name) ? 'clear' : 'normal');
         const text = preset.type === 'typewriter' ? '雨停了，末班车到了。'
           : preset.type === 'bubble' && fields.overflow && fields.overflow !== 'grow'
-            ? '雨夜里，末班车还没有到。我们继续等待，直到远处的灯光穿过雨幕。她望着空荡荡的站台，听见广播再次响起。' : '这是预设效果预览。';
+            ? '雨夜里，末班车还没有到。我们继续等待，直到远处的灯光穿过雨幕。她望着空荡荡的站台，听见广播再次响起。' : '这是素材效果预览。';
         preview.showPreset({ ...fields, mode, text, previewOnly: mode === 'transition', title: '雨夜的末班车', chapterNo: 1, chapter: '第 1 话',
           speaker: ['narration', 'sfx', 'title', 'location', 'transition', 'newsSummary', 'newsTalk', 'fullscreen'].includes(mode) ? null : 'ner',
           speakerName: mode === 'newsTalk' ? '新闻主播' : ['newsSummary', 'fullscreen'].includes(mode) ? '' : '内尔',
@@ -1257,15 +1418,16 @@ $('openBuildFolder').addEventListener('click', () => { if (lastBuildOut) window.
 $('folderBtn').addEventListener('click', () => window.engine.openPath(projectPath));
 $('vscodeBtn').addEventListener('click', () => window.engine.openVSCode(projectPath));
 $('helpBtn').addEventListener('click', () => window.engine.openHelp().catch(e => setStatus('手册打开失败：' + (e.message || e))));
+$('toggleSidebarBtn').addEventListener('click', () => {
+  if (!document.querySelector('.tab[data-tab="preview"]').classList.contains('active')) return;
+  $('app').classList.toggle('sidebar-expanded');
+  $('toggleSidebarBtn').textContent = $('app').classList.contains('sidebar-expanded') ? '收起素材库' : '显示素材库';
+});
 $('presetReplay').addEventListener('click', () => { if (selectedPreset) showPresetPreview(selectedPreset); });
 $('addPreset').addEventListener('click', async () => {
-  const name = prompt('预设名称（例如：我的普通对话框）');
+  const name = prompt('素材名称（例如：我的普通对话框）');
   if (!name) return;
-  const type = prompt('预设类型（dialogue / bubble / typewriter / move）', 'dialogue') || 'dialogue';
-  if (['ui-bubble', 'ui-box', 'ui-text'].includes(type)) {
-    setStatus('不再创建独立 UI 预设');
-    return;
-  }
+  const type = prompt('素材类型（dialogue / bubble / ui-bubble / ui-box / ui-text / typewriter / move）', 'dialogue') || 'dialogue';
   const data = { name, type, description: '', fields: {} };
   try {
     await window.engine.writePreset({ projectPath, file: name + '.json', data });
@@ -1275,36 +1437,25 @@ $('addPreset').addEventListener('click', async () => {
 $('applyPreset').addEventListener('click', () => {
   if (!selectedPreset || !editor) return;
   const name = selectedPreset.name || selectedPreset.file.replace(/\.json$/i, '');
-  const pos = editor.getPosition();
-  const range = new monaco.Range(pos.lineNumber, 1, pos.lineNumber, 1);
-  const indent = editor.getModel().getLineContent(pos.lineNumber).match(/^\s*/)[0];
-  const params = [...$('presetFields').querySelectorAll('[data-field]')]
-    .filter(el => el.dataset.field !== 'mode')
-    .map(el => `${el.dataset.field} ${el.type === 'color' ? JSON.stringify(el.value) : el.value}`).join(' ');
-  let statement = `preset ${JSON.stringify(name)}${params ? ' ' + params : ''}`;
-  if (selectedPreset.type === 'move') {
-    const source = editor.getModel().getValue();
-    const actor = [...source.matchAll(/^\s*define\s+([A-Za-z_][\w-]*)\s*=\s*Spine\(/gm)][0]?.[1];
-    if (!actor) { setStatus('请先声明并显示角色，再插入动作预设'); return; }
-    statement = `move ${actor} preset ${JSON.stringify(name)}${params ? ' ' + params : ''}`;
-    let parentIndent = indent.length;
-    let inParallel = false;
-    for (let n = pos.lineNumber - 1; n >= 1; n--) {
-      const line = editor.getModel().getLineContent(n);
-      if (!line.trim() || line.trim().startsWith('#')) continue;
-      const depth = line.match(/^\s*/)[0].length;
-      if (depth >= parentIndent) continue;
-      if (/^\s*(?:parallel|同时):\s*$/.test(line)) { inParallel = true; break; }
-      if (!/^\s*after\s+.+:\s*$/.test(line)) break;
-      parentIndent = depth;
-    }
-    if (!inParallel) statement = `parallel:\n${indent}  ${statement}`;
+  let snippet = buildPresetSnippet(selectedPreset, readPresetFieldValues(selectedPreset));
+  if (selectedPreset.type === 'ui-bubble' || selectedPreset.type === 'ui-box' || selectedPreset.type === 'ui-text') {
+    const baseId = String(selectedPreset.file || name).replace(/\.json$/i, '').replace(/[^\w.-]+/g, '_').replace(/^_+|_+$/g, '').toLowerCase() || 'ui_asset';
+    const existing = new Set([...editor.getModel().getValue().matchAll(/^\s*ui\s+show\s+\w+\s+([A-Za-z_][\w.-]*)/gm)].map(match => match[1]));
+    let id = baseId;
+    let index = 2;
+    while (existing.has(id)) id = `${baseId}_${index++}`;
+    snippet = snippet.replace(` ${baseId} `, ` ${id} `);
   }
-  const text = indent + statement + '\n';
+  const pos = editor.getPosition();
+  const lineContent = editor.getModel().getLineContent(pos.lineNumber);
+  const blankLine = !lineContent.trim();
+  const indent = lineContent.match(/^\s*/)[0];
+  const range = new monaco.Range(pos.lineNumber, blankLine ? 1 : pos.column, pos.lineNumber, blankLine ? 1 : pos.column);
+  const text = snippet.split('\n').map(line => (blankLine ? indent : '') + line).join('\n') + '\n';
   editor.executeEdits('insert-preset', [{ range, text }]);
   editor.focus();
   switchTab('code');
-  setStatus('已插入预设：' + name);
+  setStatus('已插入素材代码：' + name);
 });
 $('savePreset').addEventListener('click', async () => {
   if (!selectedPreset) return;
@@ -1312,16 +1463,16 @@ $('savePreset').addEventListener('click', async () => {
     const data = JSON.parse($('presetDetails').value);
     await window.engine.writePreset({ projectPath, file: selectedPreset.file, data });
     await loadPresets();
-    setStatus('预设已保存');
-  } catch (e) { alert('预设 JSON 无效：' + (e.message || e)); }
+    setStatus('素材已保存');
+  } catch (e) { alert('素材 JSON 无效：' + (e.message || e)); }
 });
 $('deletePreset').addEventListener('click', async () => {
   if (!selectedPreset) return;
-  if (!confirm(`删除预设「${selectedPreset.name || selectedPreset.file}」？`)) return;
+  if (!confirm(`删除素材「${selectedPreset.name || selectedPreset.file}」？`)) return;
   try {
     await window.engine.deletePreset({ projectPath, file: selectedPreset.file });
     selectedPreset = null;
-    $('presetDetails').value = '选择一个预设查看';
+    $('presetDetails').value = '选择一个素材查看';
     $('presetFile').textContent = '';
     await loadPresets();
   } catch (e) { alert(e.message || String(e)); }
@@ -1348,6 +1499,15 @@ window.addEventListener('message', (e) => {
     switchInspector('diagnostics');
   }
 });
+window.addEventListener('mousedown', (e) => {
+  if (e.button === 3 || e.button === 4) e.preventDefault();
+}, { capture: true });
+window.addEventListener('auxclick', (e) => {
+  if (e.button === 3 || e.button === 4) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+}, { capture: true });
 window.addEventListener('beforeunload', (e) => {
   if (!dirty) return;
   e.preventDefault();

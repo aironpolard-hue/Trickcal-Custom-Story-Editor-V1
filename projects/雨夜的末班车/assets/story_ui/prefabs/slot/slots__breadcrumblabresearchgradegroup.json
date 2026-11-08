@@ -1,0 +1,239 @@
+{
+  "id": "slots/breadcrumblabresearchgradegroup",
+  "sourceBundle": "prefab/slots/breadcrumblabresearchgradegroup",
+  "hierarchy": {
+    "name": "BreadCrumbLabResearchGradeGroup",
+    "path": "BreadCrumbLabResearchGradeGroup",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 492.6549987792969,
+        "y": -111.5
+      },
+      "m_SizeDelta": {
+        "x": 802.0,
+        "y": 83.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 2,
+          "pathId": "7342506051730520803",
+          "bundle": "CAB-a115bf5bb885228d3d34bf6df45f6be6"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "LayoutElement"
+      }
+    ],
+    "children": [
+      {
+        "name": "Base",
+        "path": "BreadCrumbLabResearchGradeGroup/Base",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -13.100000381469727
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 39.65999984741211
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "HorizontalLayoutGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ContentSizeFitter"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "LayoutElement"
+          },
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "Text_Grade",
+            "path": "BreadCrumbLabResearchGradeGroup/Base/Text_Grade",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "BreadCrumbLabResearchGradeGroup",
+      "nodePath": "BreadCrumbLabResearchGradeGroup",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 2,
+      "pathId": "7342506051730520803",
+      "bundle": "CAB-a115bf5bb885228d3d34bf6df45f6be6",
+      "assetType": "AnimatorController",
+      "assetName": "PopupLabAutoResultGradeGroup"
+    },
+    {
+      "gameObject": "Text_Grade",
+      "nodePath": "BreadCrumbLabResearchGradeGroup/Base/Text_Grade",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_Grade",
+      "nodePath": "BreadCrumbLabResearchGradeGroup/Base/Text_Grade",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": [
+    {
+      "path": "BreadCrumbLabResearchGradeGroup",
+      "controllerBundle": "CAB-a115bf5bb885228d3d34bf6df45f6be6",
+      "controllerPathId": "7342506051730520803",
+      "controllerType": "AnimatorController",
+      "controllerName": "PopupLabAutoResultGradeGroup",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.PopupLabAutoResultGradeGroup_Start",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.PopupLabAutoResultGradeGroup_Skipped",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "PopupLabAutoResultGradeGroup"
+    }
+  ]
+}

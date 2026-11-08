@@ -1,0 +1,4806 @@
+{
+  "id": "slots/episodeslot",
+  "sourceBundle": "prefab/slots/episodeslot",
+  "hierarchy": {
+    "name": "EpisodeSlot",
+    "path": "EpisodeSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 640.0,
+        "y": 370.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "EpisodeSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 13,
+          "pathId": "-8676289725006077478",
+          "bundle": "CAB-4a4db8f3527efc5524f7bf0427f0f83e"
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "Axis",
+        "path": "EpisodeSlot/Axis",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 688.0,
+            "y": 370.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "Deco_UsePopup",
+            "path": "EpisodeSlot/Axis/Deco_UsePopup",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -26.389999389648438
+              },
+              "m_SizeDelta": {
+                "x": 661.0,
+                "y": 302.5799865722656
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BaseGroup",
+            "path": "EpisodeSlot/Axis/BaseGroup",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -18.200000762939453
+              },
+              "m_SizeDelta": {
+                "x": 661.0,
+                "y": 299.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "OutEdge",
+                "path": "EpisodeSlot/Axis/BaseGroup/OutEdge",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 661.0,
+                    "y": 299.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "InBase",
+                "path": "EpisodeSlot/Axis/BaseGroup/InBase",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 2.799999952316284
+                  },
+                  "m_SizeDelta": {
+                    "x": 553.0,
+                    "y": 273.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "InEdge",
+                "path": "EpisodeSlot/Axis/BaseGroup/InEdge",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 1.100000023841858
+                  },
+                  "m_SizeDelta": {
+                    "x": 554.0,
+                    "y": 273.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Head",
+                "path": "EpisodeSlot/Axis/BaseGroup/Head",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 91.20000457763672
+                  },
+                  "m_SizeDelta": {
+                    "x": 213.0,
+                    "y": 168.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.9999998807907104,
+                    "y": 0.9999998807907104,
+                    "z": 0.9999998807907104
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Text_Name",
+            "path": "EpisodeSlot/Axis/Text_Name",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -58.9900016784668
+              },
+              "m_SizeDelta": {
+                "x": 505.92999267578125,
+                "y": 87.29000091552734
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProEffect"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text_Subtitle",
+            "path": "EpisodeSlot/Axis/Text_Subtitle",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 2.8299999237060547
+              },
+              "m_SizeDelta": {
+                "x": 513.9000244140625,
+                "y": 43.33000183105469
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProEffect"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "NumberLayout",
+            "path": "EpisodeSlot/Axis/NumberLayout",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 85.4000015258789
+              },
+              "m_SizeDelta": {
+                "x": 123.12000274658203,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.8999999761581421,
+                "y": 0.8999999761581421,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Number_Base0",
+                "path": "EpisodeSlot/Axis/NumberLayout/Number_Base0",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Shadow"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Number_White",
+                    "path": "EpisodeSlot/Axis/NumberLayout/Number_Base0/Number_White",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Shadow"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Number_Base1",
+                "path": "EpisodeSlot/Axis/NumberLayout/Number_Base1",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Shadow"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Number_White",
+                    "path": "EpisodeSlot/Axis/NumberLayout/Number_Base1/Number_White",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Shadow"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lock",
+            "path": "EpisodeSlot/Axis/Lock",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Dim",
+                "path": "EpisodeSlot/Axis/Lock/Dim",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 688.0,
+                    "y": 370.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Base",
+                    "path": "EpisodeSlot/Axis/Lock/Dim/Base",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -18.254398345947266
+                      },
+                      "m_SizeDelta": {
+                        "x": 661.72998046875,
+                        "y": 299.3711853027344
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Head",
+                    "path": "EpisodeSlot/Axis/Lock/Dim/Head",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 144.42999267578125
+                      },
+                      "m_SizeDelta": {
+                        "x": 137.0,
+                        "y": 26.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Terms",
+                "path": "EpisodeSlot/Axis/Lock/Terms",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -1.139999959666113e-13,
+                    "y": -7.300000190734863
+                  },
+                  "m_SizeDelta": {
+                    "x": 656.2999877929688,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "VerticalLayoutGroup"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ContentSizeFitter"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "EpisodeSlot/Axis/Lock/Terms/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 116.0,
+                        "y": 116.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "LeftUnlockTime",
+                    "path": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 328.1499938964844,
+                        "y": -144.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 221.86000061035156,
+                        "y": 46.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -8.940696716308594e-08,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ContentSizeFitter"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Base",
+                        "path": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime/Base",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "LayoutElement"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "BaseImage",
+                            "path": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime/Base/BaseImage",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 3.799999237060547
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0004289150238037,
+                                "y": 1.0004289150238037,
+                                "z": 1.0001592636108398
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "LayoutElement"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Image",
+                        "path": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime/Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 36.0,
+                            "y": -19.5
+                          },
+                          "m_SizeDelta": {
+                            "x": 32.0,
+                            "y": 28.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "LayoutElement"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Text",
+                        "path": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime/Text",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 128.92999267578125,
+                            "y": -19.5
+                          },
+                          "m_SizeDelta": {
+                            "x": 145.86000061035156,
+                            "y": 40.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Text",
+                    "path": "EpisodeSlot/Axis/Lock/Terms/Text",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 712.6799926757812,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Promotion",
+            "path": "EpisodeSlot/Axis/Promotion",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 335.1000061035156,
+                "y": 116.5999984741211
+              },
+              "m_SizeDelta": {
+                "x": 600.0,
+                "y": 80.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0521886348724365,
+                "y": 1.0521886348724365,
+                "z": 1.000640630722046
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Icon (1)",
+                "path": "EpisodeSlot/Axis/Promotion/Icon (1)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 559.0,
+                    "y": -44.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 82.0,
+                    "y": 74.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Icon",
+                "path": "EpisodeSlot/Axis/Promotion/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 559.0,
+                    "y": -40.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 82.0,
+                    "y": 74.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text",
+                "path": "EpisodeSlot/Axis/Promotion/Text",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 550.1300048828125,
+                    "y": -40.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 99.73999786376953,
+                    "y": 39.599998474121094
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "AnotherStory",
+            "path": "EpisodeSlot/Axis/AnotherStory",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 341.79998779296875,
+                "y": 89.80000305175781
+              },
+              "m_SizeDelta": {
+                "x": 106.0,
+                "y": 106.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Glow",
+                "path": "EpisodeSlot/Axis/AnotherStory/Glow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 18.200000762939453,
+                    "y": 19.100000381469727
+                  },
+                  "m_SizeDelta": {
+                    "x": 178.0,
+                    "y": 150.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -0.34202009439468384,
+                    "w": 0.9396926760673523
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "TagImage",
+                "path": "EpisodeSlot/Axis/AnotherStory/TagImage",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 106.0,
+                    "y": 106.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "EpisodeSlot/Axis/AnotherStory/TagImage/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 23.0,
+                        "y": 26.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 94.0,
+                        "y": 70.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Battle",
+            "path": "EpisodeSlot/Axis/Battle",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 327.3999938964844,
+                "y": 120.99992370605469
+              },
+              "m_SizeDelta": {
+                "x": 600.0,
+                "y": 80.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0521886348724365,
+                "y": 1.0521886348724365,
+                "z": 1.000640630722046
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Icon (1)",
+                "path": "EpisodeSlot/Axis/Battle/Icon (1)",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 564.5,
+                    "y": -49.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 79.25,
+                    "y": 72.73999786376953
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Icon",
+                "path": "EpisodeSlot/Axis/Battle/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 564.4998779296875,
+                    "y": -44.65998077392578
+                  },
+                  "m_SizeDelta": {
+                    "x": 79.25,
+                    "y": 72.73999786376953
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Reward",
+            "path": "EpisodeSlot/Axis/Reward",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -150.89999389648438
+              },
+              "m_SizeDelta": {
+                "x": 624.5999755859375,
+                "y": 102.6500015258789
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -8.940696716308594e-08,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Shadow",
+                "path": "EpisodeSlot/Axis/Reward/Shadow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -37.41999816894531
+                  },
+                  "m_SizeDelta": {
+                    "x": 7.75,
+                    "y": -59.810001373291016
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Base",
+                "path": "EpisodeSlot/Axis/Reward/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -0.0,
+                    "y": 61.053001403808594
+                  },
+                  "m_SizeDelta": {
+                    "x": 268.6400146484375,
+                    "y": 51.44499969482422
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "DecoBase",
+                "path": "EpisodeSlot/Axis/Reward/DecoBase",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -29.440000534057617
+                  },
+                  "m_SizeDelta": {
+                    "x": -29.600000381469727,
+                    "y": -75.76000213623047
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Deco",
+                "path": "EpisodeSlot/Axis/Reward/Deco",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -33.5
+                  },
+                  "m_SizeDelta": {
+                    "x": -0.5999755859375,
+                    "y": -67.6500015258789
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Shadow",
+                "path": "EpisodeSlot/Axis/Reward/Shadow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -72.11299896240234
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 9.585000038146973
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Image",
+                "path": "EpisodeSlot/Axis/Reward/Image",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 48.44499969482422
+                  },
+                  "m_SizeDelta": {
+                    "x": 255.61000061035156,
+                    "y": 76.66000366210938
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "HorizontalLayoutGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Glow",
+                    "path": "EpisodeSlot/Axis/Reward/Image/Glow",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 79.81999969482422,
+                        "y": 3.056600007766974e-06
+                      },
+                      "m_SizeDelta": {
+                        "x": 137.55999755859375,
+                        "y": 118.86000061035156
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "LayoutElement"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Icon",
+                    "path": "EpisodeSlot/Axis/Reward/Image/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "LayoutElement"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ShinyEffectForUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Value",
+                    "path": "EpisodeSlot/Axis/Reward/Image/Value",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "RewardLock1",
+                    "path": "EpisodeSlot/Axis/Reward/Image/RewardLock1",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 50.86799621582031
+                      },
+                      "m_SizeDelta": {
+                        "x": 268.6400146484375,
+                        "y": 51.595001220703125
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "LayoutElement"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "RewardLock2",
+                "path": "EpisodeSlot/Axis/Reward/RewardLock2",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 17.59000015258789
+                  },
+                  "m_SizeDelta": {
+                    "x": 624.5999755859375,
+                    "y": 35.189998626708984
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "New",
+            "path": "EpisodeSlot/Axis/New",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -250.29998779296875,
+                "y": 146.60000610351562
+              },
+              "m_SizeDelta": {
+                "x": 124.0,
+                "y": 60.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0521886348724365,
+                "y": 1.0521886348724365,
+                "z": 1.000640630722046
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -8.940696716308594e-08,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Unlock",
+            "path": "EpisodeSlot/Axis/Unlock",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 200.60000610351562
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 57.09000015258789
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0521886348724365,
+                "y": 1.0521886348724365,
+                "z": 1.000640630722046
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -8.940696716308594e-08,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ContentSizeFitter"
+              }
+            ],
+            "children": [
+              {
+                "name": "Base",
+                "path": "EpisodeSlot/Axis/Unlock/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -3.5450000762939453
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Base (1)",
+                    "path": "EpisodeSlot/Axis/Unlock/Base/Base (1)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -8.670000076293945
+                      },
+                      "m_SizeDelta": {
+                        "x": 35.269989013671875,
+                        "y": 20.219999313354492
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "LayoutElement"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Base (1)",
+                    "path": "EpisodeSlot/Axis/Unlock/Base/Base (1)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -3.4000000953674316
+                      },
+                      "m_SizeDelta": {
+                        "x": 32.55999755859375,
+                        "y": 21.8799991607666
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0004289150238037,
+                        "y": 1.0004289150238037,
+                        "z": 1.0001592636108398
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "LayoutElement"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Base",
+                    "path": "EpisodeSlot/Axis/Unlock/Base/Base",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 3.799999237060547
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0004289150238037,
+                        "y": 1.0004289150238037,
+                        "z": 1.0001592636108398
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "LayoutElement"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "path": "EpisodeSlot/Axis/Unlock/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Axis_Question",
+        "path": "EpisodeSlot/Axis_Question",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 688.0,
+            "y": 370.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "Deco_UsePopup",
+            "path": "EpisodeSlot/Axis_Question/Deco_UsePopup",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -26.389999389648438
+              },
+              "m_SizeDelta": {
+                "x": 661.0,
+                "y": 302.5799865722656
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "BaseGroup",
+            "path": "EpisodeSlot/Axis_Question/BaseGroup",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -18.200000762939453
+              },
+              "m_SizeDelta": {
+                "x": 661.0,
+                "y": 299.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "OutEdge",
+                "path": "EpisodeSlot/Axis_Question/BaseGroup/OutEdge",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 661.0,
+                    "y": 299.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "InBase",
+                "path": "EpisodeSlot/Axis_Question/BaseGroup/InBase",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 2.799999952316284
+                  },
+                  "m_SizeDelta": {
+                    "x": 553.0,
+                    "y": 273.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "InEdge",
+                "path": "EpisodeSlot/Axis_Question/BaseGroup/InEdge",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 1.100000023841858
+                  },
+                  "m_SizeDelta": {
+                    "x": 554.0,
+                    "y": 273.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Head",
+                "path": "EpisodeSlot/Axis_Question/BaseGroup/Head",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 91.20000457763672
+                  },
+                  "m_SizeDelta": {
+                    "x": 213.0,
+                    "y": 168.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.9999998807907104,
+                    "y": 0.9999998807907104,
+                    "z": 0.9999998807907104
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Text_Name",
+            "path": "EpisodeSlot/Axis_Question/Text_Name",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -58.9900016784668
+              },
+              "m_SizeDelta": {
+                "x": 505.92999267578125,
+                "y": 87.29000091552734
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProEffect"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Text_Subtitle",
+            "path": "EpisodeSlot/Axis_Question/Text_Subtitle",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 2.8299999237060547
+              },
+              "m_SizeDelta": {
+                "x": 513.9000244140625,
+                "y": 43.33000183105469
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProEffect"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "NumberLayout",
+            "path": "EpisodeSlot/Axis_Question/NumberLayout",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 85.4000015258789
+              },
+              "m_SizeDelta": {
+                "x": 123.12000274658203,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.8999999761581421,
+                "y": 0.8999999761581421,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "HorizontalLayoutGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Number_Base0",
+                "path": "EpisodeSlot/Axis_Question/NumberLayout/Number_Base0",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 61.560001373291016,
+                    "y": -50.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 78.0,
+                    "y": 84.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Shadow"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Number_White",
+                    "path": "EpisodeSlot/Axis_Question/NumberLayout/Number_Base0/Number_White",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 2.0999999046325684,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Shadow"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "EpisodeSlot",
+      "nodePath": "EpisodeSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 13,
+      "pathId": "-8676289725006077478",
+      "bundle": "CAB-4a4db8f3527efc5524f7bf0427f0f83e",
+      "assetType": "AnimatorController",
+      "assetName": "EpisodeSlot"
+    },
+    {
+      "gameObject": "Deco_UsePopup",
+      "nodePath": "EpisodeSlot/Axis/Deco_UsePopup",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3481200755244552751",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_OutBase",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutBase.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutBase.png"
+    },
+    {
+      "gameObject": "BaseGroup",
+      "nodePath": "EpisodeSlot/Axis/BaseGroup",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3481200755244552751",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_OutBase",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutBase.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutBase.png"
+    },
+    {
+      "gameObject": "OutEdge",
+      "nodePath": "EpisodeSlot/Axis/BaseGroup/OutEdge",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "OutEdge",
+      "nodePath": "EpisodeSlot/Axis/BaseGroup/OutEdge",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6958475060504218486",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_OutEdge",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutEdge.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutEdge.png"
+    },
+    {
+      "gameObject": "OutEdge",
+      "nodePath": "EpisodeSlot/Axis/BaseGroup/OutEdge",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "InBase",
+      "nodePath": "EpisodeSlot/Axis/BaseGroup/InBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "1303447866395635769",
+      "bundle": "CAB-c01a0d5c2c7493753e189bbf219d4f2d",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_InBase",
+      "demoPath": "assets/story_ui/story-tickets/Story_Ticket_InBase.png",
+      "projectPath": "assets/story_ui/story-tickets/Story_Ticket_InBase.png"
+    },
+    {
+      "gameObject": "InEdge",
+      "nodePath": "EpisodeSlot/Axis/BaseGroup/InEdge",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "InEdge",
+      "nodePath": "EpisodeSlot/Axis/BaseGroup/InEdge",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 12,
+      "pathId": "7517526494268283725",
+      "bundle": "CAB-3221bb0682348d95c72e81926808889a",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_InEdge",
+      "demoPath": "assets/story_ui/story-tickets/Story_Ticket_InEdge.png",
+      "projectPath": "assets/story_ui/story-tickets/Story_Ticket_InEdge.png"
+    },
+    {
+      "gameObject": "InEdge",
+      "nodePath": "EpisodeSlot/Axis/BaseGroup/InEdge",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Head",
+      "nodePath": "EpisodeSlot/Axis/BaseGroup/Head",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5255398762190175097",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_Head",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Head.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Head.png"
+    },
+    {
+      "gameObject": "Text_Name",
+      "nodePath": "EpisodeSlot/Axis/Text_Name",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_Name",
+      "nodePath": "EpisodeSlot/Axis/Text_Name",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Text_Subtitle",
+      "nodePath": "EpisodeSlot/Axis/Text_Subtitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_Subtitle",
+      "nodePath": "EpisodeSlot/Axis/Text_Subtitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Text_Subtitle",
+      "nodePath": "EpisodeSlot/Axis/Text_Subtitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Number_Base0",
+      "nodePath": "EpisodeSlot/Axis/NumberLayout/Number_Base0",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Number_Base0",
+      "nodePath": "EpisodeSlot/Axis/NumberLayout/Number_Base0",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8390139396772004689",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_NumberFont_Base_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_Base_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_Base_1.png"
+    },
+    {
+      "gameObject": "Number_Base0",
+      "nodePath": "EpisodeSlot/Axis/NumberLayout/Number_Base0",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Number_White",
+      "nodePath": "EpisodeSlot/Axis/NumberLayout/Number_Base0/Number_White",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-4865414866762695322",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_NumberFont_White_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_White_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_White_1.png"
+    },
+    {
+      "gameObject": "Number_Base1",
+      "nodePath": "EpisodeSlot/Axis/NumberLayout/Number_Base1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Number_Base1",
+      "nodePath": "EpisodeSlot/Axis/NumberLayout/Number_Base1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3982130330217439415",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_NumberFont_Base_0",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_Base_0.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_Base_0.png"
+    },
+    {
+      "gameObject": "Number_Base1",
+      "nodePath": "EpisodeSlot/Axis/NumberLayout/Number_Base1",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Number_White",
+      "nodePath": "EpisodeSlot/Axis/NumberLayout/Number_Base1/Number_White",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7077435562128564982",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_NumberFont_White_0",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_White_0.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_White_0.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "EpisodeSlot/Axis/Lock/Dim/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3095265964798722136",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_Lock_Base",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Lock_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Lock_Base.png"
+    },
+    {
+      "gameObject": "Head",
+      "nodePath": "EpisodeSlot/Axis/Lock/Dim/Head",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2817981250833223491",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_Lock_Head_Normal",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Lock_Head_Normal.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Lock_Head_Normal.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "EpisodeSlot/Axis/Lock/Terms/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7089176754927621312",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "EpisodeList_Icon_Film",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/EpisodeList_Icon_Film.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/EpisodeList_Icon_Film.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "BaseImage",
+      "nodePath": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime/Base/BaseImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "267215118994453815",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "ClockIcon_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ClockIcon_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ClockIcon_001.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "EpisodeSlot/Axis/Lock/Terms/LeftUnlockTime/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "EpisodeSlot/Axis/Lock/Terms/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "EpisodeSlot/Axis/Lock/Terms/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Icon (1)",
+      "nodePath": "EpisodeSlot/Axis/Promotion/Icon (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-1473197860930604676",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_IconPromotion",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_IconPromotion.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_IconPromotion.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "EpisodeSlot/Axis/Promotion/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-1473197860930604676",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_IconPromotion",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_IconPromotion.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_IconPromotion.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "EpisodeSlot/Axis/Promotion/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "EpisodeSlot/Axis/Promotion/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "EpisodeSlot/Axis/AnotherStory/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 5,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "EpisodeSlot/Axis/AnotherStory/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-7583831162855317799",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow2.png"
+    },
+    {
+      "gameObject": "TagImage",
+      "nodePath": "EpisodeSlot/Axis/AnotherStory/TagImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "5702030232169434158",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "EpisodeSlot_Tag_AnotherStory_1",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/EpisodeSlot_Tag_AnotherStory_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/EpisodeSlot_Tag_AnotherStory_1.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "EpisodeSlot/Axis/AnotherStory/TagImage/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-1593439146758468759",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "EpisodeSlot_Tag_AnotherStory_2",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/EpisodeSlot_Tag_AnotherStory_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/EpisodeSlot_Tag_AnotherStory_2.png"
+    },
+    {
+      "gameObject": "Icon (1)",
+      "nodePath": "EpisodeSlot/Axis/Battle/Icon (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7735160842242548301",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_IconBattle",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_IconBattle.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_IconBattle.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "EpisodeSlot/Axis/Battle/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7735160842242548301",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_IconBattle",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_IconBattle.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_IconBattle.png"
+    },
+    {
+      "gameObject": "Shadow",
+      "nodePath": "EpisodeSlot/Axis/Reward/Shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-3825627025716302554",
+      "bundle": "CAB-616e2c05642eecb412df1e2d293cf554",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_Reward_1",
+      "demoPath": "assets/story_ui/story-tickets/Story_Ticket_Reward_1.png",
+      "projectPath": "assets/story_ui/story-tickets/Story_Ticket_Reward_1.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "EpisodeSlot/Axis/Reward/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "8253378690657625476",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonHalf_Top_100100",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonHalf_Top_100100.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonHalf_Top_100100.png"
+    },
+    {
+      "gameObject": "DecoBase",
+      "nodePath": "EpisodeSlot/Axis/Reward/DecoBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4875683402294017393",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_Reward_2",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Reward_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Reward_2.png"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "EpisodeSlot/Axis/Reward/Deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "EpisodeSlot/Axis/Reward/Deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-3825627025716302554",
+      "bundle": "CAB-616e2c05642eecb412df1e2d293cf554",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_Reward_1",
+      "demoPath": "assets/story_ui/story-tickets/Story_Ticket_Reward_1.png",
+      "projectPath": "assets/story_ui/story-tickets/Story_Ticket_Reward_1.png"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "EpisodeSlot/Axis/Reward/Deco",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "EpisodeSlot/Axis/Reward/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "8253378690657625476",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonHalf_Top_100100",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonHalf_Top_100100.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonHalf_Top_100100.png"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "EpisodeSlot/Axis/Reward/Image/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "3414536351621513450",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "EpisodeSlot/Axis/Reward/Image/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "EpisodeSlot/Axis/Reward/Image/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-8837154065095894037",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CurrencyIcon_0030",
+      "atlasBundle": "atlases/currencyicons",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0030.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "EpisodeSlot/Axis/Reward/Image/Icon",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "EpisodeSlot/Axis/Reward/Image/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "EpisodeSlot/Axis/Reward/Image/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 14,
+      "pathId": "-6895796814795490179",
+      "bundle": "CAB-8f097a2934fa9da5010dc1f377a4cbc9",
+      "assetType": "Material",
+      "assetName": "SystemFont_Shadowed2"
+    },
+    {
+      "gameObject": "RewardLock1",
+      "nodePath": "EpisodeSlot/Axis/Reward/Image/RewardLock1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "8253378690657625476",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonHalf_Top_100100",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonHalf_Top_100100.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonHalf_Top_100100.png"
+    },
+    {
+      "gameObject": "RewardLock2",
+      "nodePath": "EpisodeSlot/Axis/Reward/RewardLock2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "3729550897123304840",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonHalf_Bot_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonHalf_Bot_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonHalf_Bot_3030.png"
+    },
+    {
+      "gameObject": "New",
+      "nodePath": "EpisodeSlot/Axis/New",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 10,
+      "pathId": "8791054138832441540",
+      "bundle": "CAB-551ba164792d61dfc3c6a49d6f4939eb",
+      "assetType": "Sprite",
+      "assetName": "Common_New_2_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "EpisodeSlot/Axis/Unlock/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "Base (1)",
+      "nodePath": "EpisodeSlot/Axis/Unlock/Base/Base (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-1172674280801466997",
+      "bundle": "CAB-60492d9069cc224c447a521e9dfe1371",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubbleTail_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubbleTail_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubbleTail_2.png"
+    },
+    {
+      "gameObject": "Base (1)",
+      "nodePath": "EpisodeSlot/Axis/Unlock/Base/Base (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-1172674280801466997",
+      "bundle": "CAB-60492d9069cc224c447a521e9dfe1371",
+      "assetType": "Sprite",
+      "assetName": "Common_TalkBubbleTail_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubbleTail_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_TalkBubbleTail_2.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "EpisodeSlot/Axis/Unlock/Base/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "EpisodeSlot/Axis/Unlock/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "EpisodeSlot/Axis/Unlock/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Deco_UsePopup",
+      "nodePath": "EpisodeSlot/Axis_Question/Deco_UsePopup",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2491327268092768784",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_OutBase_Question",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutBase_Question.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutBase_Question.png"
+    },
+    {
+      "gameObject": "BaseGroup",
+      "nodePath": "EpisodeSlot/Axis_Question/BaseGroup",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2491327268092768784",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_OutBase_Question",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutBase_Question.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutBase_Question.png"
+    },
+    {
+      "gameObject": "OutEdge",
+      "nodePath": "EpisodeSlot/Axis_Question/BaseGroup/OutEdge",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "OutEdge",
+      "nodePath": "EpisodeSlot/Axis_Question/BaseGroup/OutEdge",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4452208953307507407",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_OutEdge_Question",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutEdge_Question.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_OutEdge_Question.png"
+    },
+    {
+      "gameObject": "OutEdge",
+      "nodePath": "EpisodeSlot/Axis_Question/BaseGroup/OutEdge",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "InBase",
+      "nodePath": "EpisodeSlot/Axis_Question/BaseGroup/InBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 11,
+      "pathId": "-2087269533416027681",
+      "bundle": "CAB-0d461b9aea27e8ae379446c7b8d7abfc",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_InBase_Question",
+      "demoPath": "assets/story_ui/story-tickets/Story_Ticket_InBase_Question.png",
+      "projectPath": "assets/story_ui/story-tickets/Story_Ticket_InBase_Question.png"
+    },
+    {
+      "gameObject": "InEdge",
+      "nodePath": "EpisodeSlot/Axis_Question/BaseGroup/InEdge",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "InEdge",
+      "nodePath": "EpisodeSlot/Axis_Question/BaseGroup/InEdge",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 15,
+      "pathId": "2841087637048336614",
+      "bundle": "CAB-b0112337f64233e1ca4d87a39f4e9bad",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_InEdge_Question",
+      "demoPath": "assets/story_ui/story-tickets/Story_Ticket_InEdge_Question.png",
+      "projectPath": "assets/story_ui/story-tickets/Story_Ticket_InEdge_Question.png"
+    },
+    {
+      "gameObject": "InEdge",
+      "nodePath": "EpisodeSlot/Axis_Question/BaseGroup/InEdge",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Head",
+      "nodePath": "EpisodeSlot/Axis_Question/BaseGroup/Head",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3545385269608068369",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_Ticket_Head_Question",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Head_Question.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_Ticket_Head_Question.png"
+    },
+    {
+      "gameObject": "Text_Name",
+      "nodePath": "EpisodeSlot/Axis_Question/Text_Name",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_Name",
+      "nodePath": "EpisodeSlot/Axis_Question/Text_Name",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Text_Subtitle",
+      "nodePath": "EpisodeSlot/Axis_Question/Text_Subtitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 7,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_Subtitle",
+      "nodePath": "EpisodeSlot/Axis_Question/Text_Subtitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Text_Subtitle",
+      "nodePath": "EpisodeSlot/Axis_Question/Text_Subtitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontSharedMaterials[0]",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Number_Base0",
+      "nodePath": "EpisodeSlot/Axis_Question/NumberLayout/Number_Base0",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Number_Base0",
+      "nodePath": "EpisodeSlot/Axis_Question/NumberLayout/Number_Base0",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8196102817911213505",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_NumberFont_Base_Question",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_Base_Question.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_Base_Question.png"
+    },
+    {
+      "gameObject": "Number_Base0",
+      "nodePath": "EpisodeSlot/Axis_Question/NumberLayout/Number_Base0",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 4,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Number_White",
+      "nodePath": "EpisodeSlot/Axis_Question/NumberLayout/Number_Base0/Number_White",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "1575049968311601810",
+      "bundle": "CAB-a4bd867bd12602d5908b893270335f84",
+      "assetType": "Sprite",
+      "assetName": "Story_NumberFont_White_Question",
+      "atlasBundle": "atlases/story",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_White_Question.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Story_NumberFont_White_Question.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "EpisodeSlot",
+      "controllerBundle": "CAB-4a4db8f3527efc5524f7bf0427f0f83e",
+      "controllerPathId": "-8676289725006077478",
+      "controllerType": "AnimatorController",
+      "controllerName": "EpisodeSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.Now",
+          "clips": [
+            "Now"
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.Idle",
+          "clips": [
+            "Idle"
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.Start",
+          "clips": [
+            "Start"
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.Empty",
+          "clips": [
+            "Empty"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.Press",
+          "clips": [
+            "Press"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.Tag_AnotherStory",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Type.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Type.Type_HeroStory",
+          "clips": [
+            "Type_HeroStory"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Type.Type_Normal",
+          "clips": [
+            "Type_Normal"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Type.Type_FrontierStory",
+          "clips": [
+            "Type_FrontierStory"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Type.Type_MyhomeStory",
+          "clips": [
+            "Type_MyhomeStory"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Type.Type_Question",
+          "clips": [
+            "Type_Question"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 2,
+          "name": "Loop.Loop",
+          "clips": [
+            "Loop"
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 3,
+          "name": "Lock.Normal",
+          "clips": [
+            "Normal"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 3,
+          "name": "Lock.Lock",
+          "clips": [
+            "Lock"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 3,
+          "name": "Lock.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 4,
+          "name": "AnotherStory.Tag_AnotherStory",
+          "clips": [
+            "Tag_AnotherStory"
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [
+        {
+          "name": "Start",
+          "duration": 0.4833333194255829,
+          "pathId": "-1330776558136723267"
+        },
+        {
+          "name": "Now",
+          "duration": 0.9833333492279053,
+          "pathId": "87472076120939211"
+        },
+        {
+          "name": "Idle",
+          "duration": null,
+          "pathId": "921510841748289063"
+        },
+        {
+          "name": "Empty",
+          "duration": null,
+          "pathId": "4542619360396173822"
+        },
+        {
+          "name": "Press",
+          "duration": 0.6833333373069763,
+          "pathId": "-1000887620382178622"
+        },
+        {
+          "name": "Type_FrontierStory",
+          "duration": 0.01666666753590107,
+          "pathId": "1659498679520776967"
+        },
+        {
+          "name": "Type_HeroStory",
+          "duration": 0.01666666753590107,
+          "pathId": "-5016797443672716120"
+        },
+        {
+          "name": "Type_Normal",
+          "duration": 0.01666666753590107,
+          "pathId": "-7267850389236706414"
+        },
+        {
+          "name": "Type_MyhomeStory",
+          "duration": 0.01666666753590107,
+          "pathId": "2853136480503233415"
+        },
+        {
+          "name": "Type_Question",
+          "duration": 0.01666666753590107,
+          "pathId": "7613074761463553588"
+        },
+        {
+          "name": "Loop",
+          "duration": 1.0,
+          "pathId": "4550986080603493250"
+        },
+        {
+          "name": "Normal",
+          "duration": null,
+          "pathId": "1542118409466076815"
+        },
+        {
+          "name": "Lock",
+          "duration": null,
+          "pathId": "-4605602557479643201"
+        },
+        {
+          "name": "Tag_AnotherStory",
+          "duration": 0.949999988079071,
+          "pathId": "-1443513866935237813"
+        }
+      ],
+      "controller": "EpisodeSlot"
+    }
+  ]
+}

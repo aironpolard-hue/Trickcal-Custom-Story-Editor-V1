@@ -5,11 +5,18 @@ const path = require('path');
 const { compile } = require('../compiler/trickcal');
 
 const root = path.resolve(__dirname, '..');
-const project = path.join(root, 'projects', '雨夜的末班车');
+const project = path.join(root, 'templates', 'minimal-demo');
 const manifest = JSON.parse(fs.readFileSync(path.join(project, 'trickcal.project.json'), 'utf8'));
 const source = fs.readFileSync(path.join(project, manifest.entry), 'utf8');
 const presets = fs.readdirSync(path.join(project, 'presets')).filter(f => f.endsWith('.json')).map(f => ({ file: f, ...JSON.parse(fs.readFileSync(path.join(project, 'presets', f), 'utf8')) }));
 const result = compile(source, { ...manifest, projectRoot: project, presets, title: manifest.title, openingTitle: manifest.openingTitle });
+const activeProject = path.join(root, 'projects', '雨夜的末班车');
+const activeManifest = JSON.parse(fs.readFileSync(path.join(activeProject, 'trickcal.project.json'), 'utf8'));
+const activePresets = fs.readdirSync(path.join(activeProject, 'presets')).filter(f => f.endsWith('.json')).map(f => ({ file: f, ...JSON.parse(fs.readFileSync(path.join(activeProject, 'presets', f), 'utf8')) }));
+const activeSource = fs.readFileSync(path.join(activeProject, activeManifest.entry), 'utf8');
+const activeResult = compile(activeSource, { ...activeManifest, projectRoot: activeProject, presets: activePresets });
+assert.deepStrictEqual(activeResult.diagnostics.filter(d => d.severity === 'error'), []);
+assert.strictEqual(activeResult.story.lines.find(line => line.mode === 'manga')?.tail, 'tr');
 assert.strictEqual(result.diagnostics.filter(d => d.severity === 'error').length, 0, JSON.stringify(result.diagnostics));
 assert.ok(result.story.lines.length > 20);
 assert.strictEqual(result.story.lines[0].mode, 'title');
@@ -104,6 +111,37 @@ assert.strictEqual(presets.find(preset => preset.name === '新闻框·主播').f
 const timedFullscreen = compile('parallel:\n  after 250ms:\n    preset 全屏文字 fontSize 70\n    fullscreen "延时"\n  wait 1s', { presets });
 assert.deepStrictEqual(timedFullscreen.diagnostics, []);
 assert.deepStrictEqual([timedFullscreen.story.lines[0].mode, timedFullscreen.story.lines[0].fontSize, timedFullscreen.story.lines[0].dialogueDelay], ['fullscreen', 70, 0.25]);
+const nestedAfter = compile([
+  'show erpin at 100,200',
+  'parallel:',
+  '  after 200ms:',
+  '    show erpin at 2000,800',
+  '    after 400ms:',
+  '      after 100ms:',
+  '        move erpin x 2000 -> 960 in 2s',
+  '        camera x -220 -> 0 in 2s',
+  '  after 800ms:',
+  '    erpin normal "测试"',
+  '    after 500ms:',
+  '      anim erpin Happy_2 fade 0.25',
+  '    after 700ms:',
+  '      anim erpin Happy_5 fade 0.25',
+].join('\n'));
+assert.deepStrictEqual(nestedAfter.diagnostics, []);
+assert.deepStrictEqual(nestedAfter.story.lines[0].events.map(event => [event.type, event.delay]), [
+  ['stage', 0.2], ['actor', 1.3], ['actor', 1.5],
+]);
+assert.ok(Math.abs(nestedAfter.story.lines[0].actions[0].delay - 0.7) < 1e-9);
+assert.ok(Math.abs(nestedAfter.story.lines[0].cameraTracks[0].delay - 0.7) < 1e-9);
+const unindentedAfter = compile([
+  'show erpin at 100,200',
+  'parallel:',
+  '  after 200ms:',
+  '    after 200ms:',
+  '    move erpin x 0 -> 100 in 1s',
+  '  wait 1s',
+].join('\n'));
+assert.ok(unindentedAfter.diagnostics.some(d => d.line === 4 && d.message.includes('after 延时块不能为空')));
 for (const statement of [
   'preset 新闻框·主播 shadowAlpha 2\nnews anchor "错误"',
   'preset 全屏文字 shadowX 10\nfullscreen "错误"',
@@ -212,6 +250,16 @@ for (const [value, direction] of [['左下','bl'], ['右下','br'], ['左上','t
   assert.deepStrictEqual(tail.diagnostics, []);
   assert.deepStrictEqual(tail.story.lines.map(line => line.tail), [direction, direction]);
 }
+const quotedMangaOptions = compile(
+  'vivi manga "气泡文字" tail tr enter "default" exit "default" tail "tr" bubbleWidth 760 bubbleMinHeight 320 bubbleMaxHeight 640 bubblePaddingY 180 textWidth 580 textOffsetX 0 textOffsetY 0 uiScale 0.8 uiRot 0 uiOpacity 1 typeSpeed 1 overflow "grow" fontSize 52 textColor "#333333" shadowX 12.5 shadowY 12.5 shadowAlpha 0.4 shadowColor "#000000"',
+  { presets },
+);
+assert.deepStrictEqual(quotedMangaOptions.diagnostics, []);
+assert.deepStrictEqual(
+  ['tail', 'enter', 'exit', 'bubbleWidth', 'bubbleMinHeight', 'bubbleMaxHeight', 'bubblePaddingY', 'textWidth', 'uiScale', 'overflow', 'fontSize', 'textColor', 'shadowAlpha', 'shadowColor']
+    .map(key => quotedMangaOptions.story.lines[0][key]),
+  ['tr', 'default', 'default', 760, 320, 640, 180, 580, 0.8, 'grow', 52, '#333333', 0.4, '#000000'],
+);
 const declarations = 'define hero = Spine("assets/spine/standing/ner", name="内尔")\nimage bg = "assets/bg/elf_city_night.png"\ndefine audio.rain = "assets/audio/silent.wav"\n';
 const imported = compile(declarations + 'scene bg bg\nshow hero at left\nhero normal "你好"\naudio play rain\nnarration "雨"\naudio stop rain\nnarration "停"\n', assetOptions);
 assert.deepStrictEqual(imported.diagnostics, []);

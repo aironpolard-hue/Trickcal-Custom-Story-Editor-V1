@@ -1,0 +1,151 @@
+{
+  "id": "title/title3rdanniversary",
+  "sourceBundle": "prefab/title/title3rdanniversary",
+  "hierarchy": {
+    "name": "Title3rdAnniversary",
+    "path": "Title3rdAnniversary",
+    "active": true,
+    "rect": {
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      }
+    ],
+    "children": [
+      {
+        "name": "Spine1",
+        "path": "Title3rdAnniversary/Spine1",
+        "active": true,
+        "rect": {
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MeshRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "SkeletonAnimation"
+          },
+          {
+            "type": "MeshFilter"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "SkeletonAnimationHandler"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Spine2",
+        "path": "Title3rdAnniversary/Spine2",
+        "active": true,
+        "rect": {
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MeshRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "SkeletonAnimation"
+          },
+          {
+            "type": "MeshFilter"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "SkeletonAnimationHandler"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Spine1",
+      "nodePath": "Title3rdAnniversary/Spine1",
+      "component": "MeshRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-7840514088204241880",
+      "bundle": "CAB-9f6aa62327d548920142a2a51be60491",
+      "assetType": "Material",
+      "assetName": "Daemun_3rdAnniversary_BG_Material"
+    },
+    {
+      "gameObject": "Spine1",
+      "nodePath": "Title3rdAnniversary/Spine1",
+      "component": "MonoBehaviour",
+      "script": "SkeletonAnimation",
+      "field": "skeletonDataAsset",
+      "fileId": 4,
+      "pathId": "7338304064530745880",
+      "bundle": "CAB-6d1ebcb019df157fe9f11ba24f1d56ce",
+      "assetType": "MonoBehaviour",
+      "assetName": "Daemun_3rdAnniversary_BG_SkeletonData"
+    },
+    {
+      "gameObject": "Spine2",
+      "nodePath": "Title3rdAnniversary/Spine2",
+      "component": "MeshRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 2,
+      "pathId": "-1600995679038344384",
+      "bundle": "CAB-098bb409af89c764085db445806aa11e",
+      "assetType": "Material",
+      "assetName": "Daemun_3rdAnniversary_Material"
+    },
+    {
+      "gameObject": "Spine2",
+      "nodePath": "Title3rdAnniversary/Spine2",
+      "component": "MonoBehaviour",
+      "script": "SkeletonAnimation",
+      "field": "skeletonDataAsset",
+      "fileId": 3,
+      "pathId": "-3052208904361562362",
+      "bundle": "CAB-1f259326485e2fa82b9af157316b2274",
+      "assetType": "MonoBehaviour",
+      "assetName": "Daemun_3rdAnniversary_SkeletonData"
+    }
+  ],
+  "animators": []
+}

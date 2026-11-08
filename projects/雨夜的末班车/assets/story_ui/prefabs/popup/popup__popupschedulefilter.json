@@ -1,0 +1,2841 @@
+{
+  "id": "popup/popupschedulefilter",
+  "sourceBundle": "prefab/popup/popupschedulefilter",
+  "hierarchy": {
+    "name": "PopupScheduleFilter",
+    "path": "PopupScheduleFilter",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 1808.0,
+        "y": 1300.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasGroup"
+      },
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "PopupScheduleFilter"
+      }
+    ],
+    "children": [
+      {
+        "name": "Base",
+        "path": "PopupScheduleFilter/Base",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -4.0,
+            "y": 30.0
+          },
+          "m_SizeDelta": {
+            "x": -128.0,
+            "y": -380.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "FilterTitle",
+        "path": "PopupScheduleFilter/FilterTitle",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 900.0,
+            "y": -220.0
+          },
+          "m_SizeDelta": {
+            "x": 1640.0,
+            "y": 90.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "LayoutElement"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "HorizontalLayoutGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "ItemBtn",
+            "path": "PopupScheduleFilter/FilterTitle/ItemBtn",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 360.0,
+                "y": 90.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Background",
+                "path": "PopupScheduleFilter/FilterTitle/ItemBtn/Background",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text",
+                "path": "PopupScheduleFilter/FilterTitle/ItemBtn/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 2.5
+                  },
+                  "m_SizeDelta": {
+                    "x": -30.0,
+                    "y": -25.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "SelectArea",
+                "path": "PopupScheduleFilter/FilterTitle/ItemBtn/SelectArea",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "SkillBtn",
+            "path": "PopupScheduleFilter/FilterTitle/SkillBtn",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 360.0,
+                "y": 90.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Background",
+                "path": "PopupScheduleFilter/FilterTitle/SkillBtn/Background",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Text",
+                "path": "PopupScheduleFilter/FilterTitle/SkillBtn/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 2.5
+                  },
+                  "m_SizeDelta": {
+                    "x": -30.0,
+                    "y": -25.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "SelectArea",
+                "path": "PopupScheduleFilter/FilterTitle/SkillBtn/SelectArea",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Button"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ToggleScroll",
+        "path": "PopupScheduleFilter/ToggleScroll",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -4.0,
+            "y": 28.077800750732422
+          },
+          "m_SizeDelta": {
+            "x": -128.0,
+            "y": -586.151611328125
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ScrollRect"
+          }
+        ],
+        "children": [
+          {
+            "name": "Viewport",
+            "path": "PopupScheduleFilter/ToggleScroll/Viewport",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "RectMask2D"
+              }
+            ],
+            "children": [
+              {
+                "name": "Content",
+                "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "VerticalLayoutGroup"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ContentSizeFitter"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "FilterToggleSlot",
+                    "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 1640.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "FilterToggleSlot"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "VerticalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "FilterTitle",
+                        "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "LayoutElement"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "toggle",
+                            "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle",
+                            "active": false,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 1.0,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": -20.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 240.0,
+                                "y": 70.0
+                              },
+                              "m_Pivot": {
+                                "x": 1.0,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Toggle"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "Background",
+                                "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle/Background",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Box",
+                                    "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle/Background/Box",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 35.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 40.0,
+                                        "y": 40.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "Checkmark",
+                                    "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle/Background/Checkmark",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 1.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 0.0,
+                                        "y": 4.5
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 0.0,
+                                        "y": 9.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Selectall",
+                                "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle/Selectall",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 25.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 160.0,
+                                    "y": 50.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "TextMeshProUGUI"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "SelectArea",
+                                "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle/SelectArea",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Button"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "FilterText",
+                            "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/FilterText",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "FilterGroup",
+                        "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 820.0,
+                            "y": -137.5
+                          },
+                          "m_SizeDelta": {
+                            "x": 1640.0,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasGroup"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "GridLayoutGroup"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ContentSizeFitter"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Toggle",
+                            "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Toggle"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "Background",
+                                "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle/Background",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Box",
+                                    "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle/Background/Box",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 35.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 40.0,
+                                        "y": 40.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "Checkmark",
+                                    "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle/Background/Checkmark",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 1.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 0.0,
+                                        "y": 4.5
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 0.0,
+                                        "y": 9.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "FilterText",
+                                "path": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle/FilterText",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 20.0,
+                                    "y": 3.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 200.0,
+                                    "y": 50.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "TextMeshProUGUI"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemScroll",
+        "path": "PopupScheduleFilter/ItemScroll",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -4.0,
+            "y": 23.457599639892578
+          },
+          "m_SizeDelta": {
+            "x": -128.0,
+            "y": -610.7935791015625
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ScrollRect"
+          }
+        ],
+        "children": [
+          {
+            "name": "Viewport",
+            "path": "PopupScheduleFilter/ItemScroll/Viewport",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "RectMask2D"
+              }
+            ],
+            "children": [
+              {
+                "name": "Content",
+                "path": "PopupScheduleFilter/ItemScroll/Viewport/Content",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.0009765625
+                  },
+                  "m_SizeDelta": {
+                    "x": 10.0,
+                    "y": -643.060791015625
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "GridLayoutGroup"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ContentSizeFitter"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HeaderGroup",
+        "path": "PopupScheduleFilter/HeaderGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -4.0,
+            "y": -15.0
+          },
+          "m_SizeDelta": {
+            "x": -38.0,
+            "y": 130.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 1.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "BetterImage"
+          }
+        ],
+        "children": [
+          {
+            "name": "LeftDeco",
+            "path": "PopupScheduleFilter/HeaderGroup/LeftDeco",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 213.0,
+                "y": 130.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "RightDeco",
+            "path": "PopupScheduleFilter/HeaderGroup/RightDeco",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 213.0,
+                "y": 130.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "PopupName",
+            "path": "PopupScheduleFilter/HeaderGroup/PopupName",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "CloseButton",
+            "path": "PopupScheduleFilter/HeaderGroup/CloseButton",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -65.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 130.0,
+                "y": 130.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "CloseIcon",
+                "path": "PopupScheduleFilter/HeaderGroup/CloseButton/CloseIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 52.0,
+                    "y": 52.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ResetButton",
+        "path": "PopupScheduleFilter/ResetButton",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": -88.0,
+            "y": 237.0
+          },
+          "m_SizeDelta": {
+            "x": 303.0,
+            "y": 73.0
+          },
+          "m_Pivot": {
+            "x": 1.0,
+            "y": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          }
+        ],
+        "children": [
+          {
+            "name": "Text",
+            "path": "PopupScheduleFilter/ResetButton/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -1.5,
+                "y": 1.5
+              },
+              "m_SizeDelta": {
+                "x": -43.0,
+                "y": -13.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "ButtonGroup",
+        "path": "PopupScheduleFilter/ButtonGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 20.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 200.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "HorizontalLayoutGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ContentSizeFitter"
+          }
+        ],
+        "children": [
+          {
+            "name": "CancelButton",
+            "path": "PopupScheduleFilter/ButtonGroup/CancelButton",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 465.0,
+                "y": 136.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "PopupScheduleFilter/ButtonGroup/CancelButton/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -2.0,
+                    "y": 4.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -84.0,
+                    "y": -8.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "ConfirmButton",
+            "path": "PopupScheduleFilter/ButtonGroup/ConfirmButton",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 465.0,
+                "y": 136.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "PopupScheduleFilter/ButtonGroup/ConfirmButton/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -2.0,
+                    "y": 4.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -84.0,
+                    "y": -8.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "PopupScheduleFilter",
+      "nodePath": "PopupScheduleFilter",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3956361827982675939",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_5050",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_5050.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_5050.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "PopupScheduleFilter/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "441584363957378766",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2020",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png"
+    },
+    {
+      "gameObject": "ItemBtn",
+      "nodePath": "PopupScheduleFilter/FilterTitle/ItemBtn",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7879223003436235996",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "PopupScheduleFilter/FilterTitle/ItemBtn/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5381531588723320953",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_3030_002",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_002.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_002.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/FilterTitle/ItemBtn/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/FilterTitle/ItemBtn/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "SkillBtn",
+      "nodePath": "PopupScheduleFilter/FilterTitle/SkillBtn",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7879223003436235996",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "PopupScheduleFilter/FilterTitle/SkillBtn/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8991464857640099064",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_3030_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/FilterTitle/SkillBtn/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/FilterTitle/SkillBtn/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "ToggleScroll",
+      "nodePath": "PopupScheduleFilter/ToggleScroll",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "441584363957378766",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2020",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png"
+    },
+    {
+      "gameObject": "FilterTitle",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "441584363957378766",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2020",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png"
+    },
+    {
+      "gameObject": "toggle",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7879223003436235996",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7879223003436235996",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png"
+    },
+    {
+      "gameObject": "Box",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle/Background/Box",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6361831585834629570",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1515",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png"
+    },
+    {
+      "gameObject": "Checkmark",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle/Background/Checkmark",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-765839817202741393",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PopupOption_Check",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PopupOption_Check.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PopupOption_Check.png"
+    },
+    {
+      "gameObject": "Selectall",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/toggle/Selectall",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "FilterText",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/FilterText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "FilterText",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterTitle/FilterText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "FilterGroup",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6432470525094934",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4040",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle/Background",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-66732103345965264",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_2020_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_2020_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_2020_001.png"
+    },
+    {
+      "gameObject": "Box",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle/Background/Box",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6361831585834629570",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1515",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png"
+    },
+    {
+      "gameObject": "Checkmark",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle/Background/Checkmark",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-765839817202741393",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PopupOption_Check",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PopupOption_Check.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PopupOption_Check.png"
+    },
+    {
+      "gameObject": "FilterText",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle/FilterText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "FilterText",
+      "nodePath": "PopupScheduleFilter/ToggleScroll/Viewport/Content/FilterToggleSlot/FilterGroup/Toggle/FilterText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "ItemScroll",
+      "nodePath": "PopupScheduleFilter/ItemScroll",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "441584363957378766",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2020",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png"
+    },
+    {
+      "gameObject": "HeaderGroup",
+      "nodePath": "PopupScheduleFilter/HeaderGroup",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7622683857947353713",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PopupHeader_Base_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Base_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Base_001.png"
+    },
+    {
+      "gameObject": "HeaderGroup",
+      "nodePath": "PopupScheduleFilter/HeaderGroup",
+      "component": "MonoBehaviour",
+      "script": "BetterImage",
+      "field": "fallbackSpriteSettings.Sprite",
+      "fileId": 1,
+      "pathId": "-7622683857947353713",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PopupHeader_Base_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Base_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Base_001.png"
+    },
+    {
+      "gameObject": "LeftDeco",
+      "nodePath": "PopupScheduleFilter/HeaderGroup/LeftDeco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2629608960619516564",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PopupHeader_Left_0001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Left_0001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Left_0001.png"
+    },
+    {
+      "gameObject": "RightDeco",
+      "nodePath": "PopupScheduleFilter/HeaderGroup/RightDeco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6061010026802844869",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PopupHeader_Right_0001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Right_0001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PopupHeader_Right_0001.png"
+    },
+    {
+      "gameObject": "PopupName",
+      "nodePath": "PopupScheduleFilter/HeaderGroup/PopupName",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "PopupName",
+      "nodePath": "PopupScheduleFilter/HeaderGroup/PopupName",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "CloseIcon",
+      "nodePath": "PopupScheduleFilter/HeaderGroup/CloseButton/CloseIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4830036780231356160",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonButton_Close_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonButton_Close_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonButton_Close_2.png"
+    },
+    {
+      "gameObject": "ResetButton",
+      "nodePath": "PopupScheduleFilter/ResetButton",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5434473399268924142",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_2020_002",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_2020_002.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_2020_002.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/ResetButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/ResetButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "CancelButton",
+      "nodePath": "PopupScheduleFilter/ButtonGroup/CancelButton",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3936887743764778158",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MajorBtn_003",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MajorBtn_003.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MajorBtn_003.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/ButtonGroup/CancelButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/ButtonGroup/CancelButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "ConfirmButton",
+      "nodePath": "PopupScheduleFilter/ButtonGroup/ConfirmButton",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2775767338677591519",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MajorBtn_002",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MajorBtn_002.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MajorBtn_002.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/ButtonGroup/ConfirmButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupScheduleFilter/ButtonGroup/ConfirmButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": []
+}

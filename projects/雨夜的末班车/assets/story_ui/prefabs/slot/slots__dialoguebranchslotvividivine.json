@@ -1,0 +1,1121 @@
+{
+  "id": "slots/dialoguebranchslotvividivine",
+  "sourceBundle": "prefab/slots/dialoguebranchslotvividivine",
+  "hierarchy": {
+    "name": "DialogueBranchSlotViviDivine",
+    "path": "DialogueBranchSlotViviDivine",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "DialogueBranchSlotViviDivine"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 5,
+          "pathId": "-2905183427287772841",
+          "bundle": "CAB-15fd48196cdd2a43ced217c1b75eb728"
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "Content",
+        "path": "DialogueBranchSlotViviDivine/Content",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 1600.0,
+            "y": 230.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "EffectPos1",
+            "path": "DialogueBranchSlotViviDivine/Content/EffectPos1",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 100.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.9507957100868225,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "FX_UI_ViviDivine_Story_Interaction_1",
+                "path": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Root",
+                    "path": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 100.0,
+                        "y": 100.0,
+                        "z": 100.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "[SG]_Line_Hope_1",
+                        "path": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[SG]_Line_Hope_1",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "[Atlas_add]_Glow_1",
+                        "path": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[Atlas_add]_Glow_1",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "[Atlas_add]_Dust_1",
+                        "path": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[Atlas_add]_Dust_1",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bubble_Axis",
+            "path": "DialogueBranchSlotViviDivine/Content/Bubble_Axis",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 1600.0,
+                "y": 230.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              },
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Base",
+                "path": "DialogueBranchSlotViviDivine/Content/Bubble_Axis/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1618.0,
+                    "y": 369.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Text",
+                    "path": "DialogueBranchSlotViviDivine/Content/Bubble_Axis/Base/Text",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -36.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 1300.0,
+                        "y": 148.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "EffectPos2",
+            "path": "DialogueBranchSlotViviDivine/Content/EffectPos2",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -36.0
+              },
+              "m_SizeDelta": {
+                "x": 100.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "FX_UI_ViviDivine_Story_Interaction_2",
+                "path": "DialogueBranchSlotViviDivine/Content/EffectPos2/FX_UI_ViviDivine_Story_Interaction_2",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Root",
+                    "path": "DialogueBranchSlotViviDivine/Content/EffectPos2/FX_UI_ViviDivine_Story_Interaction_2/Root",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 100.0,
+                        "y": 100.0,
+                        "z": 100.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "[Atlas_add]_Glow_1",
+                        "path": "DialogueBranchSlotViviDivine/Content/EffectPos2/FX_UI_ViviDivine_Story_Interaction_2/Root/[Atlas_add]_Glow_1",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          },
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "UIParticle"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DialogueBranchSlotAutoTimeSlot",
+            "path": "DialogueBranchSlotViviDivine/Content/DialogueBranchSlotAutoTimeSlot",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -76.0,
+                "y": -63.0
+              },
+              "m_SizeDelta": {
+                "x": 58.0,
+                "y": 58.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "DialogueBranchSlotAutoTimeSlot"
+              }
+            ],
+            "children": [
+              {
+                "name": "Bg",
+                "path": "DialogueBranchSlotViviDivine/Content/DialogueBranchSlotAutoTimeSlot/Bg",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 260.0,
+                    "y": 70.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -8.940696005765858e-08,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "HorizontalLayoutGroup"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ContentSizeFitter"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Text",
+                    "path": "DialogueBranchSlotViviDivine/Content/DialogueBranchSlotAutoTimeSlot/Bg/Text",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "DialogueBranchSlotViviDivine",
+      "nodePath": "DialogueBranchSlotViviDivine",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 5,
+      "pathId": "-2905183427287772841",
+      "bundle": "CAB-15fd48196cdd2a43ced217c1b75eb728",
+      "assetType": "AnimatorController",
+      "assetName": "DialogueBranchSlotViviDivine"
+    },
+    {
+      "gameObject": "Root",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[SG]_Line_Hope_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[SG]_Line_Hope_1",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 2,
+      "pathId": "-1142411552571150443",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_light_line",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_light_line.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_light_line.png"
+    },
+    {
+      "gameObject": "[SG]_Line_Hope_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[SG]_Line_Hope_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 2,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[SG]_Line_Hope_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[SG]_Line_Hope_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 2,
+      "pathId": "859078895606931892",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_MS_AroundSlash_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[Atlas_add]_Glow_1",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 2,
+      "pathId": "3880845339072772296",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[Atlas_add]_Glow_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 2,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[Atlas_add]_Glow_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 2,
+      "pathId": "859078895606931892",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_MS_AroundSlash_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Dust_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[Atlas_add]_Dust_1",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 2,
+      "pathId": "-3567481906753819882",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Fragment_02"
+    },
+    {
+      "gameObject": "[Atlas_add]_Dust_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[Atlas_add]_Dust_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 2,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[Atlas_add]_Dust_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos1/FX_UI_ViviDivine_Story_Interaction_1/Root/[Atlas_add]_Dust_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 2,
+      "pathId": "859078895606931892",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_MS_AroundSlash_01"
+    },
+    {
+      "gameObject": "Bubble_Axis",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/Bubble_Axis",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "281247350890492310",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4545",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4545.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/Bubble_Axis/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "-4638243462658739955",
+      "bundle": "CAB-d97ce6fc9a04ce344dd5d239fcddd590",
+      "assetType": "Sprite",
+      "assetName": "Dialoge_EventSpeechBubble_3rd Anni_BubbleBase",
+      "demoPath": "assets/story_ui/dialogue/controls/Dialoge_EventSpeechBubble_3rd Anni_BubbleBase.png",
+      "projectPath": "assets/story_ui/dialogue/controls/Dialoge_EventSpeechBubble_3rd Anni_BubbleBase.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/Bubble_Axis/Base/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/Bubble_Axis/Base/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "Root",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos2/FX_UI_ViviDivine_Story_Interaction_2/Root",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos2/FX_UI_ViviDivine_Story_Interaction_2/Root/[Atlas_add]_Glow_1",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 2,
+      "pathId": "6893946792266836905",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_CommonCircle_Gradient_Split",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_CommonCircle_Gradient_Split.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_CommonCircle_Gradient_Split.png"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos2/FX_UI_ViviDivine_Story_Interaction_2/Root/[Atlas_add]_Glow_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 2,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_1",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/EffectPos2/FX_UI_ViviDivine_Story_Interaction_2/Root/[Atlas_add]_Glow_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 2,
+      "pathId": "859078895606931892",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_MS_AroundSlash_01"
+    },
+    {
+      "gameObject": "Bg",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/DialogueBranchSlotAutoTimeSlot/Bg",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "9171700956441053989",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBalloon_Right",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBalloon_Right.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBalloon_Right.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/DialogueBranchSlotAutoTimeSlot/Bg/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "DialogueBranchSlotViviDivine/Content/DialogueBranchSlotAutoTimeSlot/Bg/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": [
+    {
+      "path": "DialogueBranchSlotViviDivine",
+      "controllerBundle": "CAB-15fd48196cdd2a43ced217c1b75eb728",
+      "controllerPathId": "-2905183427287772841",
+      "controllerType": "AnimatorController",
+      "controllerName": "DialogueBranchSlotViviDivine",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.DialogueBranchSlotViviDivine_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.DialogueBranchSlotViviDivine_Finish",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "DialogueBranchSlotViviDivine"
+    }
+  ]
+}

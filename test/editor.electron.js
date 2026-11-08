@@ -764,9 +764,9 @@ app.whenReady().then(async () => {
       document.getElementById('applyPreset').click();
       return model.getValue();
     })()`);
-    assert.ok(presetIndent.startsWith('parallel:\n  preset "普通对话框" '), presetIndent);
+    assert.ok(presetIndent.startsWith('parallel:\n  ner normal "对白文字" '), presetIndent);
     assert.ok(presetIndent.includes('fontSize ') && presetIndent.includes('textColor "') && presetIndent.includes('shadowX '), presetIndent);
-    assert.deepStrictEqual(compileSource('define ner = Spine("assets/spine/standing/ner")\n' + presetIndent + '  ner normal "测试"\n').diagnostics.filter(item => item.severity === 'error'), []);
+    assert.deepStrictEqual(compileSource('define ner = Spine("assets/spine/standing/ner")\n' + presetIndent).diagnostics.filter(item => item.severity === 'error'), []);
     const insertedBubble = await win.webContents.executeJavaScript(`(() => {
       document.querySelector('.preset-item[data-file="bubble_thought_purple.json"]').click();
       const tail = document.querySelector('#presetFields [data-field="tail"]');
@@ -777,7 +777,8 @@ app.whenReady().then(async () => {
       document.getElementById('applyPreset').click();
       return model.getValue();
     })()`);
-    assert.ok(insertedBubble.includes('tail tr') && insertedBubble.includes('purple true') && insertedBubble.includes('overflow '), insertedBubble);
+    assert.ok(insertedBubble.includes('tail tr') && insertedBubble.includes('purple') && insertedBubble.includes('overflow '), insertedBubble);
+    assert.strictEqual((insertedBubble.match(/\btail\b/g) || []).length, 1, insertedBubble);
     assert.deepStrictEqual(compileSource('define ner = Spine("assets/spine/standing/ner")\n' + insertedBubble).diagnostics.filter(item => item.severity === 'error'), []);
     const allInserted = await win.webContents.executeJavaScript(`(() => {
       const model = monaco.editor.getModels()[0], codeEditor = monaco.editor.getEditors()[0];
@@ -799,6 +800,18 @@ app.whenReady().then(async () => {
       const checked = compileSource(item.source + next + '\n');
       assert.deepStrictEqual(checked.diagnostics.filter(entry => entry.severity === 'error'), [], item.file + ': ' + JSON.stringify(checked.diagnostics));
     }
+    const insertedStretch = await win.webContents.executeJavaScript(`(() => {
+      const model = monaco.editor.getModels()[0], codeEditor = monaco.editor.getEditors()[0];
+      document.querySelector('[data-file="move_stretch.json"]').click();
+      model.setValue('define ner = Spine("assets/spine/standing/ner")\\nshow ner at center\\n\\n');
+      codeEditor.setPosition({ lineNumber: 3, column: 1 });
+      document.getElementById('applyPreset').click();
+      return model.getValue();
+    })()`);
+    assert.ok(insertedStretch.includes('scaleX 1 ->') && insertedStretch.includes('scaleY 1 ->'), insertedStretch);
+    const stretchResult = compileSource(insertedStretch);
+    assert.deepStrictEqual(stretchResult.diagnostics.filter(entry => entry.severity === 'error'), []);
+    assert.deepStrictEqual(stretchResult.story.lines[0].actions.map(action => action.property), ['sx', 'sy']);
     await win.webContents.executeJavaScript(`(() => {
       monaco.editor.getModels()[0].setValue('define ner = Spine("assets/spine/standing/ner")\\njump target\\nshow ner at left\\nlabel target:\\nner normal "继续"');
       document.getElementById('checkBtn').click();

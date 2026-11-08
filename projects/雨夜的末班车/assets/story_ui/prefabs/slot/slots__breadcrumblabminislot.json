@@ -1,0 +1,1632 @@
+{
+  "id": "slots/breadcrumblabminislot",
+  "sourceBundle": "prefab/slots/breadcrumblabminislot",
+  "hierarchy": {
+    "name": "BreadCrumbLabMiniSlot",
+    "path": "BreadCrumbLabMiniSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 136.0,
+        "y": -114.44499969482422
+      },
+      "m_SizeDelta": {
+        "x": 212.0,
+        "y": 100.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "HorizontalLayoutGroup"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "BreadCrumbLabMiniSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      }
+    ],
+    "children": [
+      {
+        "name": "Button",
+        "path": "BreadCrumbLabMiniSlot/Button",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 80.0,
+            "y": 80.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "StateHandler",
+            "path": "BreadCrumbLabMiniSlot/Button/StateHandler",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 100.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "UIElementStateHandler"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "CategoryHandler",
+            "path": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 100.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MonoBehaviour",
+                "script": "UIElementStateHandler"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Base",
+            "path": "BreadCrumbLabMiniSlot/Button/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 80.0,
+                "y": 80.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "BaseActive",
+                "path": "BreadCrumbLabMiniSlot/Button/Base/BaseActive",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 80.0,
+                    "y": 80.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "BaseSelected",
+                "path": "BreadCrumbLabMiniSlot/Button/Base/BaseSelected",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 80.0,
+                    "y": 80.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Border",
+            "path": "BreadCrumbLabMiniSlot/Button/Border",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 80.0,
+                "y": 80.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Shadow"
+              }
+            ],
+            "children": [
+              {
+                "name": "BorderActive",
+                "path": "BreadCrumbLabMiniSlot/Button/Border/BorderActive",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 80.0,
+                    "y": 80.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Shadow"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "BorderSeleect",
+                "path": "BreadCrumbLabMiniSlot/Button/Border/BorderSeleect",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 80.0,
+                    "y": 80.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Shadow"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Icon",
+            "path": "BreadCrumbLabMiniSlot/Button/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 52.0,
+                "y": 52.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "IconActive",
+                "path": "BreadCrumbLabMiniSlot/Button/Icon/IconActive",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 52.0,
+                    "y": 52.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "IconSelected",
+                "path": "BreadCrumbLabMiniSlot/Button/Icon/IconSelected",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 52.0,
+                    "y": 52.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Dim",
+            "path": "BreadCrumbLabMiniSlot/Button/Dim",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "SelectedBorder",
+            "path": "BreadCrumbLabMiniSlot/Button/SelectedBorder",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 107.0,
+                "y": 107.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "SelectedBorder",
+                "path": "BreadCrumbLabMiniSlot/Button/SelectedBorder/SelectedBorder",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 101.0,
+                    "y": 101.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "CheckIcon",
+            "path": "BreadCrumbLabMiniSlot/Button/CheckIcon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 46.0,
+                "y": 34.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Point",
+            "path": "BreadCrumbLabMiniSlot/Button/Point",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 29.700000762939453
+              },
+              "m_SizeDelta": {
+                "x": 50.0,
+                "y": 37.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "RedDot",
+            "path": "BreadCrumbLabMiniSlot/Button/RedDot",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 40.29999923706055,
+                "y": 30.200000762939453
+              },
+              "m_SizeDelta": {
+                "x": 50.0,
+                "y": 50.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Progress",
+        "path": "BreadCrumbLabMiniSlot/Progress",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 102.0,
+            "y": 9.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "ProgressFill",
+            "path": "BreadCrumbLabMiniSlot/Progress/ProgressFill",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 102.0,
+                "y": 9.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Button",
+      "nodePath": "BreadCrumbLabMiniSlot/Button",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "2626962451083107335",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Garden",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Garden.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Garden.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "2626962451083107335",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Garden",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Garden.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Garden.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "2626962451083107335",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Garden",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Garden.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Garden.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-3365966266099550772",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Friend",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Friend.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Friend.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "-3365966266099550772",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Friend",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Friend.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Friend.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "-3365966266099550772",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Friend",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Friend.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Friend.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "5857101988597995337",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Pet",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Pet.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Pet.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "5857101988597995337",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Pet",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Pet.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Pet.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "5857101988597995337",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Pet",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Pet.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Pet.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "5899747776648726286",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Drone",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Drone.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Drone.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "5899747776648726286",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Drone",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Drone.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Drone.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "5899747776648726286",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Drone",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Drone.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Drone.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "7692395688984897952",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Shop",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Shop.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Shop.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "7692395688984897952",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Shop",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Shop.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Shop.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[5].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "7692395688984897952",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Shop",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Shop.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Shop.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-3250338294656134499",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Restaurant",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Restaurant.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Restaurant.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "-3250338294656134499",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Restaurant",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Restaurant.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Restaurant.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[6].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "-3250338294656134499",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Restaurant",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Restaurant.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Restaurant.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "3871569849645103377",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Battle",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Battle.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Battle.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "3871569849645103377",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Battle",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Battle.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Battle.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[7].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "3871569849645103377",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Battle",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Battle.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Battle.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[0].Sprite",
+      "fileId": 1,
+      "pathId": "-4351915816162926346",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Schedule",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[1].Sprite",
+      "fileId": 1,
+      "pathId": "-4351915816162926346",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Schedule",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png"
+    },
+    {
+      "gameObject": "CategoryHandler",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CategoryHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[8].SpriteModules[2].Sprite",
+      "fileId": 1,
+      "pathId": "-4351915816162926346",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Schedule",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "BaseActive",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Base/BaseActive",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "BaseSelected",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Base/BaseSelected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-5178570100004606646",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_7070_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_7070_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_7070_1.png"
+    },
+    {
+      "gameObject": "BorderActive",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Border/BorderActive",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-5178570100004606646",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_7070_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_7070_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_7070_1.png"
+    },
+    {
+      "gameObject": "BorderSeleect",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Border/BorderSeleect",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-5178570100004606646",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_7070_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_7070_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_7070_1.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-4351915816162926346",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Schedule",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png"
+    },
+    {
+      "gameObject": "IconActive",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Icon/IconActive",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-4351915816162926346",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Schedule",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png"
+    },
+    {
+      "gameObject": "IconSelected",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Icon/IconSelected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-4351915816162926346",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "Icon_Schedule",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Schedule.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "SelectedBorder",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/SelectedBorder",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "5177615334817266514",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumbLab_MiniSlot_Activeglow_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_MiniSlot_Activeglow_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_MiniSlot_Activeglow_Base.png"
+    },
+    {
+      "gameObject": "SelectedBorder",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/SelectedBorder/SelectedBorder",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "529924035334287452",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumbLab_MiniSlot_Active_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_MiniSlot_Active_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_MiniSlot_Active_Base.png"
+    },
+    {
+      "gameObject": "CheckIcon",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/CheckIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2203562636260532424",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumbLab_CheckIcon_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_CheckIcon_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_CheckIcon_2.png"
+    },
+    {
+      "gameObject": "Point",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/Point",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "992617426887993350",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumbLab_Arrow_Point",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_Arrow_Point.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_Arrow_Point.png"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "BreadCrumbLabMiniSlot/Button/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Progress",
+      "nodePath": "BreadCrumbLabMiniSlot/Progress",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3007761072064614881",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumbLab_Progress",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_Progress.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_Progress.png"
+    },
+    {
+      "gameObject": "ProgressFill",
+      "nodePath": "BreadCrumbLabMiniSlot/Progress/ProgressFill",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3007761072064614881",
+      "bundle": "CAB-3cd94737c51e314282354309df9d393b",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumbLab_Progress",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_Progress.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumbLab_Progress.png"
+    }
+  ],
+  "animators": []
+}

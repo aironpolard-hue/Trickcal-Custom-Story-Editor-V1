@@ -1,0 +1,2804 @@
+{
+  "id": "slots/storyrerunselectslot",
+  "sourceBundle": "prefab/slots/storyrerunselectslot",
+  "hierarchy": {
+    "name": "StoryRerunSelectSlot",
+    "path": "StoryRerunSelectSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 670.0,
+        "y": 1080.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "StoryRerunSelectSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 6,
+          "pathId": "-17331946829646089",
+          "bundle": "CAB-e7ab8fe59bcaa32082a256382407cf8d"
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "StateHandler",
+        "path": "StoryRerunSelectSlot/StateHandler",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 100.0,
+            "y": 100.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Light",
+        "path": "StoryRerunSelectSlot/Light",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 166.0,
+            "y": 79.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "Fx",
+            "path": "StoryRerunSelectSlot/Light/Fx",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -12.899999618530273
+              },
+              "m_SizeDelta": {
+                "x": 397.0,
+                "y": 213.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "FxImage2",
+                "path": "StoryRerunSelectSlot/Light/Fx/FxImage2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -82.19999694824219
+                  },
+                  "m_SizeDelta": {
+                    "x": 397.0,
+                    "y": 213.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Icon",
+            "path": "StoryRerunSelectSlot/Light/Icon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 166.0,
+                "y": 79.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "ChapterImage",
+        "path": "StoryRerunSelectSlot/ChapterImage",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -470.0
+          },
+          "m_SizeDelta": {
+            "x": 670.0,
+            "y": 940.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "Glow",
+            "path": "StoryRerunSelectSlot/ChapterImage/Glow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 36.0
+              },
+              "m_SizeDelta": {
+                "x": 720.0,
+                "y": 980.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "RectTransformHelper"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Ready",
+            "path": "StoryRerunSelectSlot/ChapterImage/Ready",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -434.0
+              },
+              "m_SizeDelta": {
+                "x": 670.0,
+                "y": 940.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Mask",
+                "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -5.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 628.0,
+                    "y": 900.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "ChapterPos",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/ChapterPos",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 1000.0,
+                        "y": 1400.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "ChapterImage",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/ChapterPos/ChapterImage",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 800.0,
+                            "y": 1200.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Gradient",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/ChapterPos/Gradient",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 250.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 622.0,
+                            "y": 443.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.0
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Glow",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/ChapterPos/Glow",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -171.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 184.6999969482422
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.0
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": -1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SpinePos",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SpinePos",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 44.79999923706055,
+                        "y": -52.5
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": -1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": []
+                  },
+                  {
+                    "name": "RerunTextPos",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/RerunTextPos",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -230.79995727539062
+                      },
+                      "m_SizeDelta": {
+                        "x": 558.0,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Glow",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/RerunTextPos/Glow",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "RerunText",
+                            "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/RerunTextPos/Glow/RerunText",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 50.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "StringBind"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SeasonTextPos",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -332.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -240.0,
+                        "y": 130.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "EffectPos",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 37.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 679.0,
+                            "y": 43.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "LayoutElement"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "FX_UI_StoryRerunSlot_2",
+                            "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2",
+                            "active": true,
+                            "rect": {
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [],
+                            "children": [
+                              {
+                                "name": "Root",
+                                "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root",
+                                "active": true,
+                                "rect": {
+                                  "m_LocalScale": {
+                                    "x": 1.2000000476837158,
+                                    "y": 1.2000000476837158,
+                                    "z": 1.2000000476837158
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "[Atlas_add]_Glow_add",
+                                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Glow_add",
+                                    "active": false,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 100.0,
+                                        "y": 100.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "ParticleSystem"
+                                      },
+                                      {
+                                        "type": "ParticleSystemRenderer"
+                                      },
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "UIParticle"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "[Atlas_add]_Particle_Up",
+                                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Particle_Up",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 100.0,
+                                        "y": 100.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "ParticleSystem"
+                                      },
+                                      {
+                                        "type": "ParticleSystemRenderer"
+                                      },
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "UIParticle"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "[Atlas_add]_Light_Line",
+                                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+                                    "active": false,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 100.0,
+                                        "y": 100.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "ParticleSystem"
+                                      },
+                                      {
+                                        "type": "ParticleSystemRenderer"
+                                      },
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "UIParticle"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "[Atlas_add]_Light_Line",
+                                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+                                    "active": false,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 100.0,
+                                        "y": 100.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "ParticleSystem"
+                                      },
+                                      {
+                                        "type": "ParticleSystemRenderer"
+                                      },
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "UIParticle"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SeasonNumber",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/SeasonNumber",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 130.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "SeasonText",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/SeasonText",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "StringBind"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "BottomGlow",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/BottomGlow",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Frame",
+                "path": "StoryRerunSelectSlot/ChapterImage/Ready/Frame",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -5.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 704.0,
+                    "y": 978.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "ThemeTitleArea",
+                "path": "StoryRerunSelectSlot/ChapterImage/Ready/ThemeTitleArea",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 15.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 580.0,
+                    "y": 48.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "HorizontalLayoutGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "BG",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/ThemeTitleArea/BG",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 48.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "ThemeTitleText",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Ready/ThemeTitleArea/BG/ThemeTitleText",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 50.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tag",
+                "path": "StoryRerunSelectSlot/ChapterImage/Ready/Tag",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -6.0999755859375
+                  },
+                  "m_SizeDelta": {
+                    "x": 124.0,
+                    "y": 60.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.0,
+                    "y": 1.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "RedDot",
+                "path": "StoryRerunSelectSlot/ChapterImage/Ready/RedDot",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -30.0,
+                    "y": -30.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 50.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Image",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Ready/RedDot/Image",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 64.0,
+                        "y": 64.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lock",
+            "path": "StoryRerunSelectSlot/ChapterImage/Lock",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -493.0
+              },
+              "m_SizeDelta": {
+                "x": 675.0,
+                "y": 946.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Lock",
+                "path": "StoryRerunSelectSlot/ChapterImage/Lock/Lock",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 675.0,
+                    "y": 946.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Mask",
+                "path": "StoryRerunSelectSlot/ChapterImage/Lock/Mask",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 623.0,
+                    "y": 862.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "SpinePos",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/SpinePos",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 59.0,
+                        "y": -63.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": -1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Minimi",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/SpinePos/Minimi",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 100.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -0.087155781686306,
+                            "w": 0.9961947202682495
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphic"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "RerunTextPos",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/RerunTextPos",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -286.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 558.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "HorizontalLayoutGroup"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Glow",
+                        "path": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/RerunTextPos/Glow",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 279.0,
+                            "y": -50.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 558.0,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "HorizontalLayoutGroup"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "RerunText",
+                            "path": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/RerunTextPos/Glow/RerunText",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 279.0,
+                                "y": -50.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 498.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "TextMeshProUGUI"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "LockLogo",
+                    "path": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/LockLogo",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 53.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 316.0,
+                        "y": 341.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "Animation"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "StoryRerunSelectSlot",
+      "nodePath": "StoryRerunSelectSlot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "StoryRerunSelectSlot",
+      "nodePath": "StoryRerunSelectSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 6,
+      "pathId": "-17331946829646089",
+      "bundle": "CAB-e7ab8fe59bcaa32082a256382407cf8d",
+      "assetType": "AnimatorController",
+      "assetName": "StoryRerunSelectSlot"
+    },
+    {
+      "gameObject": "StateHandler",
+      "nodePath": "StoryRerunSelectSlot/StateHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[0].Sprite",
+      "fileId": 2,
+      "pathId": "7233545558326031729",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LightReady",
+      "atlasBundle": "atlases/storyrerun",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LightReady.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LightReady.png"
+    },
+    {
+      "gameObject": "StateHandler",
+      "nodePath": "StoryRerunSelectSlot/StateHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[0].Sprite",
+      "fileId": 2,
+      "pathId": "4690411141358001506",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LightLock",
+      "atlasBundle": "atlases/storyrerun",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LightLock.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LightLock.png"
+    },
+    {
+      "gameObject": "FxImage2",
+      "nodePath": "StoryRerunSelectSlot/Light/Fx/FxImage2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-4176903085042457908",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_Fx02",
+      "atlasBundle": "atlases/storyrerun",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Fx02.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Fx02.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "StoryRerunSelectSlot/Light/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "7233545558326031729",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_LightReady",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LightReady.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_LightReady.png"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6828438310007169599",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow_Split",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Split.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Split.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Gradient",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/ChapterPos/Gradient",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-867496437347892497",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_SlotGradient",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_SlotGradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_SlotGradient.png"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/ChapterPos/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2505189553584105816",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow_Half",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/RerunTextPos/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6594447383212585428",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBlur_Fill",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png"
+    },
+    {
+      "gameObject": "RerunText",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/RerunTextPos/Glow/RerunText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 8,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "RerunText",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/RerunTextPos/Glow/RerunText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 13,
+      "pathId": "7648414067359412582",
+      "bundle": "CAB-d289b07be7d89dad272a89634d625fc1",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_StoryRerunSelect_Text"
+    },
+    {
+      "gameObject": "EffectPos",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "EffectPos",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4356609281684116549",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_Fx01",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Fx01.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Fx01.png"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_add",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Glow_add",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 3,
+      "pathId": "-4842174792883495735",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SimpleGrow"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_add",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Glow_add",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_add",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Glow_add",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 3,
+      "pathId": "2388390337977903553",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_Plane_Half_02"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Up",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Particle_Up",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 3,
+      "pathId": "-2972597276597634168",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Square_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Up",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Particle_Up",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 3,
+      "pathId": "3880845339072772296",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 3,
+      "pathId": "8602566225605374383",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Flare_07"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "SeasonNumber",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/SeasonNumber",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 8,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "SeasonNumber",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/SeasonNumber",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 12,
+      "pathId": "3062020134569522316",
+      "bundle": "CAB-c73cb3f417873d62225fb0f72dcc3398",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_StoryRerunSelect_Number"
+    },
+    {
+      "gameObject": "SeasonText",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/SeasonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 8,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "SeasonText",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/SeasonTextPos/SeasonText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 13,
+      "pathId": "7648414067359412582",
+      "bundle": "CAB-d289b07be7d89dad272a89634d625fc1",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_StoryRerunSelect_Text"
+    },
+    {
+      "gameObject": "BottomGlow",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/BottomGlow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 3,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "BottomGlow",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Mask/BottomGlow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2505189553584105816",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow_Half",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png"
+    },
+    {
+      "gameObject": "Frame",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Frame",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7941897904211760778",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_SlotFrame",
+      "atlasBundle": "atlases/storyrerun",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_SlotFrame.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_SlotFrame.png"
+    },
+    {
+      "gameObject": "BG",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/ThemeTitleArea/BG",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "1310652092163525620",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2525",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2525.png"
+    },
+    {
+      "gameObject": "ThemeTitleText",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/ThemeTitleArea/BG/ThemeTitleText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 8,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ThemeTitleText",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/ThemeTitleArea/BG/ThemeTitleText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Tag",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/Tag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "8791054138832441540",
+      "bundle": "CAB-551ba164792d61dfc3c6a49d6f4939eb",
+      "assetType": "Sprite",
+      "assetName": "Common_New_2_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_New_2_KR.png"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Ready/RedDot/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "Lock",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Lock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "-7973522864961158684",
+      "bundle": "CAB-231f39b26b504fc39cd4286d5e6046e9",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_SlotWaiting",
+      "demoPath": "assets/story_ui/story-content/scenario/RerunSelect_SlotWaiting.png",
+      "projectPath": "assets/story_ui/story-content/scenario/RerunSelect_SlotWaiting.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Minimi",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/SpinePos/Minimi",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 11,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "Minimi",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/SpinePos/Minimi",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 10,
+      "pathId": "-7992128305050955659",
+      "bundle": "CAB-4fa120780f90e1786650082627a6533a",
+      "assetType": "MonoBehaviour",
+      "assetName": "Minimi_SkeletonData"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/RerunTextPos/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6594447383212585428",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBlur_Fill",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBlur_Fill.png"
+    },
+    {
+      "gameObject": "RerunText",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/RerunTextPos/Glow/RerunText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 8,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "RerunText",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/RerunTextPos/Glow/RerunText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 13,
+      "pathId": "7648414067359412582",
+      "bundle": "CAB-d289b07be7d89dad272a89634d625fc1",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_StoryRerunSelect_Text"
+    },
+    {
+      "gameObject": "LockLogo",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/LockLogo",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "-4998346325786004346",
+      "bundle": "CAB-7b8d8e76161b284ff22a223615dab40d",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_SlotWaitingLogo",
+      "demoPath": "assets/story_ui/story-content/scenario/RerunSelect_SlotWaitingLogo.png",
+      "projectPath": "assets/story_ui/story-content/scenario/RerunSelect_SlotWaitingLogo.png"
+    },
+    {
+      "gameObject": "LockLogo",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/LockLogo",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animation",
+      "fileId": 4,
+      "pathId": "-3211109786513573980",
+      "bundle": "CAB-b4a245fa6da625d3f7e0162911925bb1",
+      "assetType": "AnimationClip",
+      "assetName": "StoryRerunSelectSlot_Logo"
+    },
+    {
+      "gameObject": "LockLogo",
+      "nodePath": "StoryRerunSelectSlot/ChapterImage/Lock/Mask/LockLogo",
+      "component": "Animation",
+      "script": "",
+      "field": "m_Animations[0]",
+      "fileId": 4,
+      "pathId": "-3211109786513573980",
+      "bundle": "CAB-b4a245fa6da625d3f7e0162911925bb1",
+      "assetType": "AnimationClip",
+      "assetName": "StoryRerunSelectSlot_Logo"
+    }
+  ],
+  "animators": [
+    {
+      "path": "StoryRerunSelectSlot",
+      "controllerBundle": "CAB-e7ab8fe59bcaa32082a256382407cf8d",
+      "controllerPathId": "-17331946829646089",
+      "controllerType": "AnimatorController",
+      "controllerName": "StoryRerunSelectSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryRerunSelectSlot_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryRerunSelectSlot_Idle",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "StoryRerunSelectSlot"
+    }
+  ]
+}

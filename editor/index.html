@@ -36,7 +36,7 @@
   <div class="workspace">
     <aside class="sidebar">
       <div class="side-section grow">
-        <div class="side-head"><span>预设</span><button id="addPreset" class="mini" type="button">+ 新增</button></div>
+        <div class="side-head"><span>素材库</span><button id="addPreset" class="mini" type="button">+ 新增</button></div>
         <div id="presetList" class="preset-list"></div>
       </div>
     </aside>
@@ -53,7 +53,7 @@
         <div id="editorLoading" class="editor-loading"><div class="spinner"></div><span>正在加载编辑器…</span></div>
       </div>
       <div id="previewPane" class="preview-pane hidden">
-        <div class="preview-head"><span>实时预览 · 1920 × 1080</span><span id="previewState">未运行</span></div>
+        <div class="preview-head"><span>实时预览 · 1920 × 1080</span><span class="preview-head-actions"><span id="previewState">未运行</span><button id="toggleSidebarBtn" class="mini" type="button">显示素材库</button></span></div>
         <div class="preview-frame-wrap"><iframe id="previewFrame" title="剧情预览"></iframe><div id="previewEmpty" class="preview-empty">点击「运行预览」开始播放</div></div>
       </div>
     </main>
@@ -62,7 +62,7 @@
       <div class="inspector-tabs">
         <button class="itab active" data-itab="diagnostics" type="button">问题</button>
         <button class="itab" data-itab="details" type="button">项目信息</button>
-        <button class="itab" data-itab="preset" type="button">预设详情</button>
+        <button class="itab" data-itab="preset" type="button">素材详情</button>
         <button class="itab" data-itab="spine" type="button">Spine</button>
         <button class="itab" data-itab="stage" type="button">舞台</button>
         <button class="itab" data-itab="timeline" type="button">时间轴</button>
@@ -76,15 +76,16 @@
         <div id="projectDetails" class="details"></div>
       </div>
       <div id="presetPanel" class="ipanel">
-        <div class="panel-head"><span>预设详情</span><span id="presetFile"></span></div>
+        <div class="panel-head"><span>素材详情</span><span id="presetFile"></span></div>
         <div class="preset-preview">
-          <iframe id="presetPreviewFrame" title="预设效果预览"></iframe>
-          <div id="presetPreviewEmpty">选择预设查看效果</div>
+          <iframe id="presetPreviewFrame" title="素材效果预览"></iframe>
+          <div id="presetPreviewEmpty">选择素材查看效果</div>
         </div>
         <div class="preset-preview-bar"><span id="presetPreviewStatus">未选择预设</span><button id="presetReplay" class="mini" type="button">重新播放</button></div>
+        <pre id="presetInsertCode" class="preset-insert-code">选择素材后，这里会显示将要插入的完整代码</pre>
         <div id="presetFields" class="preset-fields"></div>
-        <div class="preset-actions"><button id="applyPreset" class="btn leaf" type="button">插入到光标</button><button id="savePreset" class="btn ghost" type="button">保存预设</button><button id="deletePreset" class="btn ghost" type="button">删除当前预设</button></div>
-        <textarea id="presetDetails" class="preset-details" spellcheck="false">选择一个预设查看</textarea>
+        <div class="preset-actions"><button id="applyPreset" class="btn leaf" type="button">插入代码</button><button id="savePreset" class="btn ghost" type="button">保存素材</button><button id="deletePreset" class="btn ghost" type="button">删除素材</button></div>
+        <textarea id="presetDetails" class="preset-details" spellcheck="false">选择一个素材查看</textarea>
       </div>
       <div id="timelinePanel" class="ipanel">
         <div class="panel-head"><span>时间轴</span><span id="timelineRange">—</span></div>

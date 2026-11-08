@@ -1,0 +1,4746 @@
+{
+  "id": "slots/myhomealbumslot",
+  "sourceBundle": "prefab/slots/myhomealbumslot",
+  "hierarchy": {
+    "name": "MyHomeAlbumSlot",
+    "path": "MyHomeAlbumSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 784.0,
+        "y": 1004.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 9,
+          "pathId": "-6034233664697462091",
+          "bundle": "CAB-a2906372eb38a8438813d28ef8dd601b"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "MyHomeAlbumSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Record",
+        "path": "MyHomeAlbumSlot/Record",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 92.0,
+            "y": -100.7275390625
+          },
+          "m_SizeDelta": {
+            "x": 600.0,
+            "y": 600.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "mask",
+            "path": "MyHomeAlbumSlot/Record/mask",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 600.0,
+                "y": 600.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.8432654142379761,
+                "w": 0.5374974012374878
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SoftMask"
+              }
+            ],
+            "children": [
+              {
+                "name": "deco",
+                "path": "MyHomeAlbumSlot/Record/mask/deco",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -4.0,
+                    "y": 306.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 690.6654052734375,
+                    "y": 698.835205078125
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.9988870620727539,
+                    "w": 0.04716584458947182
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Pattern",
+                "path": "MyHomeAlbumSlot/Record/mask/Pattern",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 175.39999389648438,
+                    "y": 95.70001220703125
+                  },
+                  "m_SizeDelta": {
+                    "x": 203.0,
+                    "y": 340.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "image",
+                    "path": "MyHomeAlbumSlot/Record/mask/Pattern/image",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -12.0,
+                        "y": 151.1999969482422
+                      },
+                      "m_SizeDelta": {
+                        "x": 203.0,
+                        "y": 340.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "image (1)",
+                    "path": "MyHomeAlbumSlot/Record/mask/Pattern/image (1)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 3.0517578125e-05,
+                        "y": 170.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 233.0,
+                        "y": 354.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "image (2)",
+                    "path": "MyHomeAlbumSlot/Record/mask/Pattern/image (2)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -265.79998779296875,
+                        "y": -115.4000015258789
+                      },
+                      "m_SizeDelta": {
+                        "x": 203.0,
+                        "y": 340.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.9504887461662292,
+                        "w": -0.3107589781284332
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "image (3)",
+                    "path": "MyHomeAlbumSlot/Record/mask/Pattern/image (3)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -372.79998779296875,
+                        "y": 56.5
+                      },
+                      "m_SizeDelta": {
+                        "x": 233.0,
+                        "y": 354.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.975548267364502,
+                        "w": 0.2197854071855545
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "image (4)",
+                    "path": "MyHomeAlbumSlot/Record/mask/Pattern/image (4)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -47.0,
+                        "y": 132.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 158.74200439453125,
+                        "y": 241.17889404296875
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.01302394736558199,
+                        "w": 0.9999151825904846
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "image (5)",
+                    "path": "MyHomeAlbumSlot/Record/mask/Pattern/image (5)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -36.0,
+                        "y": -84.0999984741211
+                      },
+                      "m_SizeDelta": {
+                        "x": 198.8654022216797,
+                        "y": 333.07501220703125
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.628104567527771,
+                        "w": -0.778128981590271
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "image (6)",
+                    "path": "MyHomeAlbumSlot/Record/mask/Pattern/image (6)",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -255.6999969482422,
+                        "y": 255.60000610351562
+                      },
+                      "m_SizeDelta": {
+                        "x": 233.0,
+                        "y": 354.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.6746028065681458,
+                        "w": 0.738180935382843
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SoftMaskable"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "mask (1)",
+            "path": "MyHomeAlbumSlot/Record/mask (1)",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 7.5,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 595.0,
+                "y": 595.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SoftMask"
+              }
+            ],
+            "children": [
+              {
+                "name": "shadow",
+                "path": "MyHomeAlbumSlot/Record/mask (1)/shadow",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -59.80072021484375,
+                    "y": 293.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 690.6654052734375,
+                    "y": 514.4365234375
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -0.7071068286895752,
+                    "w": 0.7071068286895752
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "SoftMaskable"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Border",
+            "path": "MyHomeAlbumSlot/Record/Border",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 615.0,
+                "y": 615.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "MusicList_tMask",
+        "path": "MyHomeAlbumSlot/MusicList_tMask",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 567.29345703125,
+            "y": -46.3226318359375
+          },
+          "m_SizeDelta": {
+            "x": 1457.651611328125,
+            "y": 911.3546752929688
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Mask"
+          }
+        ],
+        "children": [
+          {
+            "name": "MusicList",
+            "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 824.0,
+                "y": -396.8354187011719
+              },
+              "m_SizeDelta": {
+                "x": 1200.0,
+                "y": 800.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Base",
+                "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1174.0,
+                    "y": 774.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Base2",
+                    "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Base2",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 1148.0,
+                        "y": 748.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "MusicListScroll",
+                    "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/MusicListScroll",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 91.0,
+                        "y": 31.281005859375
+                      },
+                      "m_SizeDelta": {
+                        "x": -241.34190368652344,
+                        "y": 630.718994140625
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ScrollRect"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "MusicListViewport",
+                        "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/MusicListScroll/MusicListViewport",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 6.1034999816911295e-05,
+                            "y": 0.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "RectMask2D"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "MusicListContent",
+                            "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/MusicListScroll/MusicListViewport/MusicListContent",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "GridLayoutGroup"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "ContentSizeFitter"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "BotGra",
+                            "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/MusicListScroll/MusicListViewport/BotGra",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 10.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 20.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 0.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "TopGra",
+                            "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/MusicListScroll/MusicListViewport/TopGra",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.0,
+                                "y": 1.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": -10.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 0.0,
+                                "y": 20.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": -1.0,
+                                "z": 0.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Top_MusicList_Text",
+                    "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Top_MusicList_Text",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 75.160400390625,
+                        "y": 320.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 909.8792724609375,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "IMG_MusicList",
+                        "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Top_MusicList_Text/IMG_MusicList",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 47.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 44.0,
+                            "y": 58.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.5999999642372131,
+                            "y": 0.5999999642372131,
+                            "z": 0.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Text_MusicList",
+                        "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Top_MusicList_Text/Text_MusicList",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.0,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 379.88800048828125,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 619.7760009765625,
+                            "y": 50.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 0.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Text_MusicListCount",
+                        "path": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Top_MusicList_Text/Text_MusicListCount",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 1.0,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -100.61785888671875,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 201.23599243164062,
+                            "y": 50.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 0.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AlbumSlotSide",
+        "path": "MyHomeAlbumSlot/AlbumSlotSide",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -83.0,
+            "y": -84.43194580078125
+          },
+          "m_SizeDelta": {
+            "x": 724.04541015625,
+            "y": 756.3911743164062
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Base",
+            "path": "MyHomeAlbumSlot/AlbumSlotSide/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": -16.295654296875
+              },
+              "m_SizeDelta": {
+                "x": 686.5125732421875,
+                "y": -71.53009033203125
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "AlbumCover",
+                "path": "MyHomeAlbumSlot/AlbumSlotSide/Base/AlbumCover",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 342.566650390625
+                  },
+                  "m_SizeDelta": {
+                    "x": 662.0,
+                    "y": 659.61572265625
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "AlbumImage",
+                    "path": "MyHomeAlbumSlot/AlbumSlotSide/Base/AlbumCover/AlbumImage",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 669.652099609375,
+                        "y": 669.6547241210938
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "light",
+                    "path": "MyHomeAlbumSlot/AlbumSlotSide/Base/AlbumCover/light",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -98.42431640625,
+                        "y": 40.12060546875
+                      },
+                      "m_SizeDelta": {
+                        "x": 702.219970703125,
+                        "y": 742.0886840820312
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "RedDot",
+            "path": "MyHomeAlbumSlot/AlbumSlotSide/RedDot",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -13.399999618530273,
+                "y": -45.70000076293945
+              },
+              "m_SizeDelta": {
+                "x": 70.0,
+                "y": 70.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "MusicTitle",
+            "path": "MyHomeAlbumSlot/AlbumSlotSide/MusicTitle",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 2.670299909368623e-05,
+                "y": 2.66552734375
+              },
+              "m_SizeDelta": {
+                "x": 653.7169799804688,
+                "y": 91.72229766845703
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "AlbumSlotLockSide",
+        "path": "MyHomeAlbumSlot/AlbumSlotLockSide",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -83.0,
+            "y": -84.4320068359375
+          },
+          "m_SizeDelta": {
+            "x": 724.04541015625,
+            "y": 756.3911743164062
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Base",
+            "path": "MyHomeAlbumSlot/AlbumSlotLockSide/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": -16.295654296875
+              },
+              "m_SizeDelta": {
+                "x": 686.5125732421875,
+                "y": -71.53009033203125
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "AlbumCover",
+                "path": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.066650390625
+                  },
+                  "m_SizeDelta": {
+                    "x": 662.0,
+                    "y": -25.38427734375
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "AlbumImage",
+                    "path": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover/AlbumImage",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 5.455078125,
+                        "y": 7.455078125
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "light",
+                    "path": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover/light",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -98.42431640625,
+                        "y": 40.12060546875
+                      },
+                      "m_SizeDelta": {
+                        "x": 702.219970703125,
+                        "y": 742.0886840820312
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Dim",
+                    "path": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover/Dim",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -0.136474609375
+                      },
+                      "m_SizeDelta": {
+                        "x": 24.512409210205078,
+                        "y": 25.24445343017578
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Rock",
+                        "path": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover/Dim/Rock",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 3.3299999237060547
+                          },
+                          "m_SizeDelta": {
+                            "x": 64.0,
+                            "y": 88.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "MusicTitleLock",
+            "path": "MyHomeAlbumSlot/AlbumSlotLockSide/MusicTitleLock",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 2.670299909368623e-05,
+                "y": 2.66552734375
+              },
+              "m_SizeDelta": {
+                "x": 653.7169799804688,
+                "y": 91.72229766845703
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "AlbumSlotLock",
+        "path": "MyHomeAlbumSlot/AlbumSlotLock",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -83.0,
+            "y": -84.4320068359375
+          },
+          "m_SizeDelta": {
+            "x": 724.04541015625,
+            "y": 756.3911743164062
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": [
+          {
+            "name": "Base",
+            "path": "MyHomeAlbumSlot/AlbumSlotLock/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": -16.295654296875
+              },
+              "m_SizeDelta": {
+                "x": 686.5125732421875,
+                "y": -71.53009033203125
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "AlbumCover",
+                "path": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.066650390625
+                  },
+                  "m_SizeDelta": {
+                    "x": 662.0,
+                    "y": -25.38427734375
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "AlbumImage",
+                    "path": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover/AlbumImage",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 5.455078125,
+                        "y": 7.455078125
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "light",
+                    "path": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover/light",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -98.42431640625,
+                        "y": 40.12060546875
+                      },
+                      "m_SizeDelta": {
+                        "x": 702.219970703125,
+                        "y": 742.0886840820312
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Dim",
+                    "path": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover/Dim",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -0.136474609375
+                      },
+                      "m_SizeDelta": {
+                        "x": 24.512409210205078,
+                        "y": 25.24445343017578
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Rock",
+                        "path": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover/Dim/Rock",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 3.3299999237060547
+                          },
+                          "m_SizeDelta": {
+                            "x": 64.0,
+                            "y": 88.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "MusicTitleLock",
+            "path": "MyHomeAlbumSlot/AlbumSlotLock/MusicTitleLock",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 2.670299909368623e-05,
+                "y": 2.66552734375
+              },
+              "m_SizeDelta": {
+                "x": 653.7169799804688,
+                "y": 91.72229766845703
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "AlbumSlotCenter",
+        "path": "MyHomeAlbumSlot/AlbumSlotCenter",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -83.0,
+            "y": -46.322998046875
+          },
+          "m_SizeDelta": {
+            "x": 724.04541015625,
+            "y": 850.3585815429688
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UIElementStateHandler"
+          }
+        ],
+        "children": [
+          {
+            "name": "Base",
+            "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -2.0,
+                "y": -16.295654296875
+              },
+              "m_SizeDelta": {
+                "x": 686.5125732421875,
+                "y": -71.53009033203125
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Select",
+                "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.1361083984375
+                  },
+                  "m_SizeDelta": {
+                    "x": 662.0,
+                    "y": -25.245361328125
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "AlbumImage",
+                    "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 159.1376953125,
+                        "y": 67.5545654296875
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "BotGra",
+                        "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/BotGra",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 0.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 2.66796875,
+                            "y": 33.5
+                          },
+                          "m_SizeDelta": {
+                            "x": -27.825000762939453,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.0
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 0.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "TopGra",
+                        "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/TopGra",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 2.66790771484375,
+                            "y": -83.0875244140625
+                          },
+                          "m_SizeDelta": {
+                            "x": 18.975000381469727,
+                            "y": 100.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": -1.0,
+                            "z": 0.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "image",
+                        "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 24.310791015625,
+                            "y": 24.3106689453125
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Circle",
+                        "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 600.0,
+                            "y": 600.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "CanvasGroup"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Mask",
+                            "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Mask",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 563.271728515625,
+                                "y": 563.271728515625
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "SoftMask"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "Album",
+                                "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Mask/Album",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 606.1898803710938,
+                                    "y": 606.1898803710938
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "SoftMaskable"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "light",
+                                "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Mask/light",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": -98.42431640625,
+                                    "y": 40.12060546875
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 702.219970703125,
+                                    "y": 742.0886840820312
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "SoftMaskable"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Border",
+                            "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Border",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 608.0,
+                                "y": 608.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "Border2",
+                                "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Border/Border2",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 583.6737060546875,
+                                    "y": 583.6737060546875
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "circle",
+                                "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Border/circle",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 106.91600036621094,
+                                    "y": 106.91600036621094
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "Border1",
+                                "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Border/Border1",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 110.0,
+                                    "y": 110.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "Border3",
+                                "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Border/Border3",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 98.0,
+                                    "y": 98.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "IMG_DecoList",
+                    "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/IMG_DecoList",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -80.0,
+                        "y": -29.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 116.0,
+                        "y": 26.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Text_Deco",
+                    "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/Text_Deco",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 19.0,
+                        "y": -35.5
+                      },
+                      "m_SizeDelta": {
+                        "x": 228.49440002441406,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.0,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 0.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "light",
+                    "path": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/light",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -98.42431640625,
+                        "y": 40.1197509765625
+                      },
+                      "m_SizeDelta": {
+                        "x": 702.219970703125,
+                        "y": 742.0886840820312
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "RedDot",
+            "path": "MyHomeAlbumSlot/AlbumSlotCenter/RedDot",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -12.0,
+                "y": -46.099998474121094
+              },
+              "m_SizeDelta": {
+                "x": 70.0,
+                "y": 70.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "MusicTitle",
+            "path": "MyHomeAlbumSlot/AlbumSlotCenter/MusicTitle",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 2.670299909368623e-05,
+                "y": 2.66552734375
+              },
+              "m_SizeDelta": {
+                "x": 653.7169799804688,
+                "y": 91.72229766845703
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "MyHomeAlbumSlot",
+      "nodePath": "MyHomeAlbumSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 9,
+      "pathId": "-6034233664697462091",
+      "bundle": "CAB-a2906372eb38a8438813d28ef8dd601b",
+      "assetType": "AnimatorController",
+      "assetName": "MyHomeAlbumSlot"
+    },
+    {
+      "gameObject": "mask",
+      "nodePath": "MyHomeAlbumSlot/Record/mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "mask",
+      "nodePath": "MyHomeAlbumSlot/Record/mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 6,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "mask",
+      "nodePath": "MyHomeAlbumSlot/Record/mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 6,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "deco",
+      "nodePath": "MyHomeAlbumSlot/Record/mask/deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6812080239060073337",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "ReceiveItem_N_Gradient",
+      "atlasBundle": "atlases/receiveitem",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ReceiveItem_N_Gradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ReceiveItem_N_Gradient.png"
+    },
+    {
+      "gameObject": "image",
+      "nodePath": "MyHomeAlbumSlot/Record/mask/Pattern/image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-5606355692661719784",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "MyHome_BG_deco1",
+      "atlasBundle": "atlases/housingui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco1.png"
+    },
+    {
+      "gameObject": "image (1)",
+      "nodePath": "MyHomeAlbumSlot/Record/mask/Pattern/image (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-2665327327124942308",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "MyHome_BG_deco2",
+      "atlasBundle": "atlases/housingui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco2.png"
+    },
+    {
+      "gameObject": "image (2)",
+      "nodePath": "MyHomeAlbumSlot/Record/mask/Pattern/image (2)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-5606355692661719784",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "MyHome_BG_deco1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco1.png"
+    },
+    {
+      "gameObject": "image (3)",
+      "nodePath": "MyHomeAlbumSlot/Record/mask/Pattern/image (3)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-2665327327124942308",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "MyHome_BG_deco2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco2.png"
+    },
+    {
+      "gameObject": "image (4)",
+      "nodePath": "MyHomeAlbumSlot/Record/mask/Pattern/image (4)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-2665327327124942308",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "MyHome_BG_deco2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco2.png"
+    },
+    {
+      "gameObject": "image (5)",
+      "nodePath": "MyHomeAlbumSlot/Record/mask/Pattern/image (5)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-5606355692661719784",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "MyHome_BG_deco1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco1.png"
+    },
+    {
+      "gameObject": "image (6)",
+      "nodePath": "MyHomeAlbumSlot/Record/mask/Pattern/image (6)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-2665327327124942308",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "MyHome_BG_deco2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BG_deco2.png"
+    },
+    {
+      "gameObject": "mask (1)",
+      "nodePath": "MyHomeAlbumSlot/Record/mask (1)",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8614511431801910628",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_2.png"
+    },
+    {
+      "gameObject": "mask (1)",
+      "nodePath": "MyHomeAlbumSlot/Record/mask (1)",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 6,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "mask (1)",
+      "nodePath": "MyHomeAlbumSlot/Record/mask (1)",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 6,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "shadow",
+      "nodePath": "MyHomeAlbumSlot/Record/mask (1)/shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6812080239060073337",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "ReceiveItem_N_Gradient",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ReceiveItem_N_Gradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ReceiveItem_N_Gradient.png"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "MyHomeAlbumSlot/Record/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "-7198932087125679849",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Loading_Default_Border",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Loading_Default_Border.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Loading_Default_Border.png"
+    },
+    {
+      "gameObject": "MusicList",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "Base2",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Base2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "BotGra",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/MusicListScroll/MusicListViewport/BotGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4519748180857352522",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "TopGra",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/MusicListScroll/MusicListViewport/TopGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4519748180857352522",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "IMG_MusicList",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Top_MusicList_Text/IMG_MusicList",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "3068616596264036282",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "Icon_Play",
+      "atlasBundle": "atlases/housingui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Play.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Icon_Play.png"
+    },
+    {
+      "gameObject": "Text_MusicList",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Top_MusicList_Text/Text_MusicList",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_MusicList",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Top_MusicList_Text/Text_MusicList",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Text_MusicListCount",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Top_MusicList_Text/Text_MusicListCount",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_MusicListCount",
+      "nodePath": "MyHomeAlbumSlot/MusicList_tMask/MusicList/Base/Top_MusicList_Text/Text_MusicListCount",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "AlbumSlotSide",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotSide",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4838102741018759340",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_7575",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_7575.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_7575.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotSide/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "AlbumCover",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotSide/Base/AlbumCover",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8401507766787122633",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_5050",
+      "demoPath": "assets/dialogue/CommonBox_5050.png",
+      "projectPath": "assets/dialogue/CommonBox_5050.png"
+    },
+    {
+      "gameObject": "AlbumImage",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotSide/Base/AlbumCover/AlbumImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "3218395247508538641",
+      "bundle": "CAB-439ef0258a4ef857ed0fe47c12c28bc8",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGMPart3_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png"
+    },
+    {
+      "gameObject": "light",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotSide/Base/AlbumCover/light",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "1403596614641481567",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGM_bx_grd1",
+      "atlasBundle": "atlases/housingui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotSide/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "MusicTitle",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotSide/MusicTitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "MusicTitle",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotSide/MusicTitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "AlbumSlotLockSide",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLockSide",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4838102741018759340",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_7575",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_7575.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_7575.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLockSide/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "AlbumCover",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8401507766787122633",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_5050",
+      "demoPath": "assets/dialogue/CommonBox_5050.png",
+      "projectPath": "assets/dialogue/CommonBox_5050.png"
+    },
+    {
+      "gameObject": "AlbumImage",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover/AlbumImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "3218395247508538641",
+      "bundle": "CAB-439ef0258a4ef857ed0fe47c12c28bc8",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGMPart3_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png"
+    },
+    {
+      "gameObject": "light",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover/light",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "1403596614641481567",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGM_bx_grd1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "Rock",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLockSide/Base/AlbumCover/Dim/Rock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7476085759644814580",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonIcon_Lock",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Lock.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Lock.png"
+    },
+    {
+      "gameObject": "MusicTitleLock",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLockSide/MusicTitleLock",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "MusicTitleLock",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLockSide/MusicTitleLock",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-5977735159509430756",
+      "bundle": "CAB-f9a9b898246857084e5ade3de8039787",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_OpalMainLobbyBtn2"
+    },
+    {
+      "gameObject": "AlbumSlotLock",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4838102741018759340",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_7575",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_7575.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_7575.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLock/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "AlbumCover",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8401507766787122633",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_5050",
+      "demoPath": "assets/dialogue/CommonBox_5050.png",
+      "projectPath": "assets/dialogue/CommonBox_5050.png"
+    },
+    {
+      "gameObject": "AlbumImage",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover/AlbumImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "3218395247508538641",
+      "bundle": "CAB-439ef0258a4ef857ed0fe47c12c28bc8",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGMPart3_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png"
+    },
+    {
+      "gameObject": "light",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover/light",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "1403596614641481567",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGM_bx_grd1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "Rock",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLock/Base/AlbumCover/Dim/Rock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7476085759644814580",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonIcon_Lock",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Lock.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonIcon_Lock.png"
+    },
+    {
+      "gameObject": "MusicTitleLock",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLock/MusicTitleLock",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "MusicTitleLock",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotLock/MusicTitleLock",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "-5977735159509430756",
+      "bundle": "CAB-f9a9b898246857084e5ade3de8039787",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_OpalMainLobbyBtn2"
+    },
+    {
+      "gameObject": "AlbumSlotCenter",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4838102741018759340",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_Shadow_7575",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_7575.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_Shadow_7575.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-2645611148565800404",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_6060",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_6060.png"
+    },
+    {
+      "gameObject": "Select",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8401507766787122633",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_5050",
+      "demoPath": "assets/dialogue/CommonBox_5050.png",
+      "projectPath": "assets/dialogue/CommonBox_5050.png"
+    },
+    {
+      "gameObject": "AlbumImage",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "3218395247508538641",
+      "bundle": "CAB-439ef0258a4ef857ed0fe47c12c28bc8",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGMPart3_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png"
+    },
+    {
+      "gameObject": "BotGra",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/BotGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4519748180857352522",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "TopGra",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/TopGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4519748180857352522",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "image",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "2299407013609701448",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient_Split",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient_Split.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient_Split.png"
+    },
+    {
+      "gameObject": "Circle",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "7678882421762221449",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "MyHome_BGM_Circle1",
+      "atlasBundle": "atlases/housingui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BGM_Circle1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BGM_Circle1.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "7678882421762221449",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "MyHome_BGM_Circle1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BGM_Circle1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/MyHome_BGM_Circle1.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultShader",
+      "fileId": 6,
+      "pathId": "-934567035546146584",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Mask",
+      "component": "MonoBehaviour",
+      "script": "SoftMask",
+      "field": "_defaultETC1Shader",
+      "fileId": 6,
+      "pathId": "8277816711850482147",
+      "bundle": "CAB-e363b24503ca593f9b93c80193b48de1",
+      "assetType": "Shader",
+      "assetName": "shaders"
+    },
+    {
+      "gameObject": "Album",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Mask/Album",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "3218395247508538641",
+      "bundle": "CAB-439ef0258a4ef857ed0fe47c12c28bc8",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGMPart3_KR",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGMPart3_KR.png"
+    },
+    {
+      "gameObject": "light",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Mask/light",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "1403596614641481567",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGM_bx_grd1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png"
+    },
+    {
+      "gameObject": "Border",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Border",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "-7198932087125679849",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Loading_Default_Border",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Loading_Default_Border.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Loading_Default_Border.png"
+    },
+    {
+      "gameObject": "Border2",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Border/Border2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "-7198932087125679849",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Loading_Default_Border",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Loading_Default_Border.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Loading_Default_Border.png"
+    },
+    {
+      "gameObject": "Border1",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Border/Border1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7963774647661327534",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_6060 1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_6060 1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_6060 1.png"
+    },
+    {
+      "gameObject": "Border3",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/AlbumImage/Circle/Border/Border3",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7963774647661327534",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_6060 1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_6060 1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_6060 1.png"
+    },
+    {
+      "gameObject": "IMG_DecoList",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/IMG_DecoList",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-3822170570733169717",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "Housing_BgmListDeco",
+      "atlasBundle": "atlases/housingui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BgmListDeco.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BgmListDeco.png"
+    },
+    {
+      "gameObject": "Text_Deco",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/Text_Deco",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text_Deco",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/Text_Deco",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "light",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/Base/Select/light",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "1403596614641481567",
+      "bundle": "CAB-2260db498cd2331087ca7590be78fc88",
+      "assetType": "Sprite",
+      "assetName": "Housing_BGM_bx_grd1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Housing_BGM_bx_grd1.png"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    },
+    {
+      "gameObject": "MusicTitle",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/MusicTitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "MusicTitle",
+      "nodePath": "MyHomeAlbumSlot/AlbumSlotCenter/MusicTitle",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 8,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    }
+  ],
+  "animators": [
+    {
+      "path": "MyHomeAlbumSlot",
+      "controllerBundle": "CAB-a2906372eb38a8438813d28ef8dd601b",
+      "controllerPathId": "-6034233664697462091",
+      "controllerType": "AnimatorController",
+      "controllerName": "MyHomeAlbumSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_SideSlot",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_CenterSlot_OpenAlbum",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_CenterSlot_SlotOpen",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_CenterSlot_SlotClose",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_SideSlotLong",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_CenterSlot_Idle",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_LockedSlot_SlotClose",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_LockedSlot_SlotOpen",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_LockedSlot_Idle",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_LockedSideSlot",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.MyHomeAlbumSlot_LockedSideSlotLong",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "MyHomeAlbumSlot"
+    }
+  ]
+}

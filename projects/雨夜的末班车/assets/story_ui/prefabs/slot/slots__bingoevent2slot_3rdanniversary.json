@@ -1,0 +1,1602 @@
+{
+  "id": "slots/bingoevent2slot_3rdanniversary",
+  "sourceBundle": "prefab/slots/bingoevent2slot_3rdanniversary",
+  "hierarchy": {
+    "name": "BingoEvent2Slot_3rdAnniversary",
+    "path": "BingoEvent2Slot_3rdAnniversary",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "BingoEvent2Slot"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 7,
+          "pathId": "-2778971456228141143",
+          "bundle": "CAB-83513dbd20644f1cc00940a3083cc8a4"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      }
+    ],
+    "children": [
+      {
+        "name": "Pos",
+        "path": "BingoEvent2Slot_3rdAnniversary/Pos",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 127.0,
+            "y": 127.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Base",
+            "path": "BingoEvent2Slot_3rdAnniversary/Pos/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 127.0,
+                "y": 127.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "BaseOpen",
+                "path": "BingoEvent2Slot_3rdAnniversary/Pos/Base/BaseOpen",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 127.0,
+                    "y": 127.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Selected",
+                "path": "BingoEvent2Slot_3rdAnniversary/Pos/Base/Selected",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 127.0,
+                    "y": 127.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "CenterSelected",
+                "path": "BingoEvent2Slot_3rdAnniversary/Pos/Base/CenterSelected",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 127.0,
+                    "y": 127.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ShinyEffectForUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Opened",
+            "path": "BingoEvent2Slot_3rdAnniversary/Pos/Opened",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 127.0,
+                "y": 127.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Icon",
+                "path": "BingoEvent2Slot_3rdAnniversary/Pos/Opened/Icon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.800000011920929,
+                    "y": 0.800000011920929,
+                    "z": 0.800000011920929
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Value",
+                "path": "BingoEvent2Slot_3rdAnniversary/Pos/Opened/Value",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 13.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 96.0,
+                    "y": 36.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Dim",
+                "path": "BingoEvent2Slot_3rdAnniversary/Pos/Opened/Dim",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 127.0,
+                    "y": 127.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Frame",
+            "path": "BingoEvent2Slot_3rdAnniversary/Pos/Frame",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 127.0,
+                "y": 127.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Select",
+                "path": "BingoEvent2Slot_3rdAnniversary/Pos/Frame/Select",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 138.0,
+                    "y": 138.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "SelectCenter",
+                "path": "BingoEvent2Slot_3rdAnniversary/Pos/Frame/SelectCenter",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 146.0,
+                    "y": 144.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Guide",
+            "path": "BingoEvent2Slot_3rdAnniversary/Pos/Guide",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 110.0
+              },
+              "m_SizeDelta": {
+                "x": 184.0,
+                "y": 132.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "BingoEvent2Slot_3rdAnniversary/Pos/Guide/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 20.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 120.0,
+                    "y": 64.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Effect",
+        "path": "BingoEvent2Slot_3rdAnniversary/Effect",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 127.0,
+            "y": 127.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "SortingGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "FX_UI_WindowBingoEvent2_Slot_1",
+            "path": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1",
+            "active": false,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Root",
+                "path": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "ParticleSystem"
+                  },
+                  {
+                    "type": "ParticleSystemRenderer"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "[Atlas_add]_Grow_add",
+                    "path": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Grow_add",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[SG]_Square_Dissolve",
+                    "path": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[SG]_Square_Dissolve",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_add]_Ring",
+                    "path": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Ring",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_add]_Particle_Rect",
+                    "path": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Particle_Rect",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "[Atlas_add]_Particle_Star",
+                    "path": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Particle_Star",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 100.0,
+                        "y": 100.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      },
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "UIParticle"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "BingoEvent2Slot_3rdAnniversary",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 7,
+      "pathId": "-2778971456228141143",
+      "bundle": "CAB-83513dbd20644f1cc00940a3083cc8a4",
+      "assetType": "AnimatorController",
+      "assetName": "BingoEvent2Slot"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7207877788752859957",
+      "bundle": "CAB-9da2fa2b24dec5c4d54cc88fd2bf3a3e",
+      "assetType": "Sprite",
+      "assetName": "BingoEvent2_SlotBase",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotBase__1c31d035.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotBase__1c31d035.png"
+    },
+    {
+      "gameObject": "BaseOpen",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Base/BaseOpen",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 3,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "BaseOpen",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Base/BaseOpen",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-7207877788752859957",
+      "bundle": "CAB-9da2fa2b24dec5c4d54cc88fd2bf3a3e",
+      "assetType": "Sprite",
+      "assetName": "BingoEvent2_SlotBase",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotBase__1c31d035.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotBase__1c31d035.png"
+    },
+    {
+      "gameObject": "BaseOpen",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Base/BaseOpen",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 3,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Selected",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Base/Selected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-4640929068596836612",
+      "bundle": "CAB-9da2fa2b24dec5c4d54cc88fd2bf3a3e",
+      "assetType": "Sprite",
+      "assetName": "BingoEvent2_SlotSelect",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotSelect__99a71342.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotSelect__99a71342.png"
+    },
+    {
+      "gameObject": "CenterSelected",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Base/CenterSelected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 3,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "CenterSelected",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Base/CenterSelected",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-946346896063597030",
+      "bundle": "CAB-9da2fa2b24dec5c4d54cc88fd2bf3a3e",
+      "assetType": "Sprite",
+      "assetName": "BingoEvent2_SlotSelect2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotSelect2__1be2f52e.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotSelect2__1be2f52e.png"
+    },
+    {
+      "gameObject": "CenterSelected",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Base/CenterSelected",
+      "component": "MonoBehaviour",
+      "script": "ShinyEffectForUGUI",
+      "field": "m_EffectMaterial",
+      "fileId": 3,
+      "pathId": "8166329072418690713",
+      "bundle": "CAB-c5cf8d8c248da715c9f28de8e0bdb8d5",
+      "assetType": "Material",
+      "assetName": "UI-Effect-Shiny"
+    },
+    {
+      "gameObject": "Opened",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Opened",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6260965799576724677",
+      "bundle": "CAB-9da2fa2b24dec5c4d54cc88fd2bf3a3e",
+      "assetType": "Sprite",
+      "assetName": "BingoEvent2_Slot",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_Slot__2778eb0a.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_Slot__2778eb0a.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Opened/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-7043512831705254857",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CurrencyIcon_0008",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0008.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CurrencyIcon_0008.png"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Opened/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Value",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Opened/Value",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "-2024947167956372252",
+      "bundle": "CAB-4d8a2eea4c2ac0d1387f150a73ac679a",
+      "assetType": "Material",
+      "assetName": "SystemFont_Shadowed"
+    },
+    {
+      "gameObject": "Dim",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Opened/Dim",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6260965799576724677",
+      "bundle": "CAB-9da2fa2b24dec5c4d54cc88fd2bf3a3e",
+      "assetType": "Sprite",
+      "assetName": "BingoEvent2_Slot",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_Slot__2778eb0a.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_Slot__2778eb0a.png"
+    },
+    {
+      "gameObject": "Select",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Frame/Select",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 1,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "Select",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Frame/Select",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8801542110559245828",
+      "bundle": "CAB-9da2fa2b24dec5c4d54cc88fd2bf3a3e",
+      "assetType": "Sprite",
+      "assetName": "BingoEvent2_SlotSelectFrame",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotSelectFrame__d87fc8c9.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotSelectFrame__d87fc8c9.png"
+    },
+    {
+      "gameObject": "SelectCenter",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Frame/SelectCenter",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-4493340518774455523",
+      "bundle": "CAB-9da2fa2b24dec5c4d54cc88fd2bf3a3e",
+      "assetType": "Sprite",
+      "assetName": "BingoEvent2_SlotSelectFrame2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotSelectFrame2__5df88368.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent2_SlotSelectFrame2__5df88368.png"
+    },
+    {
+      "gameObject": "Guide",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Guide",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "52954042519793856",
+      "bundle": "CAB-9da2fa2b24dec5c4d54cc88fd2bf3a3e",
+      "assetType": "Sprite",
+      "assetName": "BingoEvent_Notice1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent_Notice1__e1fc8aa5.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BingoEvent_Notice1__e1fc8aa5.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Guide/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Pos/Guide/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "[Atlas_add]_Grow_add",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Grow_add",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-5853102491702683584",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SimpleRect"
+    },
+    {
+      "gameObject": "[Atlas_add]_Grow_add",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Grow_add",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[SG]_Square_Dissolve",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[SG]_Square_Dissolve",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-5853102491702683584",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SimpleRect"
+    },
+    {
+      "gameObject": "[SG]_Square_Dissolve",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[SG]_Square_Dissolve",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "1973800430176662895",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Dissolve_Square"
+    },
+    {
+      "gameObject": "[Atlas_add]_Ring",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Ring",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-1529020707987122103",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_CardBorder_Line_Blur",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_CardBorder_Line_Blur.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_CardBorder_Line_Blur.png"
+    },
+    {
+      "gameObject": "[Atlas_add]_Ring",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Ring",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Rect",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Particle_Rect",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-2972597276597634168",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Square_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Rect",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Particle_Rect",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Star",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Particle_Star",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "2898089560677797789",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Flare_04_s"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Star",
+      "nodePath": "BingoEvent2Slot_3rdAnniversary/Effect/FX_UI_WindowBingoEvent2_Slot_1/Root/[Atlas_add]_Particle_Star",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    }
+  ],
+  "animators": [
+    {
+      "path": "BingoEvent2Slot_3rdAnniversary",
+      "controllerBundle": "CAB-83513dbd20644f1cc00940a3083cc8a4",
+      "controllerPathId": "-2778971456228141143",
+      "controllerType": "AnimatorController",
+      "controllerName": "BingoEvent2Slot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.BingoEvent2SlotOpen",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.BingoEvent2SlotOpentoOpen",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.BIngoEvent2SlotClose",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.BIngoEvent2SlotClaimed",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Select.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Select.BingoEvent2SelectNone",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Select.BingoEvent2SelectSide",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Select.BingoEvent2SelectCenter",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Select.BingoEvent2SelectOpen",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 2,
+          "name": "Idle.BingoEvent2SelecCenterIdle",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "BingoEvent2Slot"
+    }
+  ]
+}

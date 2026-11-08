@@ -1,0 +1,2417 @@
+{
+  "id": "slots/storyelflixitemslot",
+  "sourceBundle": "prefab/slots/storyelflixitemslot",
+  "hierarchy": {
+    "name": "StoryElflixItemSlot",
+    "path": "StoryElflixItemSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": -12.32501220703125
+      },
+      "m_SizeDelta": {
+        "x": 344.0,
+        "y": 493.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 0.949999988079071,
+        "y": 0.949999988079071,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Image"
+      },
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 8,
+          "pathId": "-6245483971308699997",
+          "bundle": "CAB-3952bcfcdc987ebbc35de67f470a3b2e"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "StoryElflixItemSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      }
+    ],
+    "children": [
+      {
+        "name": "Mask",
+        "path": "StoryElflixItemSlot/Mask",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 344.0,
+            "y": 493.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Mask"
+          }
+        ],
+        "children": [
+          {
+            "name": "ChapterSlot",
+            "path": "StoryElflixItemSlot/Mask/ChapterSlot",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 1000.0,
+                "y": 1400.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.3700000047683716,
+                "y": 0.3700000047683716,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              }
+            ],
+            "children": [
+              {
+                "name": "ChapterImage",
+                "path": "StoryElflixItemSlot/Mask/ChapterSlot/ChapterImage",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1000.0,
+                    "y": 1400.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Gradient",
+            "path": "StoryElflixItemSlot/Mask/Gradient",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -159.0
+              },
+              "m_SizeDelta": {
+                "x": 622.0,
+                "y": 443.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.6000000238418579,
+                "y": 0.6000000238418579,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Glow",
+            "path": "StoryElflixItemSlot/Mask/Glow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 12.0,
+                "y": 543.0
+              },
+              "m_SizeDelta": {
+                "x": 656.0,
+                "y": -308.300048828125
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": -1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "NameTextPos",
+            "path": "StoryElflixItemSlot/Mask/NameTextPos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -194.60000610351562
+              },
+              "m_SizeDelta": {
+                "x": 339.760009765625,
+                "y": 50.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "EffectPos",
+                "path": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 10.0,
+                    "y": 10.199999809265137
+                  },
+                  "m_SizeDelta": {
+                    "x": 679.0,
+                    "y": 43.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 0.800000011920929,
+                    "y": 0.800000011920929,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "LayoutElement"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "FX_UI_StoryRerunSlot_2",
+                    "path": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Root",
+                        "path": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root",
+                        "active": true,
+                        "rect": {
+                          "m_LocalScale": {
+                            "x": 1.2000000476837158,
+                            "y": 1.2000000476837158,
+                            "z": 1.2000000476837158
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "[Atlas_add]_Glow_add",
+                            "path": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Glow_add",
+                            "active": false,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Particle_Up",
+                            "path": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Particle_Up",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Light_Line",
+                            "path": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+                            "active": false,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[Atlas_add]_Light_Line",
+                            "path": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+                            "active": false,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NameText",
+                "path": "StoryElflixItemSlot/Mask/NameTextPos/NameText",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 320.6000061035156,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "TimeText",
+                "path": "StoryElflixItemSlot/Mask/NameTextPos/TimeText",
+                "active": false,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 49.900001525878906
+                  },
+                  "m_SizeDelta": {
+                    "x": 249.38999938964844,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "NumberTextPos",
+            "path": "StoryElflixItemSlot/Mask/NumberTextPos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 97.9000015258789,
+                "y": 215.60000610351562
+              },
+              "m_SizeDelta": {
+                "x": 132.89999389648438,
+                "y": 47.70000076293945
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "SeasonNumber_01",
+                "path": "StoryElflixItemSlot/Mask/NumberTextPos/SeasonNumber_01",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -0.8999999761581421
+                  },
+                  "m_SizeDelta": {
+                    "x": 122.5999984741211,
+                    "y": 43.20000076293945
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "SeasonNumber_02",
+                "path": "StoryElflixItemSlot/Mask/NumberTextPos/SeasonNumber_02",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 122.5999984741211,
+                    "y": 43.20000076293945
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "SeasonNumber",
+                "path": "StoryElflixItemSlot/Mask/NumberTextPos/SeasonNumber",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 122.5999984741211,
+                    "y": 43.20000076293945
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "BottomGlow",
+            "path": "StoryElflixItemSlot/Mask/BottomGlow",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -117.30000305175781
+              },
+              "m_SizeDelta": {
+                "x": 80.0,
+                "y": -264.70050048828125
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Lock",
+            "path": "StoryElflixItemSlot/Mask/Lock",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "LockIcon",
+                "path": "StoryElflixItemSlot/Mask/Lock/LockIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 139.4999542236328,
+                    "y": 208.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 65.0,
+                    "y": 76.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Black",
+                "path": "StoryElflixItemSlot/Mask/Lock/Black",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Reread",
+            "path": "StoryElflixItemSlot/Mask/Reread",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "RereadIcon",
+                "path": "StoryElflixItemSlot/Mask/Reread/RereadIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 139.4999542236328,
+                    "y": 208.5
+                  },
+                  "m_SizeDelta": {
+                    "x": 73.0,
+                    "y": 77.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "RereadTextGroup",
+                "path": "StoryElflixItemSlot/Mask/Reread/RereadTextGroup",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -143.39999389648438
+                  },
+                  "m_SizeDelta": {
+                    "x": 227.5500030517578,
+                    "y": 43.91999816894531
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "HorizontalLayoutGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Icon1",
+                    "path": "StoryElflixItemSlot/Mask/Reread/RereadTextGroup/Icon1",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 27.858335494995117,
+                        "y": -21.959999084472656
+                      },
+                      "m_SizeDelta": {
+                        "x": 21.0,
+                        "y": 24.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Text",
+                    "path": "StoryElflixItemSlot/Mask/Reread/RereadTextGroup/Text",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 113.77500915527344,
+                        "y": -21.959999084472656
+                      },
+                      "m_SizeDelta": {
+                        "x": 142.39999389648438,
+                        "y": 50.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "StringBind"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Icon2",
+                    "path": "StoryElflixItemSlot/Mask/Reread/RereadTextGroup/Icon2",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 199.69168090820312,
+                        "y": -21.959999084472656
+                      },
+                      "m_SizeDelta": {
+                        "x": 21.0,
+                        "y": 24.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Black",
+                "path": "StoryElflixItemSlot/Mask/Reread/Black",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OutLine",
+        "path": "StoryElflixItemSlot/OutLine",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 432.0,
+            "y": 581.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "ContinueReadingTag",
+        "path": "StoryElflixItemSlot/ContinueReadingTag",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 49.400001525878906,
+            "y": -9.0999755859375
+          },
+          "m_SizeDelta": {
+            "x": 133.60000610351562,
+            "y": 58.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "CanvasGroup"
+          }
+        ],
+        "children": [
+          {
+            "name": "ClearText_Outline",
+            "path": "StoryElflixItemSlot/ContinueReadingTag/ClearText_Outline",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 122.5999984741211,
+                "y": 38.099998474121094
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "ClearText",
+            "path": "StoryElflixItemSlot/ContinueReadingTag/ClearText",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 122.5999984741211,
+                "y": 38.099998474121094
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "StringBind"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "RedDot",
+        "path": "StoryElflixItemSlot/RedDot",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 3.600006103515625,
+            "y": -7.5999755859375
+          },
+          "m_SizeDelta": {
+            "x": 55.0,
+            "y": 55.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "StoryElflixItemSlot",
+      "nodePath": "StoryElflixItemSlot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "StoryElflixItemSlot",
+      "nodePath": "StoryElflixItemSlot",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 8,
+      "pathId": "-6245483971308699997",
+      "bundle": "CAB-3952bcfcdc987ebbc35de67f470a3b2e",
+      "assetType": "AnimatorController",
+      "assetName": "StoryElflixItemSlot"
+    },
+    {
+      "gameObject": "StoryElflixItemSlot",
+      "nodePath": "StoryElflixItemSlot",
+      "component": "MonoBehaviour",
+      "script": "StoryElflixItemSlot",
+      "field": "m_chapterImage",
+      "fileId": 0,
+      "pathId": "-3815309680273917519",
+      "bundle": ""
+    },
+    {
+      "gameObject": "StoryElflixItemSlot",
+      "nodePath": "StoryElflixItemSlot",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[0].Sprite",
+      "fileId": 3,
+      "pathId": "4126361132032849674",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_SlotFrameAllRead",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrameAllRead.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrameAllRead.png"
+    },
+    {
+      "gameObject": "StoryElflixItemSlot",
+      "nodePath": "StoryElflixItemSlot",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[0].Sprite",
+      "fileId": 3,
+      "pathId": "7830040659076290052",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_SlotFrameDim",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrameDim.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrameDim.png"
+    },
+    {
+      "gameObject": "StoryElflixItemSlot",
+      "nodePath": "StoryElflixItemSlot",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[3].SpriteModules[0].Sprite",
+      "fileId": 3,
+      "pathId": "7830040659076290052",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_SlotFrameDim",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrameDim.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrameDim.png"
+    },
+    {
+      "gameObject": "StoryElflixItemSlot",
+      "nodePath": "StoryElflixItemSlot",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[4].SpriteModules[0].Sprite",
+      "fileId": 3,
+      "pathId": "327638035978584291",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_SlotFrame",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrame.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrame.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "StoryElflixItemSlot/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "Gradient",
+      "nodePath": "StoryElflixItemSlot/Mask/Gradient",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-867496437347892497",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_SlotGradient",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_SlotGradient.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_SlotGradient.png"
+    },
+    {
+      "gameObject": "Glow",
+      "nodePath": "StoryElflixItemSlot/Mask/Glow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "2505189553584105816",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow_Half",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png"
+    },
+    {
+      "gameObject": "EffectPos",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "EffectPos",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "4356609281684116549",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "RerunSelect_Fx01",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Fx01.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RerunSelect_Fx01.png"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_add",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Glow_add",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 4,
+      "pathId": "-4842174792883495735",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_SimpleGrow"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_add",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Glow_add",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 4,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "[Atlas_add]_Glow_add",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Glow_add",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 4,
+      "pathId": "2388390337977903553",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_Plane_Half_02"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Up",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Particle_Up",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 4,
+      "pathId": "-2972597276597634168",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Square_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Particle_Up",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Particle_Up",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 4,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 4,
+      "pathId": "3880845339072772296",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 4,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 4,
+      "pathId": "8602566225605374383",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Flare_07"
+    },
+    {
+      "gameObject": "[Atlas_add]_Light_Line",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/EffectPos/FX_UI_StoryRerunSlot_2/Root/[Atlas_add]_Light_Line",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 4,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "NameText",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/NameText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "NameText",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/NameText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7648414067359412582",
+      "bundle": "CAB-d289b07be7d89dad272a89634d625fc1",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_StoryRerunSelect_Text"
+    },
+    {
+      "gameObject": "TimeText",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/TimeText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "TimeText",
+      "nodePath": "StoryElflixItemSlot/Mask/NameTextPos/TimeText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "SeasonNumber_01",
+      "nodePath": "StoryElflixItemSlot/Mask/NumberTextPos/SeasonNumber_01",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "SeasonNumber_01",
+      "nodePath": "StoryElflixItemSlot/Mask/NumberTextPos/SeasonNumber_01",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "SeasonNumber_02",
+      "nodePath": "StoryElflixItemSlot/Mask/NumberTextPos/SeasonNumber_02",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "SeasonNumber_02",
+      "nodePath": "StoryElflixItemSlot/Mask/NumberTextPos/SeasonNumber_02",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "SeasonNumber",
+      "nodePath": "StoryElflixItemSlot/Mask/NumberTextPos/SeasonNumber",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "SeasonNumber",
+      "nodePath": "StoryElflixItemSlot/Mask/NumberTextPos/SeasonNumber",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 6,
+      "pathId": "3062020134569522316",
+      "bundle": "CAB-c73cb3f417873d62225fb0f72dcc3398",
+      "assetType": "Material",
+      "assetName": "SystemFont_Z_StoryRerunSelect_Number"
+    },
+    {
+      "gameObject": "BottomGlow",
+      "nodePath": "StoryElflixItemSlot/Mask/BottomGlow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "-1813110635512217170",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_UI_Mask_Additive"
+    },
+    {
+      "gameObject": "BottomGlow",
+      "nodePath": "StoryElflixItemSlot/Mask/BottomGlow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "2505189553584105816",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow_Half",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow_Half.png"
+    },
+    {
+      "gameObject": "Lock",
+      "nodePath": "StoryElflixItemSlot/Mask/Lock",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "LockIcon",
+      "nodePath": "StoryElflixItemSlot/Mask/Lock/LockIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-5029394107327789312",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_LockIcon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_LockIcon.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_LockIcon.png"
+    },
+    {
+      "gameObject": "Black",
+      "nodePath": "StoryElflixItemSlot/Mask/Lock/Black",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "Reread",
+      "nodePath": "StoryElflixItemSlot/Mask/Reread",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "RereadIcon",
+      "nodePath": "StoryElflixItemSlot/Mask/Reread/RereadIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "7362794887113005903",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_LockIcon2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_LockIcon2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_LockIcon2.png"
+    },
+    {
+      "gameObject": "Icon1",
+      "nodePath": "StoryElflixItemSlot/Mask/Reread/RereadTextGroup/Icon1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "1718874482617570303",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_LockIcon3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_LockIcon3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_LockIcon3.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StoryElflixItemSlot/Mask/Reread/RereadTextGroup/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "StoryElflixItemSlot/Mask/Reread/RereadTextGroup/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Icon2",
+      "nodePath": "StoryElflixItemSlot/Mask/Reread/RereadTextGroup/Icon2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "1718874482617570303",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_LockIcon3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_LockIcon3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_LockIcon3.png"
+    },
+    {
+      "gameObject": "Black",
+      "nodePath": "StoryElflixItemSlot/Mask/Reread/Black",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "3447111728266639624",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1010.png"
+    },
+    {
+      "gameObject": "OutLine",
+      "nodePath": "StoryElflixItemSlot/OutLine",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "327638035978584291",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_SlotFrame",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrame.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_SlotFrame.png"
+    },
+    {
+      "gameObject": "ContinueReadingTag",
+      "nodePath": "StoryElflixItemSlot/ContinueReadingTag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-8038850977116281935",
+      "bundle": "CAB-d80c788eda145ffac53f9319901dba1a",
+      "assetType": "Sprite",
+      "assetName": "ElflixPrime_Tag",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_Tag.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/ElflixPrime_Tag.png"
+    },
+    {
+      "gameObject": "ClearText_Outline",
+      "nodePath": "StoryElflixItemSlot/ContinueReadingTag/ClearText_Outline",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ClearText_Outline",
+      "nodePath": "StoryElflixItemSlot/ContinueReadingTag/ClearText_Outline",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 7,
+      "pathId": "7898221013450530367",
+      "bundle": "CAB-2b5773da34d0d6c7eac44e610af97c39",
+      "assetType": "Material",
+      "assetName": "SystemFont_Thick"
+    },
+    {
+      "gameObject": "ClearText",
+      "nodePath": "StoryElflixItemSlot/ContinueReadingTag/ClearText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ClearText",
+      "nodePath": "StoryElflixItemSlot/ContinueReadingTag/ClearText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 1,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "RedDot",
+      "nodePath": "StoryElflixItemSlot/RedDot",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "726963633998835705",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "RedDot1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/RedDot1.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "StoryElflixItemSlot",
+      "controllerBundle": "CAB-3952bcfcdc987ebbc35de67f470a3b2e",
+      "controllerPathId": "-6245483971308699997",
+      "controllerType": "AnimatorController",
+      "controllerName": "StoryElflixItemSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryElflixItemSlot_Entry",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.StoryElflixItemSlot_Idle",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [],
+      "controller": "StoryElflixItemSlot"
+    }
+  ]
+}

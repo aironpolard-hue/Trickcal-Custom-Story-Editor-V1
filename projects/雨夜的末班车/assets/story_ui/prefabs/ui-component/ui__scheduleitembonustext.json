@@ -1,0 +1,79 @@
+{
+  "id": "ui/scheduleitembonustext",
+  "sourceBundle": "prefab/ui/scheduleitembonustext",
+  "hierarchy": {
+    "name": "ScheduleItemBonusText",
+    "path": "ScheduleItemBonusText",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 100.0
+      },
+      "m_SizeDelta": {
+        "x": 200.0,
+        "y": 50.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "TextMeshProUGUI"
+      }
+    ],
+    "children": []
+  },
+  "references": [
+    {
+      "gameObject": "ScheduleItemBonusText",
+      "nodePath": "ScheduleItemBonusText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 1,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ScheduleItemBonusText",
+      "nodePath": "ScheduleItemBonusText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    }
+  ],
+  "animators": []
+}

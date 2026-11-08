@@ -280,6 +280,11 @@ function createEditorWindow(projectPath, options = {}) {
   }
   editorWindows.add(win);
   win.on('closed', () => editorWindows.delete(win));
+  win.webContents.on('before-input-event', (event, input) => {
+    if (input.type === 'mouseDown' && (input.button === 3 || input.button === 4)) event.preventDefault();
+  });
+  win.webContents.on('will-navigate', event => event.preventDefault());
+  win.webContents.setWindowOpenHandler(() => ({ action: 'deny' }));
   const params = new URLSearchParams({ project: projectPath });
   if (options.autoPreview) params.set('autoPreview', '1');
   if (options.autoBuild) params.set('autoBuild', '1');

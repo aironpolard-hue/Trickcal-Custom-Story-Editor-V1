@@ -1,0 +1,4104 @@
+{
+  "id": "popup/popuppostarchive",
+  "sourceBundle": "prefab/popup/popuppostarchive",
+  "hierarchy": {
+    "name": "PopupPostArchive",
+    "path": "PopupPostArchive",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 1864.0,
+        "y": 1326.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "PopupPostArchive"
+      }
+    ],
+    "children": [
+      {
+        "name": "Base",
+        "path": "PopupPostArchive/Base",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 4.0,
+            "y": -32.5
+          },
+          "m_SizeDelta": {
+            "x": 8.0,
+            "y": -49.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "HeaderGroup",
+        "path": "PopupPostArchive/HeaderGroup",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -4.0,
+            "y": -13.0
+          },
+          "m_SizeDelta": {
+            "x": 1060.0,
+            "y": 176.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 1.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "LetterIcon",
+            "path": "PopupPostArchive/HeaderGroup/LetterIcon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 295.0,
+                "y": 38.0
+              },
+              "m_SizeDelta": {
+                "x": 145.0,
+                "y": 125.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "PostBoxIcon",
+            "path": "PopupPostArchive/HeaderGroup/PostBoxIcon",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -236.0,
+                "y": 33.0
+              },
+              "m_SizeDelta": {
+                "x": 169.0,
+                "y": 136.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "RightGrass",
+            "path": "PopupPostArchive/HeaderGroup/RightGrass",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 550.0,
+                "y": -52.0
+              },
+              "m_SizeDelta": {
+                "x": 158.0,
+                "y": 41.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LeftGrass",
+            "path": "PopupPostArchive/HeaderGroup/LeftGrass",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -550.0,
+                "y": -52.0
+              },
+              "m_SizeDelta": {
+                "x": 158.0,
+                "y": 41.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "PopupName",
+            "path": "PopupPostArchive/HeaderGroup/PopupName",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -47.0
+              },
+              "m_SizeDelta": {
+                "x": 322.0,
+                "y": 40.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Text",
+                "path": "PopupPostArchive/HeaderGroup/PopupName/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 35.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 322.0,
+                    "y": 80.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "StringBind"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "CloseButton",
+            "path": "PopupPostArchive/HeaderGroup/CloseButton",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 315.99969482421875,
+                "y": -120.000244140625
+              },
+              "m_SizeDelta": {
+                "x": 130.0,
+                "y": 130.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Button"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "ButtonExtend"
+              }
+            ],
+            "children": [
+              {
+                "name": "CloseIcon",
+                "path": "PopupPostArchive/HeaderGroup/CloseButton/CloseIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 50.0,
+                    "y": 50.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ContentBase",
+        "path": "PopupPostArchive/ContentBase",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": -69.0
+          },
+          "m_SizeDelta": {
+            "x": 1784.0,
+            "y": 1086.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": [
+          {
+            "name": "Inner",
+            "path": "PopupPostArchive/ContentBase/Inner",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": -12.0,
+                "y": -12.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": [
+              {
+                "name": "Box",
+                "path": "PopupPostArchive/ContentBase/Inner/Box",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_AnchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": -62.0,
+                    "y": -57.99999237060547
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "ScrollRect"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "UIRecycleViewController_PostBoxArchive"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Viewport",
+                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "RectMask2D"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Content",
+                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_AnchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 6.4900102615356445
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 1051.489990234375
+                          },
+                          "m_Pivot": {
+                            "x": 0.0,
+                            "y": 1.0
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [],
+                        "children": [
+                          {
+                            "name": "PostBoxSlot",
+                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot",
+                            "active": false,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 1.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 1.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": -164.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 1656.0,
+                                "y": 254.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "PostBoxSlot"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIRecycleViewCell_PostBoxArchive"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "ColorTypeHandler",
+                                "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ColorTypeHandler",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIElementStateHandler"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "Base",
+                                "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Base",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "Image"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "stitch1",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Base/stitch1",
+                                    "active": false,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 45.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 937.0,
+                                        "y": 4.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "stitch2",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Base/stitch2",
+                                    "active": false,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 45.0,
+                                        "y": -39.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 937.0,
+                                        "y": 4.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "Deco",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Base/Deco",
+                                    "active": false,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 1.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 1.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": -655.2000122070312,
+                                        "y": 2.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 6.0,
+                                        "y": 192.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Border",
+                                "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Border",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": -2.0,
+                                    "y": 2.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": -4.0,
+                                    "y": -4.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [],
+                                "children": [
+                                  {
+                                    "name": "Left",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Border/Left",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 114.0,
+                                        "y": 250.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "Middle",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Border/Middle",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 1.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": -10.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": -248.0,
+                                        "y": 250.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "Right",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Border/Right",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 1.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 1.0,
+                                        "y": 0.5
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": -67.0,
+                                        "y": 0.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 134.0,
+                                        "y": 250.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      }
+                                    ],
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "ContentsGroup",
+                                "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 1631.5400390625,
+                                    "y": 250.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "HorizontalLayoutGroup"
+                                  }
+                                ],
+                                "children": [
+                                  {
+                                    "name": "Message",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 0.0,
+                                        "y": -125.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 971.432861328125,
+                                        "y": 250.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.0,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "LayoutElement"
+                                      }
+                                    ],
+                                    "children": [
+                                      {
+                                        "name": "Base",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Base",
+                                        "active": true,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 0.0,
+                                            "y": 0.0
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 1.0,
+                                            "y": 1.0
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": -5.405029296875,
+                                            "y": 3.47039794921875
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": 11.657999992370605,
+                                            "y": -59.87770080566406
+                                          },
+                                          "m_Pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 0.9993598461151123,
+                                            "y": 0.9993598461151123,
+                                            "z": 0.9993598461151123
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": -0.0,
+                                            "y": -0.0,
+                                            "z": -0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "CanvasRenderer"
+                                          }
+                                        ],
+                                        "children": [
+                                          {
+                                            "name": "stitch1",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Base/stitch1",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.0,
+                                                "y": 0.5
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 1.0,
+                                                "y": 0.5
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": 45.0,
+                                                "y": -5.0
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": -60.60490036010742,
+                                                "y": 4.0
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.0,
+                                                "y": 0.5
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "Image"
+                                              }
+                                            ],
+                                            "children": []
+                                          },
+                                          {
+                                            "name": "stitch2",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Base/stitch2",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.0,
+                                                "y": 0.5
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 1.0,
+                                                "y": 0.5
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": 45.0,
+                                                "y": -44.0
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": -60.60490036010742,
+                                                "y": 4.0
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.0,
+                                                "y": 0.5
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "Image"
+                                              }
+                                            ],
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "Mail Content",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Mail Content",
+                                        "active": true,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 0.0,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 1.0,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": 12.0,
+                                            "y": -13.0
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": -24.000179290771484,
+                                            "y": 100.0
+                                          },
+                                          "m_Pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "CanvasRenderer"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "TextMeshProUGUI"
+                                          }
+                                        ],
+                                        "children": []
+                                      },
+                                      {
+                                        "name": "Expired Date",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Expired Date",
+                                        "active": true,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 0.0,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 1.0,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": 271.2679443359375,
+                                            "y": -76.0
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": -588.7979125976562,
+                                            "y": 50.0
+                                          },
+                                          "m_Pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": -0.0,
+                                            "y": -0.0,
+                                            "z": -0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "CanvasRenderer"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "TextMeshProUGUI"
+                                          }
+                                        ],
+                                        "children": []
+                                      },
+                                      {
+                                        "name": "TitleMask",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/TitleMask",
+                                        "active": true,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 0.0,
+                                            "y": 1.0
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 1.0,
+                                            "y": 1.0
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": 17.73579978942871,
+                                            "y": -19.0
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": -38.400299072265625,
+                                            "y": 80.0
+                                          },
+                                          "m_Pivot": {
+                                            "x": 0.0,
+                                            "y": 1.0
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "RectMask2D"
+                                          }
+                                        ],
+                                        "children": [
+                                          {
+                                            "name": "Base",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/TitleMask/Base",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 0.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": 0.0,
+                                                "y": -39.99993896484375
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": 247.3300018310547,
+                                                "y": 30.0
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.0,
+                                                "y": 0.5
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "Image"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "HorizontalLayoutGroup"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "ContentSizeFitter"
+                                              }
+                                            ],
+                                            "children": [
+                                              {
+                                                "name": "Text",
+                                                "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/TitleMask/Base/Text",
+                                                "active": true,
+                                                "rect": {
+                                                  "m_AnchorMin": {
+                                                    "x": 0.0,
+                                                    "y": 1.0
+                                                  },
+                                                  "m_AnchorMax": {
+                                                    "x": 0.0,
+                                                    "y": 1.0
+                                                  },
+                                                  "m_AnchoredPosition": {
+                                                    "x": 123.66500091552734,
+                                                    "y": -3.0
+                                                  },
+                                                  "m_SizeDelta": {
+                                                    "x": 207.3300018310547,
+                                                    "y": 80.0
+                                                  },
+                                                  "m_Pivot": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                  },
+                                                  "m_LocalScale": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 1.0
+                                                  },
+                                                  "m_LocalRotation": {
+                                                    "x": -0.0,
+                                                    "y": -0.0,
+                                                    "z": -0.0,
+                                                    "w": 1.0
+                                                  }
+                                                },
+                                                "components": [
+                                                  {
+                                                    "type": "CanvasRenderer"
+                                                  },
+                                                  {
+                                                    "type": "MonoBehaviour",
+                                                    "script": "TextMeshProUGUI"
+                                                  },
+                                                  {
+                                                    "type": "MonoBehaviour",
+                                                    "script": "AutoScrollComponent"
+                                                  }
+                                                ],
+                                                "children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "OverLimitTag",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/OverLimitTag",
+                                        "active": false,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 0.0,
+                                            "y": 1.0
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 0.0,
+                                            "y": 1.0
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": 24.0,
+                                            "y": -204.7100067138672
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": 500.0,
+                                            "y": 42.577999114990234
+                                          },
+                                          "m_Pivot": {
+                                            "x": 0.0,
+                                            "y": 0.5
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": -0.0,
+                                            "y": -0.0,
+                                            "z": -0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "CanvasRenderer"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "Image"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "HorizontalLayoutGroup"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "ContentSizeFitter"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "LayoutElement"
+                                          }
+                                        ],
+                                        "children": [
+                                          {
+                                            "name": "Icon",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/OverLimitTag/Icon",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 0.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": 14.100000381469727,
+                                                "y": -17.0
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": 22.777099609375,
+                                                "y": 44.60499954223633
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.5,
+                                                "y": 0.5
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "Image"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "LayoutElement"
+                                              }
+                                            ],
+                                            "children": []
+                                          },
+                                          {
+                                            "name": "Text",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/OverLimitTag/Text",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 0.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": 255.0,
+                                                "y": -21.288999557495117
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": 450.0,
+                                                "y": 48.0
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.5,
+                                                "y": 0.5
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": -0.0,
+                                                "y": -0.0,
+                                                "z": -0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "TextMeshProUGUI"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "AutoScrollComponent"
+                                              }
+                                            ],
+                                            "children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "MessageOpenBtn",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/MessageOpenBtn",
+                                    "active": false,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 922.5819702148438,
+                                        "y": -125.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 110.0,
+                                        "y": 228.72000122070312
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "LayoutElement"
+                                      }
+                                    ],
+                                    "children": [
+                                      {
+                                        "name": "TakeButton",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/MessageOpenBtn/TakeButton",
+                                        "active": true,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": 0.0,
+                                            "y": 0.0
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": 94.0,
+                                            "y": 170.0
+                                          },
+                                          "m_Pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": -0.0,
+                                            "y": -0.0,
+                                            "z": -0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "CanvasRenderer"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "Image"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "Button"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "ButtonExtend"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "AutoRemoveAllListener"
+                                          }
+                                        ],
+                                        "children": [
+                                          {
+                                            "name": "ArrowMark",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/MessageOpenBtn/TakeButton/ArrowMark",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.5,
+                                                "y": 0.5
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 0.5,
+                                                "y": 0.5
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": 1.2000000476837158,
+                                                "y": 0.0
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": 32.0,
+                                                "y": 52.0
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.5,
+                                                "y": 0.5
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "Image"
+                                              }
+                                            ],
+                                            "children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Deco",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Deco",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 974.4309692382812,
+                                        "y": -125.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 6.0,
+                                        "y": 192.0
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 0.9993599653244019,
+                                        "y": 0.9993599653244019,
+                                        "z": 0.9993599653244019
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "Image"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "LayoutElement"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "ItemSlotPos",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/ItemSlotPos",
+                                    "active": true,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 1152.8353271484375,
+                                        "y": -125.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 539.7119750976562,
+                                        "y": 384.6199951171875
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 0.649999737739563,
+                                        "y": 0.649999737739563,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "LayoutElement"
+                                      }
+                                    ],
+                                    "children": [
+                                      {
+                                        "name": "ItemSlotScroll",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/ItemSlotPos/ItemSlotScroll",
+                                        "active": true,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": 0.0,
+                                            "y": 0.0
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": 530.0,
+                                            "y": 274.6000061035156
+                                          },
+                                          "m_Pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": -0.0,
+                                            "y": -0.0,
+                                            "z": -0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "CanvasRenderer"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "Image"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "ScrollRect"
+                                          }
+                                        ],
+                                        "children": [
+                                          {
+                                            "name": "Viewport",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/ItemSlotPos/ItemSlotScroll/Viewport",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 1.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": 0.0,
+                                                "y": -17.0
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.0,
+                                                "y": 1.0
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": -0.0,
+                                                "y": -0.0,
+                                                "z": -0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "Image"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "Mask"
+                                              }
+                                            ],
+                                            "children": [
+                                              {
+                                                "name": "Content",
+                                                "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/ItemSlotPos/ItemSlotScroll/Viewport/Content",
+                                                "active": true,
+                                                "rect": {
+                                                  "m_AnchorMin": {
+                                                    "x": 0.0,
+                                                    "y": 1.0
+                                                  },
+                                                  "m_AnchorMax": {
+                                                    "x": 0.0,
+                                                    "y": 1.0
+                                                  },
+                                                  "m_AnchoredPosition": {
+                                                    "x": 0.0005925321020185947,
+                                                    "y": 0.0
+                                                  },
+                                                  "m_SizeDelta": {
+                                                    "x": 28.0,
+                                                    "y": 300.0
+                                                  },
+                                                  "m_Pivot": {
+                                                    "x": 0.0,
+                                                    "y": 1.0
+                                                  },
+                                                  "m_LocalScale": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 1.0
+                                                  },
+                                                  "m_LocalRotation": {
+                                                    "x": -0.0,
+                                                    "y": -0.0,
+                                                    "z": -0.0,
+                                                    "w": 1.0
+                                                  }
+                                                },
+                                                "components": [
+                                                  {
+                                                    "type": "MonoBehaviour",
+                                                    "script": "HorizontalLayoutGroup"
+                                                  },
+                                                  {
+                                                    "type": "MonoBehaviour",
+                                                    "script": "ContentSizeFitter"
+                                                  }
+                                                ],
+                                                "children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "ReceivedText",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/ReceivedText",
+                                    "active": false,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 1343.7459716796875,
+                                        "y": -125.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 252.0,
+                                        "y": 70.27999877929688
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "CanvasRenderer"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "LayoutElement"
+                                      },
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "TextMeshProUGUI"
+                                      }
+                                    ],
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "TakeBtn",
+                                    "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn",
+                                    "active": false,
+                                    "rect": {
+                                      "m_AnchorMin": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchorMax": {
+                                        "x": 0.0,
+                                        "y": 1.0
+                                      },
+                                      "m_AnchoredPosition": {
+                                        "x": 1479.890869140625,
+                                        "y": -125.0
+                                      },
+                                      "m_SizeDelta": {
+                                        "x": 303.2983703613281,
+                                        "y": 228.72000122070312
+                                      },
+                                      "m_Pivot": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                      },
+                                      "m_LocalScale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                      },
+                                      "m_LocalRotation": {
+                                        "x": -0.0,
+                                        "y": -0.0,
+                                        "z": -0.0,
+                                        "w": 1.0
+                                      }
+                                    },
+                                    "components": [
+                                      {
+                                        "type": "MonoBehaviour",
+                                        "script": "LayoutElement"
+                                      }
+                                    ],
+                                    "children": [
+                                      {
+                                        "name": "LeftTime",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/LeftTime",
+                                        "active": true,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 1.0,
+                                            "y": 1.0
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 1.0,
+                                            "y": 1.0
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": 18.18012237548828,
+                                            "y": -23.99982452392578
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": 119.27000427246094,
+                                            "y": 80.0
+                                          },
+                                          "m_Pivot": {
+                                            "x": 1.0,
+                                            "y": 0.5
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": -0.0,
+                                            "y": -0.0,
+                                            "z": -0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "Image"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "HorizontalLayoutGroup"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "ContentSizeFitter"
+                                          },
+                                          {
+                                            "type": "CanvasRenderer"
+                                          }
+                                        ],
+                                        "children": [
+                                          {
+                                            "name": "Text",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/LeftTime/Text",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 0.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": 59.63500213623047,
+                                                "y": -30.5
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": 59.27000045776367,
+                                                "y": 61.0
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.5,
+                                                "y": 0.5
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "TextMeshProUGUI"
+                                              }
+                                            ],
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "TakeButton",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/TakeButton",
+                                        "active": false,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 1.0,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 1.0,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": -149.8800506591797,
+                                            "y": 0.36000490188598633
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": 244.0,
+                                            "y": 84.0
+                                          },
+                                          "m_Pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": -0.0,
+                                            "y": -0.0,
+                                            "z": -0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "CanvasRenderer"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "Image"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "Button"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "ButtonExtend"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "AutoRemoveAllListener"
+                                          }
+                                        ],
+                                        "children": [
+                                          {
+                                            "name": "Text",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/TakeButton/Text",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 1.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": -1.5,
+                                                "y": 1.5
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": -13.0,
+                                                "y": -13.0
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.5,
+                                                "y": 0.5
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "TextMeshProUGUI"
+                                              }
+                                            ],
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "MessageOpenBtn",
+                                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/MessageOpenBtn",
+                                        "active": false,
+                                        "rect": {
+                                          "m_AnchorMin": {
+                                            "x": 1.0,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchorMax": {
+                                            "x": 1.0,
+                                            "y": 0.5
+                                          },
+                                          "m_AnchoredPosition": {
+                                            "x": -149.8800506591797,
+                                            "y": 0.36000490188598633
+                                          },
+                                          "m_SizeDelta": {
+                                            "x": 244.0,
+                                            "y": 84.0
+                                          },
+                                          "m_Pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                          },
+                                          "m_LocalScale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                          },
+                                          "m_LocalRotation": {
+                                            "x": -0.0,
+                                            "y": -0.0,
+                                            "z": -0.0,
+                                            "w": 1.0
+                                          }
+                                        },
+                                        "components": [
+                                          {
+                                            "type": "CanvasRenderer"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "Image"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "Button"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "ButtonExtend"
+                                          },
+                                          {
+                                            "type": "MonoBehaviour",
+                                            "script": "AutoRemoveAllListener"
+                                          }
+                                        ],
+                                        "children": [
+                                          {
+                                            "name": "Text",
+                                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/MessageOpenBtn/Text",
+                                            "active": true,
+                                            "rect": {
+                                              "m_AnchorMin": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                              },
+                                              "m_AnchorMax": {
+                                                "x": 1.0,
+                                                "y": 1.0
+                                              },
+                                              "m_AnchoredPosition": {
+                                                "x": -1.5,
+                                                "y": 1.5
+                                              },
+                                              "m_SizeDelta": {
+                                                "x": -13.0,
+                                                "y": -13.0
+                                              },
+                                              "m_Pivot": {
+                                                "x": 0.5,
+                                                "y": 0.5
+                                              },
+                                              "m_LocalScale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                              },
+                                              "m_LocalRotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                              }
+                                            },
+                                            "components": [
+                                              {
+                                                "type": "CanvasRenderer"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "TextMeshProUGUI"
+                                              },
+                                              {
+                                                "type": "MonoBehaviour",
+                                                "script": "StringBind"
+                                              }
+                                            ],
+                                            "children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "No Mail Archive",
+                        "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/No Mail Archive",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -15.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 0.0,
+                            "y": 50.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "TextMeshProUGUI"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "ContentSizeFitter"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Leaf",
+                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/No Mail Archive/Leaf",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": -50.0,
+                                "y": 100.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 32.0,
+                                "y": 47.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "Line",
+                            "path": "PopupPostArchive/ContentBase/Inner/Box/Viewport/No Mail Archive/Line",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.0
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 20.0,
+                                "y": 90.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 116.0,
+                                "y": 60.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "TopGra",
+                    "path": "PopupPostArchive/ContentBase/Inner/Box/TopGra",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -15.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -50.0,
+                        "y": 15.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": -1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "BotGra",
+                    "path": "PopupPostArchive/ContentBase/Inner/Box/BotGra",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_AnchorMax": {
+                        "x": 1.0,
+                        "y": 0.0
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": -50.0,
+                        "y": 15.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ArrowBtn",
+        "path": "PopupPostArchive/ArrowBtn",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -122.0,
+            "y": -257.0
+          },
+          "m_SizeDelta": {
+            "x": 90.0,
+            "y": 84.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonExtend"
+          }
+        ],
+        "children": [
+          {
+            "name": "Image",
+            "path": "PopupPostArchive/ArrowBtn/Image",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 44.0,
+                "y": -40.0
+              },
+              "m_SizeDelta": {
+                "x": 28.0,
+                "y": 31.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.2000000476837158,
+                "y": 1.2000000476837158,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.087155781686306,
+                "w": 0.9961947202682495
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Sort",
+        "path": "PopupPostArchive/Sort",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": -320.0,
+            "y": -257.0
+          },
+          "m_SizeDelta": {
+            "x": 262.0,
+            "y": 84.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Button"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "HorizontalLayoutGroup"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "ButtonExtend"
+          }
+        ],
+        "children": [
+          {
+            "name": "Text",
+            "path": "PopupPostArchive/Sort/Text",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": -1.0,
+                "y": 1.0
+              },
+              "m_SizeDelta": {
+                "x": -18.0,
+                "y": -18.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "TextMeshProUGUI"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Base",
+      "nodePath": "PopupPostArchive/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "7276741957585944343",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Popup_Base_8070",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Popup_Base_8070.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Popup_Base_8070.png"
+    },
+    {
+      "gameObject": "HeaderGroup",
+      "nodePath": "PopupPostArchive/HeaderGroup",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "2251122438946744788",
+      "bundle": "CAB-3d758a0e52b00377c4f5d87b50a7f29b",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Top_Base",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Base.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Base.png"
+    },
+    {
+      "gameObject": "LetterIcon",
+      "nodePath": "PopupPostArchive/HeaderGroup/LetterIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "6782234982869121182",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Top_Deco1",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Deco1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Deco1.png"
+    },
+    {
+      "gameObject": "PostBoxIcon",
+      "nodePath": "PopupPostArchive/HeaderGroup/PostBoxIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "7173289381079341698",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Top_Deco2",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Deco2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Deco2.png"
+    },
+    {
+      "gameObject": "RightGrass",
+      "nodePath": "PopupPostArchive/HeaderGroup/RightGrass",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "9014911648338887709",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Top_Deco3",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Deco3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Deco3.png"
+    },
+    {
+      "gameObject": "LeftGrass",
+      "nodePath": "PopupPostArchive/HeaderGroup/LeftGrass",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "9014911648338887709",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Top_Deco3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Deco3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Top_Deco3.png"
+    },
+    {
+      "gameObject": "PopupName",
+      "nodePath": "PopupPostArchive/HeaderGroup/PopupName",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "441584363957378766",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2020",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/HeaderGroup/PopupName/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/HeaderGroup/PopupName/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 5,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    },
+    {
+      "gameObject": "CloseIcon",
+      "nodePath": "PopupPostArchive/HeaderGroup/CloseButton/CloseIcon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-2737667185971423406",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Obsolated_CommonButton_Close_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonButton_Close_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonButton_Close_2.png"
+    },
+    {
+      "gameObject": "ContentBase",
+      "nodePath": "PopupPostArchive/ContentBase",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6432470525094934",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4040",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png"
+    },
+    {
+      "gameObject": "Inner",
+      "nodePath": "PopupPostArchive/ContentBase/Inner",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6432470525094934",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4040",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png"
+    },
+    {
+      "gameObject": "Box",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-7051289772167944605",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_3030",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_3030.png"
+    },
+    {
+      "gameObject": "ColorTypeHandler",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ColorTypeHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[0].Sprite",
+      "fileId": 2,
+      "pathId": "8087876811047562483",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Left",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Left.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Left.png"
+    },
+    {
+      "gameObject": "ColorTypeHandler",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ColorTypeHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[1].Sprite",
+      "fileId": 2,
+      "pathId": "4813401514068008027",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Mid",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Mid.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Mid.png"
+    },
+    {
+      "gameObject": "ColorTypeHandler",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ColorTypeHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[1].SpriteModules[2].Sprite",
+      "fileId": 2,
+      "pathId": "-2857209785211347443",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Right",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Right.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Right.png"
+    },
+    {
+      "gameObject": "ColorTypeHandler",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ColorTypeHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[0].Sprite",
+      "fileId": 2,
+      "pathId": "1226931546206861254",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Left_Red",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Left_Red.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Left_Red.png"
+    },
+    {
+      "gameObject": "ColorTypeHandler",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ColorTypeHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[1].Sprite",
+      "fileId": 2,
+      "pathId": "-156231697454349428",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Mid_Red",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Mid_Red.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Mid_Red.png"
+    },
+    {
+      "gameObject": "ColorTypeHandler",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ColorTypeHandler",
+      "component": "MonoBehaviour",
+      "script": "UIElementStateHandler",
+      "field": "States[2].SpriteModules[2].Sprite",
+      "fileId": 2,
+      "pathId": "-7353040780852559160",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Right_Red",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Right_Red.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Right_Red.png"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-8200414556135009565",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Base_3030",
+      "atlasBundle": "atlases/postbox",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Base_3030.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Base_3030.png"
+    },
+    {
+      "gameObject": "stitch1",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Base/stitch1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8742931045436508870",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_Stitch",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_Stitch.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_Stitch.png"
+    },
+    {
+      "gameObject": "stitch2",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Base/stitch2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8742931045436508870",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_Stitch",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_Stitch.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_Stitch.png"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Base/Deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7579496373606198959",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png"
+    },
+    {
+      "gameObject": "Left",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Border/Left",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "8087876811047562483",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Left",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Left.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Left.png"
+    },
+    {
+      "gameObject": "Middle",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Border/Middle",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "4813401514068008027",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Mid",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Mid.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Mid.png"
+    },
+    {
+      "gameObject": "Right",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/Border/Right",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-2857209785211347443",
+      "bundle": "CAB-89e560e3ecaa5757f0d86f2875726557",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Slot_Right",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Right.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Slot_Right.png"
+    },
+    {
+      "gameObject": "stitch1",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Base/stitch1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8742931045436508870",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_Stitch",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_Stitch.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_Stitch.png"
+    },
+    {
+      "gameObject": "stitch2",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Base/stitch2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-8742931045436508870",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_Stitch",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_Stitch.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_Stitch.png"
+    },
+    {
+      "gameObject": "Mail Content",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Mail Content",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Mail Content",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Mail Content",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Expired Date",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Expired Date",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Expired Date",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/Expired Date",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Base",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/TitleMask/Base",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-6361831585834629570",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_1515",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_1515.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/TitleMask/Base/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/TitleMask/Base/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "OverLimitTag",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/OverLimitTag",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "441584363957378766",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_2020",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_2020.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/OverLimitTag/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4055176645741074192",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "PostBox_Icon_04",
+      "atlasBundle": "atlases/commonicons",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Icon_04.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/PostBox_Icon_04.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/OverLimitTag/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Message/OverLimitTag/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "TakeButton",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/MessageOpenBtn/TakeButton",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8991464857640099064",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_3030_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png"
+    },
+    {
+      "gameObject": "ArrowMark",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/MessageOpenBtn/TakeButton/ArrowMark",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5518780798353536601",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonButton_SingleRight_2",
+      "atlasBundle": "atlases/commonicons",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonButton_SingleRight_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonButton_SingleRight_2.png"
+    },
+    {
+      "gameObject": "Deco",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/Deco",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "7579496373606198959",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0404.png"
+    },
+    {
+      "gameObject": "ItemSlotScroll",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/ItemSlotPos/ItemSlotScroll",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 0,
+      "pathId": "-6932470282978226757",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Viewport",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/ItemSlotPos/ItemSlotScroll/Viewport",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "ReceivedText",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/ReceivedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "ReceivedText",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/ReceivedText",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "LeftTime",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/LeftTime",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "9171700956441053989",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBalloon_Right",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBalloon_Right.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBalloon_Right.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/LeftTime/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/LeftTime/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "TakeButton",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/TakeButton",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8991464857640099064",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_3030_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/TakeButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/TakeButton/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "MessageOpenBtn",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/MessageOpenBtn",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-5434473399268924142",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_2020_002",
+      "atlasBundle": "atlases/commonui",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_2020_002.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_2020_002.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/MessageOpenBtn/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/Content/PostBoxSlot/ContentsGroup/TakeBtn/MessageOpenBtn/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "No Mail Archive",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/No Mail Archive",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "No Mail Archive",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/No Mail Archive",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Leaf",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/No Mail Archive/Leaf",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-1876023472055250403",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Empty_Deco_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Empty_Deco_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Empty_Deco_1.png"
+    },
+    {
+      "gameObject": "Line",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/Viewport/No Mail Archive/Line",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "4754653569376921694",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Empty_Deco_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Empty_Deco_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Empty_Deco_2.png"
+    },
+    {
+      "gameObject": "TopGra",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/TopGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "7807473786379493709",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Obsolated_CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "BotGra",
+      "nodePath": "PopupPostArchive/ContentBase/Inner/Box/BotGra",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "7807473786379493709",
+      "bundle": "CAB-0ab6c0f6926fa60589d751a7428ffd45",
+      "assetType": "Sprite",
+      "assetName": "Obsolated_CommonGradientList_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonGradientList_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Obsolated_CommonGradientList_1.png"
+    },
+    {
+      "gameObject": "ArrowBtn",
+      "nodePath": "PopupPostArchive/ArrowBtn",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8991464857640099064",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_3030_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png"
+    },
+    {
+      "gameObject": "Image",
+      "nodePath": "PopupPostArchive/ArrowBtn/Image",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "3344671160574996162",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Align_IconUp",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Align_IconUp.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Align_IconUp.png"
+    },
+    {
+      "gameObject": "Sort",
+      "nodePath": "PopupPostArchive/Sort",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8991464857640099064",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "Common_MinorBtn_3030_001",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Common_MinorBtn_3030_001.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/Sort/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 4,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "PopupPostArchive/Sort/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 4,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    }
+  ],
+  "animators": []
+}

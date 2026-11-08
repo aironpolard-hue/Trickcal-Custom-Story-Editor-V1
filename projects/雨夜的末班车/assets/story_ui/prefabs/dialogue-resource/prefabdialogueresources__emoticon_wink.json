@@ -1,0 +1,226 @@
+{
+  "id": "prefabdialogueresources/emoticon_wink",
+  "sourceBundle": "prefab/prefabdialogueresources/emoticon_wink",
+  "hierarchy": {
+    "name": "Emoticon_Wink",
+    "path": "Emoticon_Wink",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 2,
+          "pathId": "5617755534010992086",
+          "bundle": "CAB-9768d7dc41d0a8d6b76a6159d627ee09"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "EmoteAnimationCallback"
+      }
+    ],
+    "children": [
+      {
+        "name": "Angry",
+        "path": "Emoticon_Wink/Angry",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 109.21331024169922,
+            "y": 124.00000762939453
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Angry_1",
+        "path": "Emoticon_Wink/Angry_1",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -99.58999633789062,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 103.20156860351562,
+            "y": 124.00000762939453
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Emoticon_Wink",
+      "nodePath": "Emoticon_Wink",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 2,
+      "pathId": "5617755534010992086",
+      "bundle": "CAB-9768d7dc41d0a8d6b76a6159d627ee09",
+      "assetType": "AnimatorController",
+      "assetName": "Emoticon_Angry"
+    },
+    {
+      "gameObject": "Angry",
+      "nodePath": "Emoticon_Wink/Angry",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "8177058666603440359",
+      "bundle": "CAB-8e67eddc7e8b09ec92ce1ec47dc1958a",
+      "assetType": "Sprite",
+      "assetName": "wink_icon_1",
+      "atlasBundle": "atlases/emoticon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/wink_icon_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/wink_icon_1.png"
+    },
+    {
+      "gameObject": "Angry_1",
+      "nodePath": "Emoticon_Wink/Angry_1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "-3870301862927884749",
+      "bundle": "CAB-8e67eddc7e8b09ec92ce1ec47dc1958a",
+      "assetType": "Sprite",
+      "assetName": "wink_icon_0",
+      "atlasBundle": "atlases/emoticon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/wink_icon_0.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/wink_icon_0.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "Emoticon_Wink",
+      "controllerBundle": "CAB-9768d7dc41d0a8d6b76a6159d627ee09",
+      "controllerPathId": "5617755534010992086",
+      "controllerType": "AnimatorController",
+      "controllerName": "Emoticon_Angry",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.Emoticon_Angry",
+          "clips": [
+            "Emoticon_Angry"
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [
+        {
+          "name": "Emoticon_Angry",
+          "duration": 1.0166666507720947,
+          "pathId": "-8265479211468063929"
+        }
+      ],
+      "controller": "Emoticon_Angry"
+    }
+  ]
+}

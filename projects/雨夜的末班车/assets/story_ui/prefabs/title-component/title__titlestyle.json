@@ -1,0 +1,928 @@
+{
+  "id": "title/titlestyle",
+  "sourceBundle": "prefab/title/titlestyle",
+  "hierarchy": {
+    "name": "TitleStyle",
+    "path": "TitleStyle",
+    "active": true,
+    "rect": {
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "MonoBehaviour",
+        "script": "TitleStyle"
+      }
+    ],
+    "children": [
+      {
+        "name": "Title Effect",
+        "path": "TitleStyle/Title Effect",
+        "active": false,
+        "rect": {
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "FX_UI_TitleStyle",
+            "path": "TitleStyle/Title Effect/FX_UI_TitleStyle",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Root",
+                "path": "TitleStyle/Title Effect/FX_UI_TitleStyle/Root",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "ParticleSystem"
+                  },
+                  {
+                    "type": "ParticleSystemRenderer"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "[Atlas_add]_Paper_piece_mesh",
+                    "path": "TitleStyle/Title Effect/FX_UI_TitleStyle/Root/[Atlas_add]_Paper_piece_mesh",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Style Camera",
+        "path": "TitleStyle/Style Camera",
+        "active": true,
+        "rect": {
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "Camera"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "UniversalAdditionalCameraData"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Background",
+        "path": "TitleStyle/Background",
+        "active": true,
+        "rect": {
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Spine GameObject (Title_Background)",
+            "path": "TitleStyle/Background/Spine GameObject (Title_Background)",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 100.0,
+                "y": 100.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MeshFilter"
+              },
+              {
+                "type": "MeshRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SkeletonAnimation"
+              },
+              {
+                "type": "CanvasRenderer"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Block (2)",
+            "path": "TitleStyle/Background/Block (2)",
+            "active": false,
+            "rect": {
+              "m_LocalScale": {
+                "x": 39.630001068115234,
+                "y": 62.689998626708984,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "SpriteRenderer"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Block",
+            "path": "TitleStyle/Background/Block",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 39.630001068115234,
+                "y": 62.689998626708984,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "SpriteRenderer"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Block (1)",
+            "path": "TitleStyle/Background/Block (1)",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 39.630001068115234,
+                "y": 62.689998626708984,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "SpriteRenderer"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Character",
+        "path": "TitleStyle/Character",
+        "active": true,
+        "rect": {
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Hero1",
+            "path": "TitleStyle/Character/Hero1",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.04361940547823906,
+                "w": 0.9990482926368713
+              }
+            },
+            "components": [
+              {
+                "type": "SortingGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Spine",
+                "path": "TitleStyle/Character/Hero1/Spine",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "BoxCollider"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "HeroCollider",
+                    "path": "TitleStyle/Character/Hero1/Spine/HeroCollider",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "BoxCollider"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hero2",
+            "path": "TitleStyle/Character/Hero2",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "SortingGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Spine",
+                "path": "TitleStyle/Character/Hero2/Spine",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "BoxCollider"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "HeroCollider",
+                    "path": "TitleStyle/Character/Hero2/Spine/HeroCollider",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "BoxCollider"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hero3",
+            "path": "TitleStyle/Character/Hero3",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "SortingGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Spine",
+                "path": "TitleStyle/Character/Hero3/Spine",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "BoxCollider"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "HeroCollider",
+                    "path": "TitleStyle/Character/Hero3/Spine/HeroCollider",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "BoxCollider"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hero4",
+            "path": "TitleStyle/Character/Hero4",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "SortingGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Spine",
+                "path": "TitleStyle/Character/Hero4/Spine",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "BoxCollider"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "HeroCollider",
+                    "path": "TitleStyle/Character/Hero4/Spine/HeroCollider",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "BoxCollider"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hero5",
+            "path": "TitleStyle/Character/Hero5",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.13052624464035034,
+                "w": 0.9914448857307434
+              }
+            },
+            "components": [
+              {
+                "type": "SortingGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Spine",
+                "path": "TitleStyle/Character/Hero5/Spine",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "BoxCollider"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "HeroCollider",
+                    "path": "TitleStyle/Character/Hero5/Spine/HeroCollider",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": -1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "BoxCollider"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Highlight",
+        "path": "TitleStyle/Highlight",
+        "active": false,
+        "rect": {
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Background",
+            "path": "TitleStyle/Highlight/Background",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 60.0,
+                "y": 60.0,
+                "z": 60.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "SpriteRenderer"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Highlight",
+            "path": "TitleStyle/Highlight/Highlight",
+            "active": true,
+            "rect": {
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "MeshFilter"
+              },
+              {
+                "type": "MeshRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SkeletonAnimation"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "[Atlas_add]_Paper_piece_mesh",
+      "nodePath": "TitleStyle/Title Effect/FX_UI_TitleStyle/Root/[Atlas_add]_Paper_piece_mesh",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 3,
+      "pathId": "6730945460174098307",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Fragment_01"
+    },
+    {
+      "gameObject": "[Atlas_add]_Paper_piece_mesh",
+      "nodePath": "TitleStyle/Title Effect/FX_UI_TitleStyle/Root/[Atlas_add]_Paper_piece_mesh",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 3,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_add]_Paper_piece_mesh",
+      "nodePath": "TitleStyle/Title Effect/FX_UI_TitleStyle/Root/[Atlas_add]_Paper_piece_mesh",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 3,
+      "pathId": "-8447101740971305860",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_Plane_Bend001"
+    },
+    {
+      "gameObject": "Spine GameObject (Title_Background)",
+      "nodePath": "TitleStyle/Background/Spine GameObject (Title_Background)",
+      "component": "MeshRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 4,
+      "pathId": "-1237702432218381762",
+      "bundle": "CAB-473a6db095ffdca2135ac3a518a537e5",
+      "assetType": "Material",
+      "assetName": "Title_Background_Material"
+    },
+    {
+      "gameObject": "Spine GameObject (Title_Background)",
+      "nodePath": "TitleStyle/Background/Spine GameObject (Title_Background)",
+      "component": "MonoBehaviour",
+      "script": "SkeletonAnimation",
+      "field": "skeletonDataAsset",
+      "fileId": 4,
+      "pathId": "1614509907689505",
+      "bundle": "CAB-473a6db095ffdca2135ac3a518a537e5",
+      "assetType": "MonoBehaviour",
+      "assetName": "Title_Background_SkeletonData"
+    },
+    {
+      "gameObject": "Block (2)",
+      "nodePath": "TitleStyle/Background/Block (2)",
+      "component": "SpriteRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "-6562632805628259368",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Block (2)",
+      "nodePath": "TitleStyle/Background/Block (2)",
+      "component": "SpriteRenderer",
+      "script": "",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Block",
+      "nodePath": "TitleStyle/Background/Block",
+      "component": "SpriteRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "-6562632805628259368",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Block",
+      "nodePath": "TitleStyle/Background/Block",
+      "component": "SpriteRenderer",
+      "script": "",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Block (1)",
+      "nodePath": "TitleStyle/Background/Block (1)",
+      "component": "SpriteRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "-6562632805628259368",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Block (1)",
+      "nodePath": "TitleStyle/Background/Block (1)",
+      "component": "SpriteRenderer",
+      "script": "",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "TitleStyle/Highlight/Background",
+      "component": "SpriteRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "-6562632805628259368",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Background",
+      "nodePath": "TitleStyle/Highlight/Background",
+      "component": "SpriteRenderer",
+      "script": "",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "366657762507516753",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_3232",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_3232.png"
+    }
+  ],
+  "animators": []
+}

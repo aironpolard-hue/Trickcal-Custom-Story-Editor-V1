@@ -1,0 +1,598 @@
+{
+  "id": "slots/gardenemotionslot",
+  "sourceBundle": "prefab/slots/gardenemotionslot",
+  "hierarchy": {
+    "name": "GardenEmotionSlot",
+    "path": "GardenEmotionSlot",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 250.0,
+        "y": 250.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "CanvasRenderer"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "Button"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ButtonExtend"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "GardenEmotionSlot"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "UIElementStateHandler"
+      }
+    ],
+    "children": [
+      {
+        "name": "Bubble_Axis",
+        "path": "GardenEmotionSlot/Bubble_Axis",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 250.0,
+            "y": 250.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "Animator",
+            "controller": {
+              "fileId": 7,
+              "pathId": "1758555034379726603",
+              "bundle": "CAB-ade7689e58ac13a4e0c268512fac46d2"
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "Bubble",
+            "path": "GardenEmotionSlot/Bubble_Axis/Bubble",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 250.0,
+                "y": 250.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Light",
+                "path": "GardenEmotionSlot/Bubble_Axis/Bubble/Light",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 254.0,
+                    "y": 254.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Circle",
+                "path": "GardenEmotionSlot/Bubble_Axis/Bubble/Circle",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 206.0,
+                    "y": 206.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Light_2",
+                "path": "GardenEmotionSlot/Bubble_Axis/Bubble/Light_2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 254.0,
+                    "y": 254.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "name": "Icon_Axis",
+                "path": "GardenEmotionSlot/Bubble_Axis/Bubble/Icon_Axis",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 200.0,
+                    "y": 200.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Icon",
+                    "path": "GardenEmotionSlot/Bubble_Axis/Bubble/Icon_Axis/Icon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 5.0,
+                        "y": 15.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 296.0,
+                        "y": 220.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.6399999856948853,
+                        "y": 0.6399999856948853,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "path": "GardenEmotionSlot/Bubble_Axis/Bubble/Text",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -63.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 268.0,
+                    "y": 67.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "TextMeshProUGUI"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Bubble_Axis",
+      "nodePath": "GardenEmotionSlot/Bubble_Axis",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 7,
+      "pathId": "1758555034379726603",
+      "bundle": "CAB-ade7689e58ac13a4e0c268512fac46d2",
+      "assetType": "AnimatorController",
+      "assetName": "GardenEmotionSlot"
+    },
+    {
+      "gameObject": "Light",
+      "nodePath": "GardenEmotionSlot/Bubble_Axis/Bubble/Light",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "5312445663668353293",
+      "bundle": "CAB-2326231858e6c7bcacf12ad0ebec418d",
+      "assetType": "Sprite",
+      "assetName": "Garden_Seed2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Garden_Seed2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Garden_Seed2.png"
+    },
+    {
+      "gameObject": "Circle",
+      "nodePath": "GardenEmotionSlot/Bubble_Axis/Bubble/Circle",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "3994158008467208443",
+      "bundle": "CAB-52efbd635ba32a506461768de1ac87e4",
+      "assetType": "Sprite",
+      "assetName": "Garden_Seed_2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Garden_Seed_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Garden_Seed_2.png"
+    },
+    {
+      "gameObject": "Light_2",
+      "nodePath": "GardenEmotionSlot/Bubble_Axis/Bubble/Light_2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "5312445663668353293",
+      "bundle": "CAB-2326231858e6c7bcacf12ad0ebec418d",
+      "assetType": "Sprite",
+      "assetName": "Garden_Seed2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Garden_Seed2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Garden_Seed2.png"
+    },
+    {
+      "gameObject": "Icon_Axis",
+      "nodePath": "GardenEmotionSlot/Bubble_Axis/Bubble/Icon_Axis",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "8869699984286934631",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_1",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_1.png"
+    },
+    {
+      "gameObject": "Icon",
+      "nodePath": "GardenEmotionSlot/Bubble_Axis/Bubble/Icon_Axis/Icon",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 6,
+      "pathId": "-1625262389250848012",
+      "bundle": "CAB-9d1eaa72d7602bf1cdcbfb92f54081d0",
+      "assetType": "Sprite",
+      "assetName": "BreadCrumb_Garden_PlayingIcon_01",
+      "atlasBundle": "atlases/garden",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumb_Garden_PlayingIcon_01.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BreadCrumb_Garden_PlayingIcon_01.png"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "GardenEmotionSlot/Bubble_Axis/Bubble/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Text",
+      "nodePath": "GardenEmotionSlot/Bubble_Axis/Bubble/Text",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 3,
+      "pathId": "7357171755419872460",
+      "bundle": "CAB-2fb926821f902d12dd0b3367f391445e",
+      "assetType": "Material",
+      "assetName": "SystemFont_Outlined"
+    }
+  ],
+  "animators": [
+    {
+      "path": "GardenEmotionSlot/Bubble_Axis",
+      "controllerBundle": "CAB-ade7689e58ac13a4e0c268512fac46d2",
+      "controllerPathId": "1758555034379726603",
+      "controllerType": "AnimatorController",
+      "controllerName": "GardenEmotionSlot",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.GardenEmotionSlot",
+          "clips": [
+            "GardenEmotionSlot"
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Loop.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Loop.GardenEmotionSlot_Loop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        }
+      ],
+      "clips": [
+        {
+          "name": "GardenEmotionSlot",
+          "duration": 2.3333332538604736,
+          "pathId": "-7423699307127861129"
+        }
+      ],
+      "controller": "GardenEmotionSlot"
+    }
+  ]
+}

@@ -129,6 +129,23 @@ assert.strictEqual(parallelStage.story.lines[1].camera.x, -30);
 assert.strictEqual(parallelStage.story.lines[1].stage[0].anim, 'Surprise_1');
 assert.strictEqual(parallelStage.story.lines[1].stage[0].fade, 0);
 assert.strictEqual(parallelStage.story.lines[1].stage[0].skin, 'Normal');
+const standardCamera = run([
+  'camera target 960,540',
+  'parallel:',
+  '  camera targetX 960 -> 1180 in 2s ease Linear',
+  '  camera targetY 540 -> 480 in 2s ease Linear',
+  '  say ner normal "镜头移动"',
+  'ner normal "继续"',
+].join('\n'));
+assert.deepStrictEqual(standardCamera.diagnostics, []);
+const standardCameraLine = standardCamera.story.lines[0];
+const standardCameraTimeline = cameraTimeline.create(standardCameraLine.camera, standardCameraLine.events, standardCameraLine.cameraTracks);
+assert.deepStrictEqual(
+  [standardCameraLine.camera.targetX, standardCameraLine.camera.targetY,
+    cameraTimeline.sample(standardCameraTimeline, 1).targetX, cameraTimeline.sample(standardCameraTimeline, 1).targetY,
+    standardCamera.story.lines[1].camera.targetX, standardCamera.story.lines[1].camera.targetY],
+  [960, 540, 1070, 510, 1180, 480],
+);
 const cameraAnimation = run([
   'parallel:',
   '  camera zoom 1 -> 2 in 2s ease Linear',

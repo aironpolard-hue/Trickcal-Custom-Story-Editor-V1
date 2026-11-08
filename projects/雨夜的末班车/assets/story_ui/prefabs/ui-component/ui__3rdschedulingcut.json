@@ -1,0 +1,4592 @@
+{
+  "id": "ui/3rdschedulingcut",
+  "sourceBundle": "prefab/ui/3rdschedulingcut",
+  "hierarchy": {
+    "name": "3rdSchedulingCut",
+    "path": "3rdSchedulingCut",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 8,
+          "pathId": "-1805163620922174627",
+          "bundle": "CAB-3b26ce5151b4473e594debf800fe7d8e"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "ThirdSchedulingCut"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "OutOfResolution",
+        "path": "3rdSchedulingCut/OutOfResolution",
+        "active": false,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 4096.0,
+            "y": 4096.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "BG",
+        "path": "3rdSchedulingCut/BG",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 3200.0,
+            "y": 2048.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 3.0,
+            "y": 3.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "SkeletonGraphic"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Panel",
+        "path": "3rdSchedulingCut/Panel",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 2560.0,
+            "y": 1440.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "DecoPicture_Back",
+            "path": "3rdSchedulingCut/Panel/DecoPicture_Back",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -400.0,
+                "y": 170.0
+              },
+              "m_SizeDelta": {
+                "x": 556.0,
+                "y": 340.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.1256697028875351,
+                "w": 0.9920721650123596
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Base",
+            "path": "3rdSchedulingCut/Panel/Base",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -66.0
+              },
+              "m_SizeDelta": {
+                "x": 2010.0,
+                "y": 493.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.8999999761581421,
+                "y": 0.8999999761581421,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "BaseGroup",
+                "path": "3rdSchedulingCut/Panel/Base/BaseGroup",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -50.86998748779297
+                  },
+                  "m_SizeDelta": {
+                    "x": 2010.0,
+                    "y": 493.260009765625
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasGroup"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Base_L",
+                    "path": "3rdSchedulingCut/Panel/Base/BaseGroup/Base_L",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -704.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 1220.800048828125,
+                        "y": 493.260009765625
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ImageWarp"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Base_R",
+                    "path": "3rdSchedulingCut/Panel/Base/BaseGroup/Base_R",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 394.6099853515625,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 1220.800048828125,
+                        "y": 493.260009765625
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "ImageWarp"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DecoPicture_Front",
+            "path": "3rdSchedulingCut/Panel/DecoPicture_Front",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 326.0,
+                "y": 80.0
+              },
+              "m_SizeDelta": {
+                "x": 556.0,
+                "y": 340.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": 0.13016200065612793,
+                "w": -0.991492748260498
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "DecoPicture2_Front",
+            "path": "3rdSchedulingCut/Panel/DecoPicture2_Front",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -50.0,
+                "y": 158.0
+              },
+              "m_SizeDelta": {
+                "x": 1164.0,
+                "y": 640.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "DecoPicture",
+                "path": "3rdSchedulingCut/Panel/DecoPicture2_Front/DecoPicture",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1164.0,
+                    "y": 640.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.055403243750333786,
+                    "w": 0.998464047908783
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Mask"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "Shadow",
+                    "path": "3rdSchedulingCut/Panel/DecoPicture2_Front/DecoPicture/Shadow",
+                    "active": false,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 28.0,
+                        "y": 12.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 1082.0,
+                        "y": 595.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.07241331040859222,
+                        "w": -0.9973747134208679
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "MainPicture",
+            "path": "3rdSchedulingCut/Panel/MainPicture",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 10.0,
+                "y": 202.0
+              },
+              "m_SizeDelta": {
+                "x": 1164.0,
+                "y": 654.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "MainPicture_Axis",
+                "path": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1164.0,
+                    "y": 654.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Base",
+                    "path": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 1176.0,
+                        "y": 640.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Mask",
+                        "path": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -5.0,
+                            "y": 9.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 1059.0,
+                            "y": 517.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Mask"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "Image",
+                            "path": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask/Image",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 1024.0,
+                                "y": 512.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0499999523162842,
+                                "y": 1.0499999523162842,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "Fake",
+                            "path": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask/Fake",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 846.0,
+                                "y": 420.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.2999999523162842,
+                                "y": 1.2999999523162842,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "Not",
+                            "path": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask/Not",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 3.0,
+                                "y": -11.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 494.0,
+                                "y": 494.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 2.5,
+                                "y": 2.5,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "Shin",
+                            "path": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask/Shin",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": -400.0,
+                                "y": 479.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 1884.0,
+                                "y": 277.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.09958022832870483,
+                                "w": 0.9950295686721802
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "Line",
+                            "path": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask/Line",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 1069.0,
+                                "y": 527.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "Image"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TapeGroup",
+                "path": "3rdSchedulingCut/Panel/MainPicture/TapeGroup",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 19.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1054.0,
+                    "y": 454.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Tape_1",
+                    "path": "3rdSchedulingCut/Panel/MainPicture/TapeGroup/Tape_1",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -70.0,
+                        "y": -23.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 956.0,
+                        "y": 256.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.07247313857078552,
+                        "w": 0.9973704218864441
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Tape_2",
+                    "path": "3rdSchedulingCut/Panel/MainPicture/TapeGroup/Tape_2",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 80.0,
+                        "y": -5.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 956.0,
+                        "y": 256.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": 0.1260291039943695,
+                        "w": -0.9920265674591064
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Stamp_Not",
+                    "path": "3rdSchedulingCut/Panel/MainPicture/TapeGroup/Stamp_Not",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 23.0,
+                        "y": 14.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 294.0,
+                        "y": 276.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Stamp",
+                    "path": "3rdSchedulingCut/Panel/MainPicture/TapeGroup/Stamp",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 23.0,
+                        "y": 14.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 294.0,
+                        "y": 276.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "DecoIcon",
+                "path": "3rdSchedulingCut/Panel/MainPicture/DecoIcon",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 1134.0,
+                    "y": 604.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Sun",
+                    "path": "3rdSchedulingCut/Panel/MainPicture/DecoIcon/Sun",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -196.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 108.0,
+                        "y": 110.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Sun2",
+                    "path": "3rdSchedulingCut/Panel/MainPicture/DecoIcon/Sun2",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 128.0,
+                        "y": 88.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Moon",
+                    "path": "3rdSchedulingCut/Panel/MainPicture/DecoIcon/Moon",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 190.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 94.0,
+                        "y": 94.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "EffectPos",
+            "path": "3rdSchedulingCut/Panel/EffectPos",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 500.0,
+                "y": 500.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "SuccessEffect",
+                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect",
+                "active": true,
+                "rect": {
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Root",
+                    "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root",
+                    "active": true,
+                    "rect": {
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "ParticleSystem"
+                      },
+                      {
+                        "type": "ParticleSystemRenderer"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "Root_Scale",
+                        "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale",
+                        "active": true,
+                        "rect": {
+                          "m_LocalScale": {
+                            "x": 144.0,
+                            "y": 144.0,
+                            "z": 144.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "ParticleSystem"
+                          },
+                          {
+                            "type": "ParticleSystemRenderer"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "name": "[Atlas_add]_Star",
+                            "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/[Atlas_add]_Star",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "[UI_Atlas_ab]_Star",
+                            "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/[UI_Atlas_ab]_Star",
+                            "active": true,
+                            "rect": {
+                              "m_AnchorMin": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchorMax": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_AnchoredPosition": {
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "m_SizeDelta": {
+                                "x": 100.0,
+                                "y": 100.0
+                              },
+                              "m_Pivot": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              },
+                              {
+                                "type": "CanvasRenderer"
+                              },
+                              {
+                                "type": "MonoBehaviour",
+                                "script": "UIParticle"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "name": "Root_1",
+                            "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1",
+                            "active": true,
+                            "rect": {
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "[Atlas_ab]_Glow_bg",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[Atlas_ab]_Glow_bg",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 4.76837158203125e-07,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Ring",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[UI_Atlas_add]_Ring",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 5.960464477539062e-07,
+                                    "y": -0.0002682209014892578
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Star",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[UI_Atlas_add]_Star",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": -1.9073486328125e-06,
+                                    "y": -9.5367431640625e-07
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[Atlas_ab]_particle",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[Atlas_ab]_particle",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": -1.9073486328125e-06,
+                                    "y": -9.5367431640625e-07
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Root_2",
+                            "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2",
+                            "active": true,
+                            "rect": {
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "[Atlas_ab]_Glow_bg",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[Atlas_ab]_Glow_bg",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Ring",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[UI_Atlas_add]_Ring",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Star",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[UI_Atlas_add]_Star",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.10000000149011612
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[Atlas_ab]_particle",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[Atlas_ab]_particle",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Root_3",
+                            "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3",
+                            "active": true,
+                            "rect": {
+                              "m_LocalScale": {
+                                "x": 1.2000000476837158,
+                                "y": 1.2000000476837158,
+                                "z": 1.2000000476837158
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "[Atlas_ab]_Glow_bg",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[Atlas_ab]_Glow_bg",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Ring",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[UI_Atlas_add]_Ring",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Star",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[UI_Atlas_add]_Star",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.10000000149011612
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[Atlas_ab]_particle",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[Atlas_ab]_particle",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Root_4",
+                            "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4",
+                            "active": true,
+                            "rect": {
+                              "m_LocalScale": {
+                                "x": 0.800000011920929,
+                                "y": 0.800000011920929,
+                                "z": 0.800000011920929
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "[Atlas_ab]_Glow_bg",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[Atlas_ab]_Glow_bg",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Ring",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[UI_Atlas_add]_Ring",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Star",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[UI_Atlas_add]_Star",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.10000000149011612
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[Atlas_ab]_particle",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[Atlas_ab]_particle",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Root_5",
+                            "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5",
+                            "active": true,
+                            "rect": {
+                              "m_LocalScale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "m_LocalRotation": {
+                                "x": -0.0,
+                                "y": -0.0,
+                                "z": -0.0,
+                                "w": 1.0
+                              }
+                            },
+                            "components": [
+                              {
+                                "type": "ParticleSystem"
+                              },
+                              {
+                                "type": "ParticleSystemRenderer"
+                              }
+                            ],
+                            "children": [
+                              {
+                                "name": "[Atlas_ab]_Glow_bg",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[Atlas_ab]_Glow_bg",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Ring",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[UI_Atlas_add]_Ring",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[UI_Atlas_add]_Star",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[UI_Atlas_add]_Star",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.10000000149011612
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              },
+                              {
+                                "name": "[Atlas_ab]_particle",
+                                "path": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[Atlas_ab]_particle",
+                                "active": true,
+                                "rect": {
+                                  "m_AnchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_AnchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "m_SizeDelta": {
+                                    "x": 100.0,
+                                    "y": 100.0
+                                  },
+                                  "m_Pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                  },
+                                  "m_LocalScale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                  },
+                                  "m_LocalRotation": {
+                                    "x": -0.0,
+                                    "y": -0.0,
+                                    "z": -0.0,
+                                    "w": 1.0
+                                  }
+                                },
+                                "components": [
+                                  {
+                                    "type": "ParticleSystem"
+                                  },
+                                  {
+                                    "type": "ParticleSystemRenderer"
+                                  },
+                                  {
+                                    "type": "CanvasRenderer"
+                                  },
+                                  {
+                                    "type": "MonoBehaviour",
+                                    "script": "UIParticle"
+                                  }
+                                ],
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DecoLineGroup",
+            "path": "3rdSchedulingCut/Panel/DecoLineGroup",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 202.0
+              },
+              "m_SizeDelta": {
+                "x": 1356.0,
+                "y": 732.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [],
+            "children": [
+              {
+                "name": "Right",
+                "path": "3rdSchedulingCut/Panel/DecoLineGroup/Right",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 494.0,
+                    "y": 251.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 438.0,
+                    "y": 434.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "1",
+                    "path": "3rdSchedulingCut/Panel/DecoLineGroup/Right/1",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -170.0,
+                        "y": 161.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 74.0,
+                        "y": 258.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "2",
+                    "path": "3rdSchedulingCut/Panel/DecoLineGroup/Right/2",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -55.0,
+                        "y": 161.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 70.0,
+                        "y": 378.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "3",
+                    "path": "3rdSchedulingCut/Panel/DecoLineGroup/Right/3",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 35.0,
+                        "y": 232.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 70.0,
+                        "y": 378.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "4",
+                    "path": "3rdSchedulingCut/Panel/DecoLineGroup/Right/4",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 145.0,
+                        "y": 161.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 70.0,
+                        "y": 378.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Left",
+                "path": "3rdSchedulingCut/Panel/DecoLineGroup/Left",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -542.0,
+                    "y": -230.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 438.0,
+                    "y": 434.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "1",
+                    "path": "3rdSchedulingCut/Panel/DecoLineGroup/Left/1",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -147.0,
+                        "y": 129.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 74.0,
+                        "y": 258.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "2",
+                    "path": "3rdSchedulingCut/Panel/DecoLineGroup/Left/2",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -52.0,
+                        "y": 161.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 70.0,
+                        "y": 378.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "3",
+                    "path": "3rdSchedulingCut/Panel/DecoLineGroup/Left/3",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 66.0,
+                        "y": 63.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 74.0,
+                        "y": 258.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 1.0
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "White",
+            "path": "3rdSchedulingCut/Panel/White",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 2410.0,
+                "y": 2228.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "LetterBox",
+        "path": "3rdSchedulingCut/LetterBox",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 3200.0,
+            "y": 2048.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "R",
+            "path": "3rdSchedulingCut/LetterBox/R",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 1500.0,
+                "y": 4000.0
+              },
+              "m_Pivot": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "L",
+            "path": "3rdSchedulingCut/LetterBox/L",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 1500.0,
+                "y": 4000.0
+              },
+              "m_Pivot": {
+                "x": 1.0,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "T",
+            "path": "3rdSchedulingCut/LetterBox/T",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 6200.0,
+                "y": 1500.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "B",
+            "path": "3rdSchedulingCut/LetterBox/B",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.0
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 6200.0,
+                "y": 1500.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "Image"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "3rdSchedulingCut",
+      "nodePath": "3rdSchedulingCut",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 8,
+      "pathId": "-1805163620922174627",
+      "bundle": "CAB-3b26ce5151b4473e594debf800fe7d8e",
+      "assetType": "AnimatorController",
+      "assetName": "3rdSchedulingCut"
+    },
+    {
+      "gameObject": "OutOfResolution",
+      "nodePath": "3rdSchedulingCut/OutOfResolution",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-7879223003436235996",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonSquare_0404",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonSquare_0404.png"
+    },
+    {
+      "gameObject": "BG",
+      "nodePath": "3rdSchedulingCut/BG",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 10,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "BG",
+      "nodePath": "3rdSchedulingCut/BG",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 11,
+      "pathId": "-8602067171308380579",
+      "bundle": "CAB-a7f91d6b0df74f0588c6d1b286d86681",
+      "assetType": "MonoBehaviour",
+      "assetName": "PTJ_Time_SkeletonData"
+    },
+    {
+      "gameObject": "DecoPicture_Back",
+      "nodePath": "3rdSchedulingCut/Panel/DecoPicture_Back",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "566625665845221532",
+      "bundle": "CAB-b15907715b1518bf5c4d2b655c270ffb",
+      "assetType": "Sprite",
+      "assetName": "3rdAnniStory_Scheduling_Picture3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture3.png"
+    },
+    {
+      "gameObject": "Base_L",
+      "nodePath": "3rdSchedulingCut/Panel/Base/BaseGroup/Base_L",
+      "component": "MonoBehaviour",
+      "script": "ImageWarp",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "8401231230575861557",
+      "bundle": "CAB-6820dae45d72602bfe0e2c1ce6ccb370",
+      "assetType": "Sprite",
+      "assetName": "ScheduleStory_Base",
+      "demoPath": "assets/story_ui/schedule-ui/ScheduleStory_Base.png",
+      "projectPath": "assets/story_ui/schedule-ui/ScheduleStory_Base.png"
+    },
+    {
+      "gameObject": "Base_R",
+      "nodePath": "3rdSchedulingCut/Panel/Base/BaseGroup/Base_R",
+      "component": "MonoBehaviour",
+      "script": "ImageWarp",
+      "field": "m_Sprite",
+      "fileId": 9,
+      "pathId": "8401231230575861557",
+      "bundle": "CAB-6820dae45d72602bfe0e2c1ce6ccb370",
+      "assetType": "Sprite",
+      "assetName": "ScheduleStory_Base",
+      "demoPath": "assets/story_ui/schedule-ui/ScheduleStory_Base.png",
+      "projectPath": "assets/story_ui/schedule-ui/ScheduleStory_Base.png"
+    },
+    {
+      "gameObject": "DecoPicture_Front",
+      "nodePath": "3rdSchedulingCut/Panel/DecoPicture_Front",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "566625665845221532",
+      "bundle": "CAB-b15907715b1518bf5c4d2b655c270ffb",
+      "assetType": "Sprite",
+      "assetName": "3rdAnniStory_Scheduling_Picture3",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture3.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture3.png"
+    },
+    {
+      "gameObject": "DecoPicture",
+      "nodePath": "3rdSchedulingCut/Panel/DecoPicture2_Front/DecoPicture",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "-7553796327769441202",
+      "bundle": "CAB-436e326f027f3900d42732cbb42aeb0a",
+      "assetType": "Sprite",
+      "assetName": "3rdAnniStory_Scheduling_Picture2",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture2.png"
+    },
+    {
+      "gameObject": "Shadow",
+      "nodePath": "3rdSchedulingCut/Panel/DecoPicture2_Front/DecoPicture/Shadow",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "-7144245145512982142",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_0808",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0808.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0808.png"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "1841799787101298761",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_0606",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0606.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_0606.png"
+    },
+    {
+      "gameObject": "Fake",
+      "nodePath": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask/Fake",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 12,
+      "pathId": "-9128629240239500145",
+      "bundle": "CAB-ad73fb76a0484923f13159ea79c78252",
+      "assetType": "Sprite",
+      "assetName": "3rdAnniStory_Scheduling_Picture4",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture4.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture4.png"
+    },
+    {
+      "gameObject": "Not",
+      "nodePath": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask/Not",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-6618417691329138497",
+      "bundle": "CAB-47bf332c2d530811dbe299092a8ed0b5",
+      "assetType": "Sprite",
+      "assetName": "3rdAnniStory_Scheduling_Picture5",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture5.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Picture5.png"
+    },
+    {
+      "gameObject": "Shin",
+      "nodePath": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask/Shin",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "2299407013609701448",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonCircle_Gradient_Split",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient_Split.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonCircle_Gradient_Split.png"
+    },
+    {
+      "gameObject": "Line",
+      "nodePath": "3rdSchedulingCut/Panel/MainPicture/MainPicture_Axis/Base/Mask/Line",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "7472530101070713458",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBorder_1010",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_1010.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBorder_1010.png"
+    },
+    {
+      "gameObject": "Tape_1",
+      "nodePath": "3rdSchedulingCut/Panel/MainPicture/TapeGroup/Tape_1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "1293253738847676325",
+      "bundle": "CAB-be98e7cb3cfd1e534612cc0382b6dadd",
+      "assetType": "Sprite",
+      "assetName": "3rdAnniStory_Scheduling_Tape",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Tape.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Tape.png"
+    },
+    {
+      "gameObject": "Tape_2",
+      "nodePath": "3rdSchedulingCut/Panel/MainPicture/TapeGroup/Tape_2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 5,
+      "pathId": "1293253738847676325",
+      "bundle": "CAB-be98e7cb3cfd1e534612cc0382b6dadd",
+      "assetType": "Sprite",
+      "assetName": "3rdAnniStory_Scheduling_Tape",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Tape.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/3rdAnniStory_Scheduling_Tape.png"
+    },
+    {
+      "gameObject": "Root",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "Root_Scale",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/[Atlas_add]_Star",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "1733516654443261158",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Particle_Star_04"
+    },
+    {
+      "gameObject": "[Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/[Atlas_add]_Star",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[UI_Atlas_ab]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/[UI_Atlas_ab]_Star",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-1423704738342925196",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_star_08",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png"
+    },
+    {
+      "gameObject": "[UI_Atlas_ab]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/[UI_Atlas_ab]_Star",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "Root_1",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3880845339072772296",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Ring",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[UI_Atlas_add]_Ring",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-643655506271750452",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Rainbow_Tint"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[UI_Atlas_add]_Star",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-1423704738342925196",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_star_08",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[UI_Atlas_add]_Star",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[Atlas_ab]_particle",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "9102247767051249927",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Star_4_1"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_1/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 1,
+      "pathId": "-8447101740971305860",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_Plane_Bend001"
+    },
+    {
+      "gameObject": "Root_2",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3880845339072772296",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Ring",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[UI_Atlas_add]_Ring",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-643655506271750452",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Rainbow_Tint"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[UI_Atlas_add]_Star",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-1423704738342925196",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_star_08",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[UI_Atlas_add]_Star",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[Atlas_ab]_particle",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "9102247767051249927",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Star_4_1"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_2/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 1,
+      "pathId": "-8447101740971305860",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_Plane_Bend001"
+    },
+    {
+      "gameObject": "Root_3",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3880845339072772296",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Ring",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[UI_Atlas_add]_Ring",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-643655506271750452",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Rainbow_Tint"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[UI_Atlas_add]_Star",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-1423704738342925196",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_star_08",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[UI_Atlas_add]_Star",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[Atlas_ab]_particle",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "9102247767051249927",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Star_4_1"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_3/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 1,
+      "pathId": "-8447101740971305860",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_Plane_Bend001"
+    },
+    {
+      "gameObject": "Root_4",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3880845339072772296",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Ring",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[UI_Atlas_add]_Ring",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-643655506271750452",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Rainbow_Tint"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[UI_Atlas_add]_Star",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-1423704738342925196",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_star_08",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[UI_Atlas_add]_Star",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[Atlas_ab]_particle",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "9102247767051249927",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Star_4_1"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_4/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 1,
+      "pathId": "-8447101740971305860",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_Plane_Bend001"
+    },
+    {
+      "gameObject": "Root_5",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 0,
+      "pathId": "8308402369294867413",
+      "bundle": ""
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "3880845339072772296",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Glow"
+    },
+    {
+      "gameObject": "[Atlas_ab]_Glow_bg",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[Atlas_ab]_Glow_bg",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-8581623494695345346",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_ab"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Ring",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[UI_Atlas_add]_Ring",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "-643655506271750452",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_Rainbow_Tint"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[UI_Atlas_add]_Star",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "-1423704738342925196",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_UI_star_08",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/FX_UI_star_08.png"
+    },
+    {
+      "gameObject": "[UI_Atlas_add]_Star",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[UI_Atlas_add]_Star",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[Atlas_ab]_particle",
+      "component": "ParticleSystem",
+      "script": "",
+      "field": "UVModule.sprites[0].sprite",
+      "fileId": 1,
+      "pathId": "9102247767051249927",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Sprite",
+      "assetName": "FX_IN_Star_4_1"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Materials[0]",
+      "fileId": 1,
+      "pathId": "3625422062438904602",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Material",
+      "assetName": "FX_empty_add"
+    },
+    {
+      "gameObject": "[Atlas_ab]_particle",
+      "nodePath": "3rdSchedulingCut/Panel/EffectPos/SuccessEffect/Root/Root_Scale/Root_5/[Atlas_ab]_particle",
+      "component": "ParticleSystemRenderer",
+      "script": "",
+      "field": "m_Mesh",
+      "fileId": 1,
+      "pathId": "-8447101740971305860",
+      "bundle": "CAB-665ad79d4378bb9f5a032f089c435aae",
+      "assetType": "Mesh",
+      "assetName": "FX_Plane_Bend001"
+    },
+    {
+      "gameObject": "White",
+      "nodePath": "3rdSchedulingCut/Panel/White",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 4,
+      "pathId": "3414536351621513450",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "BgGlow",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/BgGlow.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "3rdSchedulingCut",
+      "controllerBundle": "CAB-3b26ce5151b4473e594debf800fe7d8e",
+      "controllerPathId": "-1805163620922174627",
+      "controllerType": "AnimatorController",
+      "controllerName": "3rdSchedulingCut",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.3rdSchedulingCut_Open",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.3rdSchedulingCut",
+          "clips": [
+            "3rdSchedulingCut"
+          ],
+          "loop": false,
+          "transitions": [
+            {
+              "destination": "Exit",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.3rdSchedulingCut_Loop",
+          "clips": [
+            ""
+          ],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 0,
+          "name": "Base Layer.3rdSchedulingCut_Not",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Out.New State",
+          "clips": [],
+          "loop": true,
+          "transitions": []
+        },
+        {
+          "layer": 1,
+          "name": "Out.3rdSchedulingCut_Out",
+          "clips": [
+            ""
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [
+        {
+          "name": "3rdSchedulingCut",
+          "duration": 1.3833333253860474,
+          "pathId": "4231464837324146504"
+        }
+      ],
+      "controller": "3rdSchedulingCut"
+    }
+  ]
+}

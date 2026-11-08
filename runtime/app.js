@@ -1893,7 +1893,7 @@ const state = {
   bgSolid: true,
   bgColor: '#00ff00',
   bgKey: 'bgElfCity',
-  camera: { zoom: 1, x: 0, y: 0, rot: 0, follow: null, offsetX: 0, offsetY: 0 },
+  camera: { zoom: 1, x: 0, y: 0, targetX: W / 2, targetY: H / 2, rot: 0, follow: null, offsetX: 0, offsetY: 0 },
   suppressClickUntil: 0,
   shadowColor: '#000000',
   shadowAlpha: 0.4,
@@ -2158,10 +2158,12 @@ function uiWorldTransforms(now = performance.now()) {
   const cam = state.camera || {};
   const zoom = Math.max(0.001, Number(cam.zoom) || 1);
   let camX = Number(cam.x) || 0, camY = Number(cam.y) || 0;
+  let targetX = Number(cam.targetX ?? W / 2), targetY = Number(cam.targetY ?? H / 2);
   const follow = cam.follow && stageActors.get(cam.follow);
   if (follow) {
-    camX = zoom * (W / 2 - follow.x) + (Number(cam.offsetX) || 0);
-    camY = zoom * (H / 2 - follow.y) + (Number(cam.offsetY) || 0);
+    camX = 0; camY = 0;
+    targetX = follow.x - (Number(cam.offsetX) || 0) / zoom;
+    targetY = follow.y - (Number(cam.offsetY) || 0) / zoom;
   }
   const angle = (Number(cam.rot) || 0) * Math.PI / 180;
   const stageObjects = [
@@ -2173,7 +2175,7 @@ function uiWorldTransforms(now = performance.now()) {
     const conf = live.conf || {};
     const x = live.x ?? conf.x ?? 0;
     const y = live.y ?? conf.y ?? 0;
-    const dx = x - W / 2, dy = y - H / 2;
+    const dx = x - targetX, dy = y - targetY;
     nodes.set(id, {
       x: W / 2 + camX + zoom * (dx * Math.cos(angle) - dy * Math.sin(angle)),
       y: H / 2 + camY + zoom * (dx * Math.sin(angle) + dy * Math.cos(angle)),
@@ -5472,18 +5474,6 @@ function drawBackgroundLayer(target, surface, now) {
   const dx = (W - dw) / 2 + Math.sin(now / 26000) * 8;
   const dy = (H - dh) / 2 - 18 + Math.cos(now / 31000) * 6;
   target.drawImage(im, dx, dy, dw, dh);
-  // darken + warm haze
-  const g = target.createLinearGradient(0, 0, 0, H);
-  g.addColorStop(0, 'rgba(6,7,10,.55)');
-  g.addColorStop(0.45, 'rgba(6,7,10,.18)');
-  g.addColorStop(1, 'rgba(6,5,6,.62)');
-  target.fillStyle = g;
-  target.fillRect(0, 0, W, H);
-  const line = STORY[state.line];
-  if (line && line.mode === 'title') {
-    target.fillStyle = 'rgba(4,4,6,.45)';
-    target.fillRect(0, 0, W, H);
-  }
   target.restore();
 }
 
@@ -5525,32 +5515,6 @@ function drawBackground(now) {
   mixCtx.globalAlpha = 1;
   mixCtx.globalCompositeOperation = 'source-over';
   ctx.drawImage(bgMixCanvas, 0, 0, W, H);
-}
-
-const embers = [];
-for (let i = 0; i < 46; i++) {
-  embers.push({
-    x: Math.random() * W, y: Math.random() * H,
-    v: 8 + Math.random() * 26, r: 0.7 + Math.random() * 2.1,
-    a: 0.18 + Math.random() * 0.45, ph: Math.random() * 6.28,
-  });
-}
-function drawEmbers(now, alpha) {
-  if (alpha <= 0) return;
-  const dt = 1 / 60;
-  ctx.save();
-  ctx.globalCompositeOperation = 'lighter';
-  for (const e of embers) {
-    e.y -= e.v * dt;
-    e.x += Math.sin(now / 1400 + e.ph) * 0.5;
-    if (e.y < -20) { e.y = H + 20; e.x = Math.random() * W; }
-    const fl = 0.55 + 0.45 * Math.sin(now / 260 + e.ph);
-    ctx.beginPath();
-    ctx.arc(e.x, e.y, e.r, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(255,${120 + Math.floor(60 * fl)},60,${e.a * fl * alpha})`;
-    ctx.fill();
-  }
-  ctx.restore();
 }
 
 function roundRect(x, y, w, h, r) {
@@ -5674,21 +5638,24 @@ function lineFx() {
 }
 
 function applyCameraTransform() {
-  const cam = state.camera || { zoom: 1, x: 0, y: 0, rot: 0, follow: null };
+  const cam = state.camera || { zoom: 1, x: 0, y: 0, targetX: W / 2, targetY: H / 2, rot: 0, follow: null };
   let camX = Number(cam.x) || 0;
   let camY = Number(cam.y) || 0;
   const zoom = Math.max(0.001, Number(cam.zoom) || 1);
+  let targetX = Number(cam.targetX ?? W / 2);
+  let targetY = Number(cam.targetY ?? H / 2);
   if (cam.follow) {
     const s = stageActors.get(cam.follow);
     if (s) {
-      camX = zoom * (W / 2 - s.x) + (Number(cam.offsetX) || 0);
-      camY = zoom * (H / 2 - s.y) + (Number(cam.offsetY) || 0);
+      camX = 0; camY = 0;
+      targetX = s.x - (Number(cam.offsetX) || 0) / zoom;
+      targetY = s.y - (Number(cam.offsetY) || 0) / zoom;
     }
   }
   ctx.translate(W / 2 + camX, H / 2 + camY);
   if (cam.rot) ctx.rotate((Number(cam.rot) || 0) * Math.PI / 180);
   ctx.scale(zoom, zoom);
-  ctx.translate(-W / 2, -H / 2);
+  ctx.translate(-targetX, -targetY);
 }
 
 function drawScene(now) {
@@ -5708,9 +5675,8 @@ function drawScene(now) {
   if (fx) ctx.filter = `brightness(${fx.brightness}) contrast(${fx.contrast}) saturate(${fx.saturation}) blur(${fx.blur}px)`;
   applyCameraTransform();
   drawBackground(now);
-  if (!state.bgSolid) drawEmbers(now, 0.55);
   ctx.restore();
-  if (state.endShown) { if (!state.bgSolid) drawCanvasVignette(); return; }
+  if (state.endShown) return;
   const line = STORY[state.line];
   if (!line) return;
   const dialogueVisible = state.freeze || now >= state.dialogueStartAt;
@@ -5800,7 +5766,6 @@ function drawScene(now) {
   if (dialogueVisible && (line.mode === 'normal' || line.mode === 'cloud') && line.emoticon) drawEmoticonOverlay(line, now);
   drawUiObjects(now);
   if (key !== 'transition' && key !== 'branch' && key !== 'scroll' && key !== 'cg') drawNextIcon(now);
-  if (!state.bgSolid) drawCanvasVignette();
 }
 
 function drawEmoticonLayers(g, mood, x, y, scale, alpha, ox, oy, layerPoses) {
@@ -6020,22 +5985,9 @@ function closeBoxLab() {
   if (panel) panel.classList.add('hidden');
 }
 
-function drawCanvasVignette() {
-  const g = ctx.createRadialGradient(W / 2, H * 0.52, H * 0.25, W / 2, H * 0.52, H * 0.82);
-  g.addColorStop(0, 'rgba(0,0,0,0)');
-  g.addColorStop(0.72, 'rgba(0,0,0,.12)');
-  g.addColorStop(1, 'rgba(0,0,0,.55)');
-  ctx.fillStyle = g;
-  ctx.fillRect(0, 0, W, H);
-}
-
 function drawAttract(now) {
   ctx.clearRect(0, 0, W, H);
   drawBackground(now);
-  if (!state.bgSolid) {
-    drawEmbers(now, 0.35);
-    drawCanvasVignette();
-  }
 }
 
 /* ---------------------------------------------------------------- HUD */

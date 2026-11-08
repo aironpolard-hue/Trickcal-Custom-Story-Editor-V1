@@ -1,0 +1,226 @@
+{
+  "id": "prefabdialogueresources/emoticon_question",
+  "sourceBundle": "prefab/prefabdialogueresources/emoticon_question",
+  "hierarchy": {
+    "name": "Emoticon_Question",
+    "path": "Emoticon_Question",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 1,
+          "pathId": "-2867263935677216215",
+          "bundle": "CAB-4df1f91fdab74420ca706be9bc2aa81e"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "EmoteAnimationCallback"
+      }
+    ],
+    "children": [
+      {
+        "name": "Question_1",
+        "path": "Emoticon_Question/Question_1",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -8.399993896484375,
+            "y": -52.19999694824219
+          },
+          "m_SizeDelta": {
+            "x": 84.0,
+            "y": 116.0
+          },
+          "m_Pivot": {
+            "x": 0.4000000059604645,
+            "y": 0.05000000074505806
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "Question_2",
+        "path": "Emoticon_Question/Question_2",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -8.399993896484375,
+            "y": -87.5999984741211
+          },
+          "m_SizeDelta": {
+            "x": 33.0,
+            "y": 32.0
+          },
+          "m_Pivot": {
+            "x": 0.4000000059604645,
+            "y": 0.05000000074505806
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          }
+        },
+        "components": [
+          {
+            "type": "CanvasRenderer"
+          },
+          {
+            "type": "MonoBehaviour",
+            "script": "Image"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "Emoticon_Question",
+      "nodePath": "Emoticon_Question",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 1,
+      "pathId": "-2867263935677216215",
+      "bundle": "CAB-4df1f91fdab74420ca706be9bc2aa81e",
+      "assetType": "AnimatorController",
+      "assetName": "Emoticon_Question"
+    },
+    {
+      "gameObject": "Question_1",
+      "nodePath": "Emoticon_Question/Question_1",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "-4182449311770865689",
+      "bundle": "CAB-8e67eddc7e8b09ec92ce1ec47dc1958a",
+      "assetType": "Sprite",
+      "assetName": "Question_1",
+      "atlasBundle": "atlases/emoticon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Question_1.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Question_1.png"
+    },
+    {
+      "gameObject": "Question_2",
+      "nodePath": "Emoticon_Question/Question_2",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 2,
+      "pathId": "5807171641562061407",
+      "bundle": "CAB-8e67eddc7e8b09ec92ce1ec47dc1958a",
+      "assetType": "Sprite",
+      "assetName": "Question_2",
+      "atlasBundle": "atlases/emoticon",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Question_2.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Question_2.png"
+    }
+  ],
+  "animators": [
+    {
+      "path": "Emoticon_Question",
+      "controllerBundle": "CAB-4df1f91fdab74420ca706be9bc2aa81e",
+      "controllerPathId": "-2867263935677216215",
+      "controllerType": "AnimatorController",
+      "controllerName": "Emoticon_Question",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.Emoticon_Question",
+          "clips": [
+            "Emoticon_Question"
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [
+        {
+          "name": "Emoticon_Question",
+          "duration": 2.133333444595337,
+          "pathId": "5156053692288258078"
+        }
+      ],
+      "controller": "Emoticon_Question"
+    }
+  ]
+}

@@ -1,0 +1,2657 @@
+{
+  "id": "popup/popupschedulestoryintro",
+  "sourceBundle": "prefab/popup/popupschedulestoryintro",
+  "hierarchy": {
+    "name": "PopupScheduleStoryIntro",
+    "path": "PopupScheduleStoryIntro",
+    "active": true,
+    "rect": {
+      "m_AnchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_AnchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    "components": [
+      {
+        "type": "Animator",
+        "controller": {
+          "fileId": 6,
+          "pathId": "6403182928917756651",
+          "bundle": "CAB-32ea6122af165978401cc1461162ca55"
+        }
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "PopupScheduleStoryIntro"
+      },
+      {
+        "type": "MonoBehaviour",
+        "script": "RuntimeSpriteLoader"
+      }
+    ],
+    "children": [
+      {
+        "name": "Panel",
+        "path": "PopupScheduleStoryIntro/Panel",
+        "active": true,
+        "rect": {
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          }
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "LoadingSpine_In",
+            "path": "PopupScheduleStoryIntro/Panel/LoadingSpine_In",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -6.615727033931762e-05
+              },
+              "m_SizeDelta": {
+                "x": 733.0,
+                "y": 2012.74755859375
+              },
+              "m_Pivot": {
+                "x": 0.5107296109199524,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.082879900932312,
+                "y": 1.082879900932312,
+                "z": 0.9993598461151123
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SkeletonGraphic"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "LoadingSpine_Out",
+            "path": "PopupScheduleStoryIntro/Panel/LoadingSpine_Out",
+            "active": false,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -6.615727033931762e-05
+              },
+              "m_SizeDelta": {
+                "x": 733.0,
+                "y": 2012.74755859375
+              },
+              "m_Pivot": {
+                "x": 0.5107296109199524,
+                "y": 1.0
+              },
+              "m_LocalScale": {
+                "x": 1.082879900932312,
+                "y": 1.082879900932312,
+                "z": 0.9993598461151123
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasRenderer"
+              },
+              {
+                "type": "MonoBehaviour",
+                "script": "SkeletonGraphic"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "DecoGroup_Back",
+            "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": -66.0
+              },
+              "m_SizeDelta": {
+                "x": 2560.0,
+                "y": 1440.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 0.8899999856948853,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Deco1",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco1",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 377.9997253417969,
+                    "y": -233.99984741210938
+                  },
+                  "m_SizeDelta": {
+                    "x": 158.21875,
+                    "y": 332.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.27324116230010986,
+                    "w": -0.9619455933570862
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco1/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 158.0,
+                        "y": 332.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco1Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco1/Axis/Deco1Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 2.6702880859375e-05,
+                            "y": -132.80001831054688
+                          },
+                          "m_SizeDelta": {
+                            "x": 158.21875,
+                            "y": 332.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco2",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 494.9998474121094,
+                    "y": -246.99990844726562
+                  },
+                  "m_SizeDelta": {
+                    "x": 67.0,
+                    "y": 372.8695983886719
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.362627774477005,
+                    "w": -0.9319340586662292
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco2/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 56.0,
+                        "y": -8.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 68.0,
+                        "y": 372.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.9993601441383362,
+                        "y": 0.9993600845336914,
+                        "z": 0.9993600845336914
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.09418652951717377,
+                        "w": 0.9955545663833618
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco2Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco2/Axis/Deco2Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -27.98813247680664,
+                            "y": -146.59556579589844
+                          },
+                          "m_SizeDelta": {
+                            "x": 67.0,
+                            "y": 372.8695983886719
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0006400346755981,
+                            "y": 1.0006401538848877,
+                            "z": 1.0006400346755981
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco3",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco3",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 504.0,
+                    "y": 354.9990234375
+                  },
+                  "m_SizeDelta": {
+                    "x": 105.1875,
+                    "y": 408.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.257343053817749,
+                    "w": -0.9663201570510864
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco3/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 106.0,
+                        "y": 408.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.9993597269058228,
+                        "y": 0.9993597269058228,
+                        "z": 0.9993600845336914
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.01648843102157116,
+                        "w": 0.9998640418052673
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco3Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco3/Axis/Deco3Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 5.384441375732422,
+                            "y": -163.21580505371094
+                          },
+                          "m_SizeDelta": {
+                            "x": 105.1875,
+                            "y": 408.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0006409883499146,
+                            "y": 1.0006405115127563,
+                            "z": 1.0006400346755981
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco4",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco4",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -425.0,
+                    "y": 347.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 150.0,
+                    "y": 349.0909118652344
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.3286542594432831,
+                    "w": 0.944450318813324
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco4/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 150.0,
+                        "y": 350.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.9993601441383362,
+                        "y": 0.9993600845336914,
+                        "z": 0.9993600845336914
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco4Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco4/Axis/Deco4Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -139.63636779785156
+                          },
+                          "m_SizeDelta": {
+                            "x": 150.0,
+                            "y": 349.0909118652344
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0006400346755981,
+                            "y": 1.0006401538848877,
+                            "z": 1.0006400346755981
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco5",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco5",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -598.0,
+                    "y": 294.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 77.0,
+                    "y": 428.5217590332031
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.46569737792015076,
+                    "w": 0.8849440813064575
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco5/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 76.0,
+                        "y": 428.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.9993597269058228,
+                        "y": 0.9993597269058228,
+                        "z": 0.9993600845336914
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco5Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Back/Deco5/Axis/Deco5Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -171.40870666503906
+                          },
+                          "m_SizeDelta": {
+                            "x": 77.0,
+                            "y": 428.5217590332031
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0006400346755981,
+                            "y": 1.0006403923034668,
+                            "z": 1.0006400346755981
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "TaskGroup",
+            "path": "PopupScheduleStoryIntro/Panel/TaskGroup",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 15.0
+              },
+              "m_SizeDelta": {
+                "x": 800.0,
+                "y": 500.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Panel",
+                "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": -269.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 720.0,
+                    "y": 620.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [
+                  {
+                    "type": "CanvasRenderer"
+                  },
+                  {
+                    "type": "MonoBehaviour",
+                    "script": "Image"
+                  }
+                ],
+                "children": [
+                  {
+                    "name": "OverTime",
+                    "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/OverTime",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "NameDeco",
+                        "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/OverTime/NameDeco",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 55.0,
+                            "y": 218.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 522.0,
+                            "y": 90.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Border",
+                        "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/OverTime/Border",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 720.0,
+                            "y": 620.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Deco_2",
+                        "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/OverTime/Deco_2",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -276.0,
+                            "y": -265.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 186.0,
+                            "y": 72.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.699999988079071,
+                            "y": 0.699999988079071,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -0.13052624464035034,
+                            "w": 0.9914448857307434
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Deco_1",
+                        "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/OverTime/Deco_1",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 272.0,
+                            "y": 146.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 186.0,
+                            "y": 72.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 0.699999988079071,
+                            "y": 0.699999988079071,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -0.21643951535224915,
+                            "w": 0.976296067237854
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Name",
+                    "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Name",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -7.0,
+                        "y": 234.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 568.75,
+                        "y": 90.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "TextMeshProUGUI"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Mask",
+                    "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": -54.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 512.0,
+                        "y": 355.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.2000000476837158,
+                        "y": 1.2000000476837158,
+                        "z": 1.2000000476837158
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Image"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "Mask"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "BackImage",
+                        "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/BackImage",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 512.0,
+                            "y": 355.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Minimi",
+                        "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/Minimi",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -121.66667938232422
+                          },
+                          "m_SizeDelta": {
+                            "x": 246.57315063476562,
+                            "y": 330.4270324707031
+                          },
+                          "m_Pivot": {
+                            "x": 0.49356210231781006,
+                            "y": 0.03779676929116249
+                          },
+                          "m_LocalScale": {
+                            "x": 0.5833333134651184,
+                            "y": 0.5833333134651184,
+                            "z": 0.8333333134651184
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "SkeletonGraphic"
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "FrontImage",
+                        "path": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/FrontImage",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "m_SizeDelta": {
+                            "x": 512.0,
+                            "y": 355.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "MinimiBigPos",
+            "path": "PopupScheduleStoryIntro/Panel/MinimiBigPos",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": -446.0,
+                "y": -202.0
+              },
+              "m_SizeDelta": {
+                "x": 320.33990478515625,
+                "y": 429.280029296875
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.11753737181425095,
+                "w": 0.9930684566497803
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Axis",
+                "path": "PopupScheduleStoryIntro/Panel/MinimiBigPos/Axis",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "MinimiBig",
+                    "path": "PopupScheduleStoryIntro/Panel/MinimiBigPos/Axis/MinimiBig",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": -1.587399959564209,
+                        "y": -201.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 246.57315063476562,
+                        "y": 330.4270324707031
+                      },
+                      "m_Pivot": {
+                        "x": 0.49356210231781006,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.2991677522659302,
+                        "y": 1.299167513847351,
+                        "z": 0.9993596076965332
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [
+                      {
+                        "type": "CanvasRenderer"
+                      },
+                      {
+                        "type": "MonoBehaviour",
+                        "script": "SkeletonGraphic"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DecoGroup_Front",
+            "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front",
+            "active": true,
+            "rect": {
+              "m_AnchorMin": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchorMax": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "m_SizeDelta": {
+                "x": 2560.0,
+                "y": 1440.0
+              },
+              "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "m_LocalScale": {
+                "x": 0.9999998807907104,
+                "y": 0.9999998807907104,
+                "z": 0.9999998807907104
+              },
+              "m_LocalRotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              }
+            },
+            "components": [
+              {
+                "type": "CanvasGroup"
+              }
+            ],
+            "children": [
+              {
+                "name": "Deco1",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco1",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 377.9997253417969,
+                    "y": -233.99984741210938
+                  },
+                  "m_SizeDelta": {
+                    "x": 158.21875,
+                    "y": 332.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.27324116230010986,
+                    "w": -0.9619455933570862
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco1/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 158.0,
+                        "y": 332.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco1Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco1/Axis/Deco1Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 2.6702880859375e-05,
+                            "y": -132.80001831054688
+                          },
+                          "m_SizeDelta": {
+                            "x": 158.21875,
+                            "y": 332.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "m_LocalRotation": {
+                            "x": -0.0,
+                            "y": -0.0,
+                            "z": -0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco2",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco2",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 494.9998474121094,
+                    "y": -246.99990844726562
+                  },
+                  "m_SizeDelta": {
+                    "x": 67.0,
+                    "y": 372.8695983886719
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.362627774477005,
+                    "w": -0.9319340586662292
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco2/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 56.0,
+                        "y": -8.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 68.0,
+                        "y": 372.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.9993601441383362,
+                        "y": 0.9993600845336914,
+                        "z": 0.9993600845336914
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.09418652951717377,
+                        "w": 0.9955545663833618
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco2Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco2/Axis/Deco2Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": -27.98813247680664,
+                            "y": -146.59556579589844
+                          },
+                          "m_SizeDelta": {
+                            "x": 67.0,
+                            "y": 372.8695983886719
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0006400346755981,
+                            "y": 1.0006401538848877,
+                            "z": 1.0006400346755981
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco3",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco3",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": 504.0,
+                    "y": 354.9990234375
+                  },
+                  "m_SizeDelta": {
+                    "x": 105.1875,
+                    "y": 408.0
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.257343053817749,
+                    "w": -0.9663201570510864
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco3/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 106.0,
+                        "y": 408.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.9993597269058228,
+                        "y": 0.9993597269058228,
+                        "z": 0.9993600845336914
+                      },
+                      "m_LocalRotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.01648843102157116,
+                        "w": 0.9998640418052673
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco3Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco3/Axis/Deco3Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 5.384441375732422,
+                            "y": -163.21580505371094
+                          },
+                          "m_SizeDelta": {
+                            "x": 105.1875,
+                            "y": 408.0
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0006409883499146,
+                            "y": 1.0006405115127563,
+                            "z": 1.0006400346755981
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco4",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco4",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -425.0,
+                    "y": 347.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 150.0,
+                    "y": 349.0909118652344
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.3286542594432831,
+                    "w": 0.944450318813324
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco4/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 150.0,
+                        "y": 350.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.9993601441383362,
+                        "y": 0.9993600845336914,
+                        "z": 0.9993600845336914
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco4Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco4/Axis/Deco4Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -139.63636779785156
+                          },
+                          "m_SizeDelta": {
+                            "x": 150.0,
+                            "y": 349.0909118652344
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0006400346755981,
+                            "y": 1.0006401538848877,
+                            "z": 1.0006400346755981
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deco5",
+                "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco5",
+                "active": true,
+                "rect": {
+                  "m_AnchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_AnchoredPosition": {
+                    "x": -598.0,
+                    "y": 294.0
+                  },
+                  "m_SizeDelta": {
+                    "x": 77.0,
+                    "y": 428.5217590332031
+                  },
+                  "m_Pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "m_LocalRotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": 0.46569737792015076,
+                    "w": 0.8849440813064575
+                  }
+                },
+                "components": [],
+                "children": [
+                  {
+                    "name": "Axis",
+                    "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco5/Axis",
+                    "active": true,
+                    "rect": {
+                      "m_AnchorMin": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchorMax": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_AnchoredPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "m_SizeDelta": {
+                        "x": 76.0,
+                        "y": 428.0
+                      },
+                      "m_Pivot": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "m_LocalScale": {
+                        "x": 0.9993597269058228,
+                        "y": 0.9993597269058228,
+                        "z": 0.9993600845336914
+                      },
+                      "m_LocalRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                      }
+                    },
+                    "components": [],
+                    "children": [
+                      {
+                        "name": "Deco5Image",
+                        "path": "PopupScheduleStoryIntro/Panel/DecoGroup_Front/Deco5/Axis/Deco5Image",
+                        "active": true,
+                        "rect": {
+                          "m_AnchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "m_AnchoredPosition": {
+                            "x": 0.0,
+                            "y": -171.40870666503906
+                          },
+                          "m_SizeDelta": {
+                            "x": 77.0,
+                            "y": 428.5217590332031
+                          },
+                          "m_Pivot": {
+                            "x": 0.5,
+                            "y": 0.10000000149011612
+                          },
+                          "m_LocalScale": {
+                            "x": 1.0006400346755981,
+                            "y": 1.0006403923034668,
+                            "z": 1.0006400346755981
+                          },
+                          "m_LocalRotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                          }
+                        },
+                        "components": [
+                          {
+                            "type": "CanvasRenderer"
+                          },
+                          {
+                            "type": "MonoBehaviour",
+                            "script": "Image"
+                          }
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "gameObject": "PopupScheduleStoryIntro",
+      "nodePath": "PopupScheduleStoryIntro",
+      "component": "Animator",
+      "script": "",
+      "field": "m_Controller",
+      "fileId": 6,
+      "pathId": "6403182928917756651",
+      "bundle": "CAB-32ea6122af165978401cc1461162ca55",
+      "assetType": "AnimatorController",
+      "assetName": "PopupScheduleStoryIntro"
+    },
+    {
+      "gameObject": "LoadingSpine_In",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_In",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "LoadingSpine_In",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_In",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 8,
+      "pathId": "8179542940688453608",
+      "bundle": "CAB-f6050db1c837d4d167a719410ae27f96",
+      "assetType": "MonoBehaviour",
+      "assetName": "TaskLoading_SkeletonData"
+    },
+    {
+      "gameObject": "LoadingSpine_In",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_In",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "additiveMaterial",
+      "fileId": 4,
+      "pathId": "-7852358095173771177",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicAdditive"
+    },
+    {
+      "gameObject": "LoadingSpine_In",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_In",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "multiplyMaterial",
+      "fileId": 4,
+      "pathId": "-13276894215973044",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicMultiply"
+    },
+    {
+      "gameObject": "LoadingSpine_In",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_In",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "screenMaterial",
+      "fileId": 4,
+      "pathId": "-5524858707655825726",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicScreen"
+    },
+    {
+      "gameObject": "LoadingSpine_Out",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_Out",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "LoadingSpine_Out",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_Out",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 8,
+      "pathId": "8179542940688453608",
+      "bundle": "CAB-f6050db1c837d4d167a719410ae27f96",
+      "assetType": "MonoBehaviour",
+      "assetName": "TaskLoading_SkeletonData"
+    },
+    {
+      "gameObject": "LoadingSpine_Out",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_Out",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "additiveMaterial",
+      "fileId": 4,
+      "pathId": "-7852358095173771177",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicAdditive"
+    },
+    {
+      "gameObject": "LoadingSpine_Out",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_Out",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "multiplyMaterial",
+      "fileId": 4,
+      "pathId": "-13276894215973044",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicMultiply"
+    },
+    {
+      "gameObject": "LoadingSpine_Out",
+      "nodePath": "PopupScheduleStoryIntro/Panel/LoadingSpine_Out",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "screenMaterial",
+      "fileId": 4,
+      "pathId": "-5524858707655825726",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicScreen"
+    },
+    {
+      "gameObject": "Panel",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "6432470525094934",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_4040",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_4040.png"
+    },
+    {
+      "gameObject": "Name",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Name",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_fontAsset",
+      "fileId": 2,
+      "pathId": "-2798010624769077879",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "MonoBehaviour",
+      "assetName": "SystemFont"
+    },
+    {
+      "gameObject": "Name",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Name",
+      "component": "MonoBehaviour",
+      "script": "TextMeshProUGUI",
+      "field": "m_sharedMaterial",
+      "fileId": 2,
+      "pathId": "-1241265172440834037",
+      "bundle": "CAB-db841f450a9eb9e7c4e822d9d07e9002",
+      "assetType": "Material",
+      "assetName": "Katuri Atlas Material"
+    },
+    {
+      "gameObject": "Mask",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 3,
+      "pathId": "4567284759352380234",
+      "bundle": "CAB-f1631bcf420b6ec3abed20a1b6d3c1a2",
+      "assetType": "Sprite",
+      "assetName": "CommonBox_7070",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_7070.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/CommonBox_7070.png"
+    },
+    {
+      "gameObject": "BackImage",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/BackImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 7,
+      "pathId": "-4739586305703226298",
+      "bundle": "CAB-e80b27bebf565ee51fdb24a21fa00dcc",
+      "assetType": "Sprite",
+      "assetName": "Img_Arbeit19_Back",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Img_Arbeit19_Back.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Img_Arbeit19_Back.png"
+    },
+    {
+      "gameObject": "Minimi",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/Minimi",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "Minimi",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/Minimi",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 5,
+      "pathId": "-7992128305050955659",
+      "bundle": "CAB-4fa120780f90e1786650082627a6533a",
+      "assetType": "MonoBehaviour",
+      "assetName": "Minimi_SkeletonData"
+    },
+    {
+      "gameObject": "Minimi",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/Minimi",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "additiveMaterial",
+      "fileId": 4,
+      "pathId": "-7852358095173771177",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicAdditive"
+    },
+    {
+      "gameObject": "Minimi",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/Minimi",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "multiplyMaterial",
+      "fileId": 4,
+      "pathId": "-13276894215973044",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicMultiply"
+    },
+    {
+      "gameObject": "Minimi",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/Minimi",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "screenMaterial",
+      "fileId": 4,
+      "pathId": "-5524858707655825726",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicScreen"
+    },
+    {
+      "gameObject": "FrontImage",
+      "nodePath": "PopupScheduleStoryIntro/Panel/TaskGroup/Panel/Mask/FrontImage",
+      "component": "MonoBehaviour",
+      "script": "Image",
+      "field": "m_Sprite",
+      "fileId": 1,
+      "pathId": "6157147911115916854",
+      "bundle": "CAB-c1cb18ec35a8896bde7b00e03751bb09",
+      "assetType": "Sprite",
+      "assetName": "Img_Arbeit19_Front",
+      "demoPath": "assets/story_ui/story-ui/shared-dependencies/Img_Arbeit19_Front.png",
+      "projectPath": "assets/story_ui/story-ui/shared-dependencies/Img_Arbeit19_Front.png"
+    },
+    {
+      "gameObject": "MinimiBig",
+      "nodePath": "PopupScheduleStoryIntro/Panel/MinimiBigPos/Axis/MinimiBig",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "m_Material",
+      "fileId": 4,
+      "pathId": "1869315399850166803",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicDefault"
+    },
+    {
+      "gameObject": "MinimiBig",
+      "nodePath": "PopupScheduleStoryIntro/Panel/MinimiBigPos/Axis/MinimiBig",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "skeletonDataAsset",
+      "fileId": 5,
+      "pathId": "-7992128305050955659",
+      "bundle": "CAB-4fa120780f90e1786650082627a6533a",
+      "assetType": "MonoBehaviour",
+      "assetName": "Minimi_SkeletonData"
+    },
+    {
+      "gameObject": "MinimiBig",
+      "nodePath": "PopupScheduleStoryIntro/Panel/MinimiBigPos/Axis/MinimiBig",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "additiveMaterial",
+      "fileId": 4,
+      "pathId": "-7852358095173771177",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicAdditive"
+    },
+    {
+      "gameObject": "MinimiBig",
+      "nodePath": "PopupScheduleStoryIntro/Panel/MinimiBigPos/Axis/MinimiBig",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "multiplyMaterial",
+      "fileId": 4,
+      "pathId": "-13276894215973044",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicMultiply"
+    },
+    {
+      "gameObject": "MinimiBig",
+      "nodePath": "PopupScheduleStoryIntro/Panel/MinimiBigPos/Axis/MinimiBig",
+      "component": "MonoBehaviour",
+      "script": "SkeletonGraphic",
+      "field": "screenMaterial",
+      "fileId": 4,
+      "pathId": "-5524858707655825726",
+      "bundle": "CAB-84b06fdee16a42289ea9bda9f61597ab",
+      "assetType": "Material",
+      "assetName": "SkeletonGraphicScreen"
+    }
+  ],
+  "animators": [
+    {
+      "path": "PopupScheduleStoryIntro",
+      "controllerBundle": "CAB-32ea6122af165978401cc1461162ca55",
+      "controllerPathId": "6403182928917756651",
+      "controllerType": "AnimatorController",
+      "controllerName": "PopupScheduleStoryIntro",
+      "states": [
+        {
+          "layer": 0,
+          "name": "Base Layer.Start",
+          "clips": [
+            "Start"
+          ],
+          "loop": false,
+          "transitions": []
+        }
+      ],
+      "clips": [
+        {
+          "name": "Start",
+          "duration": 2.7166666984558105,
+          "pathId": "-952754823875730516"
+        }
+      ],
+      "controller": "PopupScheduleStoryIntro"
+    }
+  ]
+}
